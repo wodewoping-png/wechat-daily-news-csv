@@ -218,6 +218,14 @@ def build_ai_prompt(
 
 
 def extract_response_text(payload: dict) -> str:
+    choices = payload.get("choices") or []
+    if choices and isinstance(choices[0], dict):
+        message = choices[0].get("message") or {}
+        content = message.get("content") if isinstance(message, dict) else None
+        if isinstance(content, str) and content.strip():
+            return content.strip()
+
+    # Retain support for Responses-style payloads when a compatible proxy returns one.
     direct = payload.get("output_text")
     if isinstance(direct, str) and direct.strip():
         return direct.strip()
@@ -234,27 +242,34 @@ def extract_response_text(payload: dict) -> str:
 
 
 def generate_ai_analysis(prompt: str) -> tuple[str | None, str | None]:
-    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    api_key = os.getenv("ZAI_API_KEY", "").strip()
     if not api_key:
         return None, None
 
     base_url = (
-        os.getenv("OPENAI_BASE_URL", "").strip().rstrip("/")
-        or "https://api.openai.com/v1"
+        os.getenv("ZAI_BASE_URL", "").strip().rstrip("/")
+        or "https://api.z.ai/api/paas/v4"
     )
-    model = os.getenv("OPENAI_MODEL", "gpt-5.6-luna").strip() or "gpt-5.6-luna"
+    model = os.getenv("ZAI_MODEL", "glm-5.1").strip() or "glm-5.1"
     request_payload = {
         "model": model,
-        "instructions": (
-            "你是一名谨慎的中文产业情报分析师。严格依据输入材料，"
-            "不虚构事实，并清楚标注推断和不确定性。"
-        ),
-        "input": prompt,
-        "max_output_tokens": 2200,
-        "store": False,
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "你是一名谨慎的中文产业情报分析师。严格依据输入材料，"
+                    "不虚构事实，并清楚标注推断和不确定性。"
+                ),
+            },
+            {"role": "user", "content": prompt},
+        ],
+        "thinking": {"type": "disabled"},
+        "temperature": 0.3,
+        "max_tokens": 2200,
+        "stream": False,
     }
     request = urllib.request.Request(
-        f"{base_url}/responses",
+        f"{base_url}/chat/completions",
         data=json.dumps(request_payload, ensure_ascii=False).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -266,15 +281,18 @@ def generate_ai_analysis(prompt: str) -> tuple[str | None, str | None]:
         with urllib.request.urlopen(request, timeout=180) as response:
             response_payload = json.loads(response.read().decode("utf-8"))
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as exc:
-        if os.getenv("OPENAI_REQUIRED", "").strip().lower() in {"1", "true", "yes"}:
-            raise RuntimeError(f"AI summary request failed: {exc}") from exc
-        print(f"Warning: AI summary request failed; continuing with deterministic report: {exc}", file=sys.stderr)
+        if os.getenv("ZAI_REQUIRED", "").strip().lower() in {"1", "true", "yes"}:
+            raise RuntimeError(f"Z.AI summary request failed: {exc}") from exc
+        print(
+            f"Warning: Z.AI summary request failed; continuing with deterministic report: {exc}",
+            file=sys.stderr,
+        )
         return None, model
 
     text = extract_response_text(response_payload)
     if not text:
-        message = "AI response did not contain output_text"
-        if os.getenv("OPENAI_REQUIRED", "").strip().lower() in {"1", "true", "yes"}:
+        message = "Z.AI response did not contain choices[0].message.content"
+        if os.getenv("ZAI_REQUIRED", "").strip().lower() in {"1", "true", "yes"}:
             raise RuntimeError(message)
         print(f"Warning: {message}; continuing with deterministic report", file=sys.stderr)
         return None, model
@@ -327,7 +345,9 @@ def build_markdown_report(
         if ai_analysis:
             lines.extend(["## AI 趋势研判", "", ai_analysis.strip(), ""])
             if ai_model:
-                lines.extend([f"> 由 `{ai_model}` 基于本期公开 CSV 中的代表性文章生成。", ""])
+                lines.extend(
+                    [f"> 由 Z.AI `{ai_model}` 基于本期公开 CSV 中的代表性文章生成。", ""]
+                )
 
         top_articles = sorted(articles, key=article_rank_key, reverse=True)[:30]
         lines.extend(["## 重点文章", ""])

@@ -47,13 +47,13 @@ python scripts/generate_periodic_summary.py --period month --month last-month
 python -m unittest discover -s tests -v
 ```
 
-### Optional AI trend analysis
+### Optional Z.AI trend analysis
 
 The deterministic source statistics, tags, article ranking, and archive are always generated. To add an AI-generated trend analysis section, configure these GitHub Actions settings:
 
-- Secret `OPENAI_API_KEY`: API key; never commit it to the repository.
-- Variable `OPENAI_BASE_URL`: optional Responses API base URL; defaults to `https://api.openai.com/v1`.
-- Variable `OPENAI_MODEL`: optional model name; defaults to `gpt-5.6-luna`.
-- Variable `OPENAI_REQUIRED`: optional. Set to `true` to fail the workflow when the model request fails; otherwise the statistical report is still published.
+- Secret `ZAI_API_KEY`: your Z.AI API key; never commit it to the repository.
+- Variable `ZAI_BASE_URL`: optional API base URL; defaults to `https://api.z.ai/api/paas/v4`.
+- Variable `ZAI_MODEL`: optional model name; defaults to `glm-5.1`.
+- Variable `ZAI_REQUIRED`: optional. Set to `true` to fail the workflow when the model request fails; otherwise the statistical report is still published.
 
-The model request sends representative article titles, sources, and short summaries through the Responses API. Full local crawler credentials and private SQLite data are never sent.
+The model request sends representative article titles, sources, and short summaries to Z.AI through `POST /chat/completions`. Full local crawler credentials and private SQLite data are never sent.
