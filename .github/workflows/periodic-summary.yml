@@ -52,10 +52,6 @@ jobs:
           INPUT_PERIOD: ${{ github.event.inputs.period || 'both' }}
           INPUT_WEEK: ${{ github.event.inputs.week || 'last-week' }}
           INPUT_MONTH: ${{ github.event.inputs.month || 'last-month' }}
-          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
-          ZAI_BASE_URL: ${{ vars.ZAI_BASE_URL }}
-          ZAI_MODEL: ${{ vars.ZAI_MODEL }}
-          ZAI_REQUIRED: ${{ vars.ZAI_REQUIRED }}
         shell: bash
         run: |
           set -euo pipefail

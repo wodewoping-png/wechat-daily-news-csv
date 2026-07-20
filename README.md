@@ -57,3 +57,15 @@ The deterministic source statistics, tags, article ranking, and archive are alwa
 - Variable `ZAI_REQUIRED`: optional. Set to `true` to fail the workflow when the model request fails; otherwise the statistical report is still published.
 
 The model request sends representative article titles, sources, and short summaries to Z.AI through `POST /chat/completions`. Full local crawler credentials and private SQLite data are never sent.
+
+## Cross-repository AI trend reports
+
+The `cross-repo-ai-trend-summary` workflow combines matching weekly/monthly summaries from this repository and [`wodewoping-png/news-spider`](https://github.com/wodewoping-png/news-spider), then asks Z.AI to produce one overall trend report.
+
+- Weekly output: `reports/trends/weekly/YYYY-Www.md`
+- Monthly output: `reports/trends/monthly/YYYY-MM.md`
+- Model: `ZAI_MODEL`, defaulting to the requested `glm-5.2`
+- Required secret: `ZAI_API_KEY`
+- Replaceable prompt template: `templates/cross-repo-trend-prompt.md`
+
+The workflow stops when either upstream summary is missing. The current prompt is a provisional structure and can be replaced after the final report template is provided, while keeping the workflow and source-loading logic unchanged.

@@ -1,0 +1,90 @@
+name: cross-repo-ai-trend-summary
+
+on:
+  workflow_dispatch:
+    inputs:
+      period:
+        description: "Trend report period"
+        required: true
+        type: choice
+        options:
+          - week
+          - month
+          - both
+        default: week
+      week:
+        description: "Weekly target: last-week or YYYY-Www"
+        required: false
+        default: last-week
+      month:
+        description: "Monthly target: last-month or YYYY-MM"
+        required: false
+        default: last-month
+  schedule:
+    # Monday 09:20 Beijing time, after both upstream weekly summaries.
+    - cron: "20 1 * * 1"
+    # Day 2 at 01:30 Beijing time, after news-spider's monthly summary.
+    - cron: "30 17 1 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cross-repo-ai-trend-summary
+  cancel-in-progress: false
+
+jobs:
+  trend-summary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wechat-daily-news-csv
+        uses: actions/checkout@v4
+
+      - name: Checkout news-spider
+        uses: actions/checkout@v4
+        with:
+          repository: wodewoping-png/news-spider
+          path: _sources/news-spider
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install workbook dependency
+        run: python -m pip install openpyxl==3.1.5
+
+      - name: Test trend generator
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate cross-repository AI trend report
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_PERIOD: ${{ github.event.inputs.period || 'week' }}
+          INPUT_WEEK: ${{ github.event.inputs.week || 'last-week' }}
+          INPUT_MONTH: ${{ github.event.inputs.month || 'last-month' }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          ZAI_BASE_URL: ${{ vars.ZAI_BASE_URL }}
+          ZAI_MODEL: ${{ vars.ZAI_MODEL || 'glm-5.2' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          period="$INPUT_PERIOD"
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            case "$EVENT_SCHEDULE" in
+              "20 1 * * 1") period="week" ;;
+              "30 17 1 * *") period="month" ;;
+              *) echo "Unknown schedule: $EVENT_SCHEDULE"; exit 1 ;;
+            esac
+          fi
+          python scripts/generate_cross_repo_trend.py \
+            --period "$period" \
+            --week "$INPUT_WEEK" \
+            --month "$INPUT_MONTH" \
+            --news-root _sources/news-spider
+
+      - name: Commit trend reports
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update cross-repository AI trend report"
+          file_pattern: reports/trends
