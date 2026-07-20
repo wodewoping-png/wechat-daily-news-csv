@@ -1,0 +1,83 @@
+name: periodic-summary
+
+on:
+  workflow_dispatch:
+    inputs:
+      period:
+        description: "Summary period to generate"
+        required: false
+        type: choice
+        options:
+          - week
+          - month
+          - both
+        default: both
+      week:
+        description: "Weekly target: last-week, this-week, or YYYY-MM-DD"
+        required: false
+        default: last-week
+      month:
+        description: "Monthly target: last-month, this-month, or YYYY-MM"
+        required: false
+        default: last-month
+  schedule:
+    # Beijing time: Monday 08:40 and the first day of each month 08:50.
+    - cron: "40 0 * * 1"
+    - cron: "50 0 1 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: periodic-summary
+  cancel-in-progress: false
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Test summary generator
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate periodic summaries
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_PERIOD: ${{ github.event.inputs.period || 'both' }}
+          INPUT_WEEK: ${{ github.event.inputs.week || 'last-week' }}
+          INPUT_MONTH: ${{ github.event.inputs.month || 'last-month' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          OPENAI_REQUIRED: ${{ vars.OPENAI_REQUIRED }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          period="$INPUT_PERIOD"
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            case "$EVENT_SCHEDULE" in
+              "40 0 * * 1") period="week" ;;
+              "50 0 1 * *") period="month" ;;
+              *) echo "Unknown schedule: $EVENT_SCHEDULE"; exit 1 ;;
+            esac
+          fi
+          python scripts/generate_periodic_summary.py \
+            --period "$period" \
+            --week "$INPUT_WEEK" \
+            --month "$INPUT_MONTH"
+
+      - name: Commit summaries
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update periodic wechat summaries"
+          file_pattern: |
+            csv/weekly/*.csv
+            csv/monthly/*.csv
+            reports/weekly/*.md
+            reports/monthly/*.md

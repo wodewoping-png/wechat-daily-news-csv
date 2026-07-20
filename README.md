@@ -28,3 +28,32 @@ This repository does not publish crawler credentials, exporter auth keys, SQLite
 ## Update Flow
 
 The crawler runs locally. After each daily run, the generated CSV file is committed here for public download. Weekly summaries are generated for the previous Monday-Sunday window, and monthly summaries are generated for the previous calendar month.
+
+## Automated Weekly and Monthly Summaries
+
+This repository generates periodic summaries directly from its own `csv/YYYY-MM-DD.csv` files. It does not need the crawler's private SQLite database.
+
+- Weekly: Monday at 08:40 Beijing time, covering the previous Monday-Sunday.
+- Monthly: the first day of each month at 08:50 Beijing time, covering the previous calendar month.
+- Manual: open **Actions → periodic-summary → Run workflow** and choose week, month, or both.
+
+The generator fails if a daily CSV in the requested period is missing, preventing an incomplete report from being published silently. An explicitly partial local report can be generated with `--allow-missing`.
+
+Run locally with Python 3.11+:
+
+```bash
+python scripts/generate_periodic_summary.py --period week --week last-week
+python scripts/generate_periodic_summary.py --period month --month last-month
+python -m unittest discover -s tests -v
+```
+
+### Optional AI trend analysis
+
+The deterministic source statistics, tags, article ranking, and archive are always generated. To add an AI-generated trend analysis section, configure these GitHub Actions settings:
+
+- Secret `OPENAI_API_KEY`: API key; never commit it to the repository.
+- Variable `OPENAI_BASE_URL`: optional Responses API base URL; defaults to `https://api.openai.com/v1`.
+- Variable `OPENAI_MODEL`: optional model name; defaults to `gpt-5.6-luna`.
+- Variable `OPENAI_REQUIRED`: optional. Set to `true` to fail the workflow when the model request fails; otherwise the statistical report is still published.
+
+The model request sends representative article titles, sources, and short summaries through the Responses API. Full local crawler credentials and private SQLite data are never sent.
