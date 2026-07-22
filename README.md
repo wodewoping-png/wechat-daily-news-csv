@@ -19,6 +19,22 @@ reports/weekly/YYYY-Www.md
 reports/monthly/YYYY-MM.md
 ```
 
+## Collection Quality Monitoring
+
+The local crawler also publishes collection-volume checks for operational review:
+
+```text
+quality/daily_collection_counts.csv
+quality/account_daily_counts.csv
+reports/quality/YYYY-MM-DD.md
+```
+
+- `daily_collection_counts.csv` tracks total articles, active/tracked accounts, duplicate indicators, and source concentration by day.
+- `account_daily_counts.csv` contains one row per account per day, including zero-post days, daily share, and suspected same-title duplicates.
+- The daily quality report compares collection volume with the prior 14-day weekday/weekend median, explains recently added-account contributions, and lists suspected duplicate titles.
+
+Empty daily CSV files are blocked from automatic publication unless an operator explicitly overrides the safety check.
+
 ## Published Fields
 
 The CSV files include article metadata, source account, publish time, digest, original URL, and cleaned text fields produced by the local pipeline.
