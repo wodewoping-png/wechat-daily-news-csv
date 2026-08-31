@@ -42,6 +42,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install test dependencies
+        run: python -m pip install openpyxl==3.1.5
+
       - name: Test summary generator
         run: python -m unittest discover -s tests -v
 
