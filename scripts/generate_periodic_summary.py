@@ -25,7 +25,6 @@ CSV_COLUMNS = [
     "digest",
     "url",
     "crawled_at",
-    "content_preview",
     "clean_text",
     "ai_summary",
     "importance_score",
@@ -192,7 +191,7 @@ def build_ai_prompt(
     selected = sorted(articles, key=article_rank_key, reverse=True)[:80]
     article_lines = []
     for idx, article in enumerate(selected, 1):
-        summary = article.get("ai_summary") or article.get("digest") or article.get("content_preview")
+        summary = article.get("ai_summary") or article.get("digest") or article.get("clean_text")
         article_lines.append(
             f"{idx}. [{source_name(article)}] {article.get('title', '')}"
             f"｜{make_excerpt(summary, 240)}"
@@ -355,7 +354,7 @@ def build_markdown_report(
             title = markdown_title(article.get("title", ""))
             url = article.get("url", "")
             title_text = f"[{title}]({url})" if url else title
-            summary = article.get("ai_summary") or article.get("digest") or article.get("content_preview")
+            summary = article.get("ai_summary") or article.get("digest") or article.get("clean_text")
             lines.extend(
                 [
                     f"### {idx}. {title_text}",
