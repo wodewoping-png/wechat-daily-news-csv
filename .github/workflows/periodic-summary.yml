@@ -21,8 +21,9 @@ on:
         required: false
         default: last-month
   schedule:
-    # Beijing time: Monday 08:40 and the first day of each month 08:50.
-    - cron: "40 0 * * 1"
+    # Beijing time: Monday 08:50 (after the ~08:25 daily csv publish from
+    # wechat-article-intel-automation) and the first day of each month 08:50.
+    - cron: "50 0 * * 1"
     - cron: "50 0 1 * *"
 
 permissions:
