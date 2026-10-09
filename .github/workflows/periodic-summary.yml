@@ -20,10 +20,14 @@ on:
         description: "Monthly target: last-month, this-month, or YYYY-MM"
         required: false
         default: last-month
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/periodic-summary.yml"
   schedule:
-    # Beijing time: Monday 08:50 (after the ~08:25 daily csv publish from
-    # wechat-article-intel-automation) and the first day of each month 08:50.
-    - cron: "50 0 * * 1"
+    # Beijing time: Monday-Wednesday 08:50. Retries cover late daily CSV uploads.
+    # The first day of each month at 08:50 generates the monthly summary.
+    - cron: "50 0 * * 1-3"
     - cron: "50 0 1 * *"
 
 permissions:
@@ -60,9 +64,12 @@ jobs:
         run: |
           set -euo pipefail
           period="$INPUT_PERIOD"
-          if [ "$EVENT_NAME" = "schedule" ]; then
+          if [ "$EVENT_NAME" = "push" ]; then
+            # Backfill the last completed week when this workflow is repaired.
+            period="week"
+          elif [ "$EVENT_NAME" = "schedule" ]; then
             case "$EVENT_SCHEDULE" in
-              "40 0 * * 1") period="week" ;;
+              "50 0 * * 1-3") period="week" ;;
               "50 0 1 * *") period="month" ;;
               *) echo "Unknown schedule: $EVENT_SCHEDULE"; exit 1 ;;
             esac
