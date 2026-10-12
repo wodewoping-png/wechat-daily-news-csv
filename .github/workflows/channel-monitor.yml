@@ -1,0 +1,79 @@
+name: channel-monitor
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "已结束的发文日期 YYYY-MM-DD，默认北京时间昨天"
+        default: yesterday
+        required: false
+  push:
+    branches: [main]
+    paths:
+      - "csv/*.csv"
+      - "channels/seed_accounts.csv"
+      - "channels/monitor_config.json"
+      - "quality/channel_fetch_events/*.jsonl"
+      - "scripts/monitor_channels.py"
+      - "scripts/notify_channel_monitor.py"
+      - "tests/test_monitor_channels.py"
+      - ".github/workflows/channel-monitor.yml"
+  schedule:
+    # Beijing 15:23 and 19:23; the second check catches delayed publication.
+    - cron: "23 7,11 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  # Share the existing summary workflow's lock because both publish to main.
+  group: periodic-summary
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Test channel monitor
+        run: python -m unittest discover -s tests -p 'test_monitor_channels.py' -v
+      - name: Update inventory and daily monitoring
+        env:
+          TARGET_DATE: ${{ github.event.inputs.date || 'yesterday' }}
+        run: python scripts/monitor_channels.py --date "$TARGET_DATE"
+      - name: Publish reports and history
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add channels quality/channel_monitor
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: update channel inventory and daily monitoring'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Show monitoring report
+        run: cat quality/channel_monitor/latest.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Maintain current incidents issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/notify_channel_monitor.py
+      - name: Mark confirmed failures and unavailable feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('quality/channel_monitor/latest_alerts.json').read_text(encoding='utf-8'))
+          confirmed = [a for a in p['alerts'] if a['rule'] in {'daily_feed_unavailable', 'fetch_error', 'not_configured'}]
+          for a in p['alerts']:
+              print('::warning::Channel monitoring signal: ' + a['rule'])
+          if confirmed:
+              raise SystemExit('Confirmed collection failure or unavailable daily feed. See monitoring report and managed issue.')
+          PY

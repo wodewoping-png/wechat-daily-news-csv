@@ -21,6 +21,17 @@ reports/monthly/YYYY-MM.md
 
 ## Collection Quality Monitoring
 
+### Continuous account monitoring
+
+The channel inventory merges the uploaded 163-account list with accounts discovered in every daily CSV. It updates automatically, records daily observed post counts and unknown/missing-data states, detects suspected interruptions, and maintains one GitHub issue with current incidents and repair suggestions.
+
+- [Channel inventory](channels/channel_summary.csv)
+- [Current monitoring report](quality/channel_monitor/latest.md)
+- [Daily history](quality/channel_monitor/daily_history.csv)
+- [Setup, thresholds and crawler-event contract](channels/README.md)
+
+`channel-monitor` runs after relevant data pushes and at 15:23 / 19:23 Beijing time. Zero observed articles are not proof of crawler failure; confirmed failures require structured crawler events. Missing daily feeds are reported as unknown, not zero activity.
+
 The local crawler also publishes collection-volume checks for operational review:
 
 ```text
@@ -49,7 +60,7 @@ The source download and merge run locally. After each daily run, the generated C
 
 This repository generates periodic summaries directly from its own `csv/YYYY-MM-DD.csv` files. It does not need the crawler's private SQLite database.
 
-- Weekly: Monday at 08:40 Beijing time, covering the previous Monday-Sunday.
+- Weekly: Monday-Wednesday at 14:23 Beijing time, covering the previous Monday-Sunday; Tuesday and Wednesday retry late daily uploads.
 - Monthly: the first day of each month at 08:50 Beijing time, covering the previous calendar month.
 - Manual: open **Actions → periodic-summary → Run workflow** and choose week, month, or both.
 

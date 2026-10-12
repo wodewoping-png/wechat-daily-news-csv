@@ -1,0 +1,10 @@
+{
+  "history_days": 56,
+  "baseline_days": 28,
+  "minimum_baseline_days": 14,
+  "minimum_silence_days": 3,
+  "never_observed_days": 28,
+  "volume_drop_ratio": 0.2,
+  "minimum_volume_baseline": 3,
+  "overrides": {}
+}
