@@ -1,0 +1,4279 @@
+{
+  "as_of": "2026-10-11",
+  "channels": [
+    {
+      "account_name": "北京大学能源研究院",
+      "aliases": [
+        "北京大学能源研究院"
+      ],
+      "channel_id": "wx:MzU0NTE1MTgxNg==",
+      "fakeid": "MzU0NTE1MTgxNg==",
+      "first_observed": "2026-09-20",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU0NTE1MTgxNg==&mid=2247493105&idx=1&sn=f99b98d75dc3a462c8e08210d1e2e070",
+      "seed_name": "北京大学能源研究院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "EnergyPKU"
+    },
+    {
+      "account_name": "标准化战略研究",
+      "aliases": [
+        "标准化战略研究"
+      ],
+      "channel_id": "wx:MzI4ODczODU1Mg==",
+      "fakeid": "MzI4ODczODU1Mg==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4ODczODU1Mg==&mid=2247491696&idx=1&sn=fea2a1201ea6481fc5eadf3de4fc2963",
+      "seed_name": "标准化战略研究",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "CAS-Standards"
+    },
+    {
+      "account_name": "铂道",
+      "aliases": [
+        "铂道"
+      ],
+      "channel_id": "wx:MzkxMjU0NTAzOQ==",
+      "fakeid": "MzkxMjU0NTAzOQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkxMjU0NTAzOQ==&mid=2247519052&idx=2&sn=c886250c70f0474c32ade523e9869a25",
+      "seed_name": "铂道",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "PGMsTAO"
+    },
+    {
+      "account_name": "财联社",
+      "aliases": [
+        "财联社"
+      ],
+      "channel_id": "wx:Mzg5MzEyNzEwNQ==",
+      "fakeid": "Mzg5MzEyNzEwNQ==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247859128&idx=1&sn=0c0e81790613ef0f531ccc351350c9e1",
+      "seed_name": "财联社",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "cailianpress"
+    },
+    {
+      "account_name": "储能调研",
+      "aliases": [],
+      "channel_id": "wx:MzkzNTkwNjc2Mg==",
+      "fakeid": "MzkzNTkwNjc2Mg==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "储能调研",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "储能科学与技术",
+      "aliases": [
+        "储能科学与技术"
+      ],
+      "channel_id": "wx:MzAxODI0NDQ2MA==",
+      "fakeid": "MzAxODI0NDQ2MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxODI0NDQ2MA==&mid=2650681970&idx=3&sn=30f0b423a42c1bc817eb07ea09928bb9",
+      "seed_name": "储能科学与技术",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "esst2012"
+    },
+    {
+      "account_name": "储能与电力市场",
+      "aliases": [
+        "储能与电力市场"
+      ],
+      "channel_id": "wx:Mzk2NDQyNDY3OQ==",
+      "fakeid": "Mzk2NDQyNDY3OQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk2NDQyNDY3OQ==&mid=2247593543&idx=2&sn=fd12fbfa2eb9b67bc48c1cf89156d511",
+      "seed_name": "储能与电力市场",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "EnergyStorageMarket"
+    },
+    {
+      "account_name": "创新研究",
+      "aliases": [
+        "创新研究"
+      ],
+      "channel_id": "wx:MzAxMjY2OTkxOA==",
+      "fakeid": "MzAxMjY2OTkxOA==",
+      "first_observed": "2026-09-15",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxMjY2OTkxOA==&mid=2652075647&idx=2&sn=474aad371e716983984f7643870a9b28",
+      "seed_name": "创新研究",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "naiscast"
+    },
+    {
+      "account_name": "催化视界",
+      "aliases": [
+        "催化视界"
+      ],
+      "channel_id": "wx:MzAxNDMxMTQ3MQ==",
+      "fakeid": "MzAxNDMxMTQ3MQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxNDMxMTQ3MQ==&mid=2247509055&idx=1&sn=f62524b71cfd9e6213bf2a75078f6b5b",
+      "seed_name": "催化视界",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "大锌能源",
+      "aliases": [],
+      "channel_id": "wx:MzkyNTY5NzgwOA==",
+      "fakeid": "MzkyNTY5NzgwOA==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "大锌能源",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "Amazinc2020"
+    },
+    {
+      "account_name": "地热能在线",
+      "aliases": [
+        "地热能在线"
+      ],
+      "channel_id": "wx:MzI4NTE0MTI5MQ==",
+      "fakeid": "MzI4NTE0MTI5MQ==",
+      "first_observed": "2026-06-23",
+      "last_observed": "2026-10-08",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4NTE0MTI5MQ==&mid=2656479995&idx=1&sn=e3d162b4eef2244106e0321aa2ae802c",
+      "seed_name": "地热能在线",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-23",
+      "wechat_alias": "Geothermics"
+    },
+    {
+      "account_name": "地学前沿观察",
+      "aliases": [
+        "地学前沿观察"
+      ],
+      "channel_id": "wx:MzY4MjA3MDE4MA==",
+      "fakeid": "MzY4MjA3MDE4MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzY4MjA3MDE4MA==&mid=2247486123&idx=1&sn=2a1206fb1d8c4e84b9338faa61d6b67f",
+      "seed_name": "地学前沿观察",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "低碳节能环保技术",
+      "aliases": [
+        "低碳节能环保技术"
+      ],
+      "channel_id": "wx:MzU2OTczMzI1MQ==",
+      "fakeid": "MzU2OTczMzI1MQ==",
+      "first_observed": "2026-06-17",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU2OTczMzI1MQ==&mid=2247513008&idx=1&sn=9d43cc61ef71af2c3d794302ae80241c",
+      "seed_name": "低碳节能环保技术",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-17",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "低碳新型技术",
+      "aliases": [
+        "低碳新型技术"
+      ],
+      "channel_id": "wx:Mzk0NDY2MzQ0MA==",
+      "fakeid": "Mzk0NDY2MzQ0MA==",
+      "first_observed": "2026-09-20",
+      "last_observed": "2026-09-29",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NDY2MzQ0MA==&mid=2247485947&idx=1&sn=8af4847ab3e34ca24cefc02dd4cb697c",
+      "seed_name": "低碳新型技术",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "dtxijs"
+    },
+    {
+      "account_name": "电催化前沿",
+      "aliases": [],
+      "channel_id": "wx:Mzk0MzY0MTM5OA==",
+      "fakeid": "Mzk0MzY0MTM5OA==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "电催化前沿",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电催化与电合成",
+      "aliases": [
+        "电催化与电合成"
+      ],
+      "channel_id": "wx:Mzg4Mjc1MDc3Ng==",
+      "fakeid": "Mzg4Mjc1MDc3Ng==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4Mjc1MDc3Ng==&mid=2247501410&idx=1&sn=61b38d502c33b99352736d33a2fdff0d",
+      "seed_name": "电催化与电合成",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "ElectroCatalSynth"
+    },
+    {
+      "account_name": "电联新媒",
+      "aliases": [
+        "电联新媒"
+      ],
+      "channel_id": "wx:MzI2NTY5NzAwOA==",
+      "fakeid": "MzI2NTY5NzAwOA==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI2NTY5NzAwOA==&mid=2247543213&idx=2&sn=acc79e270ada2fcaeb04f78662883fc5",
+      "seed_name": "电联新媒",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "dianlianxinmei2017"
+    },
+    {
+      "account_name": "电碳前瞻",
+      "aliases": [
+        "电碳前瞻"
+      ],
+      "channel_id": "wx:MzkzNTkzODIyMg==",
+      "fakeid": "MzkzNTkzODIyMg==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-09-28",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzNTkzODIyMg==&mid=2247489356&idx=1&sn=00bd7aca1d18898648b67dffa18fb6a2",
+      "seed_name": "电碳前瞻",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "zxh_15951767893"
+    },
+    {
+      "account_name": "东亚能源产业观察",
+      "aliases": [
+        "东亚能源产业观察"
+      ],
+      "channel_id": "wx:MzU0MTkxODU2Mw==",
+      "fakeid": "MzU0MTkxODU2Mw==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-10-08",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU0MTkxODU2Mw==&mid=2247531271&idx=2&sn=0ece193bbbf48070686813b816e0a5d6",
+      "seed_name": "东亚能源产业观察",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "EastAsiaEnergy2020"
+    },
+    {
+      "account_name": "泛能源战略研究",
+      "aliases": [],
+      "channel_id": "wx:MzY4OTQwNzc1NA==",
+      "fakeid": "MzY4OTQwNzc1NA==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "泛能源战略研究",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "泛能智研",
+      "aliases": [
+        "泛能智研"
+      ],
+      "channel_id": "wx:Mzk0OTY3NDM4MQ==",
+      "fakeid": "Mzk0OTY3NDM4MQ==",
+      "first_observed": "2026-09-15",
+      "last_observed": "2026-09-29",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0OTY3NDM4MQ==&mid=2247484431&idx=1&sn=ee41a085a27c428e4e1148fc9f62dbe1",
+      "seed_name": "泛能智研",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "Fannengzhiyan"
+    },
+    {
+      "account_name": "风光储知识分享库",
+      "aliases": [
+        "风光储知识分享库",
+        "风光储知识库"
+      ],
+      "channel_id": "wx:Mzk0NzY5Mzg1OA==",
+      "fakeid": "Mzk0NzY5Mzg1OA==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NzY5Mzg1OA==&mid=2247527759&idx=1&sn=4f8475c1598403bbe71b00a9074cabc9",
+      "seed_name": "风光储知识库",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钙钛光能",
+      "aliases": [
+        "钙钛光能"
+      ],
+      "channel_id": "wx:MzUzNjg1NTk3Mw==",
+      "fakeid": "MzUzNjg1NTk3Mw==",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUzNjg1NTk3Mw==&mid=2247510854&idx=1&sn=a026ce68eb42d1dddcdae822c8a31815",
+      "seed_name": "钙钛光能",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": "CPP-IA"
+    },
+    {
+      "account_name": "钙钛矿工厂",
+      "aliases": [
+        "钙钛矿工厂"
+      ],
+      "channel_id": "wx:MzkzOTU2ODEzMw==",
+      "fakeid": "MzkzOTU2ODEzMw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTU2ODEzMw==&mid=2247513738&idx=1&sn=8164521e101ff9e6c3beae97654f6acb",
+      "seed_name": "钙钛矿工厂",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "感存算",
+      "aliases": [
+        "感存算"
+      ],
+      "channel_id": "wx:Mzk5MDIzNTE0Mw==",
+      "fakeid": "Mzk5MDIzNTE0Mw==",
+      "first_observed": "2026-09-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk5MDIzNTE0Mw==&mid=2247488501&idx=1&sn=a24e342f8f039e99e00c47f7de8a8e61",
+      "seed_name": "感存算",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "港航子午线",
+      "aliases": [
+        "港航子午线"
+      ],
+      "channel_id": "wx:MzU5ODUzOTY0OQ==",
+      "fakeid": "MzU5ODUzOTY0OQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU5ODUzOTY0OQ==&mid=2247521455&idx=2&sn=750e263521ffe89ce34b2715faedf817",
+      "seed_name": "港航子午线",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "harbor-meridian"
+    },
+    {
+      "account_name": "高工锂电",
+      "aliases": [
+        "高工锂电"
+      ],
+      "channel_id": "wx:MzYzODg5MDQyMQ==",
+      "fakeid": "MzYzODg5MDQyMQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzYzODg5MDQyMQ==&mid=2247605612&idx=1&sn=a900a676784ac79d7f559b529e46c7dd",
+      "seed_name": "高工锂电",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "weixin-gg-lb"
+    },
+    {
+      "account_name": "格致论道讲坛",
+      "aliases": [
+        "格致论道讲坛"
+      ],
+      "channel_id": "wx:MzIwNTQxMjY0MQ==",
+      "fakeid": "MzIwNTQxMjY0MQ==",
+      "first_observed": "2026-09-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIwNTQxMjY0MQ==&mid=2247617687&idx=1&sn=71673b14b7d0251386fa65fae2a05f3e",
+      "seed_name": "格致论道讲坛",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "SELFtalks"
+    },
+    {
+      "account_name": "工业节能环保技术",
+      "aliases": [
+        "工业节能环保技术"
+      ],
+      "channel_id": "wx:MzkzMTc0NzY2Mg==",
+      "fakeid": "MzkzMTc0NzY2Mg==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzMTc0NzY2Mg==&mid=2247667022&idx=1&sn=29fc9daf68a712f90c140ba12b9c7d40",
+      "seed_name": "工业节能环保技术",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "lizhijun18901189139"
+    },
+    {
+      "account_name": "罐坛情缘",
+      "aliases": [
+        "罐坛情缘"
+      ],
+      "channel_id": "wx:MzA3MDYzNjY1Ng==",
+      "fakeid": "MzA3MDYzNjY1Ng==",
+      "first_observed": "2026-07-19",
+      "last_observed": "2026-07-27",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s/_W53DQFrAWfXTZIQEtNz6A",
+      "seed_name": "罐坛情缘",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-19",
+      "wechat_alias": "zao-520"
+    },
+    {
+      "account_name": "光本位",
+      "aliases": [
+        "光本位"
+      ],
+      "channel_id": "wx:Mzg4OTgyMTc1OA==",
+      "fakeid": "Mzg4OTgyMTc1OA==",
+      "first_observed": "2026-07-18",
+      "last_observed": "2026-10-08",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4OTgyMTc1OA==&mid=2247485640&idx=1&sn=36fca6abf795c533325a166c1471b752",
+      "seed_name": "光本位",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-18",
+      "wechat_alias": "guangbenwei"
+    },
+    {
+      "account_name": "光电情报",
+      "aliases": [
+        "光电情报"
+      ],
+      "channel_id": "wx:MzUzNTA0NDI1Ng==",
+      "fakeid": "MzUzNTA0NDI1Ng==",
+      "first_observed": "2026-07-17",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUzNTA0NDI1Ng==&mid=2247503982&idx=1&sn=7e694ae2149a0e0a072fabd930ce3d77",
+      "seed_name": "光电情报",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-17",
+      "wechat_alias": "optwhlib"
+    },
+    {
+      "account_name": "光子盒",
+      "aliases": [
+        "光子盒"
+      ],
+      "channel_id": "wx:MzAxMTgyMDQ2Mw==",
+      "fakeid": "MzAxMTgyMDQ2Mw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxMTgyMDQ2Mw==&mid=2247622265&idx=1&sn=6ca39c86b03cce830eb83b1337d869e0",
+      "seed_name": "光子盒",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "guangzihe"
+    },
+    {
+      "account_name": "国际储能技术与产业联盟",
+      "aliases": [
+        "国际储能技术与产业联盟"
+      ],
+      "channel_id": "wx:MzIwOTAyNzQ4NA==",
+      "fakeid": "MzIwOTAyNzQ4NA==",
+      "first_observed": "2026-06-25",
+      "last_observed": "2026-09-29",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIwOTAyNzQ4NA==&mid=2247511231&idx=2&sn=4d6683b80cad0eb1d299e330af241480",
+      "seed_name": "国际储能技术与产业联盟",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-25",
+      "wechat_alias": "INESA_lliance"
+    },
+    {
+      "account_name": "国际能源小数据",
+      "aliases": [
+        "国际能源小数据"
+      ],
+      "channel_id": "wx:MzA5MDc0MzA0OA==",
+      "fakeid": "MzA5MDc0MzA0OA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5MDc0MzA0OA==&mid=2651730447&idx=1&sn=85e33fa76b3046d5f9d15b5da3cdb83e",
+      "seed_name": "国际能源小数据",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "国际能源研究中心",
+      "aliases": [
+        "国际能源研究中心"
+      ],
+      "channel_id": "wx:MzA5MDYwOTE2Nw==",
+      "fakeid": "MzA5MDYwOTE2Nw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5MDYwOTE2Nw==&mid=2650010881&idx=1&sn=b405f542c635946cba8f993ad9a46941",
+      "seed_name": "国际能源研究中心",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "IERCenter"
+    },
+    {
+      "account_name": "国家电投集团中央研究院",
+      "aliases": [
+        "国家电投集团中央研究院"
+      ],
+      "channel_id": "wx:MzIzMjQ2MjQyMA==",
+      "fakeid": "MzIzMjQ2MjQyMA==",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-10-08",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIzMjQ2MjQyMA==&mid=2247591583&idx=1&sn=8d025c5d7da0603e440e9bd0dd87407a",
+      "seed_name": "国家电投集团中央研究院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": "SPICRI"
+    },
+    {
+      "account_name": "国家能源局",
+      "aliases": [
+        "国家能源局"
+      ],
+      "channel_id": "wx:MzIwMTU0MTM4OA==",
+      "fakeid": "MzIwMTU0MTM4OA==",
+      "first_observed": "2026-09-17",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIwMTU0MTM4OA==&mid=2652171422&idx=1&sn=b18df8c03ca03f724c4ab1732eaae061",
+      "seed_name": "国家能源局",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "国家新材料产业资源共享",
+      "aliases": [
+        "国家新材料产业资源共享"
+      ],
+      "channel_id": "wx:MzkzNzQ1OTM0Mw==",
+      "fakeid": "MzkzNzQ1OTM0Mw==",
+      "first_observed": "2026-06-18",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzNzQ1OTM0Mw==&mid=2247497458&idx=4&sn=c24b118f9dd0addb968419bc6e1d9a1f",
+      "seed_name": "国家新材料产业资源共享",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "核闻天下",
+      "aliases": [
+        "核闻天下"
+      ],
+      "channel_id": "wx:MzA5MzkwMDQ0Mw==",
+      "fakeid": "MzA5MzkwMDQ0Mw==",
+      "first_observed": "2026-07-03",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5MzkwMDQ0Mw==&mid=2691188361&idx=1&sn=cb4b3e1d40ff23f270a4c85640534386",
+      "seed_name": "核闻天下",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-03",
+      "wechat_alias": "nuclear_world"
+    },
+    {
+      "account_name": "化工碳中和",
+      "aliases": [
+        "化工碳中和",
+        "化工碳达峰碳中和"
+      ],
+      "channel_id": "wx:Mzg3MDYyOTI0MQ==",
+      "fakeid": "Mzg3MDYyOTI0MQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MDYyOTI0MQ==&mid=2247490696&idx=1&sn=36eb87035f4b8e56317bd4034132ff06",
+      "seed_name": "化工碳达峰碳中和",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "CNCET-Carbonneutral"
+    },
+    {
+      "account_name": "化学进展",
+      "aliases": [
+        "化学进展"
+      ],
+      "channel_id": "wx:MzAwMDE3Njk0OA==",
+      "fakeid": "MzAwMDE3Njk0OA==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAwMDE3Njk0OA==&mid=2649009025&idx=1&sn=6273f8f4b4771de681ced9c951a1f626",
+      "seed_name": "化学进展",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "progchem"
+    },
+    {
+      "account_name": "环境能源可持续发展",
+      "aliases": [
+        "环境能源可持续发展"
+      ],
+      "channel_id": "wx:MzYzODU4MjU3Mw==",
+      "fakeid": "MzYzODU4MjU3Mw==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzYzODU4MjU3Mw==&mid=2247485577&idx=1&sn=4f6b96ba2472fb3c1fa104ae1c38f395",
+      "seed_name": "环境能源可持续发展",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "环球科学",
+      "aliases": [
+        "环球科学"
+      ],
+      "channel_id": "wx:MjM5NDA1Njg2MA==",
+      "fakeid": "MjM5NDA1Njg2MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5NDA1Njg2MA==&mid=2652097853&idx=1&sn=17f2cf3b6c764986723642c2dcf3f5c3",
+      "seed_name": "环球科学",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "huanqiukexue"
+    },
+    {
+      "account_name": "环球零碳",
+      "aliases": [
+        "环球零碳"
+      ],
+      "channel_id": "wx:MzkwMDcyODUwMg==",
+      "fakeid": "MzkwMDcyODUwMg==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwMDcyODUwMg==&mid=2247539519&idx=1&sn=a6b2fcc626c7b6c6686df1bdc23778ea",
+      "seed_name": "环球零碳",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "carbon-done"
+    },
+    {
+      "account_name": "机工文献",
+      "aliases": [
+        "机工文献"
+      ],
+      "channel_id": "wx:MzIyNzYxNjY3Mg==",
+      "fakeid": "MzIyNzYxNjY3Mg==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIyNzYxNjY3Mg==&mid=2247489043&idx=1&sn=2bbc84827b8866dae49842e292ac3951",
+      "seed_name": "机工文献",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "机器之心",
+      "aliases": [
+        "机器之心"
+      ],
+      "channel_id": "wx:MzA3MzI4MjgzMw==",
+      "fakeid": "MzA3MzI4MjgzMw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062097&idx=2&sn=26e13c72a8cf1b5f3367d5d44094a38f",
+      "seed_name": "机器之心",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "almosthuman2014"
+    },
+    {
+      "account_name": "集邦固态电池",
+      "aliases": [
+        "集邦固态电池"
+      ],
+      "channel_id": "wx:Mzk0NTMxNTMyNA==",
+      "fakeid": "Mzk0NTMxNTMyNA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTMxNTMyNA==&mid=2247506247&idx=1&sn=98a27e2c13cf4aac669a013cf9fc9498",
+      "seed_name": "集邦固态电池",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "TrendForce_SSB"
+    },
+    {
+      "account_name": "焦耳时代",
+      "aliases": [
+        "焦耳时代"
+      ],
+      "channel_id": "wx:Mzk4ODgzNTcxMw==",
+      "fakeid": "Mzk4ODgzNTcxMw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODgzNTcxMw==&mid=2247485989&idx=1&sn=0718fb0012726cbc47362eb8dc567754",
+      "seed_name": "焦耳时代",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "科创板日报",
+      "aliases": [
+        "科创板日报"
+      ],
+      "channel_id": "wx:Mzg4MTEyNzc4Mg==",
+      "fakeid": "Mzg4MTEyNzc4Mg==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MTEyNzc4Mg==&mid=2247648603&idx=1&sn=26556220163beeac9f851f2b75c3e00f",
+      "seed_name": "科创板日报",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "chinastarmarket"
+    },
+    {
+      "account_name": "科技日报",
+      "aliases": [
+        "科技日报"
+      ],
+      "channel_id": "wx:MzI3NDI5MjI4OQ==",
+      "fakeid": "MzI3NDI5MjI4OQ==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI3NDI5MjI4OQ==&mid=2247902384&idx=1&sn=ca7f8a1fcf8a40605d61bee055a90e8d",
+      "seed_name": "科技日报",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "kjrbwx"
+    },
+    {
+      "account_name": "科学观澜",
+      "aliases": [
+        "科学观澜"
+      ],
+      "channel_id": "wx:MzI1MzA2MzM1NA==",
+      "fakeid": "MzI1MzA2MzM1NA==",
+      "first_observed": "2026-09-20",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI1MzA2MzM1NA==&mid=2659609473&idx=1&sn=67e234971341ca7f500374f10c9da750",
+      "seed_name": "科学观澜",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "fenqubiao"
+    },
+    {
+      "account_name": "可控核聚变",
+      "aliases": [
+        "可控核聚变"
+      ],
+      "channel_id": "wx:Mzk1Nzc5NzU2MQ==",
+      "fakeid": "Mzk1Nzc5NzU2MQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk1Nzc5NzU2MQ==&mid=2247500585&idx=1&sn=78023874f0a722e27d146999dba8b0f7",
+      "seed_name": "可控核聚变",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "CNFITER"
+    },
+    {
+      "account_name": "空天信息",
+      "aliases": [
+        "空天信息"
+      ],
+      "channel_id": "wx:MzA5OTcxODQ5Nw==",
+      "fakeid": "MzA5OTcxODQ5Nw==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5OTcxODQ5Nw==&mid=2650588120&idx=1&sn=e4c4587a79e59f142b243e658b4b6ea9",
+      "seed_name": "空天信息",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "AIR-CAS"
+    },
+    {
+      "account_name": "矿业界",
+      "aliases": [
+        "矿业界"
+      ],
+      "channel_id": "wx:MzI5OTg4OTQwNQ==",
+      "fakeid": "MzI5OTg4OTQwNQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI5OTg4OTQwNQ==&mid=2247657967&idx=2&sn=4ba63ead1880dff9b4fb3a51f6121646",
+      "seed_name": "矿业界",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "MiningWorld"
+    },
+    {
+      "account_name": "昆山协鑫光电",
+      "aliases": [
+        "昆山协鑫光电"
+      ],
+      "channel_id": "wx:Mzg3MDY0MDE0OQ==",
+      "fakeid": "Mzg3MDY0MDE0OQ==",
+      "first_observed": "2026-07-03",
+      "last_observed": "2026-10-02",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MDY0MDE0OQ==&mid=2247487233&idx=1&sn=c35b7a77ae464004d4b4cc9b18361244",
+      "seed_name": "昆山协鑫光电",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-03",
+      "wechat_alias": "GCL-Pvsk"
+    },
+    {
+      "account_name": "离子能源",
+      "aliases": [
+        "离子能源"
+      ],
+      "channel_id": "wx:MzkyMTYwMDQxNQ==",
+      "fakeid": "MzkyMTYwMDQxNQ==",
+      "first_observed": "2026-09-22",
+      "last_observed": "2026-10-01",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyMTYwMDQxNQ==&mid=2247487369&idx=1&sn=29ced6017a19263211285e47951977e5",
+      "seed_name": "离子能源",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "临一云川",
+      "aliases": [
+        "临一云川"
+      ],
+      "channel_id": "wx:MzkwNTY5NjY2Ng==",
+      "fakeid": "MzkwNTY5NjY2Ng==",
+      "first_observed": "2026-07-24",
+      "last_observed": "2026-09-24",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwNTY5NjY2Ng==&mid=2247485399&idx=1&sn=25378ad20632faeb33ff2defec94ba1f",
+      "seed_name": "临一云川",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-24",
+      "wechat_alias": "SAWES2023"
+    },
+    {
+      "account_name": "铝途有你",
+      "aliases": [
+        "铝途有你"
+      ],
+      "channel_id": "wx:Mzg3NDYxMTQzNQ==",
+      "fakeid": "Mzg3NDYxMTQzNQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3NDYxMTQzNQ==&mid=2247700568&idx=8&sn=30c4a40e585c16ccef0c4cf2d5578252",
+      "seed_name": "铝途有你",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "绿金",
+      "aliases": [
+        "绿金"
+      ],
+      "channel_id": "wx:Mzg3MDYzMDQ1Ng==",
+      "fakeid": "Mzg3MDYzMDQ1Ng==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MDYzMDQ1Ng==&mid=2247501854&idx=1&sn=abc85257c7a477b5bf42ebb2d24accfb",
+      "seed_name": "绿金",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "Bloomberg_Green"
+    },
+    {
+      "account_name": "落基山研究所RMI-北京",
+      "aliases": [
+        "落基山研究所RMI-北京"
+      ],
+      "channel_id": "wx:Mzg2ODg1NTYyNw==",
+      "fakeid": "Mzg2ODg1NTYyNw==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-09-29",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2ODg1NTYyNw==&mid=2247488663&idx=1&sn=3a4d422147e4559dc826adb4d5c2af77",
+      "seed_name": "落基山研究所",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "RMI-China"
+    },
+    {
+      "account_name": "麻省理工科技评论APP",
+      "aliases": [
+        "麻省理工科技评论APP"
+      ],
+      "channel_id": "wx:MzI5MTcxMTA3Mw==",
+      "fakeid": "MzI5MTcxMTA3Mw==",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI5MTcxMTA3Mw==&mid=2247511356&idx=1&sn=ccf66ce5ed3730973187b821b1d14101",
+      "seed_name": "麻省理工科技评论APP",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": "MIT-TR-China"
+    },
+    {
+      "account_name": "每日氢闻",
+      "aliases": [
+        "每日氢闻"
+      ],
+      "channel_id": "wx:MzkyOTczOTEyMg==",
+      "fakeid": "MzkyOTczOTEyMg==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-07-28",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s/Cn60LUlNLpg1su7mVt5URw",
+      "seed_name": "每日氢闻",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "gh_8eebc2a71838"
+    },
+    {
+      "account_name": "墨子沙龙",
+      "aliases": [
+        "墨子沙龙"
+      ],
+      "channel_id": "wx:MzI2NDIzMjYyMA==",
+      "fakeid": "MzI2NDIzMjYyMA==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI2NDIzMjYyMA==&mid=2247542810&idx=2&sn=ecd018f7d7055b8ae3d3c661c1d89698",
+      "seed_name": "墨子沙龙",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "MiciusSalon"
+    },
+    {
+      "account_name": "南方能源观察",
+      "aliases": [
+        "南方能源观察"
+      ],
+      "channel_id": "wx:MjM5OTY4NjAwMQ==",
+      "fakeid": "MjM5OTY4NjAwMQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTY4NjAwMQ==&mid=2650149227&idx=1&sn=8174df6118314c308b982f0a4626b010",
+      "seed_name": "南方能源观察",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "energyobserver"
+    },
+    {
+      "account_name": "能见",
+      "aliases": [
+        "能见"
+      ],
+      "channel_id": "wx:MzU5NDE0NTA3OQ==",
+      "fakeid": "MzU5NDE0NTA3OQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU5NDE0NTA3OQ==&mid=2247540335&idx=2&sn=ce62f0be299504efd3d3511ac4fc8e6c",
+      "seed_name": "能见",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "Eknower"
+    },
+    {
+      "account_name": "能量奇点FusionEnergy",
+      "aliases": [
+        "能量奇点FusionEnergy"
+      ],
+      "channel_id": "wx:Mzg4NjcyMTUzMQ==",
+      "fakeid": "Mzg4NjcyMTUzMQ==",
+      "first_observed": "2026-07-27",
+      "last_observed": "2026-07-27",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s/ZBTUEZ6Egc2PAFXV6g1Nvg",
+      "seed_name": "能量奇点FusionEnergy",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-27",
+      "wechat_alias": "EnergySingularity"
+    },
+    {
+      "account_name": "能源干货",
+      "aliases": [
+        "能源干货"
+      ],
+      "channel_id": "wx:MzkyMzY0NTM0Nw==",
+      "fakeid": "MzkyMzY0NTM0Nw==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-09-16",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyMzY0NTM0Nw==&mid=2247486227&idx=1&sn=d9373d042fb216cf637040eb9561022f",
+      "seed_name": "能源干货",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "能源环境经济文献精读",
+      "aliases": [
+        "能源环境经济文献精读"
+      ],
+      "channel_id": "wx:MzkyODY4MzU1Mw==",
+      "fakeid": "MzkyODY4MzU1Mw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyODY4MzU1Mw==&mid=2247485354&idx=1&sn=ef34fc72b381faea8fb9333d582f0688",
+      "seed_name": "能源环境经济文献精读",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "能源环境经济与政策研究",
+      "aliases": [
+        "能源环境经济与政策研究"
+      ],
+      "channel_id": "wx:Mzg3NDEzOTE2Mg==",
+      "fakeid": "Mzg3NDEzOTE2Mg==",
+      "first_observed": "2026-06-25",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3NDEzOTE2Mg==&mid=2247508460&idx=1&sn=20dcdd9c2bea248c084b4745684a4e0f",
+      "seed_name": "能源环境经济与政策研究",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-25",
+      "wechat_alias": "LEEEP_Forum"
+    },
+    {
+      "account_name": "能源技术情报",
+      "aliases": [
+        "能源技术情报"
+      ],
+      "channel_id": "wx:MzkzNjIwODM3MA==",
+      "fakeid": "MzkzNjIwODM3MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzNjIwODM3MA==&mid=2247549795&idx=2&sn=fca74e02c6e30b0d9477c6e3cb820a30",
+      "seed_name": "能源技术情报",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "Energy-2019"
+    },
+    {
+      "account_name": "能源学人",
+      "aliases": [
+        "能源学人"
+      ],
+      "channel_id": "wx:MzUzOTUzMDYxNw==",
+      "fakeid": "MzUzOTUzMDYxNw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUzOTUzMDYxNw==&mid=2247911537&idx=6&sn=4130ad01b11b4edfb8a8f1c78211e488",
+      "seed_name": "能源学人",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "energist"
+    },
+    {
+      "account_name": "能源研析",
+      "aliases": [
+        "能源研析"
+      ],
+      "channel_id": "wx:MzUyOTk4MDE2Ng==",
+      "fakeid": "MzUyOTk4MDE2Ng==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUyOTk4MDE2Ng==&mid=2247486229&idx=1&sn=46b407c71c5b272e01ddb040b468ea63",
+      "seed_name": "能源研析",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "TracyWechatOF"
+    },
+    {
+      "account_name": "能源转型与双碳观察",
+      "aliases": [
+        "能源转型与双碳观察"
+      ],
+      "channel_id": "wx:MzYzMTEyNzg3OQ==",
+      "fakeid": "MzYzMTEyNzg3OQ==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTEyNzg3OQ==&mid=2247510392&idx=1&sn=2f883c7c31286f81f786524f54ab728a",
+      "seed_name": "能源转型与双碳观察",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "EnergyTransitionCUPB"
+    },
+    {
+      "account_name": "氢氨融合能源",
+      "aliases": [
+        "氢氨融合能源"
+      ],
+      "channel_id": "wx:MzkyNTczMDI5NQ==",
+      "fakeid": "MzkyNTczMDI5NQ==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyNTczMDI5NQ==&mid=2247487996&idx=1&sn=587ac7a4b581d198e1735157d25b58db",
+      "seed_name": "氢氨融合能源",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "氢创空间",
+      "aliases": [
+        "氢创空间"
+      ],
+      "channel_id": "wx:MzkzMzk1ODQ5Mw==",
+      "fakeid": "MzkzMzk1ODQ5Mw==",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzMzk1ODQ5Mw==&mid=2247484768&idx=1&sn=d86856f1928eff6571425c67571a6374",
+      "seed_name": "氢创空间",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "氢能技术前沿",
+      "aliases": [
+        "氢能技术前沿"
+      ],
+      "channel_id": "wx:MzA5NzMwODcyMA==",
+      "fakeid": "MzA5NzMwODcyMA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5NzMwODcyMA==&mid=2650404518&idx=2&sn=6aeccba766fd8ca779bb8aabdce1d362",
+      "seed_name": "氢能技术前沿",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "asiachemhfc"
+    },
+    {
+      "account_name": "氢能云互联",
+      "aliases": [
+        "氢能云互联"
+      ],
+      "channel_id": "wx:MzkzMjcxMTUyOA==",
+      "fakeid": "MzkzMjcxMTUyOA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-06",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzMjcxMTUyOA==&mid=2247487774&idx=1&sn=a50113af3bf739afcd3d00e96094223e",
+      "seed_name": "氢能云互联",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "qingnengyunhulian"
+    },
+    {
+      "account_name": "清华大学能源互联网创新研究院",
+      "aliases": [
+        "清华大学能源互联网创新研究院"
+      ],
+      "channel_id": "wx:MzIzMjAwNzAyOA==",
+      "fakeid": "MzIzMjAwNzAyOA==",
+      "first_observed": "2026-09-15",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIzMjAwNzAyOA==&mid=2652850612&idx=1&sn=7dcc9cdb07bfe9f7464fb97a5f492f68",
+      "seed_name": "清华大学能源互联网创新研究院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "thueiri"
+    },
+    {
+      "account_name": "清鹏产研院",
+      "aliases": [
+        "清鹏产研院"
+      ],
+      "channel_id": "wx:MzY5NDI4NzcwNw==",
+      "fakeid": "MzY5NDI4NzcwNw==",
+      "first_observed": "2026-07-14",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzY5NDI4NzcwNw==&mid=2247551170&idx=1&sn=2929ba1100231db742bb4e0772c2897d",
+      "seed_name": "清鹏产研院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-14",
+      "wechat_alias": "shizhimedia"
+    },
+    {
+      "account_name": "饶议科学",
+      "aliases": [
+        "饶议科学"
+      ],
+      "channel_id": "wx:MzA4MDE0NzI0Mg==",
+      "fakeid": "MzA4MDE0NzI0Mg==",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s?__biz=MzA4MDE0NzI0Mg==&mid=2477633935&idx=1&sn=259efa8412d2801b0dfcb76bd4b09e1c",
+      "seed_name": "饶议科学",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "HPF热泵在线",
+      "aliases": [
+        "HPF热泵在线",
+        "热泵在线"
+      ],
+      "channel_id": "wx:MzAxMDkzNTAzNQ==",
+      "fakeid": "MzAxMDkzNTAzNQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxMDkzNTAzNQ==&mid=2247519589&idx=1&sn=3f5519794d91ac65f4048fe55acda516",
+      "seed_name": "热泵在线",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "HP-Online"
+    },
+    {
+      "account_name": "热辐射与微纳光子学",
+      "aliases": [
+        "热辐射与微纳光子学"
+      ],
+      "channel_id": "wx:MzI3NTE3MjUyOA==",
+      "fakeid": "MzI3NTE3MjUyOA==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI3NTE3MjUyOA==&mid=2664714074&idx=1&sn=68060dd98c60861f1a7b656b3c2be5f5",
+      "seed_name": "热辐射与微纳光子学",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "Thermal-Radiation"
+    },
+    {
+      "account_name": "热设计",
+      "aliases": [
+        "热设计"
+      ],
+      "channel_id": "wx:Mzg2NjUzODAyMA==",
+      "fakeid": "Mzg2NjUzODAyMA==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2NjUzODAyMA==&mid=2247521249&idx=1&sn=592081409ef1d2ea6a825e08f8bebcef",
+      "seed_name": "热设计",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "wwwresheji"
+    },
+    {
+      "account_name": "社科院工业经济研究所",
+      "aliases": [
+        "社科院工业经济研究所"
+      ],
+      "channel_id": "wx:MzIxMzM3NTcyNA==",
+      "fakeid": "MzIxMzM3NTcyNA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIxMzM3NTcyNA==&mid=2247518840&idx=1&sn=023946b484de3715b97510bcab89c42e",
+      "seed_name": "社科院工业经济研究所",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "IIE_CASS"
+    },
+    {
+      "account_name": "深储科技",
+      "aliases": [],
+      "channel_id": "wx:MzU1ODczMDk3MQ==",
+      "fakeid": "MzU1ODczMDk3MQ==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "深储科技",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "NOR1024"
+    },
+    {
+      "account_name": "深远海风电",
+      "aliases": [
+        "深远海风电"
+      ],
+      "channel_id": "wx:MzkwMDI0NDU3MA==",
+      "fakeid": "MzkwMDI0NDU3MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwMDI0NDU3MA==&mid=2247488035&idx=1&sn=c129ef97fa310830f727f16606ce5b15",
+      "seed_name": "深远海风电",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "深圳欣界能源科技股份有限公司",
+      "aliases": [],
+      "channel_id": "wx:Mzk0MDQ0MDQ4NA==",
+      "fakeid": "Mzk0MDQ0MDQ4NA==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "深圳欣界能源科技股份有限公司",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "世界科技研究与发展",
+      "aliases": [
+        "世界科技研究与发展"
+      ],
+      "channel_id": "wx:MzI0MjcxNDQwNQ==",
+      "fakeid": "MzI0MjcxNDQwNQ==",
+      "first_observed": "2026-06-17",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI0MjcxNDQwNQ==&mid=2247497684&idx=1&sn=1c635e3379b42f26c175b9554b4e8433",
+      "seed_name": "世界科技研究与发展",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-17",
+      "wechat_alias": "globesci"
+    },
+    {
+      "account_name": "世界先进制造技术论坛",
+      "aliases": [
+        "世界先进制造技术论坛"
+      ],
+      "channel_id": "wx:MzA5NjU1NTAwMA==",
+      "fakeid": "MzA5NjU1NTAwMA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5NjU1NTAwMA==&mid=2650229606&idx=3&sn=497fd9cec7f9af2568d5f3e290262cf0",
+      "seed_name": "世界先进制造技术论坛",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "AMTBBS"
+    },
+    {
+      "account_name": "数据小魔方",
+      "aliases": [
+        "数据小魔方"
+      ],
+      "channel_id": "wx:MzA3Njc0NzA0MA==",
+      "fakeid": "MzA3Njc0NzA0MA==",
+      "first_observed": "2026-06-29",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA3Njc0NzA0MA==&mid=2653193026&idx=1&sn=e11990cad2acf68688090ab504fde825",
+      "seed_name": "数据小魔方",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-29",
+      "wechat_alias": "datamofang"
+    },
+    {
+      "account_name": "数据与情报科学英文刊",
+      "aliases": [
+        "数据与情报科学英文刊"
+      ],
+      "channel_id": "wx:MzAwNTc5OTM3Mg==",
+      "fakeid": "MzAwNTc5OTM3Mg==",
+      "first_observed": "2026-06-17",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAwNTc5OTM3Mg==&mid=2649828787&idx=1&sn=deaa55f1229d01c9bd331ad91208f9df",
+      "seed_name": "数据与情报科学英文刊",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-17",
+      "wechat_alias": "JDIS_CAS"
+    },
+    {
+      "account_name": "双碳情报",
+      "aliases": [
+        "双碳情报"
+      ],
+      "channel_id": "wx:MzIyNDM4MDgyNA==",
+      "fakeid": "MzIyNDM4MDgyNA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIyNDM4MDgyNA==&mid=2247497082&idx=1&sn=6aaca515a7c015d2074831e385909bd0",
+      "seed_name": "双碳情报",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "DQWYFZQBFW"
+    },
+    {
+      "account_name": "碳中和资料库",
+      "aliases": [
+        "碳中和资料库"
+      ],
+      "channel_id": "wx:MzkyOTIwNzE3Mg==",
+      "fakeid": "MzkyOTIwNzE3Mg==",
+      "first_observed": "2026-07-24",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyOTIwNzE3Mg==&mid=2247720235&idx=1&sn=bbd4d30680d8c14af9eef4113a9af7a3",
+      "seed_name": "碳中和资料库",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-24",
+      "wechat_alias": "NO-CO2"
+    },
+    {
+      "account_name": "腾讯研究院",
+      "aliases": [
+        "腾讯研究院"
+      ],
+      "channel_id": "wx:MjM5OTE0ODA2MQ==",
+      "fakeid": "MjM5OTE0ODA2MQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&mid=2650999034&idx=1&sn=6bd28eac6b5ff8947728723bd1c9a6e1",
+      "seed_name": "腾讯研究院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "cyberlawrc"
+    },
+    {
+      "account_name": "天然气工业",
+      "aliases": [
+        "天然气工业"
+      ],
+      "channel_id": "wx:MzU0NTU0MDAyNQ==",
+      "fakeid": "MzU0NTU0MDAyNQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU0NTU0MDAyNQ==&mid=2247570725&idx=2&sn=946c69705b9251505eaae897ac1daa7e",
+      "seed_name": "天然气工业",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "tianranqigongye"
+    },
+    {
+      "account_name": "晚点LatePost",
+      "aliases": [
+        "晚点LatePost"
+      ],
+      "channel_id": "wx:MzU3Mjk1OTQ0Ng==",
+      "fakeid": "MzU3Mjk1OTQ0Ng==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247539088&idx=1&sn=54ca64dda78d0eeebdb93ced9d6be0f2",
+      "seed_name": "晚点LatePost",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "postlate"
+    },
+    {
+      "account_name": "未来城市数智评论",
+      "aliases": [
+        "未来城市数智评论"
+      ],
+      "channel_id": "wx:Mzg5ODMwOTY4Mw==",
+      "fakeid": "Mzg5ODMwOTY4Mw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg5ODMwOTY4Mw==&mid=2247495186&idx=1&sn=63244801f09531d3fcff5d718894cf61",
+      "seed_name": "未来城市数智评论",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "Netzerocity2022"
+    },
+    {
+      "account_name": "未来智库",
+      "aliases": [
+        "未来智库"
+      ],
+      "channel_id": "wx:MzIyMzYxNDEzMg==",
+      "fakeid": "MzIyMzYxNDEzMg==",
+      "first_observed": "2026-06-22",
+      "last_observed": "2026-07-15",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s/HfugsknufcAA9GPVCabQZw",
+      "seed_name": "未来智库",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-22",
+      "wechat_alias": "vzkoo1"
+    },
+    {
+      "account_name": "物理储能",
+      "aliases": [
+        "物理储能"
+      ],
+      "channel_id": "wx:MzU5NjgzNDA0MA==",
+      "fakeid": "MzU5NjgzNDA0MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU5NjgzNDA0MA==&mid=2247525839&idx=1&sn=52ccb38008d72fe28d9e3c1b46164543",
+      "seed_name": "物理储能",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "先进电池材料",
+      "aliases": [
+        "先进电池材料"
+      ],
+      "channel_id": "wx:MzIxMTQyMzE0OQ==",
+      "fakeid": "MzIxMTQyMzE0OQ==",
+      "first_observed": "2026-09-20",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIxMTQyMzE0OQ==&mid=2247513443&idx=3&sn=74e4664d9cd999de525451809b47891c",
+      "seed_name": "先进电池材料",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "sino-battery"
+    },
+    {
+      "account_name": "先进能源科技战略情报研究中心",
+      "aliases": [
+        "先进能源科技战略情报研究中心"
+      ],
+      "channel_id": "wx:MzI5NzQwMjAxNQ==",
+      "fakeid": "MzI5NzQwMjAxNQ==",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI5NzQwMjAxNQ==&mid=2247501904&idx=2&sn=9cc1da79d0835f9bb63e330205466c5a",
+      "seed_name": "先进能源科技战略情报研究中心",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": "CASEnergy"
+    },
+    {
+      "account_name": "现代情报",
+      "aliases": [
+        "现代情报"
+      ],
+      "channel_id": "wx:MzU3ODUwMDM4Ng==",
+      "fakeid": "MzU3ODUwMDM4Ng==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU3ODUwMDM4Ng==&mid=2247505057&idx=1&sn=9567286e08d0c7697449ff0ca08abca9",
+      "seed_name": "现代情报",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "xiandaiqingbao"
+    },
+    {
+      "account_name": "小柯说能源",
+      "aliases": [],
+      "channel_id": "wx:MzYzNDg5NjIxMA==",
+      "fakeid": "MzYzNDg5NjIxMA==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "小柯说能源",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "芯见视界",
+      "aliases": [
+        "芯见视界"
+      ],
+      "channel_id": "wx:MzY5NzM1NzQ1OQ==",
+      "fakeid": "MzY5NzM1NzQ1OQ==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzM1NzQ1OQ==&mid=2247485692&idx=1&sn=2f06545a288ee6711bcc59540ebb49c6",
+      "seed_name": "芯见视界",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "芯联汇",
+      "aliases": [
+        "芯联汇"
+      ],
+      "channel_id": "wx:MzkwMTYxMzY2MA==",
+      "fakeid": "MzkwMTYxMzY2MA==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwMTYxMzY2MA==&mid=2247514993&idx=1&sn=22e9c71792ff6560eac323d59e18e4d8",
+      "seed_name": "芯联汇",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "readsemi"
+    },
+    {
+      "account_name": "欣旺达动力",
+      "aliases": [
+        "欣旺达动力"
+      ],
+      "channel_id": "wx:MzI4ODQ5OTc5MA==",
+      "fakeid": "MzI4ODQ5OTc5MA==",
+      "first_observed": "2026-07-27",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4ODQ5OTc5MA==&mid=2247498679&idx=1&sn=30e7df8bf1e72e459d62381d2681994e",
+      "seed_name": "欣旺达动力",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-27",
+      "wechat_alias": "Sunwoda-SEVB"
+    },
+    {
+      "account_name": "新华国研经济学研究院",
+      "aliases": [
+        "新华国研经济学研究院"
+      ],
+      "channel_id": "wx:MzU0ODY3MzQ1MA==",
+      "fakeid": "MzU0ODY3MzQ1MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU0ODY3MzQ1MA==&mid=2247525318&idx=1&sn=04dda9e5b44d131ddb0be80da1f1c6d3",
+      "seed_name": "新华国研经济学研究院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "xhgyjjxyjy"
+    },
+    {
+      "account_name": "新能见",
+      "aliases": [
+        "新能见"
+      ],
+      "channel_id": "wx:Mzk5MDYxMTA0OQ==",
+      "fakeid": "Mzk5MDYxMTA0OQ==",
+      "first_observed": "2026-09-18",
+      "last_observed": "2026-09-18",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk5MDYxMTA0OQ==&mid=2247486906&idx=1&sn=a0845f87fe0f9d3beb56f2fa4610850e",
+      "seed_name": "新能见",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "XNJ524"
+    },
+    {
+      "account_name": "新能源技术与装备",
+      "aliases": [
+        "新能源技术与装备"
+      ],
+      "channel_id": "wx:Mzg2NDg1ODEwNQ==",
+      "fakeid": "Mzg2NDg1ODEwNQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2NDg1ODEwNQ==&mid=2247581429&idx=1&sn=418363677ff3903301f45afc28c5e68b",
+      "seed_name": "新能源技术与装备",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "新能源汽车新闻EV",
+      "aliases": [
+        "新能源汽车新闻EV"
+      ],
+      "channel_id": "wx:MzA4MDM4NjAyMg==",
+      "fakeid": "MzA4MDM4NjAyMg==",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDM4NjAyMg==&mid=2651085387&idx=1&sn=f1c5f7a28db9e6c86369c97d14d37fd2",
+      "seed_name": "新能源汽车新闻EV",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": "ev-qiche"
+    },
+    {
+      "account_name": "新能源前沿",
+      "aliases": [
+        "新能源前沿"
+      ],
+      "channel_id": "wx:MzkxMTg3MzgyNg==",
+      "fakeid": "MzkxMTg3MzgyNg==",
+      "first_observed": "2026-07-24",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkxMTg3MzgyNg==&mid=2247509748&idx=1&sn=8338ae6f01703fedd504c5dc66724482",
+      "seed_name": "新能源前沿",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-24",
+      "wechat_alias": "W13993523118"
+    },
+    {
+      "account_name": "新能源情报局",
+      "aliases": [
+        "新能源情报局"
+      ],
+      "channel_id": "wx:Mzg3OTY0MDk1MQ==",
+      "fakeid": "Mzg3OTY0MDk1MQ==",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-07-24",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s/Nz6rcxDSRxONeSpFGFaKvg",
+      "seed_name": "新能源情报局",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": "EnerZMedium"
+    },
+    {
+      "account_name": "新智元",
+      "aliases": [
+        "新智元"
+      ],
+      "channel_id": "wx:MzI3MTA0MTk1MA==",
+      "fakeid": "MzI3MTA0MTk1MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652733481&idx=1&sn=11cb7ca416b857573c486ea3ef2529b8",
+      "seed_name": "新智元",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "AI_era"
+    },
+    {
+      "account_name": "星源PlanetaryEnergy",
+      "aliases": [
+        "星源PlanetaryEnergy"
+      ],
+      "channel_id": "wx:MzAxNjUxMzUzMg==",
+      "fakeid": "MzAxNjUxMzUzMg==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxNjUxMzUzMg==&mid=2656164688&idx=1&sn=2cd3a1e64937b9b7ca56926e6abb1fec",
+      "seed_name": "星源PlanetaryEnergy",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "PlanetaryEnergy"
+    },
+    {
+      "account_name": "学研加",
+      "aliases": [
+        "学研加"
+      ],
+      "channel_id": "wx:MzUyODAxMDY0MQ==",
+      "fakeid": "MzUyODAxMDY0MQ==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUyODAxMDY0MQ==&mid=2247529983&idx=2&sn=0c5cc0b9b28e258d962d4b09593449d5",
+      "seed_name": "学研加",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "XueyanHome-2018"
+    },
+    {
+      "account_name": "研之成理",
+      "aliases": [
+        "研之成理"
+      ],
+      "channel_id": "wx:MzUxMDMzODg2Ng==",
+      "fakeid": "MzUxMDMzODg2Ng==",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUxMDMzODg2Ng==&mid=2247838232&idx=1&sn=4e2005fca931e2fefe0e73f7df09f24e",
+      "seed_name": "研之成理",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": "rationalscience"
+    },
+    {
+      "account_name": "冶金工业经济发展研究中心",
+      "aliases": [
+        "冶金工业经济发展研究中心"
+      ],
+      "channel_id": "wx:MzUxNTQxMjQ2Mg==",
+      "fakeid": "MzUxNTQxMjQ2Mg==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUxNTQxMjQ2Mg==&mid=2247534266&idx=4&sn=ffbb501c7c8639d8e659b7d15894cc09",
+      "seed_name": "冶金工业经济发展研究中心",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "csdri1979"
+    },
+    {
+      "account_name": "源网荷储创研新视界",
+      "aliases": [
+        "源网荷储创研新视界"
+      ],
+      "channel_id": "wx:Mzk2NDIxNjM2NA==",
+      "fakeid": "Mzk2NDIxNjM2NA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk2NDIxNjM2NA==&mid=2247490945&idx=1&sn=634e64928c3ab6efd2f6e9ce7ec44490",
+      "seed_name": "源网荷储创研新视界",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "YWHCCYXSJ"
+    },
+    {
+      "account_name": "源因产研院",
+      "aliases": [
+        "源因产研院"
+      ],
+      "channel_id": "wx:Mzg4MjExODI4MQ==",
+      "fakeid": "Mzg4MjExODI4MQ==",
+      "first_observed": "2026-07-18",
+      "last_observed": "2026-07-26",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s/RWDLWte4W-9Nqm-A4ZgbLQ",
+      "seed_name": "源因产研院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "战略科技前沿",
+      "aliases": [
+        "战略科技前沿"
+      ],
+      "channel_id": "wx:MzA4OTQzMjg0MA==",
+      "fakeid": "MzA4OTQzMjg0MA==",
+      "first_observed": "2026-09-28",
+      "last_observed": "2026-09-30",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA4OTQzMjg0MA==&mid=2666351960&idx=1&sn=b19b8f6e9a35e352f858f811269839df",
+      "seed_name": "战略科技前沿",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "战略前沿技术",
+      "aliases": [
+        "战略前沿技术"
+      ],
+      "channel_id": "wx:MzI3MTkwMzM0Nw==",
+      "fakeid": "MzI3MTkwMzM0Nw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI3MTkwMzM0Nw==&mid=2248072767&idx=3&sn=84a0589c017767ef3363b3e792f806fa",
+      "seed_name": "战略前沿技术",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "Tech999"
+    },
+    {
+      "account_name": "战略与政策论坛",
+      "aliases": [
+        "战略与政策论坛"
+      ],
+      "channel_id": "wx:MzUzMTEyOTEyMA==",
+      "fakeid": "MzUzMTEyOTEyMA==",
+      "first_observed": "2026-09-18",
+      "last_observed": "2026-09-28",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUzMTEyOTEyMA==&mid=2247517995&idx=1&sn=759f768280fbf2f5c9cebb749c740f41",
+      "seed_name": "战略与政策论坛",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "StrategyPolicyForum"
+    },
+    {
+      "account_name": "兆钠新能源",
+      "aliases": [
+        "兆钠新能源"
+      ],
+      "channel_id": "wx:MzkxNjUxODA1MQ==",
+      "fakeid": "MzkxNjUxODA1MQ==",
+      "first_observed": "2026-10-01",
+      "last_observed": "2026-10-01",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkxNjUxODA1MQ==&mid=2247485910&idx=1&sn=dce9da770cd9762042372395e0b1fc19",
+      "seed_name": "兆钠新能源",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "Stlenergy"
+    },
+    {
+      "account_name": "知识褶皱",
+      "aliases": [],
+      "channel_id": "wx:MzE5ODQ5ODc5Mw==",
+      "fakeid": "MzE5ODQ5ODc5Mw==",
+      "first_observed": "",
+      "last_observed": "",
+      "listed_since": "2026-08-18",
+      "origin": "上传名单，尚未观测",
+      "sample_url": "",
+      "seed_name": "知识褶皱",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "智库理论与实践",
+      "aliases": [
+        "智库理论与实践"
+      ],
+      "channel_id": "wx:MzIxNTE3NDQzNg==",
+      "fakeid": "MzIxNTE3NDQzNg==",
+      "first_observed": "2026-09-21",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIxNTE3NDQzNg==&mid=2650430822&idx=1&sn=5a9729c61249d14f52302023ce1a5a5f",
+      "seed_name": "智库理论与实践",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "thinktank2016"
+    },
+    {
+      "account_name": "智能纪元AGI",
+      "aliases": [
+        "智能纪元AGI"
+      ],
+      "channel_id": "wx:MzcwMTIxNjgwMA==",
+      "fakeid": "MzcwMTIxNjgwMA==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzcwMTIxNjgwMA==&mid=2247490556&idx=1&sn=d666d5ed95ee346b5f39eddba558b090",
+      "seed_name": "智能纪元AGI",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "weixin6060000"
+    },
+    {
+      "account_name": "智能新观察",
+      "aliases": [
+        "智能新观察"
+      ],
+      "channel_id": "wx:Mzg2NTQ5NTUwOQ==",
+      "fakeid": "Mzg2NTQ5NTUwOQ==",
+      "first_observed": "2026-07-17",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2NTQ5NTUwOQ==&mid=2247492260&idx=1&sn=77157cc145f1ab7572c6ae28ed171601",
+      "seed_name": "智能新观察",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-17",
+      "wechat_alias": "AI-Observations"
+    },
+    {
+      "account_name": "中储国能",
+      "aliases": [
+        "中储国能"
+      ],
+      "channel_id": "wx:Mzg4NzUyNzM2Ng==",
+      "fakeid": "Mzg4NzUyNzM2Ng==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4NzUyNzM2Ng==&mid=2247493371&idx=1&sn=8f0f45a2634176b0b57fe6d4588cc4f4",
+      "seed_name": "中储国能",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "ZCGN2004"
+    },
+    {
+      "account_name": "中粉固态电池",
+      "aliases": [
+        "中粉固态电池"
+      ],
+      "channel_id": "wx:MzI4MTc3NjM0MA==",
+      "fakeid": "MzI4MTc3NjM0MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4MTc3NjM0MA==&mid=2247532407&idx=1&sn=4601ba3a6eb7c546091d157b2e7f0f33",
+      "seed_name": "中粉固态电池",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "中国国际可再生能源署合作办公室",
+      "aliases": [
+        "中国国际可再生能源署合作办公室"
+      ],
+      "channel_id": "wx:Mzg3ODk3MTcwOA==",
+      "fakeid": "Mzg3ODk3MTcwOA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-09-30",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3ODk3MTcwOA==&mid=2247491039&idx=1&sn=b3bbfb6a3a75e82758c633b30741465b",
+      "seed_name": "中国国际可再生能源署合作办公室",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "中国科技信息",
+      "aliases": [
+        "中国科技信息"
+      ],
+      "channel_id": "wx:MjM5MDUwOTg4NQ==",
+      "fakeid": "MjM5MDUwOTg4NQ==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDUwOTg4NQ==&mid=2691949171&idx=1&sn=f7c29e8a417cda5a033003b6867110d2",
+      "seed_name": "中国科技信息",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "ZGKJ1989"
+    },
+    {
+      "account_name": "中国科学技术发展战略研究院",
+      "aliases": [
+        "中国科学技术发展战略研究院"
+      ],
+      "channel_id": "wx:MzIzOTM1NTA2Ng==",
+      "fakeid": "MzIzOTM1NTA2Ng==",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-09-30",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIzOTM1NTA2Ng==&mid=2247514616&idx=1&sn=cfb98fb47779fc11b259a920af59bf48",
+      "seed_name": "中国科学技术发展战略研究院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": "CASTED-KSZH"
+    },
+    {
+      "account_name": "中国科讯",
+      "aliases": [
+        "中国科讯"
+      ],
+      "channel_id": "wx:MzIzNDIzMjE2MA==",
+      "fakeid": "MzIzNDIzMjE2MA==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIzNDIzMjE2MA==&mid=2247558388&idx=1&sn=d2f93aff15feb5fc88f85be333070a46",
+      "seed_name": "中国科讯",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "Sci-think"
+    },
+    {
+      "account_name": "中国可再生能源学会地热能专委会",
+      "aliases": [
+        "中国可再生能源学会地热能专委会"
+      ],
+      "channel_id": "wx:Mzk0MDQ5MTE5OQ==",
+      "fakeid": "Mzk0MDQ5MTE5OQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0MDQ5MTE5OQ==&mid=2247495422&idx=3&sn=97070249e6c619de86d427fe891a8172",
+      "seed_name": "中国可再生能源学会地热能专委会",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "CRES_GEC"
+    },
+    {
+      "account_name": "中国能源报",
+      "aliases": [
+        "中国能源报"
+      ],
+      "channel_id": "wx:MjM5NTI4MTIyMg==",
+      "fakeid": "MjM5NTI4MTIyMg==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTI4MTIyMg==&mid=2658145603&idx=1&sn=11ea1b3c31f77be607319fecf2b8ca3e",
+      "seed_name": "中国能源报",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "cnenergy"
+    },
+    {
+      "account_name": "中国能源观察",
+      "aliases": [
+        "中国能源观察"
+      ],
+      "channel_id": "wx:MzkzMTYwNjczMg==",
+      "fakeid": "MzkzMTYwNjczMg==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzMTYwNjczMg==&mid=2247523741&idx=1&sn=911a2e98fc7deed5c36bc1c1caa38c81",
+      "seed_name": "中国能源观察",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "ZGNYGC_CEO"
+    },
+    {
+      "account_name": "中国能源研究会核能专委会",
+      "aliases": [
+        "中国能源研究会核能专委会"
+      ],
+      "channel_id": "wx:MzU0Nzg5OTM1MA==",
+      "fakeid": "MzU0Nzg5OTM1MA==",
+      "first_observed": "2026-07-17",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU0Nzg5OTM1MA==&mid=2247515445&idx=6&sn=5fe98a5ce47ff4b6f5d2a775263f3ca8",
+      "seed_name": "中国能源研究会核能专委会",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-17",
+      "wechat_alias": "CERS-NEPC"
+    },
+    {
+      "account_name": "中国石油石化",
+      "aliases": [
+        "中国石油石化"
+      ],
+      "channel_id": "wx:MzA3MzI5ODEwOA==",
+      "fakeid": "MzA3MzI5ODEwOA==",
+      "first_observed": "2026-09-16",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA3MzI5ODEwOA==&mid=2653116755&idx=2&sn=c1be1873983ae8dbc4ccb8e33c9fbfb0",
+      "seed_name": "中国石油石化",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "ChinacpcM"
+    },
+    {
+      "account_name": "中科院物理所",
+      "aliases": [
+        "中科院物理所"
+      ],
+      "channel_id": "wx:MzAwNTA5NTYxOA==",
+      "fakeid": "MzAwNTA5NTYxOA==",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAwNTA5NTYxOA==&mid=2651594873&idx=2&sn=8d342c67619ef380d7811a2e821624fd",
+      "seed_name": "中科院物理所",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": "cas-iop"
+    },
+    {
+      "account_name": "中科院之声",
+      "aliases": [
+        "中科院之声"
+      ],
+      "channel_id": "wx:MjM5NzIyNDI1Mw==",
+      "fakeid": "MjM5NzIyNDI1Mw==",
+      "first_observed": "2026-09-17",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzIyNDI1Mw==&mid=2651912763&idx=1&sn=b6880ab75e4c5c2e663c3cc831da94b0",
+      "seed_name": "中科院之声",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "zkyzswx"
+    },
+    {
+      "account_name": "中咨研究",
+      "aliases": [
+        "中咨研究"
+      ],
+      "channel_id": "wx:MzU3NTQ1Mjc4Mw==",
+      "fakeid": "MzU3NTQ1Mjc4Mw==",
+      "first_observed": "2026-06-18",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU3NTQ1Mjc4Mw==&mid=2247520678&idx=1&sn=b24de4aad9be6fa08a3323cd2dc92030",
+      "seed_name": "中咨研究",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-18",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "众安金融科技研究院",
+      "aliases": [
+        "众安金融科技研究院"
+      ],
+      "channel_id": "wx:MzUzMzk2MjcyNg==",
+      "fakeid": "MzUzMzk2MjcyNg==",
+      "first_observed": "2026-07-17",
+      "last_observed": "2026-07-17",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "https://mp.weixin.qq.com/s/S795dJhNAqYA4ggwURhFyA",
+      "seed_name": "众安金融科技研究院",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-17",
+      "wechat_alias": "ZAFinTech"
+    },
+    {
+      "account_name": "自然冷媒技术",
+      "aliases": [
+        "自然冷媒技术"
+      ],
+      "channel_id": "wx:MzIzOTQ1NTA0OQ==",
+      "fakeid": "MzIzOTQ1NTA0OQ==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-08",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIzOTQ1NTA0OQ==&mid=2247487029&idx=1&sn=ba192d0aa502b209eefa595c4f7cec4c",
+      "seed_name": "自然冷媒技术",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": "natualref"
+    },
+    {
+      "account_name": "AEii国际应用能源",
+      "aliases": [
+        "AEII国际应用能源",
+        "AEii国际应用能源"
+      ],
+      "channel_id": "wx:MzAxMTE3NTAwNA==",
+      "fakeid": "MzAxMTE3NTAwNA==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxMTE3NTAwNA==&mid=2649942368&idx=1&sn=4ba5e33ffff773b9f392b385cdfab199",
+      "seed_name": "AEII国际应用能源",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "AI寒武纪",
+      "aliases": [
+        "AI寒武纪"
+      ],
+      "channel_id": "wx:Mzg3MTkxMjYzOA==",
+      "fakeid": "Mzg3MTkxMjYzOA==",
+      "first_observed": "2026-09-17",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTkxMjYzOA==&mid=2247519533&idx=1&sn=b15f1c07a9e6f0d8bfebe47754b2e189",
+      "seed_name": "AI寒武纪",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "agihwj"
+    },
+    {
+      "account_name": "AIDC算电协同产业链",
+      "aliases": [
+        "AIDC算电协同产业链"
+      ],
+      "channel_id": "wx:Mzk0NTY4MzIxNQ==",
+      "fakeid": "Mzk0NTY4MzIxNQ==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTY4MzIxNQ==&mid=2247495434&idx=1&sn=d8bdbd0a5e569561f15b4f1e04c72724",
+      "seed_name": "AIDC算电协同产业链",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "CloudFanNewEnergy"
+    },
+    {
+      "account_name": "CCUS国家地方联合工程研究中心",
+      "aliases": [
+        "CCUS国家地方联合工程研究中心"
+      ],
+      "channel_id": "wx:Mzg4MzUxNzI4MQ==",
+      "fakeid": "Mzg4MzUxNzI4MQ==",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-10-07",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MzUxNzI4MQ==&mid=2247525435&idx=1&sn=c3377914fa0d79893a8cc3ca921e1719",
+      "seed_name": "CCUS国家地方联合工程研究中心",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "CSSD气候变化工作委员会",
+      "aliases": [
+        "CSSD气候变化工作委员会"
+      ],
+      "channel_id": "wx:Mzg4NTY0OTk5OA==",
+      "fakeid": "Mzg4NTY0OTk5OA==",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4NTY0OTk5OA==&mid=2247486550&idx=1&sn=baea1132e9ac478e9583a8817e2156fc",
+      "seed_name": "CSSD气候变化工作委员会",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "DeepTech深科技",
+      "aliases": [
+        "DeepTech深科技"
+      ],
+      "channel_id": "wx:MzA3NTIyODUzNA==",
+      "fakeid": "MzA3NTIyODUzNA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649806887&idx=1&sn=15a9c38243f9a979d4dd7c1ade92de82",
+      "seed_name": "DeepTech深科技",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "deeptechchina"
+    },
+    {
+      "account_name": "DT洞见可持续",
+      "aliases": [
+        "DT洞见可持续"
+      ],
+      "channel_id": "wx:Mzk2OTEwNDUyMw==",
+      "fakeid": "Mzk2OTEwNDUyMw==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk2OTEwNDUyMw==&mid=2247487758&idx=2&sn=bdc1ae503562d7a6947eb8834cc3085d",
+      "seed_name": "DT洞见可持续",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "gh_726881175ddf"
+    },
+    {
+      "account_name": "EngineeringJournals",
+      "aliases": [
+        "EngineeringJournals"
+      ],
+      "channel_id": "wx:Mzg4MDUwODE2OQ==",
+      "fakeid": "Mzg4MDUwODE2OQ==",
+      "first_observed": "2026-09-17",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MDUwODE2OQ==&mid=2247532351&idx=4&sn=c5ce369a0808c174b2dbf4a4c37b858e",
+      "seed_name": "EngineeringJournals",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "engineering2015"
+    },
+    {
+      "account_name": "eScience期刊",
+      "aliases": [
+        "eScience期刊"
+      ],
+      "channel_id": "wx:MzkzNDIxMTE2NA==",
+      "fakeid": "MzkzNDIxMTE2NA==",
+      "first_observed": "2026-07-17",
+      "last_observed": "2026-09-29",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzNDIxMTE2NA==&mid=2247496408&idx=1&sn=0975c1c33925c6f52a77bf31eedc0fa4",
+      "seed_name": "eScience期刊",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-17",
+      "wechat_alias": "escience2021"
+    },
+    {
+      "account_name": "ESPlaza储热网",
+      "aliases": [
+        "ESPLaza储热网",
+        "ESPlaza储热网"
+      ],
+      "channel_id": "wx:MzU0OTM1MDg1NQ==",
+      "fakeid": "MzU0OTM1MDg1NQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-09",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU0OTM1MDg1NQ==&mid=2247514368&idx=1&sn=dd1a719fbdb1d8d5f6dac3d45b17d764",
+      "seed_name": "ESPLaza储热网",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "TESPlaza"
+    },
+    {
+      "account_name": "ESPlaza长时储能网",
+      "aliases": [
+        "ESPLaza长时储能网",
+        "ESPlaza长时储能网"
+      ],
+      "channel_id": "wx:MzkyMTM5MzI4MQ==",
+      "fakeid": "MzkyMTM5MzI4MQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyMTM5MzI4MQ==&mid=2247528241&idx=1&sn=7c4b8f3c5ff45b665571e1a24b8dd7c2",
+      "seed_name": "ESPLaza长时储能网",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "ESPlaza"
+    },
+    {
+      "account_name": "Gartner公司",
+      "aliases": [
+        "Gartner公司"
+      ],
+      "channel_id": "wx:MzA5NjQyNjMxNA==",
+      "fakeid": "MzA5NjQyNjMxNA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5NjQyNjMxNA==&mid=2651422325&idx=1&sn=841a2a9f43dec82e159080819c266b6e",
+      "seed_name": "Gartner公司",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "GartnerChina"
+    },
+    {
+      "account_name": "GFC绿色工厂圈",
+      "aliases": [
+        "GFC绿色工厂圈"
+      ],
+      "channel_id": "wx:Mzk0MDYwMzI4NA==",
+      "fakeid": "Mzk0MDYwMzI4NA==",
+      "first_observed": "2026-07-24",
+      "last_observed": "2026-10-10",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0MDYwMzI4NA==&mid=2247520546&idx=1&sn=819f24b1f730fa9b79e19fa05d4f6179",
+      "seed_name": "GFC绿色工厂圈",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-24",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "IEEE电气电子工程学会",
+      "aliases": [
+        "IEEE电气电子工程学会"
+      ],
+      "channel_id": "wx:MjM5NzYzMTMwMg==",
+      "fakeid": "MjM5NzYzMTMwMg==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzYzMTMwMg==&mid=2655471846&idx=1&sn=e1768815b0a2fdeef477c51a37f066a4",
+      "seed_name": "IEEE电气电子工程学会",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "IEEE_China"
+    },
+    {
+      "account_name": "PV光圈见闻",
+      "aliases": [
+        "PV光圈见闻"
+      ],
+      "channel_id": "wx:MjM5MzI1NzEyMA==",
+      "fakeid": "MjM5MzI1NzEyMA==",
+      "first_observed": "2026-07-16",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5MzI1NzEyMA==&mid=2649403302&idx=1&sn=65840c34bf825fee4b6c13be47f99765",
+      "seed_name": "PV光圈见闻",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-16",
+      "wechat_alias": "PVTechCN"
+    },
+    {
+      "account_name": "REAI Lab",
+      "aliases": [
+        "REAI Lab"
+      ],
+      "channel_id": "wx:MzkzNzkwMDk1MA==",
+      "fakeid": "MzkzNzkwMDk1MA==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzNzkwMDk1MA==&mid=2247493017&idx=1&sn=f971c4c759128352ab375855a775c05d",
+      "seed_name": "REAI Lab",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "SOFC-SOEC-氢能技术",
+      "aliases": [
+        "SOFC-SOEC-氢能技术"
+      ],
+      "channel_id": "wx:Mzg2MjYwMjM0MQ==",
+      "fakeid": "Mzg2MjYwMjM0MQ==",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-10-06",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjYwMjM0MQ==&mid=2247488928&idx=1&sn=23463f94fc17db2f678f0d182a2c05ff",
+      "seed_name": "SOFC-SOEC-氢能技术",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": "SOFC-PCFC2024"
+    },
+    {
+      "account_name": "The Hydrogen Online",
+      "aliases": [
+        "The Hydrogen Online"
+      ],
+      "channel_id": "wx:MzUyMDk5MjA2NQ==",
+      "fakeid": "MzUyMDk5MjA2NQ==",
+      "first_observed": "2026-09-19",
+      "last_observed": "2026-09-19",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUyMDk5MjA2NQ==&mid=2247484348&idx=1&sn=1ba98c5fb030bc59fa7b7db4d94618a1",
+      "seed_name": "The Hydrogen Online",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-18",
+      "wechat_alias": "the-hydrogen-online"
+    },
+    {
+      "account_name": "VPP前沿观察",
+      "aliases": [
+        "VPP前沿观察"
+      ],
+      "channel_id": "wx:MzYyMzEyNjYxMg==",
+      "fakeid": "MzYyMzEyNjYxMg==",
+      "first_observed": "2026-06-20",
+      "last_observed": "2026-10-11",
+      "listed_since": "2026-08-18",
+      "origin": "名单+每日CSV",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzYyMzEyNjYxMg==&mid=2247484111&idx=1&sn=6f807edb40bfe724c5cb0f4017a48705",
+      "seed_name": "VPP前沿观察",
+      "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-06-20",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "视知产业研究院",
+      "aliases": [
+        "视知产业研究院"
+      ],
+      "channel_id": "name:394e4c2906d2c2bf",
+      "fakeid": "",
+      "first_observed": "2026-06-15",
+      "last_observed": "2026-06-22",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "https://mp.weixin.qq.com/s/qRxhFKQbbjLZWD2pUrPpTA",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "待识别信息源",
+      "tracked_from": "2026-06-15",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "仁烁光能",
+      "aliases": [
+        "仁烁光能"
+      ],
+      "channel_id": "name:6c593c5b8b5a6396",
+      "fakeid": "",
+      "first_observed": "2026-06-16",
+      "last_observed": "2026-07-27",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "https://mp.weixin.qq.com/s/_R4un2NjAbzHn2tfOgzw4w",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "待识别信息源",
+      "tracked_from": "2026-06-16",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "晶科能源JinkoSolar",
+      "aliases": [
+        "晶科能源JinkoSolar"
+      ],
+      "channel_id": "name:84f94e8d65de7dbf",
+      "fakeid": "",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-07-28",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "https://mp.weixin.qq.com/s/608VQ-BPmHjTccR9sSpgwA",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "待识别信息源",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "JTPV捷泰科技",
+      "aliases": [
+        "JTPV捷泰科技"
+      ],
+      "channel_id": "name:0cd7b5b83079d5fd",
+      "fakeid": "",
+      "first_observed": "2026-07-23",
+      "last_observed": "2026-07-28",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "https://mp.weixin.qq.com/s/uVK7swkOEVrMxPTidhOFyw",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "待识别信息源",
+      "tracked_from": "2026-07-23",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "星环聚能",
+      "aliases": [
+        "星环聚能"
+      ],
+      "channel_id": "name:aa5451e323083b06",
+      "fakeid": "",
+      "first_observed": "2026-07-24",
+      "last_observed": "2026-07-24",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "https://mp.weixin.qq.com/s/6jsyLCHLC8BagxQO4cdzlA",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "待识别信息源",
+      "tracked_from": "2026-07-24",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "极电光能",
+      "aliases": [
+        "极电光能"
+      ],
+      "channel_id": "name:73452b3b96c9ec71",
+      "fakeid": "",
+      "first_observed": "2026-07-24",
+      "last_observed": "2026-07-28",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "https://mp.weixin.qq.com/s/TUYaGb97Ln86zIfAXWpeQw",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "待识别信息源",
+      "tracked_from": "2026-07-24",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "京东方BOE",
+      "aliases": [
+        "京东方BOE"
+      ],
+      "channel_id": "name:2c6effec9ee45d53",
+      "fakeid": "",
+      "first_observed": "2026-07-27",
+      "last_observed": "2026-07-27",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "https://mp.weixin.qq.com/s/1gldpXVezDrQU9blRnn9aw",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "待识别信息源",
+      "tracked_from": "2026-07-27",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "锂电前沿",
+      "aliases": [
+        "锂电前沿"
+      ],
+      "channel_id": "wx:MzkzODYxNTc2OA==",
+      "fakeid": "MzkzODYxNTc2OA==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzODYxNTc2OA==&mid=2247512031&idx=1&sn=d5b3d90ef85617de568e837008ad8aab",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "深圳电池技术展",
+      "aliases": [
+        "深圳电池技术展"
+      ],
+      "channel_id": "wx:MzIxMDgwMDY4Mg==",
+      "fakeid": "MzIxMDgwMDY4Mg==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIxMDgwMDY4Mg==&mid=2247619300&idx=4&sn=86069a13f31308f3a1404281dd0928b0",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "锂电派",
+      "aliases": [
+        "锂电派"
+      ],
+      "channel_id": "wx:MzI4MTc4MzY2NA==",
+      "fakeid": "MzI4MTc4MzY2NA==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4MTc4MzY2NA==&mid=2247698781&idx=5&sn=4f78b63dbc830618bf5e47adda937a97",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "旺材锂电",
+      "aliases": [
+        "旺材锂电"
+      ],
+      "channel_id": "wx:MzI0ODc5NTQ4NQ==",
+      "fakeid": "MzI0ODc5NTQ4NQ==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI0ODc5NTQ4NQ==&mid=2247627423&idx=4&sn=3ed15e18c8cae4ec20ecaaccca999d2a",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "鑫椤锂电",
+      "aliases": [
+        "鑫椤锂电"
+      ],
+      "channel_id": "wx:MzU0MTkzOTQzOA==",
+      "fakeid": "MzU0MTkzOTQzOA==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU0MTkzOTQzOA==&mid=2247572117&idx=4&sn=3dfc67ada918dfb74bd633b2a5081993",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "储能网",
+      "aliases": [
+        "储能网"
+      ],
+      "channel_id": "wx:MzA3MjA3MzgwNw==",
+      "fakeid": "MzA3MjA3MzgwNw==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA3MjA3MzgwNw==&mid=2651980179&idx=2&sn=23550ee3f7f9ea67a78495191a12fdfa",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "新能源探索录",
+      "aliases": [
+        "新能源探索录"
+      ],
+      "channel_id": "wx:MzkxMzYxOTM5MQ==",
+      "fakeid": "MzkxMzYxOTM5MQ==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-08",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkxMzYxOTM5MQ==&mid=2247485199&idx=1&sn=398ba7ad29fc7a57277c805bcd613b7c",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电动学堂",
+      "aliases": [
+        "电动学堂"
+      ],
+      "channel_id": "wx:MzIyMTg1NDg0Mg==",
+      "fakeid": "MzIyMTg1NDg0Mg==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIyMTg1NDg0Mg==&mid=2247630678&idx=1&sn=9fb7fd4247323576ca11219f9d99f21a",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "今日锂电",
+      "aliases": [
+        "今日锂电"
+      ],
+      "channel_id": "wx:MzkyNzc0MDc0MA==",
+      "fakeid": "MzkyNzc0MDc0MA==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyNzc0MDc0MA==&mid=2247519993&idx=1&sn=99b982b53ab43fee840b16f7ce33e1d7",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "智锂魔方",
+      "aliases": [
+        "智锂魔方"
+      ],
+      "channel_id": "wx:Mzk4ODU2ODU5OA==",
+      "fakeid": "Mzk4ODU2ODU5OA==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODU2ODU5OA==&mid=2247500476&idx=1&sn=f63cec98a7ff5c16d6d563a5f15b4abc",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "新材料在线",
+      "aliases": [
+        "新材料在线"
+      ],
+      "channel_id": "wx:MzA5NDQ2NzQyMg==",
+      "fakeid": "MzA5NDQ2NzQyMg==",
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5NDQ2NzQyMg==&mid=2663035598&idx=6&sn=3054e642af11f5605df79795fa390fbd",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钙钛矿太阳能电池",
+      "aliases": [
+        "钙钛矿太阳能电池"
+      ],
+      "channel_id": "wx:MzIwNDAzNzcwMA==",
+      "fakeid": "MzIwNDAzNzcwMA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIwNDAzNzcwMA==&mid=2456845259&idx=2&sn=bd75ea8037a6857ae0484b8cbbef0e7f",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电池中国",
+      "aliases": [
+        "电池中国"
+      ],
+      "channel_id": "wx:MzA3MzY0OTIzMQ==",
+      "fakeid": "MzA3MzY0OTIzMQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA3MzY0OTIzMQ==&mid=2661851847&idx=3&sn=b0f3ccbf710530681074dedd8dd50a02",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "科研云平台",
+      "aliases": [
+        "科研云平台"
+      ],
+      "channel_id": "wx:MzUyMzk5OTg3Ng==",
+      "fakeid": "MzUyMzk5OTg3Ng==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUyMzk5OTg3Ng==&mid=2247517934&idx=1&sn=b3eb15e78633e8214ae3a63d993c6d5c",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "工程塑料应用",
+      "aliases": [
+        "工程塑料应用"
+      ],
+      "channel_id": "wx:MzA4MjYwMjQ5MA==",
+      "fakeid": "MzA4MjYwMjQ5MA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA4MjYwMjQ5MA==&mid=2649540731&idx=2&sn=66eba42de1c605c5d5912ed84b666a39",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "起点锂电",
+      "aliases": [
+        "起点锂电"
+      ],
+      "channel_id": "wx:MzI1MjEyODg2Mg==",
+      "fakeid": "MzI1MjEyODg2Mg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI1MjEyODg2Mg==&mid=2649800281&idx=1&sn=90e0e6bf5cd72aa881f9cbcd001c4c02",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "第一锂电网",
+      "aliases": [
+        "第一锂电网"
+      ],
+      "channel_id": "wx:MzU2NTEwMTg0OQ==",
+      "fakeid": "MzU2NTEwMTg0OQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-09",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU2NTEwMTg0OQ==&mid=2247621113&idx=4&sn=2623e08177e346413ac068e3741919cc",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "卓研钠电",
+      "aliases": [
+        "卓研钠电"
+      ],
+      "channel_id": "wx:Mzg5MjY4NjcxMw==",
+      "fakeid": "Mzg5MjY4NjcxMw==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg5MjY4NjcxMw==&mid=2247496386&idx=2&sn=80ead8f15ec6d929386e039aa574875a",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "材料人",
+      "aliases": [
+        "材料人"
+      ],
+      "channel_id": "wx:MjM5ODcyMzk0Mg==",
+      "fakeid": "MjM5ODcyMzk0Mg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5ODcyMzk0Mg==&mid=2651242916&idx=2&sn=8bd3902c3416bee8d9a343513884e3cb",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "起点钠电",
+      "aliases": [
+        "起点钠电"
+      ],
+      "channel_id": "wx:Mzg4NjgzMzg3NA==",
+      "fakeid": "Mzg4NjgzMzg3NA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4NjgzMzg3NA==&mid=2247519838&idx=1&sn=1e05a306b50b45102fb981d94ed6827c",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "SMM固态电池",
+      "aliases": [
+        "SMM固态电池"
+      ],
+      "channel_id": "wx:MzA5Mjg4MDczMw==",
+      "fakeid": "MzA5Mjg4MDczMw==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5Mjg4MDczMw==&mid=2448108378&idx=1&sn=005ae0fa8e32aa6dc449d9cf2adec073",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "氢能观察",
+      "aliases": [
+        "氢能观察"
+      ],
+      "channel_id": "wx:MzAxMTUxNzgyOA==",
+      "fakeid": "MzAxMTUxNzgyOA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxMTUxNzgyOA==&mid=2247621902&idx=1&sn=2e6b93372a9848843636cf73de07038d",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "马里亚纳锂电",
+      "aliases": [
+        "马里亚纳锂电"
+      ],
+      "channel_id": "wx:Mzg2ODY4NTIwNA==",
+      "fakeid": "Mzg2ODY4NTIwNA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2ODY4NTIwNA==&mid=2247604836&idx=1&sn=08c5b99a4842e0c353fe5cc2a37177d7",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "AI赋能材料",
+      "aliases": [
+        "AI赋能材料"
+      ],
+      "channel_id": "wx:Mzg4OTc1MzY5Mw==",
+      "fakeid": "Mzg4OTc1MzY5Mw==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4OTc1MzY5Mw==&mid=2247511280&idx=2&sn=79c604d930033eaded4bd3d755e3a148",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "科学指南针-测试万事屋",
+      "aliases": [
+        "科学指南针-测试万事屋"
+      ],
+      "channel_id": "wx:MzkzMDExNDcyNg==",
+      "fakeid": "MzkzMDExNDcyNg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-09-18",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzMDExNDcyNg==&mid=2247756792&idx=1&sn=e60e56f4104d3b7e8a1a2ee58058edf9",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "有机电催化",
+      "aliases": [
+        "有机电催化"
+      ],
+      "channel_id": "wx:MzUyNTc2ODMyOQ==",
+      "fakeid": "MzUyNTc2ODMyOQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzUyNTc2ODMyOQ==&mid=2247563506&idx=1&sn=1d8c31f43f4496cfc87dc7c7703a984a",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "起点固态电池",
+      "aliases": [
+        "起点固态电池"
+      ],
+      "channel_id": "wx:MzU3MzMxNDI5Ng==",
+      "fakeid": "MzU3MzMxNDI5Ng==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU3MzMxNDI5Ng==&mid=2247500000&idx=1&sn=639d98a788734930828859c8fd4ac45a",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "真锂研究",
+      "aliases": [
+        "真锂研究"
+      ],
+      "channel_id": "wx:MzkwMTYxMzYwNg==",
+      "fakeid": "MzkwMTYxMzYwNg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwMTYxMzYwNg==&mid=2247533355&idx=3&sn=77d7e077dce61a8b501800250117e9e5",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "亚化固态电池",
+      "aliases": [
+        "亚化固态电池"
+      ],
+      "channel_id": "wx:Mzk0MDY0OTQxOA==",
+      "fakeid": "Mzk0MDY0OTQxOA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0MDY0OTQxOA==&mid=2247488275&idx=1&sn=c6c2ce413c6c56538f84cb110b8aa0d0",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "储能前沿",
+      "aliases": [
+        "储能前沿"
+      ],
+      "channel_id": "wx:Mzg3MjY1NTkxNg==",
+      "fakeid": "Mzg3MjY1NTkxNg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MjY1NTkxNg==&mid=2247602317&idx=2&sn=dd7bc2dfa11d1ff80f792643c2dd3f1a",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "高工钠电",
+      "aliases": [
+        "高工钠电"
+      ],
+      "channel_id": "wx:MzIwMDkyMDg2Mg==",
+      "fakeid": "MzIwMDkyMDg2Mg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzIwMDkyMDg2Mg==&mid=2247502442&idx=1&sn=e1885f51cf35b045ce2e4f6a09015f36",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钠电派",
+      "aliases": [
+        "钠电派"
+      ],
+      "channel_id": "wx:Mzg3MDg4NzA0MQ==",
+      "fakeid": "Mzg3MDg4NzA0MQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MDg4NzA0MQ==&mid=2247505211&idx=1&sn=f56fb656335358684698c5895aff3652",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "全球液流电池储能",
+      "aliases": [
+        "全球液流电池储能"
+      ],
+      "channel_id": "wx:Mzg3NjcyNzE4Nw==",
+      "fakeid": "Mzg3NjcyNzE4Nw==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3NjcyNzE4Nw==&mid=2247580121&idx=7&sn=9f2e74727556a10f93b2fd6914bb0761",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "高分子科技",
+      "aliases": [
+        "高分子科技"
+      ],
+      "channel_id": "wx:MzA5NjUyNjc5Ng==",
+      "fakeid": "MzA5NjUyNjc5Ng==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5NjUyNjc5Ng==&mid=2651665031&idx=1&sn=468527e8dcd945213df4d904d2842236",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "固态电池SSB",
+      "aliases": [
+        "固态电池SSB"
+      ],
+      "channel_id": "wx:MzkxOTU5NjMwNg==",
+      "fakeid": "MzkxOTU5NjMwNg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkxOTU5NjMwNg==&mid=2247500423&idx=1&sn=d968e79444837595c2bc60f2e8420684",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "固态电池前沿",
+      "aliases": [
+        "固态电池前沿"
+      ],
+      "channel_id": "wx:MzkwMDI5MTkyNQ==",
+      "fakeid": "MzkwMDI5MTkyNQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwMDI5MTkyNQ==&mid=2247504102&idx=3&sn=121246c48ce08b8d6b4ac5d732973afb",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "今日新材料",
+      "aliases": [
+        "今日新材料"
+      ],
+      "channel_id": "wx:MzkwMTEzMjE5OQ==",
+      "fakeid": "MzkwMTEzMjE5OQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwMTEzMjE5OQ==&mid=2247693498&idx=2&sn=f5893206d1ae920a5d8c38280f85fdc9",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "知光谷",
+      "aliases": [
+        "知光谷"
+      ],
+      "channel_id": "wx:MzI2MjQ5NDkyOA==",
+      "fakeid": "MzI2MjQ5NDkyOA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI2MjQ5NDkyOA==&mid=2247570593&idx=3&sn=b7129af5b2b84cb7d5486ed2a09e2bbd",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钠电材料",
+      "aliases": [
+        "钠电材料"
+      ],
+      "channel_id": "wx:Mzk0MjY3NzEwNg==",
+      "fakeid": "Mzk0MjY3NzEwNg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-09-29",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0MjY3NzEwNg==&mid=2247485289&idx=1&sn=c7b0765bc8116b791ec663030fce3649",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电池社",
+      "aliases": [
+        "电池社"
+      ],
+      "channel_id": "wx:MzI5MDc1MjAzNQ==",
+      "fakeid": "MzI5MDc1MjAzNQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI5MDc1MjAzNQ==&mid=2247543532&idx=1&sn=78ff5275499f5ff8be8425f6ba6e8847",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "粉体网",
+      "aliases": [
+        "粉体网"
+      ],
+      "channel_id": "wx:MjM5NDI1NzI2MA==",
+      "fakeid": "MjM5NDI1NzI2MA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5NDI1NzI2MA==&mid=2655368477&idx=2&sn=0188ff2ed21d2e8fd4fdd3c53c74152e",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钙钛矿光伏",
+      "aliases": [
+        "钙钛矿光伏"
+      ],
+      "channel_id": "wx:MzkyNTYzNjI1NQ==",
+      "fakeid": "MzkyNTYzNjI1NQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyNTYzNjI1NQ==&mid=2247495988&idx=1&sn=6eda20c5bd54dcd6ecd0581454b63980",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "OFweek维科网",
+      "aliases": [
+        "OFweek维科网"
+      ],
+      "channel_id": "wx:MjM5NzUxNTc0Mw==",
+      "fakeid": "MjM5NzUxNTc0Mw==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzUxNTc0Mw==&mid=2654800901&idx=1&sn=66a3223d717a0f7fc1d83b6002a2527d",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电解质前沿",
+      "aliases": [
+        "电解质前沿"
+      ],
+      "channel_id": "wx:Mzg4MDg2ODUxMw==",
+      "fakeid": "Mzg4MDg2ODUxMw==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MDg2ODUxMw==&mid=2247529296&idx=2&sn=91582ce0dd5b3bf9fdfc74df00d916f1",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "能源灯塔",
+      "aliases": [
+        "能源灯塔"
+      ],
+      "channel_id": "wx:MzU3Mzg4MDk4MA==",
+      "fakeid": "MzU3Mzg4MDk4MA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU3Mzg4MDk4MA==&mid=2247501544&idx=1&sn=c49230b78e537f9d4c04439568bbabff",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钠电材料",
+      "aliases": [
+        "钠电材料"
+      ],
+      "channel_id": "wx:Mzg2Mjg2NDExNQ==",
+      "fakeid": "Mzg2Mjg2NDExNQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2Mjg2NDExNQ==&mid=2247506542&idx=2&sn=86193b6dc54fb01efa7c38da7ddf3249",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电池未来",
+      "aliases": [
+        "电池未来"
+      ],
+      "channel_id": "wx:Mzg5OTYzNjU0OA==",
+      "fakeid": "Mzg5OTYzNjU0OA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg5OTYzNjU0OA==&mid=2247652566&idx=2&sn=9a8a3f335bfff3ba623144891a5deec0",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钙钛矿人",
+      "aliases": [
+        "钙钛矿人"
+      ],
+      "channel_id": "wx:Mzk0OTY5NjE1Mg==",
+      "fakeid": "Mzk0OTY5NjE1Mg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-09-29",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0OTY5NjE1Mg==&mid=2247496296&idx=1&sn=799d4b7b2752f99376fe85e6c32de5a6",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "锂电联盟会长",
+      "aliases": [
+        "锂电联盟会长"
+      ],
+      "channel_id": "wx:Mzg2ODg5MzM5Nw==",
+      "fakeid": "Mzg2ODg5MzM5Nw==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg2ODg5MzM5Nw==&mid=2247585283&idx=3&sn=25074b5684505c2923ae0a243a9d1d8d",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "高分子科学前沿",
+      "aliases": [
+        "高分子科学前沿"
+      ],
+      "channel_id": "wx:MzA5NjM5NzA5OA==",
+      "fakeid": "MzA5NjM5NzA5OA==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzA5NjM5NzA5OA==&mid=2652075174&idx=3&sn=54069cae31167ef8ef815ebe2d8dcd95",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "今日钠电",
+      "aliases": [
+        "今日钠电"
+      ],
+      "channel_id": "wx:Mzk0NDQ5MjcxMg==",
+      "fakeid": "Mzk0NDQ5MjcxMg==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NDQ5MjcxMg==&mid=2247489394&idx=1&sn=d85f6ac6e1f6bd083f8caf21c8300547",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电催化科研社",
+      "aliases": [
+        "电催化科研社"
+      ],
+      "channel_id": "wx:MzI4MTE2MjIxOQ==",
+      "fakeid": "MzI4MTE2MjIxOQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4MTE2MjIxOQ==&mid=2650308915&idx=1&sn=600e5ae9befc58edafac362022c50adf",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "清深储能",
+      "aliases": [
+        "清深储能"
+      ],
+      "channel_id": "wx:MzYyMzA0NTc3NQ==",
+      "fakeid": "MzYyMzA0NTc3NQ==",
+      "first_observed": "2026-07-29",
+      "last_observed": "2026-10-06",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzYyMzA0NTc3NQ==&mid=2247629132&idx=1&sn=6eb1121b962ac7c9a73144c7ee0cb64f",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "锂想生活",
+      "aliases": [
+        "锂想生活"
+      ],
+      "channel_id": "wx:MzI0NzkxMTYzNA==",
+      "fakeid": "MzI0NzkxMTYzNA==",
+      "first_observed": "2026-07-30",
+      "last_observed": "2026-10-09",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI0NzkxMTYzNA==&mid=2247513876&idx=1&sn=49f22b7a78950c0cc15df60010a434f3",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-30",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "深水科技咨询",
+      "aliases": [
+        "深水科技咨询"
+      ],
+      "channel_id": "wx:MzI2NTI1Njk5Mw==",
+      "fakeid": "MzI2NTI1Njk5Mw==",
+      "first_observed": "2026-07-30",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI2NTI1Njk5Mw==&mid=2247635072&idx=3&sn=abbbb29f7e838f8ebd3b9612b605aca3",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-30",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "亚化液流储能",
+      "aliases": [
+        "亚化液流储能"
+      ],
+      "channel_id": "wx:MzkzNDYzMzQ0NA==",
+      "fakeid": "MzkzNDYzMzQ0NA==",
+      "first_observed": "2026-07-30",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzNDYzMzQ0NA==&mid=2247504456&idx=1&sn=c2314ca2777cebe4c90356d085d5e300",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-30",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钙钛矿太阳能电池",
+      "aliases": [
+        "钙钛矿太阳能电池"
+      ],
+      "channel_id": "wx:MzkwMDU5MjA5OA==",
+      "fakeid": "MzkwMDU5MjA5OA==",
+      "first_observed": "2026-07-30",
+      "last_observed": "2026-10-10",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkwMDU5MjA5OA==&mid=2247499442&idx=1&sn=b76fd17fb670c592eda0d06c9e151a15",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-30",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "金属能源电池",
+      "aliases": [
+        "金属能源电池"
+      ],
+      "channel_id": "wx:MzI4MTA3MzQwOA==",
+      "fakeid": "MzI4MTA3MzQwOA==",
+      "first_observed": "2026-07-30",
+      "last_observed": "2026-10-08",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4MTA3MzQwOA==&mid=2247640702&idx=2&sn=3ab798a357777529c3358e2be32ca527",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-30",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "DT新材料",
+      "aliases": [
+        "DT新材料"
+      ],
+      "channel_id": "wx:MzI4MzI5MTY3Ng==",
+      "fakeid": "MzI4MzI5MTY3Ng==",
+      "first_observed": "2026-07-30",
+      "last_observed": "2026-10-11",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI4MzI5MTY3Ng==&mid=2247642606&idx=1&sn=0003482416d771c875eb4e4d4b40d51e",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-30",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "电化学能源",
+      "aliases": [
+        "电化学能源"
+      ],
+      "channel_id": "wx:Mzg4NTExMDU4NQ==",
+      "fakeid": "Mzg4NTExMDU4NQ==",
+      "first_observed": "2026-07-31",
+      "last_observed": "2026-09-15",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg4NTExMDU4NQ==&mid=2247747803&idx=1&sn=f3551d33b85236289ffdab58bfb49daa",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-07-31",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "微纳纤维和电解质observing",
+      "aliases": [
+        "微纳纤维和电解质observing"
+      ],
+      "channel_id": "wx:MzU4MzYyMDIxNg==",
+      "fakeid": "MzU4MzYyMDIxNg==",
+      "first_observed": "2026-08-10",
+      "last_observed": "2026-09-21",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzU4MzYyMDIxNg==&mid=2247485059&idx=1&sn=47f2f45f7fd158d31f5e2d849014c420",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-10",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "JEnergyChem",
+      "aliases": [
+        "JEnergyChem"
+      ],
+      "channel_id": "wx:MzI2NDE0Mjc1Ng==",
+      "fakeid": "MzI2NDE0Mjc1Ng==",
+      "first_observed": "2026-08-12",
+      "last_observed": "2026-09-17",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzI2NDE0Mjc1Ng==&mid=2247508862&idx=1&sn=735e1eca4713beb98e815f2c77560125",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-12",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "材料研究进展",
+      "aliases": [
+        "材料研究进展"
+      ],
+      "channel_id": "wx:Mzg5MTAyNzY0MQ==",
+      "fakeid": "Mzg5MTAyNzY0MQ==",
+      "first_observed": "2026-08-12",
+      "last_observed": "2026-10-05",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg5MTAyNzY0MQ==&mid=2247530673&idx=2&sn=1e102392aef8855c0adcfe6aa3f836de",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-08-12",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "创新研究",
+      "aliases": [
+        "创新研究"
+      ],
+      "channel_id": "wx:MzkyNzU5MTc5OA==",
+      "fakeid": "MzkyNzU5MTc5OA==",
+      "first_observed": "2026-09-13",
+      "last_observed": "2026-09-14",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyNzU5MTc5OA==&mid=2247568873&idx=2&sn=0047d7e355828671054cd1b16ec7820a",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-09-13",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "空天信息",
+      "aliases": [
+        "空天信息"
+      ],
+      "channel_id": "wx:Mzg3NDE1NjE5MA==",
+      "fakeid": "Mzg3NDE1NjE5MA==",
+      "first_observed": "2026-09-14",
+      "last_observed": "2026-09-14",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3NDE1NjE5MA==&mid=2247485631&idx=1&sn=cad2406733ff141d562b71a67d76e0d5",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-09-14",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "超快高温技术",
+      "aliases": [
+        "超快高温技术"
+      ],
+      "channel_id": "wx:MzkzNTU5NzAxNA==",
+      "fakeid": "MzkzNTU5NzAxNA==",
+      "first_observed": "2026-09-28",
+      "last_observed": "2026-09-28",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzNTU5NzAxNA==&mid=2247488706&idx=1&sn=2e0d1b5905bfcd1848145ebe41525c6c",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-09-28",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "中科精研材料制备技术研究院",
+      "aliases": [
+        "中科精研材料制备技术研究院"
+      ],
+      "channel_id": "wx:MzkyNTc0NzcyOA==",
+      "fakeid": "MzkyNTc0NzcyOA==",
+      "first_observed": "2026-09-29",
+      "last_observed": "2026-09-29",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyNTc0NzcyOA==&mid=2247491370&idx=1&sn=4468c883e370c15c381edbaba237d222",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-09-29",
+      "wechat_alias": ""
+    },
+    {
+      "account_name": "钙钛矿太阳能电池",
+      "aliases": [
+        "钙钛矿太阳能电池"
+      ],
+      "channel_id": "wx:MzkzMjY5NjEzOA==",
+      "fakeid": "MzkzMjY5NjEzOA==",
+      "first_observed": "2026-09-30",
+      "last_observed": "2026-09-30",
+      "listed_since": "",
+      "origin": "每日CSV发现",
+      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkzMjY5NjEzOA==&mid=2247484091&idx=1&sn=59094b5c9fd23d161c447301b1f00a63",
+      "seed_name": "",
+      "source_reference": "",
+      "source_type": "微信公众号",
+      "tracked_from": "2026-09-30",
+      "wechat_alias": ""
+    }
+  ]
+}
