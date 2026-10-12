@@ -279,9 +279,19 @@
       "rule": "volume_drop",
       "severity": "warning",
       "suggested_action": "对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应"
+    },
+    "|daily_feed_unavailable": {
+      "account_name": "",
+      "channel_id": "",
+      "detail": "2026-10-12每日CSV缺失、为空或格式无效；无法判断各渠道发文状态",
+      "first_detected": "2026-10-12",
+      "key": "|daily_feed_unavailable",
+      "rule": "daily_feed_unavailable",
+      "severity": "critical",
+      "suggested_action": "检查上游每日发布任务并补齐有效CSV，随后重跑监测"
     }
   },
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-12",
   "events": [
     {
       "account_name": "JEnergyChem",
@@ -618,6 +628,18 @@
       "rule": "identity_conflict",
       "severity": "warning",
       "suggested_action": "核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid"
+    },
+    {
+      "account_name": "",
+      "channel_id": "",
+      "date": "2026-10-12",
+      "detail": "2026-10-12每日CSV缺失、为空或格式无效；无法判断各渠道发文状态",
+      "event": "opened",
+      "first_detected": "2026-10-12",
+      "key": "|daily_feed_unavailable",
+      "rule": "daily_feed_unavailable",
+      "severity": "critical",
+      "suggested_action": "检查上游每日发布任务并补齐有效CSV，随后重跑监测"
     }
   ]
 }
