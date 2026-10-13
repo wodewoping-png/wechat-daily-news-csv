@@ -1,19 +1,9 @@
 {
   "alerts": [
     {
-      "account_name": "",
-      "channel_id": "",
-      "detail": "2026-10-12每日CSV缺失、为空或格式无效；无法判断各渠道发文状态",
-      "first_detected": "2026-10-12",
-      "key": "|daily_feed_unavailable",
-      "rule": "daily_feed_unavailable",
-      "severity": "critical",
-      "suggested_action": "检查上游每日发布任务并补齐有效CSV，随后重跑监测"
-    },
-    {
       "account_name": "JEnergyChem",
       "channel_id": "wx:MzI2NDE0Mjc1Ng==",
-      "detail": "连续24个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查",
+      "detail": "连续25个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:MzI2NDE0Mjc1Ng==|suspected_silence",
       "rule": "suspected_silence",
@@ -23,7 +13,7 @@
     {
       "account_name": "仁烁光能",
       "channel_id": "name:6c593c5b8b5a6396",
-      "detail": "连续64个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
+      "detail": "连续65个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "name:6c593c5b8b5a6396|suspected_silence",
       "rule": "suspected_silence",
@@ -33,7 +23,7 @@
     {
       "account_name": "新能源情报局",
       "channel_id": "wx:Mzg3OTY0MDk1MQ==",
-      "detail": "连续64个完整数据日未抓到文章，历史发文间隔中位数2天；原因待核查",
+      "detail": "连续65个完整数据日未抓到文章，历史发文间隔中位数2天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:Mzg3OTY0MDk1MQ==|suspected_silence",
       "rule": "suspected_silence",
@@ -43,7 +33,7 @@
     {
       "account_name": "每日氢闻",
       "channel_id": "wx:MzkyOTczOTEyMg==",
-      "detail": "连续64个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
+      "detail": "连续65个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:MzkyOTczOTEyMg==|suspected_silence",
       "rule": "suspected_silence",
@@ -53,7 +43,7 @@
     {
       "account_name": "SOFC-SOEC-氢能技术",
       "channel_id": "wx:Mzg2MjYwMjM0MQ==",
-      "detail": "连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
+      "detail": "连续6个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:Mzg2MjYwMjM0MQ==|suspected_silence",
       "rule": "suspected_silence",
@@ -63,7 +53,7 @@
     {
       "account_name": "eScience期刊",
       "channel_id": "wx:MzkzNDIxMTE2NA==",
-      "detail": "连续12个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查",
+      "detail": "连续13个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:MzkzNDIxMTE2NA==|suspected_silence",
       "rule": "suspected_silence",
@@ -73,7 +63,7 @@
     {
       "account_name": "中国国际可再生能源署合作办公室",
       "channel_id": "wx:Mzg3ODk3MTcwOA==",
-      "detail": "连续11个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查",
+      "detail": "连续12个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:Mzg3ODk3MTcwOA==|suspected_silence",
       "rule": "suspected_silence",
@@ -81,9 +71,19 @@
       "suggested_action": "先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓"
     },
     {
+      "account_name": "中国科学技术发展战略研究院",
+      "channel_id": "wx:MzIzOTM1NTA2Ng==",
+      "detail": "连续12个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
+      "first_detected": "2026-10-12",
+      "key": "wx:MzIzOTM1NTA2Ng==|suspected_silence",
+      "rule": "suspected_silence",
+      "severity": "warning",
+      "suggested_action": "先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓"
+    },
+    {
       "account_name": "储能调研",
       "channel_id": "wx:MzkzNTkwNjc2Mg==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:MzkzNTkwNjc2Mg==|never_observed",
       "rule": "never_observed",
@@ -103,7 +103,7 @@
     {
       "account_name": "国家电投集团中央研究院",
       "channel_id": "wx:MzIzMjQ2MjQyMA==",
-      "detail": "连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
+      "detail": "连续4个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:MzIzMjQ2MjQyMA==|suspected_silence",
       "rule": "suspected_silence",
@@ -113,7 +113,7 @@
     {
       "account_name": "大锌能源",
       "channel_id": "wx:MzkyNTY5NzgwOA==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:MzkyNTY5NzgwOA==|never_observed",
       "rule": "never_observed",
@@ -123,7 +123,7 @@
     {
       "account_name": "小柯说能源",
       "channel_id": "wx:MzYzNDg5NjIxMA==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:MzYzNDg5NjIxMA==|never_observed",
       "rule": "never_observed",
@@ -133,7 +133,7 @@
     {
       "account_name": "微纳纤维和电解质observing",
       "channel_id": "wx:MzU4MzYyMDIxNg==",
-      "detail": "连续20个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
+      "detail": "连续21个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:MzU4MzYyMDIxNg==|suspected_silence",
       "rule": "suspected_silence",
@@ -141,9 +141,19 @@
       "suggested_action": "先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓"
     },
     {
+      "account_name": "标准化战略研究",
+      "channel_id": "wx:MzI4ODczODU1Mg==",
+      "detail": "连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
+      "first_detected": "2026-10-12",
+      "key": "wx:MzI4ODczODU1Mg==|suspected_silence",
+      "rule": "suspected_silence",
+      "severity": "warning",
+      "suggested_action": "先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓"
+    },
+    {
       "account_name": "氢能云互联",
       "channel_id": "wx:MzkzMjcxMTUyOA==",
-      "detail": "连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
+      "detail": "连续6个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:MzkzMjcxMTUyOA==|suspected_silence",
       "rule": "suspected_silence",
@@ -153,7 +163,7 @@
     {
       "account_name": "泛能源战略研究",
       "channel_id": "wx:MzY4OTQwNzc1NA==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:MzY4OTQwNzc1NA==|never_observed",
       "rule": "never_observed",
@@ -163,7 +173,7 @@
     {
       "account_name": "深储科技",
       "channel_id": "wx:MzU1ODczMDk3MQ==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:MzU1ODczMDk3MQ==|never_observed",
       "rule": "never_observed",
@@ -173,7 +183,7 @@
     {
       "account_name": "深圳欣界能源科技股份有限公司",
       "channel_id": "wx:Mzk0MDQ0MDQ4NA==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:Mzk0MDQ0MDQ4NA==|never_observed",
       "rule": "never_observed",
@@ -181,29 +191,9 @@
       "suggested_action": "核查是否已订阅/启用，fakeid与名称是否匹配，并人工查看最近发文"
     },
     {
-      "account_name": "深水科技咨询",
-      "channel_id": "wx:MzI2NTI1Njk5Mw==",
-      "detail": "当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查",
-      "first_detected": "2026-10-11",
-      "key": "wx:MzI2NTI1Njk5Mw==|volume_drop",
-      "rule": "volume_drop",
-      "severity": "warning",
-      "suggested_action": "对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应"
-    },
-    {
-      "account_name": "清深储能",
-      "channel_id": "wx:MzYyMzA0NTc3NQ==",
-      "detail": "连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查",
-      "first_detected": "2026-10-11",
-      "key": "wx:MzYyMzA0NTc3NQ==|suspected_silence",
-      "rule": "suspected_silence",
-      "severity": "warning",
-      "suggested_action": "先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓"
-    },
-    {
       "account_name": "电催化前沿",
       "channel_id": "wx:Mzk0MzY0MTM5OA==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:Mzk0MzY0MTM5OA==|never_observed",
       "rule": "never_observed",
@@ -213,7 +203,7 @@
     {
       "account_name": "知识褶皱",
       "channel_id": "wx:MzE5ODQ5ODc5Mw==",
-      "detail": "名单渠道在55个完整数据日均未观测；不能据此证明抓取失败",
+      "detail": "名单渠道在56个完整数据日均未观测；不能据此证明抓取失败",
       "first_detected": "2026-10-11",
       "key": "wx:MzE5ODQ5ODc5Mw==|never_observed",
       "rule": "never_observed",
@@ -223,7 +213,7 @@
     {
       "account_name": "科学指南针-测试万事屋",
       "channel_id": "wx:MzkzMDExNDcyNg==",
-      "detail": "连续23个完整数据日未抓到文章，历史发文间隔中位数5天；原因待核查",
+      "detail": "连续24个完整数据日未抓到文章，历史发文间隔中位数5天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:MzkzMDExNDcyNg==|suspected_silence",
       "rule": "suspected_silence",
@@ -241,19 +231,9 @@
       "suggested_action": "核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid"
     },
     {
-      "account_name": "钙钛光能",
-      "channel_id": "wx:MzUzNjg1NTk3Mw==",
-      "detail": "当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查",
-      "first_detected": "2026-10-11",
-      "key": "wx:MzUzNjg1NTk3Mw==|volume_drop",
-      "rule": "volume_drop",
-      "severity": "warning",
-      "suggested_action": "对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应"
-    },
-    {
       "account_name": "钙钛矿人",
       "channel_id": "wx:Mzk0OTY5NjE1Mg==",
-      "detail": "连续12个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
+      "detail": "连续13个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
       "first_detected": "2026-10-11",
       "key": "wx:Mzk0OTY5NjE1Mg==|suspected_silence",
       "rule": "suspected_silence",
@@ -271,16 +251,6 @@
       "suggested_action": "核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid"
     },
     {
-      "account_name": "钙钛矿工厂",
-      "channel_id": "wx:MzkzOTU2ODEzMw==",
-      "detail": "当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查",
-      "first_detected": "2026-10-11",
-      "key": "wx:MzkzOTU2ODEzMw==|volume_drop",
-      "rule": "volume_drop",
-      "severity": "warning",
-      "suggested_action": "对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应"
-    },
-    {
       "account_name": "钠电材料",
       "channel_id": "wx:Mzg2Mjg2NDExNQ==",
       "detail": "同名渠道出现不同fakeid，已保留独立记录，未自动合并",
@@ -289,11 +259,21 @@
       "rule": "identity_conflict",
       "severity": "warning",
       "suggested_action": "核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid"
+    },
+    {
+      "account_name": "铂道",
+      "channel_id": "wx:MzkxMjU0NTAzOQ==",
+      "detail": "当天抓到0篇，同类工作日/周末基线中位数5.5篇；原因待核查",
+      "first_detected": "2026-10-12",
+      "key": "wx:MzkxMjU0NTAzOQ==|volume_drop",
+      "rule": "volume_drop",
+      "severity": "warning",
+      "suggested_action": "对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应"
     }
   ],
   "as_of": "2026-10-12",
   "channel_count": 238,
-  "feed_status": "missing",
-  "observed_active_channels": 0,
-  "observed_articles": null
+  "feed_status": "ok",
+  "observed_active_channels": 155,
+  "observed_articles": 650
 }

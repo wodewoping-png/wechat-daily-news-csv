@@ -28,3 +28,11 @@
 2026-10-11,opened,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-11,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-10-11,opened,wx:Mzg2Mjg2NDExNQ==|identity_conflict,wx:Mzg2Mjg2NDExNQ==,钠电材料,identity_conflict,warning,2026-10-11,同名渠道出现不同fakeid，已保留独立记录，未自动合并,核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid
 2026-10-12,opened,|daily_feed_unavailable,,,daily_feed_unavailable,critical,2026-10-12,2026-10-12每日CSV缺失、为空或格式无效；无法判断各渠道发文状态,检查上游每日发布任务并补齐有效CSV，随后重跑监测
+2026-10-12,opened,wx:MzIzOTM1NTA2Ng==|suspected_silence,wx:MzIzOTM1NTA2Ng==,中国科学技术发展战略研究院,suspected_silence,warning,2026-10-12,连续12个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-12,opened,wx:MzI4ODczODU1Mg==|suspected_silence,wx:MzI4ODczODU1Mg==,标准化战略研究,suspected_silence,warning,2026-10-12,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-12,opened,wx:MzkxMjU0NTAzOQ==|volume_drop,wx:MzkxMjU0NTAzOQ==,铂道,volume_drop,warning,2026-10-12,当天抓到0篇，同类工作日/周末基线中位数5.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-12,recovered,wx:MzI2NTI1Njk5Mw==|volume_drop,wx:MzI2NTI1Njk5Mw==,深水科技咨询,volume_drop,warning,2026-10-11,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-12,recovered,wx:MzUzNjg1NTk3Mw==|volume_drop,wx:MzUzNjg1NTk3Mw==,钙钛光能,volume_drop,warning,2026-10-11,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-12,recovered,wx:MzYyMzA0NTc3NQ==|suspected_silence,wx:MzYyMzA0NTc3NQ==,清深储能,suspected_silence,warning,2026-10-11,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-12,recovered,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-11,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-12,recovered,|daily_feed_unavailable,,,daily_feed_unavailable,critical,2026-10-12,2026-10-12每日CSV缺失、为空或格式无效；无法判断各渠道发文状态,检查上游每日发布任务并补齐有效CSV，随后重跑监测
