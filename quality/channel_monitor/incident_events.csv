@@ -36,3 +36,17 @@
 2026-10-12,recovered,wx:MzYyMzA0NTc3NQ==|suspected_silence,wx:MzYyMzA0NTc3NQ==,清深储能,suspected_silence,warning,2026-10-11,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-12,recovered,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-11,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-10-12,recovered,|daily_feed_unavailable,,,daily_feed_unavailable,critical,2026-10-12,2026-10-12每日CSV缺失、为空或格式无效；无法判断各渠道发文状态,检查上游每日发布任务并补齐有效CSV，随后重跑监测
+2026-10-13,opened,wx:MzA5Mjg4MDczMw==|suspected_silence,wx:MzA5Mjg4MDczMw==,SMM固态电池,suspected_silence,warning,2026-10-13,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,opened,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-10-13,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-13,opened,wx:Mzk0MDY0OTQxOA==|suspected_silence,wx:Mzk0MDY0OTQxOA==,亚化固态电池,suspected_silence,warning,2026-10-13,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,opened,wx:MzU2OTczMzI1MQ==|suspected_silence,wx:MzU2OTczMzI1MQ==,低碳节能环保技术,suspected_silence,warning,2026-10-13,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,opened,wx:MzI2NTI1Njk5Mw==|volume_drop,wx:MzI2NTI1Njk5Mw==,深水科技咨询,volume_drop,warning,2026-10-13,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-13,recovered,wx:MzI2NDE0Mjc1Ng==|suspected_silence,wx:MzI2NDE0Mjc1Ng==,JEnergyChem,suspected_silence,critical,2026-10-11,连续25个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,recovered,wx:MzI4ODczODU1Mg==|suspected_silence,wx:MzI4ODczODU1Mg==,标准化战略研究,suspected_silence,warning,2026-10-12,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,recovered,wx:MzIzMjQ2MjQyMA==|suspected_silence,wx:MzIzMjQ2MjQyMA==,国家电投集团中央研究院,suspected_silence,warning,2026-10-11,连续4个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,recovered,wx:MzIzOTM1NTA2Ng==|suspected_silence,wx:MzIzOTM1NTA2Ng==,中国科学技术发展战略研究院,suspected_silence,warning,2026-10-12,连续12个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,recovered,wx:Mzg2MjYwMjM0MQ==|suspected_silence,wx:Mzg2MjYwMjM0MQ==,SOFC-SOEC-氢能技术,suspected_silence,warning,2026-10-11,连续6个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,recovered,wx:Mzg3ODk3MTcwOA==|suspected_silence,wx:Mzg3ODk3MTcwOA==,中国国际可再生能源署合作办公室,suspected_silence,warning,2026-10-11,连续12个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,recovered,wx:MzkxMjU0NTAzOQ==|volume_drop,wx:MzkxMjU0NTAzOQ==,铂道,volume_drop,warning,2026-10-12,当天抓到0篇，同类工作日/周末基线中位数5.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-13,recovered,wx:MzkyOTczOTEyMg==|suspected_silence,wx:MzkyOTczOTEyMg==,每日氢闻,suspected_silence,critical,2026-10-11,连续65个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-13,recovered,wx:MzkzNDIxMTE2NA==|suspected_silence,wx:MzkzNDIxMTE2NA==,eScience期刊,suspected_silence,warning,2026-10-11,连续13个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
