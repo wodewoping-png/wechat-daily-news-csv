@@ -57,6 +57,17 @@ class ArticleCSVFormatTests(unittest.TestCase):
         self.assertNotIn('digest', self.read(out)[0])
         self.assertEqual(self.read(out)[1][0]['clean_text'], '仅摘要')
 
+    def test_periodic_csv_preserves_full_long_body(self):
+        body = '正文内容' * 40000 + '末尾完整保留'
+        self.write([{'title': '长文章', 'account_name': '渠道', 'clean_text': body,
+                     'publish_time': '2026-10-15T08:00:00+08:00', 'url': 'https://example.com/long'}])
+        day = date(2026, 10, 15)
+        articles, missing = load_articles(self.root, day, day)
+        out = self.root / 'weekly.csv'
+        write_rollup_csv(articles, out)
+        self.assertEqual(missing, [])
+        self.assertEqual(self.read(out)[1][0]['clean_text'], body)
+
 
 if __name__ == '__main__':
     unittest.main()
