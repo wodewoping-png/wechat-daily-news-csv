@@ -1,0 +1,18 @@
+{
+  "b548a7ccbbf66ede11322ff5ef36ca72fe11bc0867364d9f97fefdf7c70ee777": {
+    "classified_at": "2026-10-16T08:56:04.396410+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "海光信息业绩预增公告，核心产业对象为其CPU+DCU算力芯片业务，受益于AI芯片需求增长"
+      }
+    ],
+    "reason": "海光信息业绩预增公告，核心产业对象为其CPU+DCU算力芯片业务，受益于AI芯片需求增长"
+  }
+}

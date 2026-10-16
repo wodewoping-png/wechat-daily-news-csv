@@ -1,0 +1,33 @@
+{
+  "4eaa662c9a48eac2b34f2557c24e5b225e53247600ca9f80588456e7eb82d04b": {
+    "classified_at": "2026-10-16T11:04:46.341914+00:00",
+    "matches": [],
+    "reason": "综合财经早报，汇编宏观金融、市场行情及多家公司业绩预告等零散信息，无单一核心产业对象，不符合任何框架分类"
+  },
+  "4ec7ed339657f8186573a030b25357eda2ad2d132b1df8e2f738f5f4da38e52d": {
+    "classified_at": "2026-10-16T09:18:13.893326+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "David Baker团队利用RFdiffusion、ProteinMPNN、AlphaFold3等AI工具从头设计半胱氨酸蛋白酶和金属蛋白酶，是典型的AI驱动科学发现（AI4S）"
+      },
+      {
+        "category_id": "C111",
+        "confidence": 0.35,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "医学&生物学"
+        ],
+        "reason": "设计蛋白酶可切割TDP-43、β-淀粉样蛋白等疾病相关蛋白并在哺乳动物细胞中验证，涉及生物医学应用"
+      }
+    ],
+    "reason": "AI从头设计具催化活性的蛋白酶并验证细胞功能，主分类为AI4S，生物医学为应用方向"
+  }
+}

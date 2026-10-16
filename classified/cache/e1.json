@@ -1,0 +1,28 @@
+{
+  "e18bde5750063e96bccb275a667fd5906055e2db0e286310e5f023a095fc6e16": {
+    "classified_at": "2026-10-16T10:24:39.265169+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心事件为马斯克Terafab芯片厂提前购置ASML EUV光刻机，属芯片制造项目进展"
+      },
+      {
+        "category_id": "C089",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "涉及晶圆厂建设、光刻设备与制造工艺等半导体产业链内容"
+      }
+    ],
+    "reason": "核心事件为马斯克Terafab芯片厂提前购置ASML EUV光刻机，属芯片制造项目进展"
+  }
+}

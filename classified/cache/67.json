@@ -1,0 +1,29 @@
+{
+  "676999b25fed507a3464a1312d38b9eda5f3752765f7df9a18a7af40deff02c7": {
+    "classified_at": "2026-10-16T09:42:54.187113+00:00",
+    "matches": [
+      {
+        "category_id": "C096",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "发布CodeActionBench，评测通用Agent通过编写代码完成双臂机器人操作的能力，核心属具身智能模型与系统评测"
+      },
+      {
+        "category_id": "C086",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "评测对象为GPT-6 Astra、Claude Opus等通用多模态大模型Agent，多模态模型能力为支撑"
+      }
+    ],
+    "reason": "发布CodeActionBench，评测通用Agent通过编写代码完成双臂机器人操作的能力，核心属具身智能模型与系统评测"
+  }
+}

@@ -2,7 +2,7 @@
   "checked_dates": [
     "2026-10-15"
   ],
-  "failed_articles": 24,
+  "failed_articles": 11,
   "model": "glm-5.3-flash",
   "taxonomy_paths": 125,
   "weeks": [

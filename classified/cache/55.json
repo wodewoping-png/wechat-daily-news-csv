@@ -1,0 +1,37 @@
+{
+  "55235dad66c35ace076e726c4ce9bed198c995f8f82aa94cbc1ba4bdd6f47b59": {
+    "classified_at": "2026-10-16T08:41:28.634436+00:00",
+    "matches": [
+      {
+        "category_id": "C003",
+        "confidence": 0.9,
+        "path": [
+          "零碳产业",
+          "能量转化",
+          "能源测",
+          "一次能源转化",
+          "太阳能转化",
+          "光伏"
+        ],
+        "reason": "天合光能业绩说明会核心产业信息为钙钛矿叠层电池2028-2029年小规模量产及2029年GW级产能规划"
+      }
+    ],
+    "reason": "企业经营新闻但主要产业对象明确为钙钛矿叠层光伏电池量产节奏"
+  },
+  "55ee322dc407a37f0c7cb185744bd3edf1cfe72ce4d71206fbdd64b83b8a5fbc": {
+    "classified_at": "2026-10-16T10:32:02.553353+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "台积电在4nm FinFET CMOS逻辑工艺中集成1T Contact RRAM嵌入式存储器，属半导体器件与工艺技术突破"
+      }
+    ],
+    "reason": "台积电在4nm FinFET CMOS逻辑工艺中集成1T Contact RRAM嵌入式存储器，属半导体器件与工艺技术突破"
+  }
+}

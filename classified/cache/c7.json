@@ -1,0 +1,18 @@
+{
+  "c731980d6fd9d4c43a6e9336be132dd78fcb8a3a90ee973b290a20204dd90833": {
+    "classified_at": "2026-10-16T10:44:30.141226+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "为AI for Science科研智能体与AI-First科研工作流分享会的活动通知，会议主题明确指向AI4S，但正文仅为活动宣传信息，证据有限故给低置信度"
+      }
+    ],
+    "reason": "为AI for Science科研智能体与AI-First科研工作流分享会的活动通知，会议主题明确指向AI4S，但正文仅为活动宣传信息，证据有限故给低置信度"
+  }
+}
