@@ -58,3 +58,9 @@
 2026-10-14,recovered,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-10-13,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-10-14,recovered,wx:MzkzMjcxMTUyOA==|suspected_silence,wx:MzkzMjcxMTUyOA==,氢能云互联,suspected_silence,warning,2026-10-11,连续7个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-15,opened,|daily_feed_unavailable,,,daily_feed_unavailable,critical,2026-10-15,2026-10-15每日CSV缺失、为空或格式无效；无法判断各渠道发文状态,检查上游每日发布任务并补齐有效CSV，随后重跑监测
+2026-10-15,severity_changed,wx:MzU4MzYyMDIxNg==|suspected_silence,wx:MzU4MzYyMDIxNg==,微纳纤维和电解质observing,suspected_silence,critical,2026-10-11,连续24个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-15,opened,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-10-15,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-15,opened,wx:Mzg3MDYyOTI0MQ==|suspected_silence,wx:Mzg3MDYyOTI0MQ==,化工碳中和,suspected_silence,warning,2026-10-15,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-15,recovered,wx:MzA5Mjg4MDczMw==|suspected_silence,wx:MzA5Mjg4MDczMw==,SMM固态电池,suspected_silence,warning,2026-10-13,连续4个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-15,recovered,wx:MzkzMDExNDcyNg==|suspected_silence,wx:MzkzMDExNDcyNg==,科学指南针-测试万事屋,suspected_silence,warning,2026-10-11,连续26个完整数据日未抓到文章，历史发文间隔中位数5天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-15,recovered,|daily_feed_unavailable,,,daily_feed_unavailable,critical,2026-10-15,2026-10-15每日CSV缺失、为空或格式无效；无法判断各渠道发文状态,检查上游每日发布任务并补齐有效CSV，随后重跑监测
