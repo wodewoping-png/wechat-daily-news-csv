@@ -22,7 +22,6 @@ CSV_COLUMNS = [
     "priority",
     "publish_time",
     "author",
-    "digest",
     "url",
     "crawled_at",
     "clean_text",
@@ -33,6 +32,7 @@ CSV_COLUMNS = [
 ]
 
 BEIJING_TZ = ZoneInfo("Asia/Shanghai")
+csv.field_size_limit(20 * 1024 * 1024)
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -117,6 +117,7 @@ def load_articles(
             reader = csv.DictReader(handle)
             for raw_row in reader:
                 row = {column: make_cell_text(raw_row.get(column) or "") for column in CSV_COLUMNS}
+                row["clean_text"] = row["clean_text"] or make_cell_text(raw_row.get("digest") or "")
                 row["source"] = row["source"] or row["account_name"]
                 unique_key = row["url"] or "\x1f".join(
                     [row["title"], row["account_name"], row["publish_time"]]

@@ -44,6 +44,47 @@ class ChannelMonitorTests(unittest.TestCase):
         with (self.root / 'quality/channel_monitor/latest.csv').open(encoding='utf-8-sig', newline='') as f:
             return list(csv.DictReader(f))
 
+    def configure(self, **values):
+        (self.root / 'channels/monitor_config.json').write_text(json.dumps(values, ensure_ascii=False))
+
+    def test_canonical_name_and_old_name_alias_keep_fakeid_identity(self):
+        seed = self.root / 'channels/seed_accounts.csv'
+        seed.write_text(seed.read_text().replace('原名称', '正式新名称'))
+        self.configure(overrides={'wx:AAA==': {'display_name': '正式新名称', 'aliases': ['原名称']}})
+        day = date(2026, 10, 1)
+        self.daily(day, [('原名称', '', '123', 1)])
+        payload = self.execute(day)
+        self.assertEqual(payload['channel_count'], 1)
+        self.assertEqual(self.latest()[0]['account_name'], '正式新名称')
+        self.assertEqual(self.latest()[0]['channel_id'], 'wx:AAA==')
+
+    def test_exact_fakeid_exclusion_keeps_correct_same_named_channel(self):
+        self.configure(excluded_fakeids=['BBB=='])
+        day = date(2026, 10, 1)
+        self.daily(day, [('原名称', 'BBB==', '123', 1), ('原名称', 'AAA==', '124', 1)])
+        payload = self.execute(day)
+        self.assertEqual(payload['channel_count'], 1)
+        self.assertEqual(self.latest()[0]['channel_id'], 'wx:AAA==')
+        self.assertFalse(any(a['rule'] == 'identity_conflict' for a in payload['alerts']))
+
+    def test_paused_name_removed_from_counts_matrix_and_alerts_not_marked_recovered(self):
+        start = date(2026, 9, 1)
+        for i in range(30):
+            self.daily(start + timedelta(days=i), [('其他渠道', 'BBB==', str(i), 1)])
+        target = start + timedelta(days=29)
+        self.execute(target)
+        self.configure(paused_accounts=['原名称'], paused_from='2026-10-01')
+        payload = self.execute(target)
+        self.assertEqual(payload['enabled_channel_count'], 1)
+        self.assertEqual(payload['paused_channel_count'], 1)
+        paused = next(r for r in self.latest() if r['channel_id'] == 'wx:AAA==')
+        self.assertEqual(paused['observed_articles'], '')
+        self.assertEqual(paused['status'], 'disabled')
+        self.assertNotIn('wx:AAA==', [r['渠道ID'] for r in self.matrix()[1]])
+        self.assertFalse(any(a['channel_id'] == 'wx:AAA==' for a in payload['alerts']))
+        state = json.loads((self.root / 'quality/channel_monitor/state.json').read_text())
+        self.assertTrue(any(e['event'] == 'paused' for e in state['events']))
+
     def test_fakeid_rename_and_tracking_query_dedup(self):
         d = date(2026, 10, 1)
         self.daily(d, [('新名称', 'AAA==', '123', 1), ('新名称', 'AAA==', '123', 1)])

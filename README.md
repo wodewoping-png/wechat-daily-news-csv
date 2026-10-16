@@ -32,7 +32,7 @@ The channel inventory merges the uploaded 163-account list with accounts discove
 - [Setup, thresholds and crawler-event contract](channels/README.md)
 - [DingTalk group robot setup](channels/DINGTALK.md): warning/critical items and a link to the daily channel count matrix; signing, chunking, retries and delivery deduplication are included. Keyword-only robots use the default keyword `wechat` and do not need `DINGTALK_SECRET`.
 
-`channel-monitor` monitors and notifies after a completed daily CSV is published to this repository; it has no clock-based schedule. It selects the latest actual CSV date instead of assuming that yesterday's CSV already exists. Maintenance code/config pushes only test and refresh the matrix, without monitoring or group notifications. Zero observed articles are not proof of crawler failure; confirmed failures require structured crawler events. Missing dates inside the historical matrix are marked unknown, not zero activity.
+`channel-monitor` monitors and notifies after a completed daily CSV is published to this repository; it has no clock-based schedule. It selects the latest actual CSV date instead of assuming that yesterday's CSV already exists. Maintenance code pushes only test and refresh the matrix; account-list/config changes also refresh current reports and the managed issue, without group notifications. Zero observed articles are not proof of crawler failure; confirmed failures require structured crawler events. Missing dates inside the historical matrix are marked unknown, not zero activity.
 
 The local crawler also publishes collection-volume checks for operational review:
 
@@ -49,6 +49,8 @@ reports/quality/YYYY-MM-DD.md
 Empty daily CSV files are blocked from automatic publication unless an operator explicitly overrides the safety check.
 
 ## Published Fields
+
+New daily, weekly and monthly article CSVs omit `digest` and retain `clean_text`. Legacy digest-only rows use that text as a fallback when read or republished. Historical archives are preserved. The public ingestion workflow also removes the redundant column from legacy-format future uploads.
 
 The CSV files include article metadata, source account, publish time, digest, original URL, and cleaned text fields produced by the local pipeline.
 

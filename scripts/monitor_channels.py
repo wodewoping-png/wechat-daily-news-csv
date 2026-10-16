@@ -20,12 +20,13 @@ from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("Asia/Shanghai")
+csv.field_size_limit(20 * 1024 * 1024)
 LABELS = {
     "observed": "正常：已抓到文章", "zero_observed": "当天未抓到文章",
     "never_observed": "名录渠道尚未观测", "suspected_silence": "疑似渠道中断",
     "volume_drop": "疑似发文抓取量骤降", "fetch_error": "确认抓取失败",
     "partial_fetch_error": "抓到部分文章但抓取报错", "not_configured": "未配置抓取",
-    "unknown": "数据不完整，无法判断", "disabled": "已停用监测",
+    "unknown": "数据不完整，无法判断", "disabled": "已暂停统计",
 }
 RANK = {"critical": 3, "warning": 2, "info": 1}
 DEFAULTS = {"history_days": 56, "baseline_days": 28, "minimum_baseline_days": 14,
@@ -35,6 +36,19 @@ DEFAULTS = {"history_days": 56, "baseline_days": 28, "minimum_baseline_days": 14
 
 def normalized(value):
     return " ".join(unicodedata.normalize("NFKC", str(value or "")).split()).casefold()
+
+
+def load_config(root):
+    return {**DEFAULTS, **json.loads((root / "channels/monitor_config.json").read_text(encoding="utf-8"))}
+
+
+def channel_override(cfg, entry):
+    override = dict(cfg.get("overrides", {}).get(entry["channel_id"], {}))
+    names = entry.get("aliases", []) + [entry["account_name"], entry.get("seed_name", "")]
+    if {normalized(n) for n in names}.intersection(normalized(n) for n in cfg.get("paused_accounts", [])):
+        override["enabled"] = False
+        override.setdefault("paused_from", cfg.get("paused_from", ""))
+    return override
 
 
 def channel_id(fakeid, name):
@@ -97,7 +111,10 @@ def write_daily_matrix(root, registry, counts, feed):
     days = [first + timedelta(days=i) for i in range((last - first).days + 1)]
     fields = ["公众号名称", "渠道ID"] + [d.isoformat() for d in days]
     rows = []
+    cfg = load_config(root)
     for cid, entry in sorted(registry.items(), key=lambda kv: (kv[1]["account_name"], kv[0])):
+        if not channel_override(cfg, entry).get("enabled", True):
+            continue
         row = {"公众号名称": entry["account_name"], "渠道ID": cid}
         for d in days:
             if d.isoformat() < entry["tracked_from"]:
@@ -119,6 +136,8 @@ def alert(rule, severity, detail, cid="", name="", action=""):
 
 
 def read_inputs(root, target):
+    cfg = load_config(root)
+    excluded = set(cfg.get("excluded_fakeids", []))
     registry, by_name, by_biz = {}, defaultdict(set), {}
     identity_alerts = []
 
@@ -137,9 +156,16 @@ def read_inputs(root, target):
 
     with (root / "channels/seed_accounts.csv").open(encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
-            if row.get("account_name"):
+            if row.get("account_name") and row.get("fakeid") not in excluded:
                 add(row["account_name"], row.get("fakeid", ""), row.get("wechat_alias", ""),
                     row.get("listed_since", ""), row.get("source_reference", ""))
+
+    for cid, override in cfg.get("overrides", {}).items():
+        if cid in registry:
+            for name in override.get("aliases", []):
+                by_name[normalized(name)].add(cid)
+                if name not in registry[cid]["aliases"]:
+                    registry[cid]["aliases"].append(name)
 
     counts, totals, feed = defaultdict(Counter), {}, {}
     duplicate_counts = defaultdict(Counter)
@@ -171,6 +197,8 @@ def read_inputs(root, target):
                     except ValueError:
                         identity, biz = raw_url, ""
                         status["errors"] += 1
+                    if biz in excluded:
+                        continue
                     candidates = by_name[normalized(name)]
                     if biz and biz in by_biz:
                         cid = by_biz[biz]
@@ -218,10 +246,18 @@ def read_inputs(root, target):
         feed[day] = status
         totals[day] = status["unique_articles"]
     for entry in registry.values():
+        override = channel_override(cfg, entry)
+        if override.get("display_name"):
+            entry["account_name"] = override["display_name"]
+        entry["enabled"] = override.get("enabled", True)
         entry["aliases"].sort()
         entry["tracked_from"] = min(x for x in (entry["listed_since"], entry["first_observed"]) if x)
         if entry["listed_since"] and not entry["first_observed"]:
             entry["origin"] = "上传名单，尚未观测"
+    for a in identity_alerts:
+        if a["channel_id"] in registry:
+            a["account_name"] = registry[a["channel_id"]]["account_name"]
+    identity_alerts = [a for a in identity_alerts if registry[a["channel_id"]]["enabled"]]
     return registry, counts, totals, feed, duplicate_counts, row_errors, identity_alerts
 
 
@@ -254,9 +290,11 @@ def telemetry(root, day, registry):
     return results, errors
 
 
-def assess(entry, day, counts, feed, cfg, events):
+def assess(entry, day, counts, feed, cfg, events, historical=False):
     cid, n = entry["channel_id"], counts[day][entry["channel_id"]]
-    override = cfg["overrides"].get(cid, {})
+    override = channel_override(cfg, entry)
+    if historical and override.get("paused_from") and day.isoformat() < override["paused_from"]:
+        override["enabled"] = True
     start = date.fromisoformat(entry["tracked_from"])
     prior = [d for d in sorted(feed) if start <= d < day and
              d >= day - timedelta(days=cfg["baseline_days"]) and feed[d]["status"] == "ok"]
@@ -282,6 +320,8 @@ def assess(entry, day, counts, feed, cfg, events):
     alerts = []
     if not override.get("enabled", True):
         row["status"] = "disabled"
+        row["observed_articles"] = ""
+        row["evidence"] = "按用户配置暂停统计，历史源数据保留"
     elif feed.get(day, {}).get("status") != "ok":
         row.update(status="unknown", observed_articles="", evidence="每日数据缺失、为空或格式无效")
     else:
@@ -325,6 +365,9 @@ def incident_history(root, target, alerts, current, events):
         if key not in active:
             # With a missing entire feed, individual incidents cannot be declared recovered.
             cid = old["channel_id"]
+            if cid and (cid not in current_by_id or current_by_id[cid]["status"] == "disabled"):
+                state["events"].append({"date": target.isoformat(), "event": "excluded" if cid not in current_by_id else "paused", **old})
+                continue
             unverified_error = (old["rule"] in {"fetch_error", "partial_fetch_error", "not_configured"}
                                 and not current_by_id.get(cid, {}).get("observed_articles")
                                 and current_by_id.get(cid, {}).get("status") != "disabled"
@@ -345,16 +388,18 @@ def cell(value):
 
 
 def run(root, target):
-    cfg = {**DEFAULTS, **json.loads((root / "channels/monitor_config.json").read_text(encoding="utf-8"))}
+    cfg = load_config(root)
     registry, counts, totals, feed, duplicates, bad_dates, identity_alerts = read_inputs(root, target)
+    enabled_ids = {cid for cid, e in registry.items() if e["enabled"]}
+    active_totals = {day: sum(n for cid, n in values.items() if cid in enabled_ids) for day, values in counts.items()}
     history, current, alerts = [], [], []
     if feed.get(target, {}).get("status") != "ok":
         alerts.append(alert("daily_feed_unavailable", "critical", f"{target}每日CSV缺失、为空或格式无效；无法判断各渠道发文状态", action="检查上游每日发布任务并补齐有效CSV，随后重跑监测"))
     else:
         prior = [d for d in feed if target - timedelta(days=28) <= d < target and feed[d]["status"] == "ok" and (d.weekday() >= 5) == (target.weekday() >= 5)]
-        baseline = statistics.median([totals[d] for d in prior]) if len(prior) >= 4 else 0
-        if baseline >= 50 and totals[target] < baseline * .2:
-            alerts.append(alert("aggregate_volume_drop", "warning", f"全量仅{totals[target]}篇，同类日期基线{baseline:g}篇；可能存在全局漏抓", action="优先检查上游接口、认证和合并流程，再核查单渠道"))
+        baseline = statistics.median([active_totals.get(d, 0) for d in prior]) if len(prior) >= 4 else 0
+        if baseline >= 50 and active_totals.get(target, 0) < baseline * .2:
+            alerts.append(alert("aggregate_volume_drop", "warning", f"启用渠道仅{active_totals.get(target, 0)}篇，同类日期基线{baseline:g}篇；可能存在全局漏抓", action="优先检查上游接口、认证和合并流程，再核查单渠道"))
     alerts.extend({a["key"]: a for a in identity_alerts}.values())
     beginning = min(min(feed, default=target), target - timedelta(days=cfg["history_days"] - 1))
     for day in (beginning + timedelta(days=i) for i in range((target - beginning).days + 1)):
@@ -364,17 +409,19 @@ def run(root, target):
         for cid, entry in sorted(registry.items()):
             if day.isoformat() < entry["tracked_from"]:
                 continue
-            row, found = assess(entry, day, counts, feed, cfg, events)
+            row, found = assess(entry, day, counts, feed, cfg, events, historical=day < target)
             row.update(duplicate_articles=duplicates[day][cid], publish_date_mismatches=bad_dates[day][cid],
                        status_label=LABELS[row["status"]])
             history.append(row)
             if day == target:
                 current.append(row)
                 alerts.extend(found)
-    if sum(duplicates[target].values()):
-        alerts.append(alert("duplicate_articles", "warning", f"每日文件中有{sum(duplicates[target].values())}条重复文章，发文统计已去重", action="核查上游URL去重与分页重叠"))
-    if sum(bad_dates[target].values()):
-        alerts.append(alert("publish_date_mismatch", "warning", f"有{sum(bad_dates[target].values())}条文章发布时间不属于文件日期", action="核查时区与每日导出时间范围"))
+    duplicate_total = sum(n for cid, n in duplicates[target].items() if cid in enabled_ids)
+    bad_date_total = sum(n for cid, n in bad_dates[target].items() if cid in enabled_ids)
+    if duplicate_total:
+        alerts.append(alert("duplicate_articles", "warning", f"每日文件中有{duplicate_total}条重复文章，发文统计已去重", action="核查上游URL去重与分页重叠"))
+    if bad_date_total:
+        alerts.append(alert("publish_date_mismatch", "warning", f"有{bad_date_total}条文章发布时间不属于文件日期", action="核查时区与每日导出时间范围"))
     alerts = sorted({a["key"]: a for a in alerts}.values(), key=lambda a: (-RANK[a["severity"]], a["account_name"], a["rule"]))
     target_events, _ = telemetry(root, target, registry)
     alerts = incident_history(root, target, alerts, current, target_events)
@@ -388,11 +435,11 @@ def run(root, target):
         severity = max([row.get("severity", "info")] + [a["severity"] for a in open_incidents], key=lambda s: RANK[s])
         catalog.append({**entry, "aliases": "；".join(entry["aliases"]), "as_of": target.isoformat(),
                         "total_observed_articles": sum(c[cid] for c in counts.values()),
-                        "observed_articles_7d": sum(counts[target-timedelta(days=i)][cid] for i in range(7)),
-                        "observed_articles_28d": sum(counts[target-timedelta(days=i)][cid] for i in range(28)),
+                        "observed_articles_7d": sum(counts[target-timedelta(days=i)][cid] for i in range(7)) if entry["enabled"] else "",
+                        "observed_articles_28d": sum(counts[target-timedelta(days=i)][cid] for i in range(28)) if entry["enabled"] else "",
                         "latest_status": row.get("status_label", "尚未开始监测"), "latest_severity": severity,
                         "open_incident_count": len(open_incidents), "open_incident_rules": "；".join(a["rule"] for a in open_incidents),
-                        "enabled": cfg["overrides"].get(cid, {}).get("enabled", True)})
+                        "enabled": entry["enabled"]})
     write_json(root / "channels/registry.json", {"as_of": target.isoformat(), "channels": list(registry.values())})
     headings = {
         "channel_id": "渠道ID", "account_name": "当前公众号名称", "seed_name": "名单原名称",
@@ -414,11 +461,13 @@ def run(root, target):
     write_csv(root / "quality/channel_monitor/feed_manifest.csv", [{"date": d.isoformat(), **s} for d, s in sorted(feed.items())],
               ["date", "status", "rows", "unique_articles", "errors", "sha256", "error"])
     payload = {"as_of": target.isoformat(), "feed_status": feed.get(target, {}).get("status", "missing"), "channel_count": len(catalog),
+               "enabled_channel_count": len(enabled_ids), "paused_channel_count": len(catalog) - len(enabled_ids),
                "observed_active_channels": sum(bool(r["observed_articles"]) for r in current),
-               "observed_articles": totals.get(target), "alerts": alerts}
+               "observed_articles": active_totals.get(target, 0) if feed.get(target, {}).get("status") == "ok" else None, "alerts": alerts}
     write_json(root / "quality/channel_monitor/latest_alerts.json", payload)
     lines = [f"# 公众号渠道每日监测：{target}", "", f"- 渠道总数：{len(catalog)}（名单渠道 {sum(bool(c['listed_since']) for c in catalog)}）",
-             f"- 当天已抓到文章：{totals.get(target, '未知')}；有文章的渠道：{payload['observed_active_channels']}",
+             f"- 启用渠道：{len(enabled_ids)}；暂停统计：{len(catalog) - len(enabled_ids)}",
+             f"- 启用渠道当天已抓到文章：{payload['observed_articles'] if payload['observed_articles'] is not None else '未知'}；有文章的渠道：{payload['observed_active_channels']}",
              f"- 当前待核查问题：{len(alerts)}；全量数据状态：{payload['feed_status']}", "",
              "> 发文数量是每日CSV中已观测的文章数，不代表公众号实际全部发文。CSV缺失时显示未知，不能当作零发文。",
              "> 无抓取器事件时，零文章、骤降和长时间沉默仅为待核查信号；节假日或真实停更也可能造成这些信号。", "",

@@ -55,9 +55,17 @@ def main():
     event = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())
     paths = changed_files(root, event["before"], event["after"]) if event_name == "push" else []
     result = select_input(root, paths, event_name, (event.get("inputs") or {}).get("date") or "latest")
+    result["refresh"] = "false"
+    if event_name == "push" and {"channels/monitor_config.json", "channels/seed_accounts.csv"}.intersection(paths) and result["monitor"] == "false":
+        result.update(refresh="true", date=latest_csv_date(root).isoformat())
+    published = [p for p in paths if re.fullmatch(r"csv/\d{4}-\d{2}-\d{2}\.csv", p) and (root / p).is_file()]
+    if event_name == "workflow_dispatch":
+        published = [f"csv/{result['date']}.csv"]
+    result["csv_paths"] = json.dumps(published)
     with Path(os.environ["GITHUB_OUTPUT"]).open("a") as f:
         f.writelines(f"{key}={value}\n" for key, value in result.items())
-    print("每日CSV已入库，监测发文日期 " + result["date"] if result["monitor"] == "true" else "非每日CSV入库事件：仅维护监控表，不监测、不发钉钉消息。")
+    print("每日CSV已入库，监测发文日期 " + result["date"] if result["monitor"] == "true" else
+          "渠道配置变更：刷新已有统计，不发钉钉消息。" if result["refresh"] == "true" else "非每日CSV入库事件：仅维护监控表，不监测、不发钉钉消息。")
 
 
 if __name__ == "__main__":

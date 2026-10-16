@@ -6,5 +6,50 @@
   "never_observed_days": 28,
   "volume_drop_ratio": 0.2,
   "minimum_volume_baseline": 3,
-  "overrides": {}
+  "overrides": {
+    "wx:Mzk0NzY5Mzg1OA==": {
+      "display_name": "风光储知识分享库",
+      "aliases": [
+        "风光储知识库",
+        "风光储知识分享库"
+      ]
+    },
+    "wx:Mzg3MDYyOTI0MQ==": {
+      "display_name": "化工碳中和",
+      "aliases": [
+        "化工碳达峰碳中和",
+        "化工碳中和"
+      ]
+    },
+    "wx:MzAxMDkzNTAzNQ==": {
+      "display_name": "HPF热泵在线",
+      "aliases": [
+        "热泵在线",
+        "HPF热泵在线"
+      ]
+    },
+    "wx:Mzg3OTY0MDk1MQ==": {
+      "display_name": "能斯特新能源情报局",
+      "aliases": [
+        "新能源情报局",
+        "能斯特新能源情报局"
+      ]
+    }
+  },
+  "paused_accounts": [
+    "仁烁光能",
+    "储能调研",
+    "大锌能源",
+    "小柯说能源",
+    "泛能源战略研究",
+    "电催化前沿",
+    "深圳欣界能源科技股份有限公司",
+    "知识褶皱",
+    "钙钛矿太阳能电池"
+  ],
+  "paused_from": "2026-10-16",
+  "excluded_fakeids": [
+    "MzkyNzU5MTc5OA==",
+    "Mzg3NDE1NjE5MA=="
+  ]
 }

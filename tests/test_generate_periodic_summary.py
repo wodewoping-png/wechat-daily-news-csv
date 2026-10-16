@@ -31,7 +31,7 @@ def write_daily_csv(root: Path, target_date: date, index: int) -> None:
             "tags": "AI, 测试",
             "priority": "normal",
             "publish_time": f"{target_date.isoformat()}T08:00:00+08:00",
-            "digest": f"摘要 {index}",
+            "clean_text": f"正文 {index}",
             "url": f"https://example.com/{index}",
         }
     )

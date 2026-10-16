@@ -23,9 +23,11 @@ on:
       - "scripts/notify_channel_monitor.py"
       - "scripts/notify_dingtalk.py"
       - "scripts/select_channel_monitor_input.py"
+      - "scripts/normalize_article_csv.py"
       - "tests/test_monitor_channels.py"
       - "tests/test_notify_dingtalk.py"
       - "tests/test_channel_monitor_input.py"
+      - "tests/test_article_csv_format.py"
       - ".github/workflows/channel-monitor.yml"
 
 permissions:
@@ -54,9 +56,16 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_notify_dingtalk.py' -v
       - name: Test CSV publication event selection
         run: python -m unittest discover -s tests -p 'test_channel_monitor_input.py' -v
+      - name: Test published CSV fields
+        run: python -m unittest discover -s tests -p 'test_article_csv_format.py' -v
       - name: Select published daily CSV
         id: source
         run: python scripts/select_channel_monitor_input.py
+      - name: Normalize newly published CSV fields
+        if: steps.source.outputs.monitor == 'true'
+        env:
+          PUBLISHED_CSV_PATHS: ${{ steps.source.outputs.csv_paths }}
+        run: python scripts/normalize_article_csv.py
       - name: Update inventory and daily monitoring
         id: monitor
         if: steps.source.outputs.monitor == 'true'
@@ -64,15 +73,21 @@ jobs:
           TARGET_DATE: ${{ steps.source.outputs.date }}
         run: python scripts/monitor_channels.py --date "$TARGET_DATE"
       - name: Maintain channel matrix without notifications
-        if: steps.source.outputs.monitor == 'false'
+        if: steps.source.outputs.monitor == 'false' && steps.source.outputs.refresh != 'true'
         run: python scripts/monitor_channels.py --date latest --matrix-only
+      - name: Refresh channel configuration without notifications
+        id: refresh
+        if: steps.source.outputs.refresh == 'true'
+        env:
+          TARGET_DATE: ${{ steps.source.outputs.date }}
+        run: python scripts/monitor_channels.py --date "$TARGET_DATE"
       - name: Publish reports and history
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add channels quality/channel_monitor
+          git add channels quality/channel_monitor csv
           if ! git diff --cached --quiet; then
             git commit -m 'chore: update channel inventory and daily monitoring'
             git pull --rebase origin main
@@ -107,7 +122,7 @@ jobs:
             fi
           fi
       - name: Maintain current incidents issue
-        if: ${{ !cancelled() && steps.monitor.outcome == 'success' }}
+        if: ${{ !cancelled() && (steps.monitor.outcome == 'success' || steps.refresh.outcome == 'success') }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/notify_channel_monitor.py
