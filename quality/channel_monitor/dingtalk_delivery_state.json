@@ -1,0 +1,19 @@
+{
+  "delivered": {
+    "71c9432494155dfdcb5498c6049f06c5ed048d2b672b7fa616f1a2c96fe5a812": {
+      "date": "2026-10-15",
+      "fingerprint": "053f38bf1a44b01d00d78dbd3595893280e3ccb1751967b7928cb0e3de2e165c",
+      "part": 3
+    },
+    "b4857582809ec51c8b815a272a3bb247be8b229e5a4f7f58822ecfd65c36283d": {
+      "date": "2026-10-15",
+      "fingerprint": "674b143b658726f5da33afff739c6d446c3e42380e1075feef4822aa7947c33c",
+      "part": 2
+    },
+    "f53fe33b6a1191f5676dbda2f7444de10a66cbf238b98bd6907b8f7578e895f1": {
+      "date": "2026-10-15",
+      "fingerprint": "2416f7ed1c43de0bc6d2324c95200469131934e7836d583e5ef9849e65a57da2",
+      "part": 1
+    }
+  }
+}
