@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: "已结束的发文日期 YYYY-MM-DD，默认北京时间昨天"
-        default: yesterday
+        description: "已入库的发文日期 YYYY-MM-DD，默认latest最新已入库日期"
+        default: latest
         required: false
       force_dingtalk:
         description: "强制重发钉钉日报（仅人工需要重新发送时勾选）"
@@ -22,12 +22,11 @@ on:
       - "scripts/monitor_channels.py"
       - "scripts/notify_channel_monitor.py"
       - "scripts/notify_dingtalk.py"
+      - "scripts/select_channel_monitor_input.py"
       - "tests/test_monitor_channels.py"
       - "tests/test_notify_dingtalk.py"
+      - "tests/test_channel_monitor_input.py"
       - ".github/workflows/channel-monitor.yml"
-  schedule:
-    # Beijing 15:23 and 19:23; the second check catches delayed publication.
-    - cron: "23 7,11 * * *"
 
 permissions:
   contents: write
@@ -45,6 +44,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -52,11 +52,20 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_monitor_channels.py' -v
       - name: Test DingTalk notification
         run: python -m unittest discover -s tests -p 'test_notify_dingtalk.py' -v
+      - name: Test CSV publication event selection
+        run: python -m unittest discover -s tests -p 'test_channel_monitor_input.py' -v
+      - name: Select published daily CSV
+        id: source
+        run: python scripts/select_channel_monitor_input.py
       - name: Update inventory and daily monitoring
         id: monitor
+        if: steps.source.outputs.monitor == 'true'
         env:
-          TARGET_DATE: ${{ github.event.inputs.date || 'yesterday' }}
+          TARGET_DATE: ${{ steps.source.outputs.date }}
         run: python scripts/monitor_channels.py --date "$TARGET_DATE"
+      - name: Maintain channel matrix without notifications
+        if: steps.source.outputs.monitor == 'false'
+        run: python scripts/monitor_channels.py --date latest --matrix-only
       - name: Publish reports and history
         shell: bash
         run: |
@@ -70,6 +79,7 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Show monitoring report
+        if: steps.monitor.outcome == 'success'
         run: cat quality/channel_monitor/latest.md >> "$GITHUB_STEP_SUMMARY"
       - name: Send daily channel report to DingTalk
         id: dingtalk

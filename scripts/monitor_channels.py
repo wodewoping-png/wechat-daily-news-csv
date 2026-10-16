@@ -74,6 +74,45 @@ def write_csv(path, rows, fields):
         w.writerows(rows)
 
 
+def latest_csv_date(root, today=None):
+    today = today or datetime.now(TZ).date()
+    dates = []
+    for path in (root / "csv").glob("????-??-??.csv"):
+        try:
+            day = date.fromisoformat(path.stem)
+        except ValueError:
+            continue
+        if day < today:
+            dates.append(day)
+    if not dates:
+        raise ValueError("仓库尚无已结束日期的每日CSV")
+    return max(dates)
+
+
+def write_daily_matrix(root, registry, counts, feed):
+    """One channel per row, one column per calendar date; rebuilds include backfills."""
+    if not feed:
+        raise ValueError("没有每日CSV，无法生成渠道监控表")
+    first, last = min(feed), max(feed)
+    days = [first + timedelta(days=i) for i in range((last - first).days + 1)]
+    fields = ["公众号名称", "渠道ID"] + [d.isoformat() for d in days]
+    rows = []
+    for cid, entry in sorted(registry.items(), key=lambda kv: (kv[1]["account_name"], kv[0])):
+        row = {"公众号名称": entry["account_name"], "渠道ID": cid}
+        for d in days:
+            if d.isoformat() < entry["tracked_from"]:
+                value = "未纳入"
+            elif feed.get(d, {}).get("status") != "ok":
+                value = "未知"
+            else:
+                value = counts[d][cid]
+            row[d.isoformat()] = value
+        rows.append(row)
+    path = root / "channels/channel_daily_counts.csv"
+    write_csv(path, rows, fields)
+    return path
+
+
 def alert(rule, severity, detail, cid="", name="", action=""):
     return {"key": cid + "|" + rule, "channel_id": cid, "account_name": name,
             "rule": rule, "severity": severity, "detail": detail, "suggested_action": action}
@@ -339,6 +378,7 @@ def run(root, target):
     alerts = sorted({a["key"]: a for a in alerts}.values(), key=lambda a: (-RANK[a["severity"]], a["account_name"], a["rule"]))
     target_events, _ = telemetry(root, target, registry)
     alerts = incident_history(root, target, alerts, current, target_events)
+    write_daily_matrix(root, registry, counts, feed)
     alerts.sort(key=lambda a: (-RANK[a["severity"]], a["account_name"], a["rule"]))
     latest = {r["channel_id"]: r for r in current}
     catalog = []
@@ -382,7 +422,7 @@ def run(root, target):
              f"- 当前待核查问题：{len(alerts)}；全量数据状态：{payload['feed_status']}", "",
              "> 发文数量是每日CSV中已观测的文章数，不代表公众号实际全部发文。CSV缺失时显示未知，不能当作零发文。",
              "> 无抓取器事件时，零文章、骤降和长时间沉默仅为待核查信号；节假日或真实停更也可能造成这些信号。", "",
-             "[渠道总表](../../channels/channel_summary.csv) · [当前逐渠道状态](latest.csv) · [逐日记录](daily_history.csv) · [异常/恢复记录](incident_events.csv)", "",
+             "[每日渠道监控表](../../channels/channel_daily_counts.csv) · [渠道总表](../../channels/channel_summary.csv) · [当前逐渠道状态](latest.csv) · [逐日记录](daily_history.csv) · [异常/恢复记录](incident_events.csv)", "",
              "## 当前异常与处理建议", "", "|级别|渠道|信号|建议|", "|---|---|---|---|"]
     lines += ["|" + "|".join(cell(x) for x in (a["severity"], a["account_name"] or "全量数据", a["detail"], a["suggested_action"])) + "|" for a in alerts]
     if not alerts:
@@ -403,12 +443,18 @@ def run(root, target):
 def main(argv=None):
     p = argparse.ArgumentParser()
     p.add_argument("--repo-root", type=Path, default=Path(__file__).resolve().parents[1])
-    p.add_argument("--date", default="yesterday", help="publish date YYYY-MM-DD, defaults to yesterday in Beijing")
+    p.add_argument("--date", default="latest", help="latest, yesterday, or a completed publish date YYYY-MM-DD")
+    p.add_argument("--matrix-only", action="store_true", help="update only the channel/date CSV; no incident or notification changes")
     args = p.parse_args(argv)
-    target = datetime.now(TZ).date() - timedelta(days=1) if args.date == "yesterday" else date.fromisoformat(args.date)
+    target = (latest_csv_date(args.repo_root) if args.date == "latest" else
+              datetime.now(TZ).date() - timedelta(days=1) if args.date == "yesterday" else date.fromisoformat(args.date))
     if target >= datetime.now(TZ).date():
         p.error("只监测已结束的日期，避免将当天尚未发文误判为异常")
-    run(args.repo_root.resolve(), target)
+    if args.matrix_only:
+        registry, counts, _, feed, *_ = read_inputs(args.repo_root.resolve(), target)
+        print(write_daily_matrix(args.repo_root.resolve(), registry, counts, feed))
+    else:
+        run(args.repo_root.resolve(), target)
 
 
 if __name__ == "__main__":

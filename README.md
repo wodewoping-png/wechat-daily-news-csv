@@ -26,12 +26,13 @@ reports/monthly/YYYY-MM.md
 The channel inventory merges the uploaded 163-account list with accounts discovered in every daily CSV. It updates automatically, records daily observed post counts and unknown/missing-data states, detects suspected interruptions, and maintains one GitHub issue with current incidents and repair suggestions.
 
 - [Channel inventory](channels/channel_summary.csv)
+- [Daily channel count matrix](channels/channel_daily_counts.csv): one channel per row, one date per column; adds dates as CSVs arrive and updates past counts after backfills.
 - [Current monitoring report](quality/channel_monitor/latest.md)
 - [Daily history](quality/channel_monitor/daily_history.csv)
 - [Setup, thresholds and crawler-event contract](channels/README.md)
-- [DingTalk group robot setup](channels/DINGTALK.md): daily counts/status for every channel, current incidents and recovery events; signing, chunking, retries and delivery deduplication are included. Configure `DINGTALK_WEBHOOK` and the matching `DINGTALK_SECRET` in Actions Secrets to activate delivery.
+- [DingTalk group robot setup](channels/DINGTALK.md): warning/critical items and a link to the daily channel count matrix; signing, chunking, retries and delivery deduplication are included. Keyword-only robots use the default keyword `wechat` and do not need `DINGTALK_SECRET`.
 
-`channel-monitor` runs after relevant data pushes and at 15:23 / 19:23 Beijing time. Zero observed articles are not proof of crawler failure; confirmed failures require structured crawler events. Missing daily feeds are reported as unknown, not zero activity.
+`channel-monitor` monitors and notifies after a completed daily CSV is published to this repository; it has no clock-based schedule. It selects the latest actual CSV date instead of assuming that yesterday's CSV already exists. Maintenance code/config pushes only test and refresh the matrix, without monitoring or group notifications. Zero observed articles are not proof of crawler failure; confirmed failures require structured crawler events. Missing dates inside the historical matrix are marked unknown, not zero activity.
 
 The local crawler also publishes collection-volume checks for operational review:
 

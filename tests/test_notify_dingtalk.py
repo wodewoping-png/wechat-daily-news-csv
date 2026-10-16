@@ -55,34 +55,46 @@ class DingTalkTests(unittest.TestCase):
                 validated_webhook(url)
             self.assertNotIn('SECRET', str(ctx.exception))
 
-    def test_all_channels_zero_and_unknown_preserved_in_bounded_parts(self):
+    def test_only_warning_and_critical_with_matrix_link(self):
         report, channels = fixture()
         channels[-1]['observed_articles'] = ''
         channels[-1]['status_label'] = '数据不完整，无法判断'
+        report['alerts'] = [dict(account_name='需核查渠道', severity='warning', detail='连续未观测'),
+                            dict(account_name='严重渠道', severity='critical', detail='抓取失败'),
+                            dict(account_name='信息渠道', severity='info', detail='提示')]
         messages = build_messages(report, channels, [], 'owner/repo')
         all_text = '\n'.join(m['markdown']['text'] for m in messages)
-        self.assertGreater(len(messages), 1)
+        self.assertEqual(len(messages), 1)
         for c in channels:
-            self.assertEqual(all_text.count(c['account_name'] + '：'), 1)
-        self.assertIn('公众号渠道237：未知', all_text)
-        self.assertIn('公众号渠道000：0篇', all_text)
+            self.assertNotIn(c['account_name'], all_text)
+        self.assertIn('需核查渠道', all_text)
+        self.assertIn('严重渠道', all_text)
+        self.assertNotIn('信息渠道', all_text)
         for m in messages:
             self.assertIn('wechat', m['markdown']['text'])
+            self.assertIn('/channels/channel_daily_counts.csv', m['markdown']['text'])
             self.assertFalse(m['at']['isAtAll'])
             self.assertLessEqual(len(json.dumps({**m, 'msgUuid': 'x' * 64}, ensure_ascii=False).encode()), BODY_BUDGET)
 
-    def test_anomalies_and_recovery_included(self):
+    def test_recovery_details_stay_out_of_chat(self):
         report, channels = fixture(1)
         report['alerts'] = [dict(account_name='渠道异常', severity='warning', detail='三天无文章', suggested_action='核查')]
         recovered = [dict(account_name='恢复渠道', rule='volume_drop')]
         text = ''.join(m['markdown']['text'] for m in build_messages(report, channels, recovered, 'owner/repo'))
         self.assertIn('渠道异常', text)
-        self.assertIn('恢复渠道', text)
-        self.assertIn('建议：核查', text)
+        self.assertNotIn('恢复渠道', text)
+        self.assertNotIn('建议：核查', text)
+
+    def test_no_warning_is_one_short_link_message(self):
+        report, channels = fixture()
+        messages = build_messages(report, channels, [], 'owner/repo')
+        self.assertEqual(len(messages), 1)
+        self.assertIn('无warning项', messages[0]['markdown']['text'])
+        self.assertLess(len(messages[0]['markdown']['text']), 400)
 
     def test_long_line_fails_instead_of_dropping_channels(self):
         report, channels = fixture(1)
-        channels[0]['account_name'] = '过长名称' * 5000
+        report['alerts'] = [dict(account_name='渠道', severity='warning', detail='过长警告' * 5000)]
         with self.assertRaises(DeliveryError):
             build_messages(report, channels, [], 'owner/repo')
 
@@ -102,7 +114,9 @@ class DingTalkTests(unittest.TestCase):
 
     def test_partial_success_is_saved_and_retry_only_sends_remaining(self):
         report, channels = fixture()
-        messages = build_messages(report, channels, [], 'owner/repo')
+        report['alerts'] = [dict(account_name=f'异常{i}', severity='warning', detail='待核查' * 30) for i in range(40)]
+        messages = build_messages(report, channels, [], 'owner/repo', budget=2000)
+        self.assertGreater(len(messages), 1)
         calls = []
         def post(url, payload):
             calls.append(payload['msgUuid'])

@@ -7,7 +7,7 @@ import unittest
 from datetime import date, timedelta
 from pathlib import Path
 
-from scripts.monitor_channels import run, url_identity
+from scripts.monitor_channels import main, run, url_identity
 from scripts.notify_channel_monitor import sync_issue, MARKER
 
 
@@ -159,6 +159,46 @@ class ChannelMonitorTests(unittest.TestCase):
         self.daily(d, [('原名称', 'AAA==', '123', 5)])
         result = self.execute(d)
         self.assertEqual(result['observed_articles'], 5)
+
+    def matrix(self):
+        with (self.root / 'channels/channel_daily_counts.csv').open(encoding='utf-8-sig', newline='') as f:
+            r = csv.DictReader(f)
+            return r.fieldnames, list(r)
+
+    def test_matrix_adds_daily_columns_and_preserves_counts(self):
+        d = date(2026, 10, 1)
+        self.daily(d)
+        self.execute(d)
+        self.daily(d + timedelta(days=1), [('原名称', 'AAA==', '124', 5)])
+        self.execute(d + timedelta(days=1))
+        fields, rows = self.matrix()
+        self.assertEqual(fields[-2:], ['2026-10-01', '2026-10-02'])
+        self.assertEqual(rows[0]['2026-10-01'], '3')
+        self.assertEqual(rows[0]['2026-10-02'], '5')
+        self.daily(d, [('原名称', 'AAA==', '123', 4)])
+        self.execute(d + timedelta(days=1))
+        self.assertEqual(self.matrix()[1][0]['2026-10-01'], '4')
+
+    def test_matrix_unknown_not_tracked_and_true_zero_distinct(self):
+        d = date(2026, 10, 1)
+        self.daily(d, [('已有其他渠道', 'BBB==', '120', 1)])
+        self.daily(d + timedelta(days=2), [('新渠道', 'CCC==', '123', 1)])
+        self.execute(d + timedelta(days=2))
+        rows = {r['渠道ID']: r for r in self.matrix()[1]}
+        self.assertEqual(rows['wx:AAA==']['2026-10-01'], '0')
+        self.assertEqual(rows['wx:AAA==']['2026-10-02'], '未知')
+        self.assertEqual(rows['wx:CCC==']['2026-10-01'], '未纳入')
+
+    def test_matrix_maintenance_does_not_regress_state_or_add_unpublished_date(self):
+        d = date(2026, 10, 1)
+        self.daily(d)
+        self.execute(d + timedelta(days=1))
+        state = self.root / 'quality/channel_monitor/state.json'
+        before = state.read_bytes()
+        with contextlib.redirect_stdout(io.StringIO()):
+            main(['--repo-root', str(self.root), '--date', 'latest', '--matrix-only'])
+        self.assertEqual(state.read_bytes(), before)
+        self.assertNotIn('2026-10-02', self.matrix()[0])
 
     def test_managed_issue_create_update_dedup_and_close(self):
         calls = []

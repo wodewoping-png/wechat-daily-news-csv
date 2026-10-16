@@ -89,32 +89,15 @@ def build_messages(report, channels, recovered, repo, keyword="wechat", budget=B
     # The keyword appears verbatim on every part for robots using keyword security.
     as_of = report["as_of"]
     base = f"https://github.com/{repo}/blob/main"
-    n = report.get("observed_articles")
-    count = "未知" if n is None else str(n)
-    lines = [f"### 每日渠道发文日报 · {as_of}",
-             f"- 发文日期：{as_of}（北京时间，非发送日期）",
-             f"- 监测渠道：{report['channel_count']}；有文章渠道：{report['observed_active_channels']}",
-             f"- 已抓取文章：{count}篇；当前待核查信号：{len(report['alerts'])}条；恢复事件：{len(recovered)}条",
-             f"- 每日数据状态：{clean(report['feed_status'])}",
-             "> 以下仅表示CSV中已抓到的文章；零观测不等于抓取失败，数据缺失时显示未知。",
-             f"[完整检测报告]({base}/quality/channel_monitor/latest.md) · [渠道总表]({base}/channels/channel_summary.csv)",
-             "### 异常与处理建议"]
-    for a in report["alerts"]:
-        lines.append(f"- {clean(a['account_name'] or '全量数据')}（{clean(a['severity'])}）：{clean(a['detail'])}。建议：{clean(a['suggested_action'])}")
-    if not report["alerts"]:
-        lines.append("- 当前没有达到告警阈值的信号。")
-    lines.append("### 当日恢复记录")
-    if recovered:
-        lines.extend(f"- {clean(r['account_name'] or '全量数据')}：{clean(r['rule'])}不再触发，请结合完整报告核查。" for r in recovered)
-    else:
-        lines.append("- 当日未记录异常解除事件。")
-    lines.append("### 各渠道发文抓取数量（含零观测及未知）")
-    for row in sorted(channels, key=lambda r: (RANK.get(r.get("severity"), 2), r["account_name"], r["channel_id"])):
-        number = row.get("observed_articles", "")
-        number = "未知" if number == "" else str(int(number)) + "篇"
-        lines.append(f"- {clean(row['account_name'])}：{number}；{clean(row['status_label'])}；ID {clean(row['channel_id'])}")
-    # Reserve enough room for worst-case part numbering. Never silently omit a channel.
-    header = f"## {keyword} · {as_of}（9999/9999）\n\n"
+    warnings = [a for a in report["alerts"] if a.get("severity") in {"warning", "critical"}]
+    warnings.sort(key=lambda a: (RANK[a["severity"]], a["account_name"], a.get("rule", "")))
+    lines = [f"- {clean(a['account_name'] or '全量数据')}（{a['severity']}）：{clean(a['detail'])}" for a in warnings]
+    if not warnings:
+        lines = ["无warning项。"]
+    # Full channel counts and recovery details stay in the repository. Include
+    # the matrix link on every part, including when there are no warnings.
+    link = f"[渠道监控表 CSV：每渠道一行、每日一列]({base}/channels/channel_daily_counts.csv)"
+    header = f"## {keyword} · {as_of} · warning {len(warnings)}项（9999/9999）\n\n{link}\n\n"
     chunks, chunk = [], []
     for line in lines:
         candidate = header + "\n\n".join(chunk + [line])
@@ -133,7 +116,7 @@ def build_messages(report, channels, recovered, repo, keyword="wechat", budget=B
     if len(chunks) > 9999:
         raise DeliveryError("消息分段过多，停止发送。")
     return [markdown_payload(f"{keyword} {as_of}（{i}/{len(chunks)}）",
-                             f"## {keyword} · {as_of}（{i}/{len(chunks)}）\n\n" + "\n\n".join(chunk))
+                             f"## {keyword} · {as_of} · warning {len(warnings)}项（{i}/{len(chunks)}）\n\n{link}\n\n" + "\n\n".join(chunk))
             for i, chunk in enumerate(chunks, 1)]
 
 
