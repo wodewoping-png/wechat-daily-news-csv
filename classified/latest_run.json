@@ -1,0 +1,32 @@
+{
+  "checked_dates": [
+    "2026-10-15"
+  ],
+  "failed_articles": 24,
+  "model": "glm-5.3-flash",
+  "taxonomy_paths": 125,
+  "weeks": [
+    {
+      "articles": 0,
+      "complete": false,
+      "daily_fingerprints": {},
+      "end": "2026-10-18",
+      "failed_or_stale_dates": [
+        "2026-10-15"
+      ],
+      "file": "2026-W42.partial.csv",
+      "missing_dates": [
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "model": "glm-5.3-flash",
+      "start": "2026-10-12",
+      "taxonomy_version": "2026-10-16",
+      "week": "2026-W42"
+    }
+  ]
+}
