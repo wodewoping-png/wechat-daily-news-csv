@@ -1,6 +1,16 @@
 {
   "alerts": [
     {
+      "account_name": "",
+      "channel_id": "",
+      "detail": "2026-10-15每日CSV缺失、为空或格式无效；无法判断各渠道发文状态",
+      "first_detected": "2026-10-15",
+      "key": "|daily_feed_unavailable",
+      "rule": "daily_feed_unavailable",
+      "severity": "critical",
+      "suggested_action": "检查上游每日发布任务并补齐有效CSV，随后重跑监测"
+    },
+    {
       "account_name": "仁烁光能",
       "channel_id": "name:6c593c5b8b5a6396",
       "detail": "连续67个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查",
@@ -241,9 +251,9 @@
       "suggested_action": "核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid"
     }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "channel_count": 238,
-  "feed_status": "ok",
-  "observed_active_channels": 157,
-  "observed_articles": 678
+  "feed_status": "missing",
+  "observed_active_channels": 0,
+  "observed_articles": null
 }
