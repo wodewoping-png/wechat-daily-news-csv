@@ -1,0 +1,113 @@
+name: wechat-industry-classification
+
+on:
+  # The monitor normalizes the newly published daily CSV first. workflow_run
+  # also fires when its normalization commit used GITHUB_TOKEN, and classification
+  # remains independent of channel-health/DingTalk failures.
+  workflow_run:
+    workflows: [channel-monitor]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/industry-classification.yml"
+      - "config/industry_*.json"
+      - "scripts/classify_wechat_news.py"
+      - "scripts/zai_industry_client.py"
+      - "tests/test_industry_classification.py"
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "补跑开始日期YYYY-MM-DD；留空检查启用日期起所有已入库日报"
+        required: false
+        default: ""
+      end:
+        description: "补跑结束日期YYYY-MM-DD；留空截至北京时间昨天"
+        required: false
+        default: ""
+      merge_only:
+        description: "仅合并已有分类周表，不调用模型"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wechat-industry-classification
+  cancel-in-progress: false
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Test classification pipeline
+        run: python -m unittest discover -s tests -p 'test_industry_classification.py' -v
+      - name: Classify published daily CSVs and merge classified weeks
+        id: classify
+        env:
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          ZAI_BASE_URL: ${{ vars.ZAI_BASE_URL || 'https://api.z.ai/api/coding/paas/v4' }}
+          BIGMODEL_BASE_URL: ${{ vars.BIGMODEL_BASE_URL || 'https://open.bigmodel.cn/api/paas/v4' }}
+          ZAI_FALLBACK_BASE_URL: ${{ vars.ZAI_FALLBACK_BASE_URL || 'https://open.bigmodel.cn/api/anthropic' }}
+          INPUT_START: ${{ inputs.start || '' }}
+          INPUT_END: ${{ inputs.end || '' }}
+          MERGE_ONLY: ${{ inputs.merge_only || 'false' }}
+          PYTHONUNBUFFERED: "1"
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=()
+          if [ -n "$INPUT_START" ]; then args+=(--start "$INPUT_START"); fi
+          if [ -n "$INPUT_END" ]; then args+=(--end "$INPUT_END"); fi
+          if [ "$MERGE_ONLY" = "true" ]; then args+=(--merge-only); fi
+          python scripts/classify_wechat_news.py "${args[@]}"
+      - name: Publish classification outputs and resumable cache
+        if: ${{ always() && steps.classify.outcome != 'skipped' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A classified
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: classify wechat daily news and merge industry weeks'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          exit 1
+      - name: Upload classification outputs even on API failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wechat-industry-classification-${{ github.run_id }}
+          path: classified/
+          if-no-files-found: warn
+      - name: Show classification status
+        if: always()
+        run: |
+          if [ -f classified/latest_run.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          data = json.loads(Path('classified/latest_run.json').read_text())
+          print('## 公众号行业分类')
+          print('模型：' + data['model'])
+          print('本次检查：' + '、'.join(data['checked_dates']))
+          print('分类失败：' + str(data['failed_articles']))
+          print('[分类表](https://github.com/wodewoping-png/wechat-daily-news-csv/tree/main/classified)')
+          for week in data['weeks']:
+              print(week['week'] + '：' + ('完整周表' if week['complete'] else '部分周表（仍有缺失或失败日期）') + '，' + str(week['articles']) + '篇')
+          PY
+          fi

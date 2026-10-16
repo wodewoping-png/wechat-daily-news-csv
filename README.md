@@ -62,6 +62,10 @@ The source download and merge run locally. After each daily run, the generated C
 
 ## Automated Weekly and Monthly Summaries
 
+### Industry classifications from 行业图景.xlsx
+
+Daily news is semantically classified with **glm-5.3-flash** against the uploaded framework's 125 paths and 8 levels. The workflow runs after daily CSV publication/normalization and reuses cached decisions. See [分类文件夹](classified/README.md) for daily tables, category counts, weekly merges, completeness checks and historical backfills. Classified weekly tables merge the daily results without another AI request; full article bodies remain in the CSVs.
+
 This repository generates periodic summaries directly from its own `csv/YYYY-MM-DD.csv` files. It does not need the crawler's private SQLite database.
 
 - Weekly: Monday-Wednesday at 14:23 Beijing time, covering the previous Monday-Sunday; Tuesday and Wednesday retry late daily uploads.
