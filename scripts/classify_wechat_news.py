@@ -55,6 +55,26 @@ def read_json(path, default=None):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 
 
+def save_cache(root, cache, keys):
+    # Bound individual Git blobs as the daily archive grows. Each successful
+    # batch updates only its affected hash buckets, rather than one huge file.
+    for prefix in sorted({key[:2] for key in keys}):
+        write_json(root / "classified/cache" / f"{prefix}.json",
+                   {key: value for key, value in cache.items() if key.startswith(prefix)})
+
+
+def load_cache(root):
+    directory = root / "classified/cache"
+    cache = read_json(directory / "results.json", {})
+    legacy_keys = list(cache)
+    for path in sorted(directory.glob("??.json")):
+        cache.update(read_json(path))
+    if legacy_keys:
+        save_cache(root, cache, legacy_keys)
+        (directory / "results.json").unlink()
+    return cache
+
+
 def write_csv(path, rows, fields):
     buf = io.StringIO(newline="")
     w = csv.DictWriter(buf, fieldnames=fields, extrasaction="ignore")
@@ -218,7 +238,6 @@ def classify_day(root, day, config, taxonomy, allowed, client, cache):
     if prior.get("source_fingerprint") == fingerprint and prior.get("complete") and out.exists() and prior.get("output_sha256") == hashlib.sha256(out.read_bytes()).hexdigest():
         print(f"{day}: 输入和分类结果未变，跳过API", flush=True)
         return 0
-    cache_path = root / "classified/cache/results.json"
     keys, pending = {}, []
     for aid, row in rows.items():
         article = model_article(row, config["max_content_chars"])
@@ -239,7 +258,7 @@ def classify_day(root, day, config, taxonomy, allowed, client, cache):
                 result = parse_response(client.generate(system_prompt(taxonomy), request), {x[0] for x in batch}, allowed)
                 for aid, key, _ in batch:
                     cache[key] = result[aid]
-                write_json(cache_path, cache)
+                save_cache(root, cache, [key for _, key, _ in batch])
                 print(f"{day}: 已保存分类 {sum(k in cache for k in keys.values())}/{len(rows)}", flush=True)
                 break
             except TerminalModelError as exc:
@@ -317,7 +336,7 @@ def run(root, start=None, end=None, merge_only=False, client=None, today=None):
     if config["batch_size"] < 1 or config["batch_chars"] < 1 or config["max_content_chars"] < 0 or not 0 <= config["min_confidence"] <= 1:
         raise ValueError("分类配置范围无效")
     taxonomy, allowed = load_taxonomy(root)
-    cache = read_json(root / "classified/cache/results.json", {})
+    cache = load_cache(root)
     first = date.fromisoformat(start or config["start_date"])
     last = date.fromisoformat(end) if end else today - timedelta(days=1)
     if last >= today or first > last:

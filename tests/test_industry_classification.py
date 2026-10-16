@@ -12,7 +12,7 @@ from unittest.mock import patch
 
 from scripts.classify_wechat_news import (
     CLASS_FIELDS, MODEL, ModelError, TerminalModelError, batches, load_taxonomy,
-    merge_weeks, model_article, parse_response, read_json, run, write_json,
+    load_cache, merge_weeks, model_article, parse_response, read_json, run, write_json,
 )
 from scripts.zai_industry_client import ZAIClient
 
@@ -124,8 +124,8 @@ class ClassificationTests(unittest.TestCase):
         self.assertEqual(row['分类状态'], '待复核')
         self.assertEqual(row['主分类路径'], '')
         self.assertTrue(json.loads(row['其他分类路径']))
-        cache = self.root / 'classified/cache/results.json'
-        cache.unlink()
+        for cache in (self.root / 'classified/cache').glob('*.json'):
+            cache.unlink()
         (self.root / 'classified/daily/2026-10-15.json').unlink()
         self.execute(FakeModel(empty=True))
         row = self.output()[1][0]
@@ -139,7 +139,7 @@ class ClassificationTests(unittest.TestCase):
         self.assertEqual(len(failing.calls), 1)
         self.assertEqual(self.output()[1][0]['分类状态'], '分类失败')
         self.assertFalse(read_json(self.root / 'classified/daily/2026-10-15.json')['complete'])
-        self.assertEqual(read_json(self.root / 'classified/cache/results.json', {}), {})
+        self.assertEqual(load_cache(self.root), {})
         self.assertEqual(self.execute(), 0)
         self.assertEqual(self.output()[1][0]['分类状态'], '已分类')
 
@@ -170,6 +170,14 @@ class ClassificationTests(unittest.TestCase):
         for results in cases:
             with self.subTest(results=results), self.assertRaises(ModelError):
                 parse_response(json.dumps({'results': results}), {'a'}, self.allowed)
+
+    def test_legacy_cache_migrates_to_small_hash_buckets(self):
+        write_json(self.root / 'classified/cache/results.json', {'aa000': {'matches': []}, 'bb001': {'matches': []}})
+        cache = load_cache(self.root)
+        self.assertEqual(len(cache), 2)
+        self.assertTrue((self.root / 'classified/cache/aa.json').exists())
+        self.assertTrue((self.root / 'classified/cache/bb.json').exists())
+        self.assertFalse((self.root / 'classified/cache/results.json').exists())
 
     def test_week_merge_requires_seven_days_deduplicates_and_invalidates_stale(self):
         model = FakeModel()
