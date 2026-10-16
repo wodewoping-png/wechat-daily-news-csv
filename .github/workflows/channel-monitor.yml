@@ -7,6 +7,11 @@ on:
         description: "已结束的发文日期 YYYY-MM-DD，默认北京时间昨天"
         default: yesterday
         required: false
+      force_dingtalk:
+        description: "强制重发钉钉日报（仅人工需要重新发送时勾选）"
+        type: boolean
+        default: false
+        required: false
   push:
     branches: [main]
     paths:
@@ -16,7 +21,9 @@ on:
       - "quality/channel_fetch_events/*.jsonl"
       - "scripts/monitor_channels.py"
       - "scripts/notify_channel_monitor.py"
+      - "scripts/notify_dingtalk.py"
       - "tests/test_monitor_channels.py"
+      - "tests/test_notify_dingtalk.py"
       - ".github/workflows/channel-monitor.yml"
   schedule:
     # Beijing 15:23 and 19:23; the second check catches delayed publication.
@@ -43,7 +50,10 @@ jobs:
           python-version: "3.11"
       - name: Test channel monitor
         run: python -m unittest discover -s tests -p 'test_monitor_channels.py' -v
+      - name: Test DingTalk notification
+        run: python -m unittest discover -s tests -p 'test_notify_dingtalk.py' -v
       - name: Update inventory and daily monitoring
+        id: monitor
         env:
           TARGET_DATE: ${{ github.event.inputs.date || 'yesterday' }}
         run: python scripts/monitor_channels.py --date "$TARGET_DATE"
@@ -61,11 +71,38 @@ jobs:
           fi
       - name: Show monitoring report
         run: cat quality/channel_monitor/latest.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Send daily channel report to DingTalk
+        id: dingtalk
+        if: ${{ !cancelled() && steps.monitor.outcome == 'success' }}
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          DINGTALK_KEYWORD: ${{ vars.DINGTALK_KEYWORD || '公众号监测' }}
+          DINGTALK_FORCE: ${{ github.event.inputs.force_dingtalk || 'false' }}
+        run: python scripts/notify_dingtalk.py
+      - name: Persist acknowledged DingTalk deliveries
+        if: ${{ !cancelled() && steps.monitor.outcome == 'success' && steps.dingtalk.outcome != 'skipped' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          receipt=quality/channel_monitor/dingtalk_delivery_state.json
+          if [ -f "$receipt" ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add "$receipt"
+            if ! git diff --cached --quiet; then
+              git commit -m 'chore: record acknowledged DingTalk notifications'
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
+          fi
       - name: Maintain current incidents issue
+        if: ${{ !cancelled() && steps.monitor.outcome == 'success' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/notify_channel_monitor.py
       - name: Mark confirmed failures and unavailable feed
+        if: ${{ !cancelled() && steps.monitor.outcome == 'success' }}
         run: |
           python - <<'PY'
           import json

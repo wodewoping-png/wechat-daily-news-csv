@@ -29,6 +29,7 @@ The channel inventory merges the uploaded 163-account list with accounts discove
 - [Current monitoring report](quality/channel_monitor/latest.md)
 - [Daily history](quality/channel_monitor/daily_history.csv)
 - [Setup, thresholds and crawler-event contract](channels/README.md)
+- [DingTalk group robot setup](channels/DINGTALK.md): daily counts/status for every channel, current incidents and recovery events; signing, chunking, retries and delivery deduplication are included. Configure `DINGTALK_WEBHOOK` and the matching `DINGTALK_SECRET` in Actions Secrets to activate delivery.
 
 `channel-monitor` runs after relevant data pushes and at 15:23 / 19:23 Beijing time. Zero observed articles are not proof of crawler failure; confirmed failures require structured crawler events. Missing daily feeds are reported as unknown, not zero activity.
 
