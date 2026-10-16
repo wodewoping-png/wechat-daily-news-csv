@@ -13,8 +13,10 @@
    |`DINGTALK_SECRET`|该机器人安全设置中的加签密钥，采用加签时必填|
 
    直接入口：[配置GitHub Actions Secrets](https://github.com/wodewoping-png/wechat-daily-news-csv/settings/secrets/actions)。地址中的access_token和加签密钥均按凭据处理，不写入代码、公共Issue或CSV。
-3. 如果机器人使用“自定义关键词”，到同页的 **Variables** 新建 `DINGTALK_KEYWORD`，与机器人设置的关键词一致。默认消息关键词为 `公众号监测`。选择加签且未启用关键词限制时，可保持默认值。
+3. 如果机器人使用“自定义关键词”，到同页的 **Variables** 新建 `DINGTALK_KEYWORD`，与机器人设置的关键词一致。本群机器人关键词为 `wechat`，默认消息关键词也设为 `wechat`。选择加签且未启用关键词限制时，可保持默认值。
 4. 在 **Actions → channel-monitor → Run workflow** 运行一次，日期保持 `yesterday`。正常情况下无需勾选 `force_dingtalk`。
+
+当前采用关键词匹配模式，无需配置 `DINGTALK_SECRET`，保持该Secret不存在或为空即可。每段消息都会包含 `wechat`。如另行设置了 `DINGTALK_KEYWORD` 变量，其值也应为 `wechat`。
 
 Webhook对应的群就是接收群；通知不会@所有人。未配置Webhook时，工作流仍正常生成监测报告和GitHub异常清单，执行摘要会明确显示“未配置，本次未发送”。不把这类跳过报告为发送成功。
 

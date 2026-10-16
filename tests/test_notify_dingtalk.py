@@ -67,7 +67,7 @@ class DingTalkTests(unittest.TestCase):
         self.assertIn('公众号渠道237：未知', all_text)
         self.assertIn('公众号渠道000：0篇', all_text)
         for m in messages:
-            self.assertIn('公众号监测', m['markdown']['text'])
+            self.assertIn('wechat', m['markdown']['text'])
             self.assertFalse(m['at']['isAtAll'])
             self.assertLessEqual(len(json.dumps({**m, 'msgUuid': 'x' * 64}, ensure_ascii=False).encode()), BODY_BUDGET)
 

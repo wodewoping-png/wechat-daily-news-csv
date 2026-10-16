@@ -81,7 +81,7 @@ def markdown_payload(title, text):
     return {"msgtype": "markdown", "markdown": {"title": title, "text": text}, "at": {"isAtAll": False}}
 
 
-def build_messages(report, channels, recovered, repo, keyword="公众号监测", budget=BODY_BUDGET):
+def build_messages(report, channels, recovered, repo, keyword="wechat", budget=BODY_BUDGET):
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repo):
         raise DeliveryError("GitHub仓库标识无效。")
     if not keyword or len(keyword) > 64 or any(c in keyword for c in "\n\r"):
@@ -228,7 +228,7 @@ def main(argv=None):
     report, channels, recovered = read_snapshot(args.repo_root)
     messages = build_messages(report, channels, recovered,
                               os.getenv("GITHUB_REPOSITORY", "wodewoping-png/wechat-daily-news-csv"),
-                              os.getenv("DINGTALK_KEYWORD", "").strip() or "公众号监测")
+                              os.getenv("DINGTALK_KEYWORD", "").strip() or "wechat")
     if args.dry_run:
         path = args.repo_root / "quality/channel_monitor/dingtalk_preview.json"
         path.write_text(json.dumps(messages, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

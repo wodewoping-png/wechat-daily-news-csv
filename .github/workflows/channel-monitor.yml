@@ -77,7 +77,7 @@ jobs:
         env:
           DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
-          DINGTALK_KEYWORD: ${{ vars.DINGTALK_KEYWORD || '公众号监测' }}
+          DINGTALK_KEYWORD: ${{ vars.DINGTALK_KEYWORD || 'wechat' }}
           DINGTALK_FORCE: ${{ github.event.inputs.force_dingtalk || 'false' }}
         run: python scripts/notify_dingtalk.py
       - name: Persist acknowledged DingTalk deliveries
