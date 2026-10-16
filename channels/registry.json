@@ -7,6 +7,7 @@
         "北京大学能源研究院"
       ],
       "channel_id": "wx:MzU0NTE1MTgxNg==",
+      "enabled": true,
       "fakeid": "MzU0NTE1MTgxNg==",
       "first_observed": "2026-09-20",
       "last_observed": "2026-10-10",
@@ -25,6 +26,7 @@
         "标准化战略研究"
       ],
       "channel_id": "wx:MzI4ODczODU1Mg==",
+      "enabled": true,
       "fakeid": "MzI4ODczODU1Mg==",
       "first_observed": "2026-09-14",
       "last_observed": "2026-10-15",
@@ -43,6 +45,7 @@
         "铂道"
       ],
       "channel_id": "wx:MzkxMjU0NTAzOQ==",
+      "enabled": true,
       "fakeid": "MzkxMjU0NTAzOQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -61,6 +64,7 @@
         "财联社"
       ],
       "channel_id": "wx:Mzg5MzEyNzEwNQ==",
+      "enabled": true,
       "fakeid": "Mzg5MzEyNzEwNQ==",
       "first_observed": "2026-09-13",
       "last_observed": "2026-10-15",
@@ -77,6 +81,7 @@
       "account_name": "储能调研",
       "aliases": [],
       "channel_id": "wx:MzkzNTkwNjc2Mg==",
+      "enabled": false,
       "fakeid": "MzkzNTkwNjc2Mg==",
       "first_observed": "",
       "last_observed": "",
@@ -95,6 +100,7 @@
         "储能科学与技术"
       ],
       "channel_id": "wx:MzAxODI0NDQ2MA==",
+      "enabled": true,
       "fakeid": "MzAxODI0NDQ2MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -113,6 +119,7 @@
         "储能与电力市场"
       ],
       "channel_id": "wx:Mzk2NDQyNDY3OQ==",
+      "enabled": true,
       "fakeid": "Mzk2NDQyNDY3OQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -131,6 +138,7 @@
         "创新研究"
       ],
       "channel_id": "wx:MzAxMjY2OTkxOA==",
+      "enabled": true,
       "fakeid": "MzAxMjY2OTkxOA==",
       "first_observed": "2026-09-15",
       "last_observed": "2026-10-13",
@@ -149,6 +157,7 @@
         "催化视界"
       ],
       "channel_id": "wx:MzAxNDMxMTQ3MQ==",
+      "enabled": true,
       "fakeid": "MzAxNDMxMTQ3MQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -165,6 +174,7 @@
       "account_name": "大锌能源",
       "aliases": [],
       "channel_id": "wx:MzkyNTY5NzgwOA==",
+      "enabled": false,
       "fakeid": "MzkyNTY5NzgwOA==",
       "first_observed": "",
       "last_observed": "",
@@ -183,6 +193,7 @@
         "地热能在线"
       ],
       "channel_id": "wx:MzI4NTE0MTI5MQ==",
+      "enabled": true,
       "fakeid": "MzI4NTE0MTI5MQ==",
       "first_observed": "2026-06-23",
       "last_observed": "2026-10-08",
@@ -201,6 +212,7 @@
         "地学前沿观察"
       ],
       "channel_id": "wx:MzY4MjA3MDE4MA==",
+      "enabled": true,
       "fakeid": "MzY4MjA3MDE4MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -219,6 +231,7 @@
         "低碳节能环保技术"
       ],
       "channel_id": "wx:MzU2OTczMzI1MQ==",
+      "enabled": true,
       "fakeid": "MzU2OTczMzI1MQ==",
       "first_observed": "2026-06-17",
       "last_observed": "2026-10-10",
@@ -237,6 +250,7 @@
         "低碳新型技术"
       ],
       "channel_id": "wx:Mzk0NDY2MzQ0MA==",
+      "enabled": true,
       "fakeid": "Mzk0NDY2MzQ0MA==",
       "first_observed": "2026-09-20",
       "last_observed": "2026-09-29",
@@ -253,6 +267,7 @@
       "account_name": "电催化前沿",
       "aliases": [],
       "channel_id": "wx:Mzk0MzY0MTM5OA==",
+      "enabled": false,
       "fakeid": "Mzk0MzY0MTM5OA==",
       "first_observed": "",
       "last_observed": "",
@@ -271,6 +286,7 @@
         "电催化与电合成"
       ],
       "channel_id": "wx:Mzg4Mjc1MDc3Ng==",
+      "enabled": true,
       "fakeid": "Mzg4Mjc1MDc3Ng==",
       "first_observed": "2026-09-13",
       "last_observed": "2026-10-15",
@@ -289,6 +305,7 @@
         "电联新媒"
       ],
       "channel_id": "wx:MzI2NTY5NzAwOA==",
+      "enabled": true,
       "fakeid": "MzI2NTY5NzAwOA==",
       "first_observed": "2026-09-13",
       "last_observed": "2026-10-15",
@@ -307,6 +324,7 @@
         "电碳前瞻"
       ],
       "channel_id": "wx:MzkzNTkzODIyMg==",
+      "enabled": true,
       "fakeid": "MzkzNTkzODIyMg==",
       "first_observed": "2026-09-14",
       "last_observed": "2026-09-28",
@@ -325,6 +343,7 @@
         "东亚能源产业观察"
       ],
       "channel_id": "wx:MzU0MTkxODU2Mw==",
+      "enabled": true,
       "fakeid": "MzU0MTkxODU2Mw==",
       "first_observed": "2026-09-13",
       "last_observed": "2026-10-14",
@@ -341,6 +360,7 @@
       "account_name": "泛能源战略研究",
       "aliases": [],
       "channel_id": "wx:MzY4OTQwNzc1NA==",
+      "enabled": false,
       "fakeid": "MzY4OTQwNzc1NA==",
       "first_observed": "",
       "last_observed": "",
@@ -359,6 +379,7 @@
         "泛能智研"
       ],
       "channel_id": "wx:Mzk0OTY3NDM4MQ==",
+      "enabled": true,
       "fakeid": "Mzk0OTY3NDM4MQ==",
       "first_observed": "2026-09-15",
       "last_observed": "2026-10-13",
@@ -378,13 +399,14 @@
         "风光储知识库"
       ],
       "channel_id": "wx:Mzk0NzY5Mzg1OA==",
+      "enabled": true,
       "fakeid": "Mzk0NzY5Mzg1OA==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
       "listed_since": "2026-08-18",
       "origin": "名单+每日CSV",
       "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NzY5Mzg1OA==&mid=2247527969&idx=2&sn=6b2e08feedb46cfe198251d7dc6b8a29",
-      "seed_name": "风光储知识库",
+      "seed_name": "风光储知识分享库",
       "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
       "source_type": "微信公众号",
       "tracked_from": "2026-07-16",
@@ -396,6 +418,7 @@
         "钙钛光能"
       ],
       "channel_id": "wx:MzUzNjg1NTk3Mw==",
+      "enabled": true,
       "fakeid": "MzUzNjg1NTk3Mw==",
       "first_observed": "2026-07-23",
       "last_observed": "2026-10-15",
@@ -414,6 +437,7 @@
         "钙钛矿工厂"
       ],
       "channel_id": "wx:MzkzOTU2ODEzMw==",
+      "enabled": true,
       "fakeid": "MzkzOTU2ODEzMw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -432,6 +456,7 @@
         "感存算"
       ],
       "channel_id": "wx:Mzk5MDIzNTE0Mw==",
+      "enabled": true,
       "fakeid": "Mzk5MDIzNTE0Mw==",
       "first_observed": "2026-09-15",
       "last_observed": "2026-10-14",
@@ -450,6 +475,7 @@
         "港航子午线"
       ],
       "channel_id": "wx:MzU5ODUzOTY0OQ==",
+      "enabled": true,
       "fakeid": "MzU5ODUzOTY0OQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -468,6 +494,7 @@
         "高工锂电"
       ],
       "channel_id": "wx:MzYzODg5MDQyMQ==",
+      "enabled": true,
       "fakeid": "MzYzODg5MDQyMQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -486,6 +513,7 @@
         "格致论道讲坛"
       ],
       "channel_id": "wx:MzIwNTQxMjY0MQ==",
+      "enabled": true,
       "fakeid": "MzIwNTQxMjY0MQ==",
       "first_observed": "2026-09-15",
       "last_observed": "2026-10-14",
@@ -504,6 +532,7 @@
         "工业节能环保技术"
       ],
       "channel_id": "wx:MzkzMTc0NzY2Mg==",
+      "enabled": true,
       "fakeid": "MzkzMTc0NzY2Mg==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -522,6 +551,7 @@
         "罐坛情缘"
       ],
       "channel_id": "wx:MzA3MDYzNjY1Ng==",
+      "enabled": true,
       "fakeid": "MzA3MDYzNjY1Ng==",
       "first_observed": "2026-07-19",
       "last_observed": "2026-07-27",
@@ -540,6 +570,7 @@
         "光本位"
       ],
       "channel_id": "wx:Mzg4OTgyMTc1OA==",
+      "enabled": true,
       "fakeid": "Mzg4OTgyMTc1OA==",
       "first_observed": "2026-07-18",
       "last_observed": "2026-10-08",
@@ -558,6 +589,7 @@
         "光电情报"
       ],
       "channel_id": "wx:MzUzNTA0NDI1Ng==",
+      "enabled": true,
       "fakeid": "MzUzNTA0NDI1Ng==",
       "first_observed": "2026-07-17",
       "last_observed": "2026-10-14",
@@ -576,6 +608,7 @@
         "光子盒"
       ],
       "channel_id": "wx:MzAxMTgyMDQ2Mw==",
+      "enabled": true,
       "fakeid": "MzAxMTgyMDQ2Mw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -594,6 +627,7 @@
         "国际储能技术与产业联盟"
       ],
       "channel_id": "wx:MzIwOTAyNzQ4NA==",
+      "enabled": true,
       "fakeid": "MzIwOTAyNzQ4NA==",
       "first_observed": "2026-06-25",
       "last_observed": "2026-09-29",
@@ -612,6 +646,7 @@
         "国际能源小数据"
       ],
       "channel_id": "wx:MzA5MDc0MzA0OA==",
+      "enabled": true,
       "fakeid": "MzA5MDc0MzA0OA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -630,6 +665,7 @@
         "国际能源研究中心"
       ],
       "channel_id": "wx:MzA5MDYwOTE2Nw==",
+      "enabled": true,
       "fakeid": "MzA5MDYwOTE2Nw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -648,6 +684,7 @@
         "国家电投集团中央研究院"
       ],
       "channel_id": "wx:MzIzMjQ2MjQyMA==",
+      "enabled": true,
       "fakeid": "MzIzMjQ2MjQyMA==",
       "first_observed": "2026-07-23",
       "last_observed": "2026-10-14",
@@ -666,6 +703,7 @@
         "国家能源局"
       ],
       "channel_id": "wx:MzIwMTU0MTM4OA==",
+      "enabled": true,
       "fakeid": "MzIwMTU0MTM4OA==",
       "first_observed": "2026-09-17",
       "last_observed": "2026-10-15",
@@ -684,6 +722,7 @@
         "国家新材料产业资源共享"
       ],
       "channel_id": "wx:MzkzNzQ1OTM0Mw==",
+      "enabled": true,
       "fakeid": "MzkzNzQ1OTM0Mw==",
       "first_observed": "2026-06-18",
       "last_observed": "2026-10-09",
@@ -702,6 +741,7 @@
         "核闻天下"
       ],
       "channel_id": "wx:MzA5MzkwMDQ0Mw==",
+      "enabled": true,
       "fakeid": "MzA5MzkwMDQ0Mw==",
       "first_observed": "2026-07-03",
       "last_observed": "2026-10-15",
@@ -721,13 +761,14 @@
         "化工碳达峰碳中和"
       ],
       "channel_id": "wx:Mzg3MDYyOTI0MQ==",
+      "enabled": true,
       "fakeid": "Mzg3MDYyOTI0MQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-12",
       "listed_since": "2026-08-18",
       "origin": "名单+每日CSV",
       "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MDYyOTI0MQ==&mid=2247490697&idx=1&sn=ab528121def1c0931ad40073fba3f0eb",
-      "seed_name": "化工碳达峰碳中和",
+      "seed_name": "化工碳中和",
       "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
       "source_type": "微信公众号",
       "tracked_from": "2026-06-15",
@@ -739,6 +780,7 @@
         "化学进展"
       ],
       "channel_id": "wx:MzAwMDE3Njk0OA==",
+      "enabled": true,
       "fakeid": "MzAwMDE3Njk0OA==",
       "first_observed": "2026-09-14",
       "last_observed": "2026-10-15",
@@ -757,6 +799,7 @@
         "环境能源可持续发展"
       ],
       "channel_id": "wx:MzYzODU4MjU3Mw==",
+      "enabled": true,
       "fakeid": "MzYzODU4MjU3Mw==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -775,6 +818,7 @@
         "环球科学"
       ],
       "channel_id": "wx:MjM5NDA1Njg2MA==",
+      "enabled": true,
       "fakeid": "MjM5NDA1Njg2MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -793,6 +837,7 @@
         "环球零碳"
       ],
       "channel_id": "wx:MzkwMDcyODUwMg==",
+      "enabled": true,
       "fakeid": "MzkwMDcyODUwMg==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -811,6 +856,7 @@
         "机工文献"
       ],
       "channel_id": "wx:MzIyNzYxNjY3Mg==",
+      "enabled": true,
       "fakeid": "MzIyNzYxNjY3Mg==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-13",
@@ -829,6 +875,7 @@
         "机器之心"
       ],
       "channel_id": "wx:MzA3MzI4MjgzMw==",
+      "enabled": true,
       "fakeid": "MzA3MzI4MjgzMw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -847,6 +894,7 @@
         "集邦固态电池"
       ],
       "channel_id": "wx:Mzk0NTMxNTMyNA==",
+      "enabled": true,
       "fakeid": "Mzk0NTMxNTMyNA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -865,6 +913,7 @@
         "焦耳时代"
       ],
       "channel_id": "wx:Mzk4ODgzNTcxMw==",
+      "enabled": true,
       "fakeid": "Mzk4ODgzNTcxMw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -883,6 +932,7 @@
         "科创板日报"
       ],
       "channel_id": "wx:Mzg4MTEyNzc4Mg==",
+      "enabled": true,
       "fakeid": "Mzg4MTEyNzc4Mg==",
       "first_observed": "2026-09-13",
       "last_observed": "2026-10-15",
@@ -901,6 +951,7 @@
         "科技日报"
       ],
       "channel_id": "wx:MzI3NDI5MjI4OQ==",
+      "enabled": true,
       "fakeid": "MzI3NDI5MjI4OQ==",
       "first_observed": "2026-09-13",
       "last_observed": "2026-10-15",
@@ -919,6 +970,7 @@
         "科学观澜"
       ],
       "channel_id": "wx:MzI1MzA2MzM1NA==",
+      "enabled": true,
       "fakeid": "MzI1MzA2MzM1NA==",
       "first_observed": "2026-09-20",
       "last_observed": "2026-10-09",
@@ -937,6 +989,7 @@
         "可控核聚变"
       ],
       "channel_id": "wx:Mzk1Nzc5NzU2MQ==",
+      "enabled": true,
       "fakeid": "Mzk1Nzc5NzU2MQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -955,6 +1008,7 @@
         "空天信息"
       ],
       "channel_id": "wx:MzA5OTcxODQ5Nw==",
+      "enabled": true,
       "fakeid": "MzA5OTcxODQ5Nw==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-13",
@@ -973,6 +1027,7 @@
         "矿业界"
       ],
       "channel_id": "wx:MzI5OTg4OTQwNQ==",
+      "enabled": true,
       "fakeid": "MzI5OTg4OTQwNQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -991,6 +1046,7 @@
         "昆山协鑫光电"
       ],
       "channel_id": "wx:Mzg3MDY0MDE0OQ==",
+      "enabled": true,
       "fakeid": "Mzg3MDY0MDE0OQ==",
       "first_observed": "2026-07-03",
       "last_observed": "2026-10-13",
@@ -1009,6 +1065,7 @@
         "离子能源"
       ],
       "channel_id": "wx:MzkyMTYwMDQxNQ==",
+      "enabled": true,
       "fakeid": "MzkyMTYwMDQxNQ==",
       "first_observed": "2026-09-22",
       "last_observed": "2026-10-01",
@@ -1027,6 +1084,7 @@
         "临一云川"
       ],
       "channel_id": "wx:MzkwNTY5NjY2Ng==",
+      "enabled": true,
       "fakeid": "MzkwNTY5NjY2Ng==",
       "first_observed": "2026-07-24",
       "last_observed": "2026-09-24",
@@ -1045,6 +1103,7 @@
         "铝途有你"
       ],
       "channel_id": "wx:Mzg3NDYxMTQzNQ==",
+      "enabled": true,
       "fakeid": "Mzg3NDYxMTQzNQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -1063,6 +1122,7 @@
         "绿金"
       ],
       "channel_id": "wx:Mzg3MDYzMDQ1Ng==",
+      "enabled": true,
       "fakeid": "Mzg3MDYzMDQ1Ng==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1081,6 +1141,7 @@
         "落基山研究所RMI-北京"
       ],
       "channel_id": "wx:Mzg2ODg1NTYyNw==",
+      "enabled": true,
       "fakeid": "Mzg2ODg1NTYyNw==",
       "first_observed": "2026-09-14",
       "last_observed": "2026-09-29",
@@ -1099,6 +1160,7 @@
         "麻省理工科技评论APP"
       ],
       "channel_id": "wx:MzI5MTcxMTA3Mw==",
+      "enabled": true,
       "fakeid": "MzI5MTcxMTA3Mw==",
       "first_observed": "2026-06-16",
       "last_observed": "2026-10-14",
@@ -1117,6 +1179,7 @@
         "每日氢闻"
       ],
       "channel_id": "wx:MzkyOTczOTEyMg==",
+      "enabled": true,
       "fakeid": "MzkyOTczOTEyMg==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-14",
@@ -1135,6 +1198,7 @@
         "墨子沙龙"
       ],
       "channel_id": "wx:MzI2NDIzMjYyMA==",
+      "enabled": true,
       "fakeid": "MzI2NDIzMjYyMA==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -1153,6 +1217,7 @@
         "南方能源观察"
       ],
       "channel_id": "wx:MjM5OTY4NjAwMQ==",
+      "enabled": true,
       "fakeid": "MjM5OTY4NjAwMQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1171,6 +1236,7 @@
         "能见"
       ],
       "channel_id": "wx:MzU5NDE0NTA3OQ==",
+      "enabled": true,
       "fakeid": "MzU5NDE0NTA3OQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -1189,6 +1255,7 @@
         "能量奇点FusionEnergy"
       ],
       "channel_id": "wx:Mzg4NjcyMTUzMQ==",
+      "enabled": true,
       "fakeid": "Mzg4NjcyMTUzMQ==",
       "first_observed": "2026-07-27",
       "last_observed": "2026-07-27",
@@ -1207,6 +1274,7 @@
         "能源干货"
       ],
       "channel_id": "wx:MzkyMzY0NTM0Nw==",
+      "enabled": true,
       "fakeid": "MzkyMzY0NTM0Nw==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-09-16",
@@ -1225,6 +1293,7 @@
         "能源环境经济文献精读"
       ],
       "channel_id": "wx:MzkyODY4MzU1Mw==",
+      "enabled": true,
       "fakeid": "MzkyODY4MzU1Mw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1243,6 +1312,7 @@
         "能源环境经济与政策研究"
       ],
       "channel_id": "wx:Mzg3NDEzOTE2Mg==",
+      "enabled": true,
       "fakeid": "Mzg3NDEzOTE2Mg==",
       "first_observed": "2026-06-25",
       "last_observed": "2026-10-14",
@@ -1261,6 +1331,7 @@
         "能源技术情报"
       ],
       "channel_id": "wx:MzkzNjIwODM3MA==",
+      "enabled": true,
       "fakeid": "MzkzNjIwODM3MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1279,6 +1350,7 @@
         "能源学人"
       ],
       "channel_id": "wx:MzUzOTUzMDYxNw==",
+      "enabled": true,
       "fakeid": "MzUzOTUzMDYxNw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1297,6 +1369,7 @@
         "能源研析"
       ],
       "channel_id": "wx:MzUyOTk4MDE2Ng==",
+      "enabled": true,
       "fakeid": "MzUyOTk4MDE2Ng==",
       "first_observed": "2026-09-14",
       "last_observed": "2026-10-14",
@@ -1315,6 +1388,7 @@
         "能源转型与双碳观察"
       ],
       "channel_id": "wx:MzYzMTEyNzg3OQ==",
+      "enabled": true,
       "fakeid": "MzYzMTEyNzg3OQ==",
       "first_observed": "2026-09-13",
       "last_observed": "2026-10-15",
@@ -1333,6 +1407,7 @@
         "氢氨融合能源"
       ],
       "channel_id": "wx:MzkyNTczMDI5NQ==",
+      "enabled": true,
       "fakeid": "MzkyNTczMDI5NQ==",
       "first_observed": "2026-09-14",
       "last_observed": "2026-10-13",
@@ -1351,6 +1426,7 @@
         "氢创空间"
       ],
       "channel_id": "wx:MzkzMzk1ODQ5Mw==",
+      "enabled": true,
       "fakeid": "MzkzMzk1ODQ5Mw==",
       "first_observed": "2026-06-16",
       "last_observed": "2026-10-10",
@@ -1369,6 +1445,7 @@
         "氢能技术前沿"
       ],
       "channel_id": "wx:MzA5NzMwODcyMA==",
+      "enabled": true,
       "fakeid": "MzA5NzMwODcyMA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1387,6 +1464,7 @@
         "氢能云互联"
       ],
       "channel_id": "wx:MzkzMjcxMTUyOA==",
+      "enabled": true,
       "fakeid": "MzkzMjcxMTUyOA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-14",
@@ -1405,6 +1483,7 @@
         "清华大学能源互联网创新研究院"
       ],
       "channel_id": "wx:MzIzMjAwNzAyOA==",
+      "enabled": true,
       "fakeid": "MzIzMjAwNzAyOA==",
       "first_observed": "2026-09-15",
       "last_observed": "2026-10-13",
@@ -1423,6 +1502,7 @@
         "清鹏产研院"
       ],
       "channel_id": "wx:MzY5NDI4NzcwNw==",
+      "enabled": true,
       "fakeid": "MzY5NDI4NzcwNw==",
       "first_observed": "2026-07-14",
       "last_observed": "2026-10-15",
@@ -1441,6 +1521,7 @@
         "饶议科学"
       ],
       "channel_id": "wx:MzA4MDE0NzI0Mg==",
+      "enabled": true,
       "fakeid": "MzA4MDE0NzI0Mg==",
       "first_observed": "2026-07-23",
       "last_observed": "2026-10-15",
@@ -1460,13 +1541,14 @@
         "热泵在线"
       ],
       "channel_id": "wx:MzAxMDkzNTAzNQ==",
+      "enabled": true,
       "fakeid": "MzAxMDkzNTAzNQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
       "listed_since": "2026-08-18",
       "origin": "名单+每日CSV",
       "sample_url": "http://mp.weixin.qq.com/s?__biz=MzAxMDkzNTAzNQ==&mid=2247519614&idx=1&sn=44523cc1d96d7abc4632dd3914cc3528",
-      "seed_name": "热泵在线",
+      "seed_name": "HPF热泵在线",
       "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
       "source_type": "微信公众号",
       "tracked_from": "2026-06-15",
@@ -1478,6 +1560,7 @@
         "热辐射与微纳光子学"
       ],
       "channel_id": "wx:MzI3NTE3MjUyOA==",
+      "enabled": true,
       "fakeid": "MzI3NTE3MjUyOA==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -1496,6 +1579,7 @@
         "热设计"
       ],
       "channel_id": "wx:Mzg2NjUzODAyMA==",
+      "enabled": true,
       "fakeid": "Mzg2NjUzODAyMA==",
       "first_observed": "2026-09-14",
       "last_observed": "2026-10-15",
@@ -1514,6 +1598,7 @@
         "社科院工业经济研究所"
       ],
       "channel_id": "wx:MzIxMzM3NTcyNA==",
+      "enabled": true,
       "fakeid": "MzIxMzM3NTcyNA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-14",
@@ -1530,6 +1615,7 @@
       "account_name": "深储科技",
       "aliases": [],
       "channel_id": "wx:MzU1ODczMDk3MQ==",
+      "enabled": true,
       "fakeid": "MzU1ODczMDk3MQ==",
       "first_observed": "",
       "last_observed": "",
@@ -1548,6 +1634,7 @@
         "深远海风电"
       ],
       "channel_id": "wx:MzkwMDI0NDU3MA==",
+      "enabled": true,
       "fakeid": "MzkwMDI0NDU3MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1564,6 +1651,7 @@
       "account_name": "深圳欣界能源科技股份有限公司",
       "aliases": [],
       "channel_id": "wx:Mzk0MDQ0MDQ4NA==",
+      "enabled": false,
       "fakeid": "Mzk0MDQ0MDQ4NA==",
       "first_observed": "",
       "last_observed": "",
@@ -1582,6 +1670,7 @@
         "世界科技研究与发展"
       ],
       "channel_id": "wx:MzI0MjcxNDQwNQ==",
+      "enabled": true,
       "fakeid": "MzI0MjcxNDQwNQ==",
       "first_observed": "2026-06-17",
       "last_observed": "2026-10-15",
@@ -1600,6 +1689,7 @@
         "世界先进制造技术论坛"
       ],
       "channel_id": "wx:MzA5NjU1NTAwMA==",
+      "enabled": true,
       "fakeid": "MzA5NjU1NTAwMA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1618,6 +1708,7 @@
         "数据小魔方"
       ],
       "channel_id": "wx:MzA3Njc0NzA0MA==",
+      "enabled": true,
       "fakeid": "MzA3Njc0NzA0MA==",
       "first_observed": "2026-06-29",
       "last_observed": "2026-10-13",
@@ -1636,6 +1727,7 @@
         "数据与情报科学英文刊"
       ],
       "channel_id": "wx:MzAwNTc5OTM3Mg==",
+      "enabled": true,
       "fakeid": "MzAwNTc5OTM3Mg==",
       "first_observed": "2026-06-17",
       "last_observed": "2026-10-09",
@@ -1654,6 +1746,7 @@
         "双碳情报"
       ],
       "channel_id": "wx:MzIyNDM4MDgyNA==",
+      "enabled": true,
       "fakeid": "MzIyNDM4MDgyNA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-14",
@@ -1672,6 +1765,7 @@
         "碳中和资料库"
       ],
       "channel_id": "wx:MzkyOTIwNzE3Mg==",
+      "enabled": true,
       "fakeid": "MzkyOTIwNzE3Mg==",
       "first_observed": "2026-07-24",
       "last_observed": "2026-10-15",
@@ -1690,6 +1784,7 @@
         "腾讯研究院"
       ],
       "channel_id": "wx:MjM5OTE0ODA2MQ==",
+      "enabled": true,
       "fakeid": "MjM5OTE0ODA2MQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1708,6 +1803,7 @@
         "天然气工业"
       ],
       "channel_id": "wx:MzU0NTU0MDAyNQ==",
+      "enabled": true,
       "fakeid": "MzU0NTU0MDAyNQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -1726,6 +1822,7 @@
         "晚点LatePost"
       ],
       "channel_id": "wx:MzU3Mjk1OTQ0Ng==",
+      "enabled": true,
       "fakeid": "MzU3Mjk1OTQ0Ng==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1744,6 +1841,7 @@
         "未来城市数智评论"
       ],
       "channel_id": "wx:Mzg5ODMwOTY4Mw==",
+      "enabled": true,
       "fakeid": "Mzg5ODMwOTY4Mw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1762,6 +1860,7 @@
         "未来智库"
       ],
       "channel_id": "wx:MzIyMzYxNDEzMg==",
+      "enabled": true,
       "fakeid": "MzIyMzYxNDEzMg==",
       "first_observed": "2026-06-22",
       "last_observed": "2026-10-15",
@@ -1780,6 +1879,7 @@
         "物理储能"
       ],
       "channel_id": "wx:MzU5NjgzNDA0MA==",
+      "enabled": true,
       "fakeid": "MzU5NjgzNDA0MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1798,6 +1898,7 @@
         "先进电池材料"
       ],
       "channel_id": "wx:MzIxMTQyMzE0OQ==",
+      "enabled": true,
       "fakeid": "MzIxMTQyMzE0OQ==",
       "first_observed": "2026-09-20",
       "last_observed": "2026-10-15",
@@ -1816,6 +1917,7 @@
         "先进能源科技战略情报研究中心"
       ],
       "channel_id": "wx:MzI5NzQwMjAxNQ==",
+      "enabled": true,
       "fakeid": "MzI5NzQwMjAxNQ==",
       "first_observed": "2026-06-16",
       "last_observed": "2026-10-15",
@@ -1834,6 +1936,7 @@
         "现代情报"
       ],
       "channel_id": "wx:MzU3ODUwMDM4Ng==",
+      "enabled": true,
       "fakeid": "MzU3ODUwMDM4Ng==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1850,6 +1953,7 @@
       "account_name": "小柯说能源",
       "aliases": [],
       "channel_id": "wx:MzYzNDg5NjIxMA==",
+      "enabled": false,
       "fakeid": "MzYzNDg5NjIxMA==",
       "first_observed": "",
       "last_observed": "",
@@ -1868,6 +1972,7 @@
         "芯见视界"
       ],
       "channel_id": "wx:MzY5NzM1NzQ1OQ==",
+      "enabled": true,
       "fakeid": "MzY5NzM1NzQ1OQ==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -1886,6 +1991,7 @@
         "芯联汇"
       ],
       "channel_id": "wx:MzkwMTYxMzY2MA==",
+      "enabled": true,
       "fakeid": "MzkwMTYxMzY2MA==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -1904,6 +2010,7 @@
         "欣旺达动力"
       ],
       "channel_id": "wx:MzI4ODQ5OTc5MA==",
+      "enabled": true,
       "fakeid": "MzI4ODQ5OTc5MA==",
       "first_observed": "2026-07-27",
       "last_observed": "2026-10-15",
@@ -1922,6 +2029,7 @@
         "新华国研经济学研究院"
       ],
       "channel_id": "wx:MzU0ODY3MzQ1MA==",
+      "enabled": true,
       "fakeid": "MzU0ODY3MzQ1MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1940,6 +2048,7 @@
         "新能见"
       ],
       "channel_id": "wx:Mzk5MDYxMTA0OQ==",
+      "enabled": true,
       "fakeid": "Mzk5MDYxMTA0OQ==",
       "first_observed": "2026-09-18",
       "last_observed": "2026-10-14",
@@ -1958,6 +2067,7 @@
         "新能源技术与装备"
       ],
       "channel_id": "wx:Mzg2NDg1ODEwNQ==",
+      "enabled": true,
       "fakeid": "Mzg2NDg1ODEwNQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -1976,6 +2086,7 @@
         "新能源汽车新闻EV"
       ],
       "channel_id": "wx:MzA4MDM4NjAyMg==",
+      "enabled": true,
       "fakeid": "MzA4MDM4NjAyMg==",
       "first_observed": "2026-07-23",
       "last_observed": "2026-10-15",
@@ -1994,6 +2105,7 @@
         "新能源前沿"
       ],
       "channel_id": "wx:MzkxMTg3MzgyNg==",
+      "enabled": true,
       "fakeid": "MzkxMTg3MzgyNg==",
       "first_observed": "2026-07-24",
       "last_observed": "2026-10-15",
@@ -2007,18 +2119,20 @@
       "wechat_alias": "W13993523118"
     },
     {
-      "account_name": "新能源情报局",
+      "account_name": "能斯特新能源情报局",
       "aliases": [
-        "新能源情报局"
+        "新能源情报局",
+        "能斯特新能源情报局"
       ],
       "channel_id": "wx:Mzg3OTY0MDk1MQ==",
+      "enabled": true,
       "fakeid": "Mzg3OTY0MDk1MQ==",
       "first_observed": "2026-06-16",
       "last_observed": "2026-07-24",
       "listed_since": "2026-08-18",
       "origin": "名单+每日CSV",
       "sample_url": "https://mp.weixin.qq.com/s/Nz6rcxDSRxONeSpFGFaKvg",
-      "seed_name": "新能源情报局",
+      "seed_name": "能斯特新能源情报局",
       "source_reference": "公众号名单 2026-08-18.xlsx / 公众号名录",
       "source_type": "微信公众号",
       "tracked_from": "2026-06-16",
@@ -2030,6 +2144,7 @@
         "新智元"
       ],
       "channel_id": "wx:MzI3MTA0MTk1MA==",
+      "enabled": true,
       "fakeid": "MzI3MTA0MTk1MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2048,6 +2163,7 @@
         "星源PlanetaryEnergy"
       ],
       "channel_id": "wx:MzAxNjUxMzUzMg==",
+      "enabled": true,
       "fakeid": "MzAxNjUxMzUzMg==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2066,6 +2182,7 @@
         "学研加"
       ],
       "channel_id": "wx:MzUyODAxMDY0MQ==",
+      "enabled": true,
       "fakeid": "MzUyODAxMDY0MQ==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -2084,6 +2201,7 @@
         "研之成理"
       ],
       "channel_id": "wx:MzUxMDMzODg2Ng==",
+      "enabled": true,
       "fakeid": "MzUxMDMzODg2Ng==",
       "first_observed": "2026-07-23",
       "last_observed": "2026-10-15",
@@ -2102,6 +2220,7 @@
         "冶金工业经济发展研究中心"
       ],
       "channel_id": "wx:MzUxNTQxMjQ2Mg==",
+      "enabled": true,
       "fakeid": "MzUxNTQxMjQ2Mg==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -2120,6 +2239,7 @@
         "源网荷储创研新视界"
       ],
       "channel_id": "wx:Mzk2NDIxNjM2NA==",
+      "enabled": true,
       "fakeid": "Mzk2NDIxNjM2NA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2138,6 +2258,7 @@
         "源因产研院"
       ],
       "channel_id": "wx:Mzg4MjExODI4MQ==",
+      "enabled": true,
       "fakeid": "Mzg4MjExODI4MQ==",
       "first_observed": "2026-07-18",
       "last_observed": "2026-07-26",
@@ -2156,6 +2277,7 @@
         "战略科技前沿"
       ],
       "channel_id": "wx:MzA4OTQzMjg0MA==",
+      "enabled": true,
       "fakeid": "MzA4OTQzMjg0MA==",
       "first_observed": "2026-09-28",
       "last_observed": "2026-09-30",
@@ -2174,6 +2296,7 @@
         "战略前沿技术"
       ],
       "channel_id": "wx:MzI3MTkwMzM0Nw==",
+      "enabled": true,
       "fakeid": "MzI3MTkwMzM0Nw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2192,6 +2315,7 @@
         "战略与政策论坛"
       ],
       "channel_id": "wx:MzUzMTEyOTEyMA==",
+      "enabled": true,
       "fakeid": "MzUzMTEyOTEyMA==",
       "first_observed": "2026-09-18",
       "last_observed": "2026-10-12",
@@ -2210,6 +2334,7 @@
         "兆钠新能源"
       ],
       "channel_id": "wx:MzkxNjUxODA1MQ==",
+      "enabled": true,
       "fakeid": "MzkxNjUxODA1MQ==",
       "first_observed": "2026-10-01",
       "last_observed": "2026-10-14",
@@ -2226,6 +2351,7 @@
       "account_name": "知识褶皱",
       "aliases": [],
       "channel_id": "wx:MzE5ODQ5ODc5Mw==",
+      "enabled": false,
       "fakeid": "MzE5ODQ5ODc5Mw==",
       "first_observed": "",
       "last_observed": "",
@@ -2244,6 +2370,7 @@
         "智库理论与实践"
       ],
       "channel_id": "wx:MzIxNTE3NDQzNg==",
+      "enabled": true,
       "fakeid": "MzIxNTE3NDQzNg==",
       "first_observed": "2026-09-21",
       "last_observed": "2026-10-09",
@@ -2262,6 +2389,7 @@
         "智能纪元AGI"
       ],
       "channel_id": "wx:MzcwMTIxNjgwMA==",
+      "enabled": true,
       "fakeid": "MzcwMTIxNjgwMA==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -2280,6 +2408,7 @@
         "智能新观察"
       ],
       "channel_id": "wx:Mzg2NTQ5NTUwOQ==",
+      "enabled": true,
       "fakeid": "Mzg2NTQ5NTUwOQ==",
       "first_observed": "2026-07-17",
       "last_observed": "2026-10-15",
@@ -2298,6 +2427,7 @@
         "中储国能"
       ],
       "channel_id": "wx:Mzg4NzUyNzM2Ng==",
+      "enabled": true,
       "fakeid": "Mzg4NzUyNzM2Ng==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-11",
@@ -2316,6 +2446,7 @@
         "中粉固态电池"
       ],
       "channel_id": "wx:MzI4MTc3NjM0MA==",
+      "enabled": true,
       "fakeid": "MzI4MTc3NjM0MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2334,6 +2465,7 @@
         "中国国际可再生能源署合作办公室"
       ],
       "channel_id": "wx:Mzg3ODk3MTcwOA==",
+      "enabled": true,
       "fakeid": "Mzg3ODk3MTcwOA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-14",
@@ -2352,6 +2484,7 @@
         "中国科技信息"
       ],
       "channel_id": "wx:MjM5MDUwOTg4NQ==",
+      "enabled": true,
       "fakeid": "MjM5MDUwOTg4NQ==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -2370,6 +2503,7 @@
         "中国科学技术发展战略研究院"
       ],
       "channel_id": "wx:MzIzOTM1NTA2Ng==",
+      "enabled": true,
       "fakeid": "MzIzOTM1NTA2Ng==",
       "first_observed": "2026-06-16",
       "last_observed": "2026-10-13",
@@ -2388,6 +2522,7 @@
         "中国科讯"
       ],
       "channel_id": "wx:MzIzNDIzMjE2MA==",
+      "enabled": true,
       "fakeid": "MzIzNDIzMjE2MA==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -2406,6 +2541,7 @@
         "中国可再生能源学会地热能专委会"
       ],
       "channel_id": "wx:Mzk0MDQ5MTE5OQ==",
+      "enabled": true,
       "fakeid": "Mzk0MDQ5MTE5OQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2424,6 +2560,7 @@
         "中国能源报"
       ],
       "channel_id": "wx:MjM5NTI4MTIyMg==",
+      "enabled": true,
       "fakeid": "MjM5NTI4MTIyMg==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -2442,6 +2579,7 @@
         "中国能源观察"
       ],
       "channel_id": "wx:MzkzMTYwNjczMg==",
+      "enabled": true,
       "fakeid": "MzkzMTYwNjczMg==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -2460,6 +2598,7 @@
         "中国能源研究会核能专委会"
       ],
       "channel_id": "wx:MzU0Nzg5OTM1MA==",
+      "enabled": true,
       "fakeid": "MzU0Nzg5OTM1MA==",
       "first_observed": "2026-07-17",
       "last_observed": "2026-10-14",
@@ -2478,6 +2617,7 @@
         "中国石油石化"
       ],
       "channel_id": "wx:MzA3MzI5ODEwOA==",
+      "enabled": true,
       "fakeid": "MzA3MzI5ODEwOA==",
       "first_observed": "2026-09-16",
       "last_observed": "2026-10-15",
@@ -2496,6 +2636,7 @@
         "中科院物理所"
       ],
       "channel_id": "wx:MzAwNTA5NTYxOA==",
+      "enabled": true,
       "fakeid": "MzAwNTA5NTYxOA==",
       "first_observed": "2026-07-23",
       "last_observed": "2026-10-15",
@@ -2514,6 +2655,7 @@
         "中科院之声"
       ],
       "channel_id": "wx:MjM5NzIyNDI1Mw==",
+      "enabled": true,
       "fakeid": "MjM5NzIyNDI1Mw==",
       "first_observed": "2026-09-17",
       "last_observed": "2026-10-15",
@@ -2532,6 +2674,7 @@
         "中咨研究"
       ],
       "channel_id": "wx:MzU3NTQ1Mjc4Mw==",
+      "enabled": true,
       "fakeid": "MzU3NTQ1Mjc4Mw==",
       "first_observed": "2026-06-18",
       "last_observed": "2026-10-15",
@@ -2550,6 +2693,7 @@
         "众安金融科技研究院"
       ],
       "channel_id": "wx:MzUzMzk2MjcyNg==",
+      "enabled": true,
       "fakeid": "MzUzMzk2MjcyNg==",
       "first_observed": "2026-07-17",
       "last_observed": "2026-07-17",
@@ -2568,6 +2712,7 @@
         "自然冷媒技术"
       ],
       "channel_id": "wx:MzIzOTQ1NTA0OQ==",
+      "enabled": true,
       "fakeid": "MzIzOTQ1NTA0OQ==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -2587,6 +2732,7 @@
         "AEii国际应用能源"
       ],
       "channel_id": "wx:MzAxMTE3NTAwNA==",
+      "enabled": true,
       "fakeid": "MzAxMTE3NTAwNA==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-13",
@@ -2605,6 +2751,7 @@
         "AI寒武纪"
       ],
       "channel_id": "wx:Mzg3MTkxMjYzOA==",
+      "enabled": true,
       "fakeid": "Mzg3MTkxMjYzOA==",
       "first_observed": "2026-09-17",
       "last_observed": "2026-10-15",
@@ -2623,6 +2770,7 @@
         "AIDC算电协同产业链"
       ],
       "channel_id": "wx:Mzk0NTY4MzIxNQ==",
+      "enabled": true,
       "fakeid": "Mzk0NTY4MzIxNQ==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -2641,6 +2789,7 @@
         "CCUS国家地方联合工程研究中心"
       ],
       "channel_id": "wx:Mzg4MzUxNzI4MQ==",
+      "enabled": true,
       "fakeid": "Mzg4MzUxNzI4MQ==",
       "first_observed": "2026-06-16",
       "last_observed": "2026-10-14",
@@ -2659,6 +2808,7 @@
         "CSSD气候变化工作委员会"
       ],
       "channel_id": "wx:Mzg4NTY0OTk5OA==",
+      "enabled": true,
       "fakeid": "Mzg4NTY0OTk5OA==",
       "first_observed": "2026-06-16",
       "last_observed": "2026-10-15",
@@ -2677,6 +2827,7 @@
         "DeepTech深科技"
       ],
       "channel_id": "wx:MzA3NTIyODUzNA==",
+      "enabled": true,
       "fakeid": "MzA3NTIyODUzNA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2695,6 +2846,7 @@
         "DT洞见可持续"
       ],
       "channel_id": "wx:Mzk2OTEwNDUyMw==",
+      "enabled": true,
       "fakeid": "Mzk2OTEwNDUyMw==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2713,6 +2865,7 @@
         "EngineeringJournals"
       ],
       "channel_id": "wx:Mzg4MDUwODE2OQ==",
+      "enabled": true,
       "fakeid": "Mzg4MDUwODE2OQ==",
       "first_observed": "2026-09-17",
       "last_observed": "2026-10-15",
@@ -2731,6 +2884,7 @@
         "eScience期刊"
       ],
       "channel_id": "wx:MzkzNDIxMTE2NA==",
+      "enabled": true,
       "fakeid": "MzkzNDIxMTE2NA==",
       "first_observed": "2026-07-17",
       "last_observed": "2026-10-15",
@@ -2750,6 +2904,7 @@
         "ESPlaza储热网"
       ],
       "channel_id": "wx:MzU0OTM1MDg1NQ==",
+      "enabled": true,
       "fakeid": "MzU0OTM1MDg1NQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2769,6 +2924,7 @@
         "ESPlaza长时储能网"
       ],
       "channel_id": "wx:MzkyMTM5MzI4MQ==",
+      "enabled": true,
       "fakeid": "MzkyMTM5MzI4MQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2787,6 +2943,7 @@
         "Gartner公司"
       ],
       "channel_id": "wx:MzA5NjQyNjMxNA==",
+      "enabled": true,
       "fakeid": "MzA5NjQyNjMxNA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2805,6 +2962,7 @@
         "GFC绿色工厂圈"
       ],
       "channel_id": "wx:Mzk0MDYwMzI4NA==",
+      "enabled": true,
       "fakeid": "Mzk0MDYwMzI4NA==",
       "first_observed": "2026-07-24",
       "last_observed": "2026-10-15",
@@ -2823,6 +2981,7 @@
         "IEEE电气电子工程学会"
       ],
       "channel_id": "wx:MjM5NzYzMTMwMg==",
+      "enabled": true,
       "fakeid": "MjM5NzYzMTMwMg==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2841,6 +3000,7 @@
         "PV光圈见闻"
       ],
       "channel_id": "wx:MjM5MzI1NzEyMA==",
+      "enabled": true,
       "fakeid": "MjM5MzI1NzEyMA==",
       "first_observed": "2026-07-16",
       "last_observed": "2026-10-15",
@@ -2859,6 +3019,7 @@
         "REAI Lab"
       ],
       "channel_id": "wx:MzkzNzkwMDk1MA==",
+      "enabled": true,
       "fakeid": "MzkzNzkwMDk1MA==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2877,6 +3038,7 @@
         "SOFC-SOEC-氢能技术"
       ],
       "channel_id": "wx:Mzg2MjYwMjM0MQ==",
+      "enabled": true,
       "fakeid": "Mzg2MjYwMjM0MQ==",
       "first_observed": "2026-06-15",
       "last_observed": "2026-10-15",
@@ -2895,6 +3057,7 @@
         "The Hydrogen Online"
       ],
       "channel_id": "wx:MzUyMDk5MjA2NQ==",
+      "enabled": true,
       "fakeid": "MzUyMDk5MjA2NQ==",
       "first_observed": "2026-09-19",
       "last_observed": "2026-09-19",
@@ -2913,6 +3076,7 @@
         "VPP前沿观察"
       ],
       "channel_id": "wx:MzYyMzEyNjYxMg==",
+      "enabled": true,
       "fakeid": "MzYyMzEyNjYxMg==",
       "first_observed": "2026-06-20",
       "last_observed": "2026-10-11",
@@ -2931,6 +3095,7 @@
         "视知产业研究院"
       ],
       "channel_id": "name:394e4c2906d2c2bf",
+      "enabled": true,
       "fakeid": "",
       "first_observed": "2026-06-15",
       "last_observed": "2026-06-22",
@@ -2949,6 +3114,7 @@
         "仁烁光能"
       ],
       "channel_id": "name:6c593c5b8b5a6396",
+      "enabled": false,
       "fakeid": "",
       "first_observed": "2026-06-16",
       "last_observed": "2026-07-27",
@@ -2967,6 +3133,7 @@
         "晶科能源JinkoSolar"
       ],
       "channel_id": "name:84f94e8d65de7dbf",
+      "enabled": true,
       "fakeid": "",
       "first_observed": "2026-07-23",
       "last_observed": "2026-07-28",
@@ -2985,6 +3152,7 @@
         "JTPV捷泰科技"
       ],
       "channel_id": "name:0cd7b5b83079d5fd",
+      "enabled": true,
       "fakeid": "",
       "first_observed": "2026-07-23",
       "last_observed": "2026-07-28",
@@ -3003,6 +3171,7 @@
         "星环聚能"
       ],
       "channel_id": "name:aa5451e323083b06",
+      "enabled": true,
       "fakeid": "",
       "first_observed": "2026-07-24",
       "last_observed": "2026-07-24",
@@ -3021,6 +3190,7 @@
         "极电光能"
       ],
       "channel_id": "name:73452b3b96c9ec71",
+      "enabled": true,
       "fakeid": "",
       "first_observed": "2026-07-24",
       "last_observed": "2026-07-28",
@@ -3039,6 +3209,7 @@
         "京东方BOE"
       ],
       "channel_id": "name:2c6effec9ee45d53",
+      "enabled": true,
       "fakeid": "",
       "first_observed": "2026-07-27",
       "last_observed": "2026-07-27",
@@ -3057,6 +3228,7 @@
         "锂电前沿"
       ],
       "channel_id": "wx:MzkzODYxNTc2OA==",
+      "enabled": true,
       "fakeid": "MzkzODYxNTc2OA==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3075,6 +3247,7 @@
         "深圳电池技术展"
       ],
       "channel_id": "wx:MzIxMDgwMDY4Mg==",
+      "enabled": true,
       "fakeid": "MzIxMDgwMDY4Mg==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3093,6 +3266,7 @@
         "锂电派"
       ],
       "channel_id": "wx:MzI4MTc4MzY2NA==",
+      "enabled": true,
       "fakeid": "MzI4MTc4MzY2NA==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3111,6 +3285,7 @@
         "旺材锂电"
       ],
       "channel_id": "wx:MzI0ODc5NTQ4NQ==",
+      "enabled": true,
       "fakeid": "MzI0ODc5NTQ4NQ==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3129,6 +3304,7 @@
         "鑫椤锂电"
       ],
       "channel_id": "wx:MzU0MTkzOTQzOA==",
+      "enabled": true,
       "fakeid": "MzU0MTkzOTQzOA==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3147,6 +3323,7 @@
         "储能网"
       ],
       "channel_id": "wx:MzA3MjA3MzgwNw==",
+      "enabled": true,
       "fakeid": "MzA3MjA3MzgwNw==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3165,6 +3342,7 @@
         "新能源探索录"
       ],
       "channel_id": "wx:MzkxMzYxOTM5MQ==",
+      "enabled": true,
       "fakeid": "MzkxMzYxOTM5MQ==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-14",
@@ -3183,6 +3361,7 @@
         "电动学堂"
       ],
       "channel_id": "wx:MzIyMTg1NDg0Mg==",
+      "enabled": true,
       "fakeid": "MzIyMTg1NDg0Mg==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3201,6 +3380,7 @@
         "今日锂电"
       ],
       "channel_id": "wx:MzkyNzc0MDc0MA==",
+      "enabled": true,
       "fakeid": "MzkyNzc0MDc0MA==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3219,6 +3399,7 @@
         "智锂魔方"
       ],
       "channel_id": "wx:Mzk4ODU2ODU5OA==",
+      "enabled": true,
       "fakeid": "Mzk4ODU2ODU5OA==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3237,6 +3418,7 @@
         "新材料在线"
       ],
       "channel_id": "wx:MzA5NDQ2NzQyMg==",
+      "enabled": true,
       "fakeid": "MzA5NDQ2NzQyMg==",
       "first_observed": "2026-07-28",
       "last_observed": "2026-10-15",
@@ -3255,6 +3437,7 @@
         "钙钛矿太阳能电池"
       ],
       "channel_id": "wx:MzIwNDAzNzcwMA==",
+      "enabled": false,
       "fakeid": "MzIwNDAzNzcwMA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3273,6 +3456,7 @@
         "电池中国"
       ],
       "channel_id": "wx:MzA3MzY0OTIzMQ==",
+      "enabled": true,
       "fakeid": "MzA3MzY0OTIzMQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3291,6 +3475,7 @@
         "科研云平台"
       ],
       "channel_id": "wx:MzUyMzk5OTg3Ng==",
+      "enabled": true,
       "fakeid": "MzUyMzk5OTg3Ng==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3309,6 +3494,7 @@
         "工程塑料应用"
       ],
       "channel_id": "wx:MzA4MjYwMjQ5MA==",
+      "enabled": true,
       "fakeid": "MzA4MjYwMjQ5MA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-13",
@@ -3327,6 +3513,7 @@
         "起点锂电"
       ],
       "channel_id": "wx:MzI1MjEyODg2Mg==",
+      "enabled": true,
       "fakeid": "MzI1MjEyODg2Mg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3345,6 +3532,7 @@
         "第一锂电网"
       ],
       "channel_id": "wx:MzU2NTEwMTg0OQ==",
+      "enabled": true,
       "fakeid": "MzU2NTEwMTg0OQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3363,6 +3551,7 @@
         "卓研钠电"
       ],
       "channel_id": "wx:Mzg5MjY4NjcxMw==",
+      "enabled": true,
       "fakeid": "Mzg5MjY4NjcxMw==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3381,6 +3570,7 @@
         "材料人"
       ],
       "channel_id": "wx:MjM5ODcyMzk0Mg==",
+      "enabled": true,
       "fakeid": "MjM5ODcyMzk0Mg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3399,6 +3589,7 @@
         "起点钠电"
       ],
       "channel_id": "wx:Mzg4NjgzMzg3NA==",
+      "enabled": true,
       "fakeid": "Mzg4NjgzMzg3NA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3417,6 +3608,7 @@
         "SMM固态电池"
       ],
       "channel_id": "wx:MzA5Mjg4MDczMw==",
+      "enabled": true,
       "fakeid": "MzA5Mjg4MDczMw==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3435,6 +3627,7 @@
         "氢能观察"
       ],
       "channel_id": "wx:MzAxMTUxNzgyOA==",
+      "enabled": true,
       "fakeid": "MzAxMTUxNzgyOA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3453,6 +3646,7 @@
         "马里亚纳锂电"
       ],
       "channel_id": "wx:Mzg2ODY4NTIwNA==",
+      "enabled": true,
       "fakeid": "Mzg2ODY4NTIwNA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3471,6 +3665,7 @@
         "AI赋能材料"
       ],
       "channel_id": "wx:Mzg4OTc1MzY5Mw==",
+      "enabled": true,
       "fakeid": "Mzg4OTc1MzY5Mw==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3489,6 +3684,7 @@
         "科学指南针-测试万事屋"
       ],
       "channel_id": "wx:MzkzMDExNDcyNg==",
+      "enabled": true,
       "fakeid": "MzkzMDExNDcyNg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3507,6 +3703,7 @@
         "有机电催化"
       ],
       "channel_id": "wx:MzUyNTc2ODMyOQ==",
+      "enabled": true,
       "fakeid": "MzUyNTc2ODMyOQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3525,6 +3722,7 @@
         "起点固态电池"
       ],
       "channel_id": "wx:MzU3MzMxNDI5Ng==",
+      "enabled": true,
       "fakeid": "MzU3MzMxNDI5Ng==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3543,6 +3741,7 @@
         "真锂研究"
       ],
       "channel_id": "wx:MzkwMTYxMzYwNg==",
+      "enabled": true,
       "fakeid": "MzkwMTYxMzYwNg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3561,6 +3760,7 @@
         "亚化固态电池"
       ],
       "channel_id": "wx:Mzk0MDY0OTQxOA==",
+      "enabled": true,
       "fakeid": "Mzk0MDY0OTQxOA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-10",
@@ -3579,6 +3779,7 @@
         "储能前沿"
       ],
       "channel_id": "wx:Mzg3MjY1NTkxNg==",
+      "enabled": true,
       "fakeid": "Mzg3MjY1NTkxNg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3597,6 +3798,7 @@
         "高工钠电"
       ],
       "channel_id": "wx:MzIwMDkyMDg2Mg==",
+      "enabled": true,
       "fakeid": "MzIwMDkyMDg2Mg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3615,6 +3817,7 @@
         "钠电派"
       ],
       "channel_id": "wx:Mzg3MDg4NzA0MQ==",
+      "enabled": true,
       "fakeid": "Mzg3MDg4NzA0MQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3633,6 +3836,7 @@
         "全球液流电池储能"
       ],
       "channel_id": "wx:Mzg3NjcyNzE4Nw==",
+      "enabled": true,
       "fakeid": "Mzg3NjcyNzE4Nw==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3651,6 +3855,7 @@
         "高分子科技"
       ],
       "channel_id": "wx:MzA5NjUyNjc5Ng==",
+      "enabled": true,
       "fakeid": "MzA5NjUyNjc5Ng==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3669,6 +3874,7 @@
         "固态电池SSB"
       ],
       "channel_id": "wx:MzkxOTU5NjMwNg==",
+      "enabled": true,
       "fakeid": "MzkxOTU5NjMwNg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3687,6 +3893,7 @@
         "固态电池前沿"
       ],
       "channel_id": "wx:MzkwMDI5MTkyNQ==",
+      "enabled": true,
       "fakeid": "MzkwMDI5MTkyNQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3705,6 +3912,7 @@
         "今日新材料"
       ],
       "channel_id": "wx:MzkwMTEzMjE5OQ==",
+      "enabled": true,
       "fakeid": "MzkwMTEzMjE5OQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3723,6 +3931,7 @@
         "知光谷"
       ],
       "channel_id": "wx:MzI2MjQ5NDkyOA==",
+      "enabled": true,
       "fakeid": "MzI2MjQ5NDkyOA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3741,6 +3950,7 @@
         "钠电材料"
       ],
       "channel_id": "wx:Mzk0MjY3NzEwNg==",
+      "enabled": true,
       "fakeid": "Mzk0MjY3NzEwNg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-09-29",
@@ -3759,6 +3969,7 @@
         "电池社"
       ],
       "channel_id": "wx:MzI5MDc1MjAzNQ==",
+      "enabled": true,
       "fakeid": "MzI5MDc1MjAzNQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3777,6 +3988,7 @@
         "粉体网"
       ],
       "channel_id": "wx:MjM5NDI1NzI2MA==",
+      "enabled": true,
       "fakeid": "MjM5NDI1NzI2MA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3795,6 +4007,7 @@
         "钙钛矿光伏"
       ],
       "channel_id": "wx:MzkyNTYzNjI1NQ==",
+      "enabled": true,
       "fakeid": "MzkyNTYzNjI1NQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3813,6 +4026,7 @@
         "OFweek维科网"
       ],
       "channel_id": "wx:MjM5NzUxNTc0Mw==",
+      "enabled": true,
       "fakeid": "MjM5NzUxNTc0Mw==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3831,6 +4045,7 @@
         "电解质前沿"
       ],
       "channel_id": "wx:Mzg4MDg2ODUxMw==",
+      "enabled": true,
       "fakeid": "Mzg4MDg2ODUxMw==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3849,6 +4064,7 @@
         "能源灯塔"
       ],
       "channel_id": "wx:MzU3Mzg4MDk4MA==",
+      "enabled": true,
       "fakeid": "MzU3Mzg4MDk4MA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3867,6 +4083,7 @@
         "钠电材料"
       ],
       "channel_id": "wx:Mzg2Mjg2NDExNQ==",
+      "enabled": true,
       "fakeid": "Mzg2Mjg2NDExNQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3885,6 +4102,7 @@
         "电池未来"
       ],
       "channel_id": "wx:Mzg5OTYzNjU0OA==",
+      "enabled": true,
       "fakeid": "Mzg5OTYzNjU0OA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3903,6 +4121,7 @@
         "钙钛矿人"
       ],
       "channel_id": "wx:Mzk0OTY5NjE1Mg==",
+      "enabled": true,
       "fakeid": "Mzk0OTY5NjE1Mg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-09-29",
@@ -3921,6 +4140,7 @@
         "锂电联盟会长"
       ],
       "channel_id": "wx:Mzg2ODg5MzM5Nw==",
+      "enabled": true,
       "fakeid": "Mzg2ODg5MzM5Nw==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3939,6 +4159,7 @@
         "高分子科学前沿"
       ],
       "channel_id": "wx:MzA5NjM5NzA5OA==",
+      "enabled": true,
       "fakeid": "MzA5NjM5NzA5OA==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3957,6 +4178,7 @@
         "今日钠电"
       ],
       "channel_id": "wx:Mzk0NDQ5MjcxMg==",
+      "enabled": true,
       "fakeid": "Mzk0NDQ5MjcxMg==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3975,6 +4197,7 @@
         "电催化科研社"
       ],
       "channel_id": "wx:MzI4MTE2MjIxOQ==",
+      "enabled": true,
       "fakeid": "MzI4MTE2MjIxOQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-15",
@@ -3993,6 +4216,7 @@
         "清深储能"
       ],
       "channel_id": "wx:MzYyMzA0NTc3NQ==",
+      "enabled": true,
       "fakeid": "MzYyMzA0NTc3NQ==",
       "first_observed": "2026-07-29",
       "last_observed": "2026-10-12",
@@ -4011,6 +4235,7 @@
         "锂想生活"
       ],
       "channel_id": "wx:MzI0NzkxMTYzNA==",
+      "enabled": true,
       "fakeid": "MzI0NzkxMTYzNA==",
       "first_observed": "2026-07-30",
       "last_observed": "2026-10-15",
@@ -4029,6 +4254,7 @@
         "深水科技咨询"
       ],
       "channel_id": "wx:MzI2NTI1Njk5Mw==",
+      "enabled": true,
       "fakeid": "MzI2NTI1Njk5Mw==",
       "first_observed": "2026-07-30",
       "last_observed": "2026-10-15",
@@ -4047,6 +4273,7 @@
         "亚化液流储能"
       ],
       "channel_id": "wx:MzkzNDYzMzQ0NA==",
+      "enabled": true,
       "fakeid": "MzkzNDYzMzQ0NA==",
       "first_observed": "2026-07-30",
       "last_observed": "2026-10-15",
@@ -4065,6 +4292,7 @@
         "钙钛矿太阳能电池"
       ],
       "channel_id": "wx:MzkwMDU5MjA5OA==",
+      "enabled": false,
       "fakeid": "MzkwMDU5MjA5OA==",
       "first_observed": "2026-07-30",
       "last_observed": "2026-10-15",
@@ -4083,6 +4311,7 @@
         "金属能源电池"
       ],
       "channel_id": "wx:MzI4MTA3MzQwOA==",
+      "enabled": true,
       "fakeid": "MzI4MTA3MzQwOA==",
       "first_observed": "2026-07-30",
       "last_observed": "2026-10-08",
@@ -4101,6 +4330,7 @@
         "DT新材料"
       ],
       "channel_id": "wx:MzI4MzI5MTY3Ng==",
+      "enabled": true,
       "fakeid": "MzI4MzI5MTY3Ng==",
       "first_observed": "2026-07-30",
       "last_observed": "2026-10-15",
@@ -4119,6 +4349,7 @@
         "电化学能源"
       ],
       "channel_id": "wx:Mzg4NTExMDU4NQ==",
+      "enabled": true,
       "fakeid": "Mzg4NTExMDU4NQ==",
       "first_observed": "2026-07-31",
       "last_observed": "2026-10-13",
@@ -4137,6 +4368,7 @@
         "微纳纤维和电解质observing"
       ],
       "channel_id": "wx:MzU4MzYyMDIxNg==",
+      "enabled": true,
       "fakeid": "MzU4MzYyMDIxNg==",
       "first_observed": "2026-08-10",
       "last_observed": "2026-09-21",
@@ -4155,6 +4387,7 @@
         "JEnergyChem"
       ],
       "channel_id": "wx:MzI2NDE0Mjc1Ng==",
+      "enabled": true,
       "fakeid": "MzI2NDE0Mjc1Ng==",
       "first_observed": "2026-08-12",
       "last_observed": "2026-10-13",
@@ -4173,6 +4406,7 @@
         "材料研究进展"
       ],
       "channel_id": "wx:Mzg5MTAyNzY0MQ==",
+      "enabled": true,
       "fakeid": "Mzg5MTAyNzY0MQ==",
       "first_observed": "2026-08-12",
       "last_observed": "2026-10-05",
@@ -4186,47 +4420,12 @@
       "wechat_alias": ""
     },
     {
-      "account_name": "创新研究",
-      "aliases": [
-        "创新研究"
-      ],
-      "channel_id": "wx:MzkyNzU5MTc5OA==",
-      "fakeid": "MzkyNzU5MTc5OA==",
-      "first_observed": "2026-09-13",
-      "last_observed": "2026-09-14",
-      "listed_since": "",
-      "origin": "每日CSV发现",
-      "sample_url": "http://mp.weixin.qq.com/s?__biz=MzkyNzU5MTc5OA==&mid=2247568873&idx=2&sn=0047d7e355828671054cd1b16ec7820a",
-      "seed_name": "",
-      "source_reference": "",
-      "source_type": "微信公众号",
-      "tracked_from": "2026-09-13",
-      "wechat_alias": ""
-    },
-    {
-      "account_name": "空天信息",
-      "aliases": [
-        "空天信息"
-      ],
-      "channel_id": "wx:Mzg3NDE1NjE5MA==",
-      "fakeid": "Mzg3NDE1NjE5MA==",
-      "first_observed": "2026-09-14",
-      "last_observed": "2026-09-14",
-      "listed_since": "",
-      "origin": "每日CSV发现",
-      "sample_url": "http://mp.weixin.qq.com/s?__biz=Mzg3NDE1NjE5MA==&mid=2247485631&idx=1&sn=cad2406733ff141d562b71a67d76e0d5",
-      "seed_name": "",
-      "source_reference": "",
-      "source_type": "微信公众号",
-      "tracked_from": "2026-09-14",
-      "wechat_alias": ""
-    },
-    {
       "account_name": "超快高温技术",
       "aliases": [
         "超快高温技术"
       ],
       "channel_id": "wx:MzkzNTU5NzAxNA==",
+      "enabled": true,
       "fakeid": "MzkzNTU5NzAxNA==",
       "first_observed": "2026-09-28",
       "last_observed": "2026-09-28",
@@ -4245,6 +4444,7 @@
         "中科精研材料制备技术研究院"
       ],
       "channel_id": "wx:MzkyNTc0NzcyOA==",
+      "enabled": true,
       "fakeid": "MzkyNTc0NzcyOA==",
       "first_observed": "2026-09-29",
       "last_observed": "2026-09-29",
@@ -4263,6 +4463,7 @@
         "钙钛矿太阳能电池"
       ],
       "channel_id": "wx:MzkzMjY5NjEzOA==",
+      "enabled": false,
       "fakeid": "MzkzMjY5NjEzOA==",
       "first_observed": "2026-09-30",
       "last_observed": "2026-09-30",
