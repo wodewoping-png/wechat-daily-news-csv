@@ -1,4 +1,21 @@
 {
+  "c03c2131bc3d3d3e31f7d355a79665f3be04dad58660dc9220c404c2a86ec6a2": {
+    "classified_at": "2026-10-17T05:49:44.506542+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.45,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件是腾讯云WorkBuddy/CodeBuddy就DeepSeek文本大模型服务异常发布积分补偿公告，主要产业对象为DeepSeek文本模型服务，但内容为商业运营补偿、无技术实质，故低置信度匹配"
+      }
+    ],
+    "reason": "核心事件是腾讯云WorkBuddy/CodeBuddy就DeepSeek文本大模型服务异常发布积分补偿公告，主要产业对象为DeepSeek文本模型服务，但内容为商业运营补偿、无技术实质，故低置信度匹配"
+  },
   "c049a17250d933e3ac69afa47d7a6bec53e768cd7afe07850bad4ec8170a8eea": {
     "classified_at": "2026-10-16T08:53:02.627718+00:00",
     "matches": [

@@ -44,6 +44,32 @@
     ],
     "reason": "核心对象为铜箔龙头嘉元科技业绩与产能，铜箔属铜加工产业"
   },
+  "9d71a51ae2d93625ce3cc9fb399c85502c94f778c6b28869089fcb64b33579e9": {
+    "classified_at": "2026-10-17T06:53:50.611344+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心事件是长鑫科技DRAM芯片技术突破：4F²架构DDR5、G5平台及LPDDR6量产"
+      },
+      {
+        "category_id": "C089",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "涉及存储晶圆制程、产能扩充等半导体制造产业动态"
+      }
+    ],
+    "reason": "核心事件是长鑫科技DRAM芯片技术突破：4F²架构DDR5、G5平台及LPDDR6量产"
+  },
   "9dcac4eba6b91e3c18db519d1cd44cb3f497ae532597d627027c3bc1add58888": {
     "classified_at": "2026-10-16T10:56:27.342493+00:00",
     "matches": [
