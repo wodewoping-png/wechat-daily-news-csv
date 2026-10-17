@@ -75,3 +75,7 @@
 2026-10-15,paused,wx:MzkyNTY5NzgwOA==|never_observed,wx:MzkyNTY5NzgwOA==,大锌能源,never_observed,warning,2026-10-11,名单渠道在59个完整数据日均未观测；不能据此证明抓取失败,核查是否已订阅/启用，fakeid与名称是否匹配，并人工查看最近发文
 2026-10-15,excluded,wx:MzkyNzU5MTc5OA==|identity_conflict,wx:MzkyNzU5MTc5OA==,创新研究,identity_conflict,warning,2026-10-11,同名渠道出现不同fakeid，已保留独立记录，未自动合并,核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid
 2026-10-15,paused,wx:MzkzNTkwNjc2Mg==|never_observed,wx:MzkzNTkwNjc2Mg==,储能调研,never_observed,warning,2026-10-11,名单渠道在59个完整数据日均未观测；不能据此证明抓取失败,核查是否已订阅/启用，fakeid与名称是否匹配，并人工查看最近发文
+2026-10-16,opened,wx:MzI4MzI5MTY3Ng==|volume_drop,wx:MzI4MzI5MTY3Ng==,DT新材料,volume_drop,warning,2026-10-16,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-16,opened,wx:MzIyNzYxNjY3Mg==|suspected_silence,wx:MzIyNzYxNjY3Mg==,机工文献,suspected_silence,warning,2026-10-16,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-16,opened,wx:MzkxMjU0NTAzOQ==|volume_drop,wx:MzkxMjU0NTAzOQ==,铂道,volume_drop,warning,2026-10-16,当天抓到0篇，同类工作日/周末基线中位数5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-16,recovered,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-10-15,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
