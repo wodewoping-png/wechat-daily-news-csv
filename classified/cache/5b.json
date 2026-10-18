@@ -1,4 +1,30 @@
 {
+  "5b136242d28c2c081b901d494d6480ed282dc21d52f585dcac5d9fc1d3e6c1b2": {
+    "classified_at": "2026-10-18T05:35:24.862957+00:00",
+    "matches": [
+      {
+        "category_id": "C096",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "合并传闻的核心逻辑是AI垂直整合，将Robotaxi、Optimus人形机器人与xAI的Grok模型整合，涉及具身智能模型与操作系统"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "特斯拉、SpaceX与xAI共同推进的Terafab半导体制造项目被列为合并的关键驱动力"
+      }
+    ],
+    "reason": "合并传闻的核心逻辑是AI垂直整合，将Robotaxi、Optimus人形机器人与xAI的Grok模型整合，涉及具身智能模型与操作系统"
+  },
   "5b29f4e08a5e36c544053d828816dd256a62520e6b5479c85b0e40fea7103d56": {
     "classified_at": "2026-10-17T05:24:47.609540+00:00",
     "matches": [

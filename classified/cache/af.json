@@ -72,6 +72,23 @@
     ],
     "reason": "核心为Opus 5.5文本大模型极速模式上线及其推理工程优化"
   },
+  "afd712ea67757aa4110c14c201f247414b9cf014b585c4c3da4bceac0f4f0ac3": {
+    "classified_at": "2026-10-18T04:54:08.800524+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "内容为Christopher Manning访谈，讨论大语言模型的语言抽象学习能力与NLP研究转向，属文本底座大模型领域"
+      }
+    ],
+    "reason": "内容为Christopher Manning访谈，讨论大语言模型的语言抽象学习能力与NLP研究转向，属文本底座大模型领域"
+  },
   "afded1e4ad81dea3b40d651a8695f82a61914744f33aeb808f12e63d5e3a47e0": {
     "classified_at": "2026-10-17T06:18:22.773564+00:00",
     "matches": [

@@ -1,4 +1,9 @@
 {
+  "e00d51da9cba22a33059b3bf6f3f55307281fb3d8be5373f6d92e0270377eb62": {
+    "classified_at": "2026-10-18T05:22:46.696675+00:00",
+    "matches": [],
+    "reason": "美国白宫新闻秘书人事变动及律师资格争议的政治新闻，不涉及框架内任何产业技术对象"
+  },
   "e035723156d86aab20a9662fd7e1422ad70a90057e8b9067860b157d049ff25b": {
     "classified_at": "2026-10-16T09:14:02.033218+00:00",
     "matches": [
@@ -147,6 +152,23 @@
       }
     ],
     "reason": "汇总多条大模型动态：Gemini 4 Argon、Claude Mythos、Character.AI、超级智能研究等文本模型为核心内容"
+  },
+  "e0b2c42bfaa84faad8f4b77d4add07e51bac45a76cafd45b0b2aec47a994c835": {
+    "classified_at": "2026-10-18T04:49:02.585218+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.95,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "DeepSeek发布V4.1 Flash文本大模型新版本，基准测试提升并优化平台框架，核心对象为文本底座大模型"
+      }
+    ],
+    "reason": "AI文本大模型版本发布"
   },
   "e0d63576bc79ea61a51987b4f6b0fbb9772cfa471ed16c4017a8a102bd7b32df": {
     "classified_at": "2026-10-17T05:56:08.107041+00:00",

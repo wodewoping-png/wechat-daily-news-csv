@@ -224,6 +224,11 @@
     ],
     "reason": "Anthropic宣布Claude订阅额度可无缝用于第三方App和Agent SDK，核心事件是Claude文本大模型的平台生态政策开放，属底座大模型范畴"
   },
+  "8cd006ce8bd2ea09fb2d0e7cd8eaa7406f9996638825cc658e2ad216ba68411c": {
+    "classified_at": "2026-10-18T05:19:01.204969+00:00",
+    "matches": [],
+    "reason": "内容仅为国际原油期货价格上涨的行情快讯，未涉及化石燃料转化技术或任何具体产业对象，不匹配燃料转化等类别"
+  },
   "8cdbe5efe64ffec44bdf0e6da5602c34978f2d5c7e118553e42ac0e9a9b04978": {
     "classified_at": "2026-10-17T06:30:14.475612+00:00",
     "matches": [

@@ -44,6 +44,44 @@
     ],
     "reason": "核心讨论具身智能数据采集用外骨骼手套的触觉传感、灵巧手硬件设计与同构控制"
   },
+  "04b3ebab692624b34f5241859e854deb5e3fbb4f1997b83361a7c2db5ec2d37c": {
+    "classified_at": "2026-10-18T04:29:05.821500+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "AI速递主体为多个文本大模型动态：Claude开放API额度、蚂蚁百灵Ling-3.1-flash、阶跃星辰Step 5、DeepSeek宕机等均属底座文本模型发布与运营"
+      },
+      {
+        "category_id": "C086",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "涉及Grok Voice 3.0语音模型、昆仑万维Matrix-Game 4.0视频生成模型等多模态模型进展"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "DexAgent将人类视频转为机器人训练数据、禾赛Kosmo为具身智能提供sim-ready训练环境，属具身智能模型与数据层面"
+      }
+    ],
+    "reason": "AI速递主体为多个文本大模型动态：Claude开放API额度、蚂蚁百灵Ling-3.1-flash、阶跃星辰Step 5、DeepSeek宕机等均属底座文本模型发布与运营"
+  },
   "04bf9a75c3d00738cbfb39ef640675f8023203d3df7477d3de23fd09b388fb31": {
     "classified_at": "2026-10-17T06:08:52.597219+00:00",
     "matches": [

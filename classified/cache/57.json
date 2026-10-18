@@ -1,4 +1,21 @@
 {
+  "5769da2092c37b27ab158c83a35df87cc4ce2f2cfe57c487ba7fa2a9340ec53c": {
+    "classified_at": "2026-10-18T05:04:23.473101+00:00",
+    "matches": [
+      {
+        "category_id": "C104",
+        "confidence": 0.92,
+        "path": [
+          "通用技术",
+          "通信和运输",
+          "物质运输",
+          "航天"
+        ],
+        "reason": "SpaceX发射猎鹰9火箭执行太空军任务，核心事件为航天发射活动"
+      }
+    ],
+    "reason": "SpaceX发射猎鹰9火箭执行太空军任务，核心事件为航天发射活动"
+  },
   "5776bf1d6307f5dda0297f8e7059551b1acbad5cf1929ce9dcf60272a8f547a9": {
     "classified_at": "2026-10-17T05:41:36.973883+00:00",
     "matches": [
