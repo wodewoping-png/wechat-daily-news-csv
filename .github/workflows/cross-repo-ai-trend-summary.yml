@@ -1,6 +1,10 @@
 name: cross-repo-ai-trend-summary
 
 on:
+  workflow_run:
+    workflows: [periodic-summary]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       period:
@@ -35,10 +39,13 @@ concurrency:
 
 jobs:
   trend-summary:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout wechat-daily-news-csv
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Checkout news-spider
         uses: actions/checkout@v4
@@ -50,13 +57,40 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Skip already published automatic trend reports
+        id: due
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timedelta
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          today = datetime.now(ZoneInfo('Asia/Shanghai')).date()
+          if os.environ.get('EVENT_SCHEDULE') == '30 17 1 * *':
+              last = today.replace(day=1) - timedelta(days=1)
+              target = Path('reports/trends/monthly') / (last.strftime('%Y-%m') + '.md')
+          else:
+              last = today - timedelta(days=today.weekday()+7)
+              year, week, _ = last.isocalendar()
+              target = Path('reports/trends/weekly') / f'{year}-W{week:02d}.md'
+          due = os.environ['EVENT_NAME'] == 'workflow_dispatch' or not target.exists()
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('run=' + str(due).lower() + '\n')
+          PY
+
       - name: Install workbook dependency
+        if: steps.due.outputs.run == 'true'
         run: python -m pip install openpyxl==3.1.5
 
       - name: Test trend generator
+        if: steps.due.outputs.run == 'true'
         run: python -m unittest discover -s tests -v
 
       - name: Generate cross-repository AI trend report
+        if: steps.due.outputs.run == 'true'
         env:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_SCHEDULE: ${{ github.event.schedule }}
@@ -84,6 +118,7 @@ jobs:
             --news-root _sources/news-spider
 
       - name: Commit trend reports
+        if: steps.due.outputs.run == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update cross-repository AI trend report"

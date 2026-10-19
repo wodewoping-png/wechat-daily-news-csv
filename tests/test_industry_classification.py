@@ -12,7 +12,7 @@ from unittest.mock import patch
 
 from scripts.classify_wechat_news import (
     CLASS_FIELDS, MODEL, ModelError, TerminalModelError, batches, load_taxonomy,
-    load_cache, merge_weeks, model_article, parse_response, read_json, run, write_json,
+    classify_batch, load_cache, merge_weeks, model_article, parse_response, read_json, run, write_json,
 )
 from scripts.zai_industry_client import ZAIClient
 
@@ -201,8 +201,43 @@ class ClassificationTests(unittest.TestCase):
         merge_weeks(self.root, self.config, self.taxonomy)
         meta = read_json(self.root / 'classified/weekly/2026-W42.json')
         self.assertFalse(meta['complete'])
-        self.assertEqual(meta['failed_or_stale_dates'], ['2026-10-12'])
-        self.assertFalse((self.root / 'classified/weekly/2026-W42.csv').exists())
+        self.assertTrue(meta['data_complete'])
+        self.assertFalse(meta['classification_complete'])
+        self.assertEqual(meta['pending_classification_dates'], ['2026-10-12'])
+        self.assertTrue((self.root / 'classified/weekly/2026-W42.csv').exists())
+        self.assertEqual(meta['articles'], 2)
+        rows = self.output('weekly/2026-W42.csv')[1]
+        self.assertEqual(sum(r['分类状态'] == '待分类' for r in rows), 1)
+
+    def test_unclassified_source_day_is_not_omitted_from_week(self):
+        for i in range(12, 19):
+            self.source(f'2026-10-{i}', [{'title': f'新闻{i}', 'url': f'https://example.com/{i}', 'clean_text': '正文'}])
+        self.execute(start='2026-10-15', end='2026-10-15')
+        meta = read_json(self.root / 'classified/weekly/2026-W42.json')
+        self.assertTrue(meta['data_complete'])
+        self.assertFalse(meta['classification_complete'])
+        self.assertEqual(meta['articles'], 7)
+        self.assertEqual(meta['statuses']['待分类'], 6)
+        self.assertEqual(len(self.output('weekly/2026-W42.csv')[1]), 7)
+
+    def test_batch_retains_valid_siblings_and_retries_only_missing_item(self):
+        calls = []
+        class PartialModel:
+            def generate(inner, system, articles):
+                calls.append(articles)
+                # First batch omits its second article; the second request must
+                # contain that article alone, rather than repeat the good one.
+                first = articles[:1]
+                return json.dumps({'results': [{'article_id': a['article_id'], 'matches': [
+                    {'category_id': 'C001', 'confidence': 0.9, 'reason': '中文依据'}]} for a in first]})
+        items = [('full-hash-a', 'key-a', {'title': '第一篇', 'content': '正文'}),
+                 ('full-hash-b', 'key-b', {'title': '第二篇', 'content': '正文'})]
+        result, errors = classify_batch(items, self.taxonomy, self.allowed, PartialModel())
+        self.assertEqual(set(result), {'full-hash-a', 'full-hash-b'})
+        self.assertEqual(errors, {})
+        self.assertEqual([len(c) for c in calls], [2, 1])
+        self.assertEqual(calls[0][0]['article_id'], '0')
+        self.assertEqual(calls[1][0]['title'], '第二篇')
 
     def test_explicit_backfill_missing_source_and_future_dates_fail(self):
         with self.assertRaises(FileNotFoundError):
@@ -222,7 +257,7 @@ class ClassificationTests(unittest.TestCase):
 
     def test_workflow_is_after_publication_no_schedule_and_cache_persisted_on_failure(self):
         text = (REPO / '.github/workflows/industry-classification.yml').read_text()
-        self.assertIn('workflows: [channel-monitor]', text)
+        self.assertIn('workflows: [periodic-summary]', text)
         self.assertIn('types: [completed]', text)
         self.assertNotIn('schedule:', text)
         self.assertIn('secrets.ZAI_API_KEY', text)

@@ -394,6 +394,7 @@ def generate_period(
     value: str,
     allow_missing: bool = False,
     today: date | None = None,
+    include_ai: bool = True,
 ) -> tuple[Path, Path]:
     if period == "weekly":
         start_date, end_date, slug = resolve_week_range(value, today=today)
@@ -416,7 +417,7 @@ def generate_period(
     prompt = build_ai_prompt(
         period_name, slug, start_date, end_date, articles, account_counter, tag_counter
     )
-    ai_analysis, ai_model = generate_ai_analysis(prompt)
+    ai_analysis, ai_model = generate_ai_analysis(prompt) if include_ai else (None, None)
     build_markdown_report(
         period,
         period_name,

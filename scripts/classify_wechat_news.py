@@ -12,6 +12,7 @@ import io
 import json
 import math
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -216,10 +217,79 @@ def batches(items, size, char_budget):
         yield batch
 
 
+def classify_batch(batch, taxonomy, allowed, client):
+    """Save valid siblings and retry only missing/invalid rows with short IDs."""
+    remaining = list(batch)
+    successful, errors = {}, {}
+
+    def request(items):
+        # Long SHA article IDs were needlessly copied by the language model.
+        # Positional transport IDs are mapped back to immutable article IDs here.
+        wire = {str(i): item[0] for i, item in enumerate(items)}
+        payload = [{"article_id": str(i), **item[2]} for i, item in enumerate(items)]
+        content = client.generate(system_prompt(taxonomy), payload).strip()
+        if content.startswith("```"):
+            content = content.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
+        try:
+            result = json.loads(content)
+        except (ValueError, TypeError) as exc:
+            raise ModelError("模型未返回合法JSON") from exc
+        if not isinstance(result, dict) or not isinstance(result.get("results"), list):
+            raise ModelError("模型缺少results数组")
+        parsed = {}
+        seen = set()
+        for item in result["results"]:
+            if not isinstance(item, dict):
+                continue
+            raw_id = item.get("article_id")
+            aid = str(raw_id) if isinstance(raw_id, (str, int)) and not isinstance(raw_id, bool) else ""
+            if aid not in wire:
+                continue
+            if aid in seen:
+                parsed.pop(wire[aid], None)
+                continue
+            seen.add(aid)
+            try:
+                valid = parse_response(json_text({"results": [{**item, "article_id": aid}]}), {aid}, allowed)
+                parsed[wire[aid]] = valid[aid]
+            except ModelError:
+                continue
+        return parsed
+
+    terminal = None
+    for attempt in range(2):
+        if not remaining:
+            break
+        try:
+            valid = request(remaining)
+            successful.update(valid)
+            remaining = [item for item in remaining if item[0] not in valid]
+        except TerminalModelError as exc:
+            terminal = str(exc)
+            break
+        except ModelError as exc:
+            print("分类批次需要重试：" + str(exc), flush=True)
+    if not terminal:
+        for item in remaining:
+            try:
+                valid = request([item])
+                successful.update(valid)
+                if not valid:
+                    errors[item[0]] = "单篇重试仍无有效分类，待后续重试"
+            except TerminalModelError as exc:
+                terminal = str(exc)
+                break
+            except ModelError as exc:
+                errors[item[0]] = str(exc)
+    if terminal:
+        errors.update({item[0]: terminal for item in remaining if item[0] not in successful})
+    return successful, errors
+
+
 def render_row(aid, row, result, day, config, version):
     matches = result.get("matches", [])
     primary = matches[0] if matches and matches[0]["confidence"] >= config["min_confidence"] else None
-    status = "分类失败" if result.get("error") else "已分类" if primary else "待复核" if matches else "不在框架内"
+    status = "待分类" if result.get("pending") else "分类失败" if result.get("error") else "已分类" if primary else "待复核" if matches else "不在框架内"
     path = primary["path"] if primary else []
     output = dict(row)
     output.update({key: path[i] if i < len(path) else "" for i, key in enumerate(LEVELS)})
@@ -246,28 +316,21 @@ def classify_day(root, day, config, taxonomy, allowed, client, cache):
         if key not in cache:
             pending.append((aid, key, article))
     errors = {}
-    terminal = None
-    for batch in batches(pending, config["batch_size"], config["batch_chars"]):
-        if terminal:
-            for aid, _, _ in batch:
-                errors[aid] = terminal
-            continue
-        request = [{"article_id": aid, **article} for aid, _, article in batch]
-        for attempt in range(2):
-            try:
-                result = parse_response(client.generate(system_prompt(taxonomy), request), {x[0] for x in batch}, allowed)
-                for aid, key, _ in batch:
+    groups = list(batches(pending, config["batch_size"], config["batch_chars"]))
+    # Network requests can run concurrently; cache writes remain in the parent
+    # thread so successful partial batches cannot overwrite one another.
+    with ThreadPoolExecutor(max_workers=max(1, min(3, config.get("workers", 1)))) as pool:
+        futures = {pool.submit(classify_batch, batch, taxonomy, allowed, client): batch for batch in groups}
+        for future in as_completed(futures):
+            result, batch_errors = future.result()
+            errors.update(batch_errors)
+            changed = []
+            for aid, key, _ in futures[future]:
+                if aid in result:
                     cache[key] = result[aid]
-                save_cache(root, cache, [key for _, key, _ in batch])
-                print(f"{day}: 已保存分类 {sum(k in cache for k in keys.values())}/{len(rows)}", flush=True)
-                break
-            except TerminalModelError as exc:
-                terminal = str(exc)
-                errors.update({aid: terminal for aid, _, _ in batch})
-                break
-            except ModelError:
-                if attempt == 1:
-                    errors.update({aid: "模型/API响应无效，待下次运行重试" for aid, _, _ in batch})
+                    changed.append(key)
+            save_cache(root, cache, changed)
+            print(f"{day}: 已保存分类 {sum(k in cache for k in keys.values())}/{len(rows)}", flush=True)
     output = [render_row(aid, row, cache.get(keys[aid]) or {"error": errors.get(aid, "未完成分类")}, day, config, taxonomy["version"]) for aid, row in rows.items()]
     order = {" > ".join(c["path"]): i for i, c in enumerate(taxonomy["categories"])}
     output.sort(key=lambda row: (order.get(row["主分类路径"], 9999), row.get("publish_time", ""), row["article_id"]))
@@ -278,47 +341,68 @@ def classify_day(root, day, config, taxonomy, allowed, client, cache):
     return len(errors)
 
 
-def merge_weeks(root, config, taxonomy):
-    """Merge daily classifications without API calls; invalidate stale complete weeks."""
-    days = []
-    for path in (root / "classified/daily").glob("????-??-??.csv"):
-        days.append(date.fromisoformat(path.stem))
+def merge_weeks(root, config, taxonomy, cache=None):
+    """Include every source article; distinguish source and semantic completeness."""
+    first = date.fromisoformat(config["start_date"])
+    first -= timedelta(days=first.weekday())
+    days = [date.fromisoformat(p.stem) for p in (root / "csv").glob("????-??-??.csv")
+            if first <= date.fromisoformat(p.stem) < datetime.now(TZ).date()]
+    days.extend(date.fromisoformat(p.stem) for p in (root / "classified/daily").glob("????-??-??.csv"))
+    cache = load_cache(root) if cache is None else cache
     starts = sorted({d - timedelta(days=d.weekday()) for d in days})
     all_stats = []
     for start in starts:
         year, week, _ = start.isocalendar()
         slug = f"{year}-W{week:02d}"
-        missing, failed, rows, seen = [], [], [], set()
+        missing, failed, pending_dates, rows, seen = [], [], [], [], set()
         fields = list(CLASS_FIELDS)
         fingerprints = {}
         for offset in range(7):
             day = start + timedelta(days=offset)
             path = root / "classified/daily" / f"{day}.csv"
             manifest = read_json(path.with_suffix(".json"), {})
-            if not path.exists() or not (root / "csv" / f"{day}.csv").exists():
+            if not (root / "csv" / f"{day}.csv").exists():
                 missing.append(str(day))
                 continue
-            _, _, fingerprint, _ = source_data(root, day, config, taxonomy)
-            if manifest.get("source_fingerprint") != fingerprint or not manifest.get("complete") or manifest.get("output_sha256") != hashlib.sha256(path.read_bytes()).hexdigest():
-                failed.append(str(day))
-                continue
-            day_fields, articles = read_csv(path)
+            source_rows, day_fields, fingerprint, _ = source_data(root, day, config, taxonomy)
             fields.extend(f for f in day_fields if f not in fields)
             fingerprints[str(day)] = fingerprint
-            for row in articles:
-                aid = row["article_id"]
-                if aid not in seen:
-                    seen.add(aid)
-                    rows.append(row)
+            previous = {}
+            if path.exists() and manifest.get("output_sha256") == hashlib.sha256(path.read_bytes()).hexdigest():
+                previous = {r["article_id"]: r for r in read_csv(path)[1]}
+            for aid, source in source_rows.items():
+                key = digest({"article": model_article(source, config["max_content_chars"]), "taxonomy": taxonomy,
+                              "model": config["model"], "prompt": PROMPT_VERSION})
+                result = cache.get(key)
+                if result is None:
+                    old = previous.get(aid, {})
+                    if old.get("分类状态") == "分类失败" and old.get("clean_text") == source.get("clean_text"):
+                        result = {"error": old.get("分类依据") or "分类失败，等待重试"}
+                        if str(day) not in failed:
+                            failed.append(str(day))
+                    else:
+                        result = {"pending": True, "reason": "该文章尚未完成语义分类，已保留原始新闻"}
+                        if str(day) not in pending_dates:
+                            pending_dates.append(str(day))
+                row = render_row(aid, source, result, day, config, taxonomy["version"])
+                if aid in seen:
+                    continue
+                seen.add(aid)
+                rows.append(row)
         order = {" > ".join(c["path"]): i for i, c in enumerate(taxonomy["categories"])}
         rows.sort(key=lambda r: (order.get(r["主分类路径"], 9999), r.get("publish_time", ""), r["article_id"]))
-        complete = not missing and not failed
+        data_complete = not missing
+        classification_complete = not failed and not pending_dates
+        complete = data_complete and classification_complete
         out_dir = root / "classified/weekly"
-        name = slug + (".csv" if complete else ".partial.csv")
+        name = slug + (".csv" if data_complete else ".partial.csv")
         write_csv(out_dir / name, rows, fields)
-        obsolete = out_dir / (slug + (".partial.csv" if complete else ".csv"))
+        obsolete = out_dir / (slug + (".partial.csv" if data_complete else ".csv"))
         obsolete.unlink(missing_ok=True)
+        statuses = dict(Counter(r["分类状态"] for r in rows))
         metadata = {"week": slug, "start": str(start), "end": str(start + timedelta(days=6)), "complete": complete,
+                    "data_complete": data_complete, "classification_complete": classification_complete,
+                    "pending_classification_dates": pending_dates, "statuses": statuses,
                     "missing_dates": missing, "failed_or_stale_dates": failed, "articles": len(rows),
                     "daily_fingerprints": fingerprints, "file": name, "model": config["model"], "taxonomy_version": taxonomy["version"]}
         write_json(out_dir / f"{slug}.json", metadata)
@@ -356,7 +440,7 @@ def run(root, start=None, end=None, merge_only=False, client=None, today=None):
         client = client or ZAIClient(model=config["model"])
         for day in dates:
             errors += classify_day(root, day, config, taxonomy, allowed, client, cache)
-    weeks = merge_weeks(root, config, taxonomy)
+    weeks = merge_weeks(root, config, taxonomy, cache=cache)
     summary = {"model": config["model"], "taxonomy_paths": len(allowed), "checked_dates": [str(d) for d in dates], "failed_articles": errors, "weeks": weeks}
     write_json(root / "classified/latest_run.json", summary)
     print(json_text({k: v for k, v in summary.items() if k != "weeks"}), flush=True)

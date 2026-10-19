@@ -68,7 +68,7 @@ Daily news is semantically classified with **glm-5.3-flash** against the uploade
 
 This repository generates periodic summaries directly from its own `csv/YYYY-MM-DD.csv` files. It does not need the crawler's private SQLite database.
 
-- Weekly: Monday-Wednesday at 14:23 Beijing time, covering the previous Monday-Sunday; Tuesday and Wednesday retry late daily uploads.
+- Weekly: after daily CSV publication, automatically publish completed Monday-Sunday weeks when all seven source files exist; Monday-Wednesday 14:23 Beijing time remains a backup check.
 - Monthly: the first day of each month at 08:50 Beijing time, covering the previous calendar month.
 - Manual: open **Actions → periodic-summary → Run workflow** and choose week, month, or both.
 

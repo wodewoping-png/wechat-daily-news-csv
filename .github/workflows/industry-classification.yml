@@ -1,21 +1,12 @@
 name: wechat-industry-classification
 
 on:
-  # The monitor normalizes the newly published daily CSV first. workflow_run
-  # also fires when its normalization commit used GITHUB_TOKEN, and classification
-  # remains independent of channel-health/DingTalk failures.
+  # Publish source weekly tables first, then classify. This avoids concurrent
+  # writers creating the same weekly files and prevents slow AI from gating export.
   workflow_run:
-    workflows: [channel-monitor]
+    workflows: [periodic-summary]
     types: [completed]
     branches: [main]
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/industry-classification.yml"
-      - "config/industry_*.json"
-      - "scripts/classify_wechat_news.py"
-      - "scripts/zai_industry_client.py"
-      - "tests/test_industry_classification.py"
   workflow_dispatch:
     inputs:
       start:
@@ -40,6 +31,7 @@ concurrency:
 
 jobs:
   classify:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:

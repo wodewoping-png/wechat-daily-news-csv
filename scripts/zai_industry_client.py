@@ -31,6 +31,7 @@ class ZAIClient:
         self.opener = opener or urllib.request.urlopen
         self.sleep = sleep
         self.preferred = None
+        self.terminal_error = None
         self.routes = [
             (os.getenv("ZAI_BASE_URL") or "https://api.z.ai/api/coding/paas/v4", "openai"),
             (os.getenv("BIGMODEL_BASE_URL") or "https://open.bigmodel.cn/api/paas/v4", "openai"),
@@ -38,6 +39,8 @@ class ZAIClient:
         ]
 
     def generate(self, system, articles):
+        if self.terminal_error:
+            raise TerminalModelError(self.terminal_error)
         if not self.key:
             raise TerminalModelError("未配置 ZAI_API_KEY")
         routes = list(dict.fromkeys(self.routes))
@@ -87,5 +90,6 @@ class ZAIClient:
                     self.sleep(min(2 ** (attempt + 1), 8))
         message = "Z.AI 路由均不可用：" + "; ".join(failures[-9:])
         if quota_failure or (failures and all("HTTP 40" in f for f in failures)):
+            self.terminal_error = message
             raise TerminalModelError(message)
         raise ModelError(message)

@@ -1,6 +1,10 @@
 name: periodic-summary
 
 on:
+  workflow_run:
+    workflows: [channel-monitor]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       period:
@@ -24,6 +28,13 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/periodic-summary.yml"
+      - "scripts/reconcile_weekly_summaries.py"
+      - "tests/test_weekly_reconciliation.py"
+      - "config/industry_*.json"
+      - "scripts/classify_wechat_news.py"
+      - "scripts/zai_industry_client.py"
+      - "tests/test_industry_classification.py"
+      - ".github/workflows/industry-classification.yml"
   schedule:
     # Beijing time: Monday-Wednesday 14:23, after the previous day's CSV
     # normally lands in this repository. Tuesday/Wednesday retry late uploads.
@@ -43,6 +54,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -65,12 +78,15 @@ jobs:
         run: |
           set -euo pipefail
           period="$INPUT_PERIOD"
-          if [ "$EVENT_NAME" = "push" ]; then
-            # Backfill the last completed week when this workflow is repaired.
-            period="week"
-          elif [ "$EVENT_NAME" = "schedule" ]; then
+          # Daily CSV publication, late arrivals and repairs reconcile every
+          # completed week with all seven source files. No AI call gates export.
+          python scripts/reconcile_weekly_summaries.py
+          if [ "$EVENT_NAME" != "schedule" ] && [ "$EVENT_NAME" != "workflow_dispatch" ]; then
+            exit 0
+          fi
+          if [ "$EVENT_NAME" = "schedule" ]; then
             case "$EVENT_SCHEDULE" in
-              "23 6 * * 1-3") period="week" ;;
+              "23 6 * * 1-3") exit 0 ;;
               "50 0 1 * *") period="month" ;;
               *) echo "Unknown schedule: $EVENT_SCHEDULE"; exit 1 ;;
             esac
@@ -81,7 +97,13 @@ jobs:
             --month "$INPUT_MONTH"
 
       - name: Commit summaries
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update periodic wechat summaries"
-          file_pattern: "csv/weekly/*.csv csv/monthly/*.csv reports/weekly/*.md reports/monthly/*.md"
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A csv/weekly csv/monthly reports/weekly reports/monthly classified/weekly quality/weekly_summary_state.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: reconcile available weekly wechat summaries'
+          git pull --rebase origin main
+          git push origin HEAD:main
