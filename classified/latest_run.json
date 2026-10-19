@@ -1,34 +1,50 @@
 {
   "checked_dates": [
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18"
   ],
-  "failed_articles": 12,
+  "failed_articles": 1961,
   "model": "glm-5.3-flash",
   "taxonomy_paths": 125,
   "weeks": [
     {
-      "articles": 1072,
+      "articles": 4148,
+      "classification_complete": false,
       "complete": false,
       "daily_fingerprints": {
-        "2026-10-15": "1b1923637bb4740e802fb5e115303734917e74c3b307cf852273ebc252e25dd6",
-        "2026-10-17": "6e9a0072e3dbf1030e940893e7c0bac3f10513960354d63de45702f75eae3f39"
+        "2026-10-12": "36d73775d64d3904cc0c5ef65fc8c3cb50fd79be4d827925c5c3863891d90cfd",
+        "2026-10-13": "ee4d8783ccf20213c4b26ebd31a3573d35995c85d5d79d065761de6d18d83e71",
+        "2026-10-14": "db65a53533ab1febe49d49e05a31322749412b762e89d1cf8b9849520cbad222",
+        "2026-10-15": "23099ef29c5d088849440a8d4935bfa825ec62a8b6995e0115e19df8da061711",
+        "2026-10-16": "7c059c6eae340fc5cba3eb73c4ebb94a010362b4bc3cfff445603980747338b8",
+        "2026-10-17": "83fa04fdf1cff1c8de20e960c3a3f2a638e639282a8d055b5fa44f4f2137dda9",
+        "2026-10-18": "3ac8b89cb992fe11ddd0044d2ca27e2288df651ce43370cf08cddd151c57d9b4"
       },
+      "data_complete": true,
       "end": "2026-10-18",
       "failed_or_stale_dates": [
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
         "2026-10-16",
         "2026-10-18"
       ],
-      "file": "2026-W42.partial.csv",
-      "missing_dates": [
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14"
-      ],
+      "file": "2026-W42.csv",
+      "missing_dates": [],
       "model": "glm-5.3-flash",
+      "pending_classification_dates": [],
       "start": "2026-10-12",
+      "statuses": {
+        "不在框架内": 481,
+        "分类失败": 1961,
+        "已分类": 1412,
+        "待复核": 294
+      },
       "taxonomy_version": "2026-10-16",
       "week": "2026-W42"
     }

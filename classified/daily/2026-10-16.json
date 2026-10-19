@@ -5,8 +5,8 @@
   "duplicate_rows": 0,
   "excluded_rows": 0,
   "model": "glm-5.3-flash",
-  "output_sha256": "c39121cea05feb3ac4625e61dbbbf49456895b8379e0e5d46fa45200ac85f52a",
-  "source_fingerprint": "91948811602074fee555be6438b6a10e13e3bb1e1c6d8dc461671bebaf15a5bd",
+  "output_sha256": "ff0ffe7fc72f7d1acc5b5b205876c2ffe0024752639960d8ecd1e4b848ddf09f",
+  "source_fingerprint": "7c059c6eae340fc5cba3eb73c4ebb94a010362b4bc3cfff445603980747338b8",
   "source_rows": 707,
   "statuses": {
     "不在框架内": 159,
