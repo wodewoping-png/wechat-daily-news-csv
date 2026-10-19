@@ -82,3 +82,12 @@
 2026-10-17,opened,wx:MzkzMjcxMTUyOA==|suspected_silence,wx:MzkzMjcxMTUyOA==,氢能云互联,suspected_silence,warning,2026-10-17,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-17,recovered,wx:Mzg4NzUyNzM2Ng==|suspected_silence,wx:Mzg4NzUyNzM2Ng==,中储国能,suspected_silence,warning,2026-10-14,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-17,recovered,wx:MzkxMjU0NTAzOQ==|volume_drop,wx:MzkxMjU0NTAzOQ==,铂道,volume_drop,warning,2026-10-16,当天抓到0篇，同类工作日/周末基线中位数5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-18,opened,wx:MzA5Mjg4MDczMw==|suspected_silence,wx:MzA5Mjg4MDczMw==,SMM固态电池,suspected_silence,warning,2026-10-18,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-18,opened,wx:MzI0MjcxNDQwNQ==|suspected_silence,wx:MzI0MjcxNDQwNQ==,世界科技研究与发展,suspected_silence,warning,2026-10-18,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-18,opened,wx:Mzk0NDQ5MjcxMg==|volume_drop,wx:Mzk0NDQ5MjcxMg==,今日钠电,volume_drop,warning,2026-10-18,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-18,opened,wx:MzYyMzA0NTc3NQ==|suspected_silence,wx:MzYyMzA0NTc3NQ==,清深储能,suspected_silence,warning,2026-10-18,连续6个完整数据日未抓到文章，历史发文间隔中位数2天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-18,opened,wx:MzU5NjgzNDA0MA==|volume_drop,wx:MzU5NjgzNDA0MA==,物理储能,volume_drop,warning,2026-10-18,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-18,opened,wx:MzI0NjE4MTkwMg==|identity_conflict,wx:MzI0NjE4MTkwMg==,能斯特新能源情报局,identity_conflict,warning,2026-10-18,同名渠道出现不同fakeid，已保留独立记录，未自动合并,核查名录fakeid与同名公众号，确认后修正seed_accounts.csv中的名称或fakeid
+2026-10-18,opened,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-18,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-18,opened,wx:Mzg2Mjg2NDExNQ==|suspected_silence,wx:Mzg2Mjg2NDExNQ==,钠电材料,suspected_silence,warning,2026-10-18,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-18,recovered,wx:MzI4MzI5MTY3Ng==|volume_drop,wx:MzI4MzI5MTY3Ng==,DT新材料,volume_drop,warning,2026-10-16,当天抓到0篇，同类工作日/周末基线中位数5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
