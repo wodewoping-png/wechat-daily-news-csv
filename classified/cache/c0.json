@@ -86,6 +86,11 @@
     ],
     "reason": "核心事件是REA开源项目通过MCP将逆向工程工具接入Claude Code、Codex等AI编程智能体，属AI软件工程能力与工具链改进"
   },
+  "c0931d52d882fd55a3f736dad1f8d1020256ed50de91f61a0060e6aaecc8b2f9": {
+    "classified_at": "2026-10-19T05:52:02.745307+00:00",
+    "matches": [],
+    "reason": "中东军事冲突时政新闻（伊朗拦截船只、胡塞击落直升机），不涉及框架内任何产业对象"
+  },
   "c0a8871952daecb288fbbc8070f4450d31015f3d3b0151bc0ad887f81379e507": {
     "classified_at": "2026-10-18T04:46:18.254064+00:00",
     "matches": [

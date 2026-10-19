@@ -58,6 +58,32 @@
     ],
     "reason": "论文核心为绿色电合成路线生产化工中间体己二腈，属平台化工品电合成工艺，尼龙仅为下游应用提及"
   },
+  "8fa684f8adda88ccdff2a1154ed5439fbcbe3c36a08109cf2d1ac5299dc2f8c4": {
+    "classified_at": "2026-10-19T04:54:19.752606+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "Google构建AI智能体驱动的自主湿实验室，让AI设计分子、安排并分析生化实验并自我改进，属于典型的AI for Science应用"
+      },
+      {
+        "category_id": "C097",
+        "confidence": 0.45,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "硬件和控制"
+        ],
+        "reason": "智能体基于PyLabRobot机器人控制框架与VERID数字孪生操控实验室设备执行实验，涉及具身硬件与控制，但属支撑环节"
+      }
+    ],
+    "reason": "Google构建AI智能体驱动的自主湿实验室，让AI设计分子、安排并分析生化实验并自我改进，属于典型的AI for Science应用"
+  },
   "8fcfc6556fa22405d2ad5c41e954ce18db35baa03b20908884d584359c896448": {
     "classified_at": "2026-10-16T11:02:20.217006+00:00",
     "matches": [],

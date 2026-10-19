@@ -102,5 +102,22 @@
       }
     ],
     "reason": "会议新闻，主产业对象为钙钛矿光伏，太空/卫星应用为次要场景"
+  },
+  "75b8cd02078dd0becee2ec6b19f4375b3b9ca2925bba6ad6ac1a03bf02d77eab": {
+    "classified_at": "2026-10-19T05:18:20.506068+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "访谈围绕Meta个人AI智能体Muse及其自训大模型MuseSpark的模型能力、训练评测与产品打磨，属大模型驱动的智能体"
+      }
+    ],
+    "reason": "访谈围绕Meta个人AI智能体Muse及其自训大模型MuseSpark的模型能力、训练评测与产品打磨，属大模型驱动的智能体"
   }
 }

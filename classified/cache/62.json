@@ -36,6 +36,11 @@
     ],
     "reason": "斯坦福与Together AI提出Next-Concept Modeling文本生成新范式，核心是对大语言模型文本生成架构的改进，属文本底座大模型研究"
   },
+  "629d2cb09e47ff11d08fcfb881e3b4e4bd9db66e4851d4189fe3b6b1e9b2a1fb": {
+    "classified_at": "2026-10-19T05:29:46.452154+00:00",
+    "matches": [],
+    "reason": "蛇咬伤个案的社会新闻与健康提示，核心事件非医学研究或产业技术进展，不落入框架类别"
+  },
   "62db9d17101c49f0fcc032b55d98adcd782c2f3f73c315ed465fbba3b48da202": {
     "classified_at": "2026-10-16T08:39:19.033034+00:00",
     "matches": [],

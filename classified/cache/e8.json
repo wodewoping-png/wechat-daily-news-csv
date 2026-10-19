@@ -29,6 +29,22 @@
     "matches": [],
     "reason": "核心事件是阳极分公司劳模先进座谈会，属企业员工思想文化活动，未涉及具体产业技术或实质产业对象，框架内无对应类别。"
   },
+  "e840196566e0d1a4e9bc4ebbd6ad07c8aecc470b8f60fc4c1f354161ad99235e": {
+    "classified_at": "2026-10-19T05:18:20.506036+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "分享会主题为AI for Science科研智能体与AI-First科研工作流，核心对象是AI驱动科学研究（AI4S），但正文信息较少"
+      }
+    ],
+    "reason": "分享会主题为AI for Science科研智能体与AI-First科研工作流，核心对象是AI驱动科学研究（AI4S），但正文信息较少"
+  },
   "e847d8145965c8fd941fce8c56542c4a45132c73796c3ebcfff7804a6e53030f": {
     "classified_at": "2026-10-17T05:12:01.600940+00:00",
     "matches": [

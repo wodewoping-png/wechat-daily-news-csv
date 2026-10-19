@@ -129,6 +129,33 @@
     ],
     "reason": "核心事件为海辰储能锂电池出货量突破200GWh、聚焦长时储能电芯及一体化方案，主体产品为锂电储能电池"
   },
+  "bd9cd9993a02cfa311053b0eb6035b6895cbd1b886703eb5c9e53f8eceea10cb": {
+    "classified_at": "2026-10-19T04:48:03.448445+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心是SPADER强化学习训练框架，对GRPO做步骤级信用分配与奖励设计改进，属AI软件层工程改进"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "该方法用于微调Qwen3-8B、Llama3.1等文本大模型并开源模型，提升多答案问答能力"
+      }
+    ],
+    "reason": "核心是SPADER强化学习训练框架，对GRPO做步骤级信用分配与奖励设计改进，属AI软件层工程改进"
+  },
   "bdd70f0e827c59630e1c4c66825707e4fec0eaeec3aa8030c4835b7d0aa9a9f6": {
     "classified_at": "2026-10-18T05:11:45.626880+00:00",
     "matches": [

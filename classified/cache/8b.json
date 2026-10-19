@@ -1,4 +1,31 @@
 {
+  "8b1f0f7531164f271e073174ea00aa88b311e2d3387440c2783689badfa4d59b": {
+    "classified_at": "2026-10-19T04:51:14.699819+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心对象是GPT-6 Astra等前沿文本大模型在理论物理评测中的推理能力表现"
+      },
+      {
+        "category_id": "C088",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "事件主体是AI解决理论物理、数学等科学难题，体现AI for Science能力评估"
+      }
+    ],
+    "reason": "核心对象是GPT-6 Astra等前沿文本大模型在理论物理评测中的推理能力表现"
+  },
   "8b5369a6cbdd5dcfec2dbe7700f1559d318839d9694acb98e461288cd79f0ac2": {
     "classified_at": "2026-10-16T09:56:30.069593+00:00",
     "matches": [],
@@ -156,6 +183,11 @@
       }
     ],
     "reason": "钠电低温电解液机理研究为主，MD模拟为关键方法手段"
+  },
+  "8bc06a8c1f39ce691eb69683a023f0750c9e713aa3f8bd07ec6e3ad8d3675de1": {
+    "classified_at": "2026-10-19T04:45:04.518485+00:00",
+    "matches": [],
+    "reason": "留学生在课堂披旭日旗的社会事件通报，不涉及框架内任何产业对象"
   },
   "8beb90017588d32548e2cc26eaac9283759fd8cfc4c8795a8ecb6ff97ee84e15": {
     "classified_at": "2026-10-16T09:06:42.729467+00:00",
