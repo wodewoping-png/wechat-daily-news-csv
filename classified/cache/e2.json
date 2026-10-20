@@ -58,6 +58,32 @@
     ],
     "reason": "阶跃星辰开源600B参数MoE架构旗舰文本大模型Step 5 Preview，属底座大模型文本模型"
   },
+  "e291caaf619fd4398871727bc6bf97e94a45f320ada553567da1e44a8265dab2": {
+    "classified_at": "2026-10-20T04:43:44.545637+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "核心事件为芯耀辉深耕半导体IP核（高速接口IP）赛道，属于半导体产业链关键环节"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "公司IP核业务明确服务于国产大模型算力芯片构建，芯片为其下游应用对象"
+      }
+    ],
+    "reason": "半导体IP核企业产业新闻"
+  },
   "e2ae35c6d7aa87c6e96b6753d21d7beab4aeb6345b97f3ea66ecf7bdbd7357dd": {
     "classified_at": "2026-10-17T06:56:09.839002+00:00",
     "matches": [

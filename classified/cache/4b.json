@@ -88,6 +88,33 @@
     ],
     "reason": "Nordex（陆上风电整机商）Q3财报超预期、利润指引上调及股价暴涨，属风电企业经营新闻，产业对象明确。"
   },
+  "4b471445d359bfd8c3a634a3778eda4e4ca9133b9103b5785eac963980d0daa0": {
+    "classified_at": "2026-10-20T04:44:14.777648+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心为Anthropic针对Claude文本大模型的推理数据蒸馏防护，产业对象为底座大模型及其API经营策略"
+      },
+      {
+        "category_id": "C087",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "涉及preserved thinking、两阶段分类器等模型推理保护与工程防护技术"
+      }
+    ],
+    "reason": "核心为Anthropic针对Claude文本大模型的推理数据蒸馏防护，产业对象为底座大模型及其API经营策略"
+  },
   "4b5521b9a7eac8b1f4a402945172077df1d2f9817f4d52128d882fab6fb6c914": {
     "classified_at": "2026-10-19T13:47:07.012359+00:00",
     "matches": [
