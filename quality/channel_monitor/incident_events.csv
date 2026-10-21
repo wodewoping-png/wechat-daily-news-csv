@@ -108,3 +108,13 @@
 2026-10-19,recovered,wx:Mzk0NDQ5MjcxMg==|volume_drop,wx:Mzk0NDQ5MjcxMg==,今日钠电,volume_drop,warning,2026-10-18,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-10-19,recovered,wx:MzkzMjcxMTUyOA==|suspected_silence,wx:MzkzMjcxMTUyOA==,氢能云互联,suspected_silence,warning,2026-10-17,连续4个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-19,recovered,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-18,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-20,opened,wx:Mzg4OTc1MzY5Mw==|suspected_silence,wx:Mzg4OTc1MzY5Mw==,AI赋能材料,suspected_silence,warning,2026-10-20,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-20,opened,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-10-20,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-20,opened,wx:MzA5MDYwOTE2Nw==|volume_drop,wx:MzA5MDYwOTE2Nw==,国际能源研究中心,volume_drop,warning,2026-10-20,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-20,opened,wx:MzU2NTEwMTg0OQ==|volume_drop,wx:MzU2NTEwMTg0OQ==,第一锂电网,volume_drop,warning,2026-10-20,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-20,opened,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-20,当天抓到0篇，同类工作日/周末基线中位数4.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-20,recovered,wx:MzA4MDM4NjAyMg==|suspected_silence,wx:MzA4MDM4NjAyMg==,新能源汽车新闻EV,suspected_silence,warning,2026-10-19,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-20,recovered,wx:MzU3Mzg4MDk4MA==|suspected_silence,wx:MzU3Mzg4MDk4MA==,能源灯塔,suspected_silence,warning,2026-10-19,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-20,recovered,wx:Mzk0NTMxNTMyNA==|suspected_silence,wx:Mzk0NTMxNTMyNA==,集邦固态电池,suspected_silence,warning,2026-10-19,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-20,recovered,wx:MzkxMjU0NTAzOQ==|volume_drop,wx:MzkxMjU0NTAzOQ==,铂道,volume_drop,warning,2026-10-19,当天抓到0篇，同类工作日/周末基线中位数4.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-20,recovered,wx:MzkyNzc0MDc0MA==|volume_drop,wx:MzkyNzc0MDc0MA==,今日锂电,volume_drop,warning,2026-10-19,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
