@@ -10,7 +10,7 @@
     "2026-10-19",
     "2026-10-20"
   ],
-  "failed_articles": 2592,
+  "failed_articles": 2580,
   "model": "glm-5.3-flash",
   "taxonomy_paths": 125,
   "weeks": [
@@ -41,10 +41,10 @@
       "pending_classification_dates": [],
       "start": "2026-10-12",
       "statuses": {
-        "不在框架内": 671,
-        "分类失败": 1249,
-        "已分类": 1849,
-        "待复核": 379
+        "不在框架内": 673,
+        "分类失败": 1237,
+        "已分类": 1857,
+        "待复核": 381
       },
       "taxonomy_version": "2026-10-16",
       "week": "2026-W42"
