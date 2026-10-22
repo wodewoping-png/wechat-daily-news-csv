@@ -16,6 +16,11 @@
     ],
     "reason": "核心事件是腾讯云WorkBuddy/CodeBuddy就DeepSeek文本大模型服务异常发布积分补偿公告，主要产业对象为DeepSeek文本模型服务，但内容为商业运营补偿、无技术实质，故低置信度匹配"
   },
+  "c046e895b2bfa29e4c9a67bcbbaffa3afb141e51c3fd41292d62bb9ba28da872": {
+    "classified_at": "2026-10-22T04:38:09.745604+00:00",
+    "matches": [],
+    "reason": "该新闻为国家能源局四川监管办原党组书记涉嫌违纪违法接受调查的人事反腐消息，未涉及任何具体产业技术对象，不匹配框架内分类"
+  },
   "c049a17250d933e3ac69afa47d7a6bec53e768cd7afe07850bad4ec8170a8eea": {
     "classified_at": "2026-10-16T08:53:02.627718+00:00",
     "matches": [
