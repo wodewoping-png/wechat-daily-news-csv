@@ -13,7 +13,8 @@
   "failed_or_stale_dates": [
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "file": "2026-W43.partial.csv",
   "missing_dates": [
@@ -22,15 +23,12 @@
     "2026-10-25"
   ],
   "model": "glm-5.3-flash",
-  "pending_classification_dates": [
-    "2026-10-22"
-  ],
+  "pending_classification_dates": [],
   "start": "2026-10-19",
   "statuses": {
     "不在框架内": 11,
-    "分类失败": 2010,
+    "分类失败": 2660,
     "已分类": 50,
-    "待分类": 650,
     "待复核": 12
   },
   "taxonomy_version": "2026-10-16",
