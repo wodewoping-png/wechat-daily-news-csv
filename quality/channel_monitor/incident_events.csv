@@ -140,3 +140,7 @@
 2026-10-23,recovered,wx:Mzg4OTc1MzY5Mw==|suspected_silence,wx:Mzg4OTc1MzY5Mw==,AI赋能材料,suspected_silence,warning,2026-10-20,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-23,recovered,wx:Mzk0MDY0OTQxOA==|suspected_silence,wx:Mzk0MDY0OTQxOA==,亚化固态电池,suspected_silence,warning,2026-10-13,连续12个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-23,recovered,wx:MzkxMTg3MzgyNg==|volume_drop,wx:MzkxMTg3MzgyNg==,新能源前沿,volume_drop,warning,2026-10-22,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-24,opened,wx:Mzg2MjYwMjM0MQ==|suspected_silence,wx:Mzg2MjYwMjM0MQ==,SOFC-SOEC-氢能技术,suspected_silence,warning,2026-10-24,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-24,opened,wx:Mzg4MTEyNzc4Mg==|volume_drop,wx:Mzg4MTEyNzc4Mg==,科创板日报,volume_drop,warning,2026-10-24,当天抓到1篇，同类工作日/周末基线中位数9.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-24,opened,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-24,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-24,recovered,wx:MzIxMTQyMzE0OQ==|volume_drop,wx:MzIxMTQyMzE0OQ==,先进电池材料,volume_drop,warning,2026-10-23,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
