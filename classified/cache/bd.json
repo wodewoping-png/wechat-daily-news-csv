@@ -177,6 +177,32 @@
     ],
     "reason": "宁德时代参与GBA电池护照试点、实现矿端到电池包全价值链ESG数据覆盖，核心对象为锂离子电池产业"
   },
+  "bdad90fcc996c5a3bb4da1096e745eb9ab8f3b2e9cc2e321e0a6bee76b24ba59": {
+    "classified_at": "2026-10-26T13:14:13.357736+00:00",
+    "matches": [
+      {
+        "category_id": "C093",
+        "confidence": 0.72,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "算力能源基础设施"
+        ],
+        "reason": "首款产品PrimeSwitch微型继电器明确面向AI数据中心800V直流供电系统，用于供电保护与快速开断，核心应用场景为算力能源基础设施"
+      },
+      {
+        "category_id": "C087",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "新闻核心事件是发布AI原生制造系统Matter Compiler，利用AI规划制造步骤、优化工艺并根据实测结果持续学习，属AI用于工程与制造改进"
+      }
+    ],
+    "reason": "同时涉及AI制造系统与面向数据中心供电的继电器产品，按应用场景与支撑技术排序"
+  },
   "bdd70f0e827c59630e1c4c66825707e4fec0eaeec3aa8030c4835b7d0aa9a9f6": {
     "classified_at": "2026-10-18T05:11:45.626880+00:00",
     "matches": [
