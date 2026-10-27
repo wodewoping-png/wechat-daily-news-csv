@@ -152,3 +152,14 @@
 2026-10-25,recovered,wx:Mzg4MTEyNzc4Mg==|volume_drop,wx:Mzg4MTEyNzc4Mg==,科创板日报,volume_drop,warning,2026-10-24,当天抓到1篇，同类工作日/周末基线中位数9.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-10-25,recovered,wx:MzkzMjcxMTUyOA==|suspected_silence,wx:MzkzMjcxMTUyOA==,氢能云互联,suspected_silence,warning,2026-10-22,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-25,recovered,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-24,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-26,severity_changed,wx:Mzg3MDYyOTI0MQ==|suspected_silence,wx:Mzg3MDYyOTI0MQ==,化工碳中和,suspected_silence,critical,2026-10-15,连续14个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-26,opened,wx:Mzg3ODk3MTcwOA==|suspected_silence,wx:Mzg3ODk3MTcwOA==,中国国际可再生能源署合作办公室,suspected_silence,warning,2026-10-26,连续12个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-26,opened,wx:MzA5MDYwOTE2Nw==|volume_drop,wx:MzA5MDYwOTE2Nw==,国际能源研究中心,volume_drop,warning,2026-10-26,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-26,opened,wx:MzIwNTQxMjY0MQ==|suspected_silence,wx:MzIwNTQxMjY0MQ==,格致论道讲坛,suspected_silence,warning,2026-10-26,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-26,opened,wx:Mzg4Mjc1MDc3Ng==|volume_drop,wx:Mzg4Mjc1MDc3Ng==,电催化与电合成,volume_drop,warning,2026-10-26,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-26,opened,wx:Mzg5OTYzNjU0OA==|volume_drop,wx:Mzg5OTYzNjU0OA==,电池未来,volume_drop,warning,2026-10-26,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-26,opened,wx:MzkzOTU2ODEzMw==|suspected_silence,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,suspected_silence,warning,2026-10-26,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-26,opened,wx:Mzk0NTMxNTMyNA==|suspected_silence,wx:Mzk0NTMxNTMyNA==,集邦固态电池,suspected_silence,warning,2026-10-26,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-26,recovered,wx:MzA5NjQyNjMxNA==|suspected_silence,wx:MzA5NjQyNjMxNA==,Gartner公司,suspected_silence,warning,2026-10-25,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-26,recovered,wx:Mzk0NDQ5MjcxMg==|volume_drop,wx:Mzk0NDQ5MjcxMg==,今日钠电,volume_drop,warning,2026-10-25,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-26,recovered,wx:MzkyNzc0MDc0MA==|volume_drop,wx:MzkyNzc0MDc0MA==,今日锂电,volume_drop,warning,2026-10-25,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
