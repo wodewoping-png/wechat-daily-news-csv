@@ -5,14 +5,14 @@
   "duplicate_rows": 0,
   "excluded_rows": 0,
   "model": "glm-5.3-flash",
-  "output_sha256": "8986c7d09b9d64d7b8b1a3c697b645d7de741a70033a85400e0586af6c8809c0",
+  "output_sha256": "941aa2e30eabfb72ff5e0306b50c4fdeaffa3a035409964edddc8d398f91fc08",
   "source_fingerprint": "ee4d8783ccf20213c4b26ebd31a3573d35995c85d5d79d065761de6d18d83e71",
   "source_rows": 683,
   "statuses": {
-    "不在框架内": 63,
-    "分类失败": 477,
-    "已分类": 122,
-    "待复核": 21
+    "不在框架内": 64,
+    "分类失败": 465,
+    "已分类": 131,
+    "待复核": 23
   },
   "taxonomy_version": "2026-10-16"
 }

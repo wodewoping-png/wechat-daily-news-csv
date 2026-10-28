@@ -14,9 +14,10 @@
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
-  "failed_articles": 5743,
+  "failed_articles": 6369,
   "model": "glm-5.3-flash",
   "taxonomy_paths": 125,
   "weeks": [
@@ -47,10 +48,10 @@
       "pending_classification_dates": [],
       "start": "2026-10-12",
       "statuses": {
-        "不在框架内": 703,
-        "分类失败": 1140,
-        "已分类": 1918,
-        "待复核": 387
+        "不在框架内": 704,
+        "分类失败": 1128,
+        "已分类": 1927,
+        "待复核": 389
       },
       "taxonomy_version": "2026-10-16",
       "week": "2026-W42"
@@ -94,20 +95,21 @@
       "week": "2026-W43"
     },
     {
-      "articles": 598,
+      "articles": 1244,
       "classification_complete": false,
       "complete": false,
       "daily_fingerprints": {
-        "2026-10-26": "d48dee37c14074691b86dc0bc13049bb36935a269a60be88c311eb5dd383a5aa"
+        "2026-10-26": "d48dee37c14074691b86dc0bc13049bb36935a269a60be88c311eb5dd383a5aa",
+        "2026-10-27": "60252308e295f7d6ec1b10da8e89aca1bf9acde75c33fcc793e93796fd7afe06"
       },
       "data_complete": false,
       "end": "2026-11-01",
       "failed_or_stale_dates": [
-        "2026-10-26"
+        "2026-10-26",
+        "2026-10-27"
       ],
       "file": "2026-W44.partial.csv",
       "missing_dates": [
-        "2026-10-27",
         "2026-10-28",
         "2026-10-29",
         "2026-10-30",
@@ -118,10 +120,10 @@
       "pending_classification_dates": [],
       "start": "2026-10-26",
       "statuses": {
-        "不在框架内": 3,
-        "分类失败": 585,
-        "已分类": 7,
-        "待复核": 3
+        "不在框架内": 5,
+        "分类失败": 1223,
+        "已分类": 12,
+        "待复核": 4
       },
       "taxonomy_version": "2026-10-16",
       "week": "2026-W44"

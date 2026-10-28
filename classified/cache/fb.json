@@ -1,4 +1,31 @@
 {
+  "fb0c27fde94ce915035c3ec9fee11c54df5b6cd1cb23012b09c85815b084147e": {
+    "classified_at": "2026-10-28T05:34:43.984753+00:00",
+    "matches": [
+      {
+        "category_id": "C096",
+        "confidence": 0.75,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "核心事件为DeepSeek领投Winverse AI，该公司聚焦让机器人理解语音指令、处理现实任务，涉及具身智能基础模型与模型加速"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.45,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "文中围绕DeepSeek语言模型能力对比GPT-6及AGI路线图展开，文本大模型为重要讨论对象"
+      }
+    ],
+    "reason": "具身智能领域投资新闻，主对象为机器人基础模型公司"
+  },
   "fb164df9defbfd00d8cf160ea03afa7707fc1d55279f1c6631c839a45d28b6db": {
     "classified_at": "2026-10-18T05:14:23.384461+00:00",
     "matches": [
