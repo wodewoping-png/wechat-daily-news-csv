@@ -436,7 +436,7 @@ def run(root, start=None, end=None, merge_only=False, client=None, today=None):
             if missing:
                 raise FileNotFoundError("以下日期尚未入库: " + ", ".join(missing))
         else:
-            dates = sorted(date.fromisoformat(p.stem) for p in (root / "csv").glob("????-??-??.csv") if first <= date.fromisoformat(p.stem) <= last)
+            dates = sorted((date.fromisoformat(p.stem) for p in (root / "csv").glob("????-??-??.csv") if first <= date.fromisoformat(p.stem) <= last), reverse=True)
         client = client or ZAIClient(model=config["model"])
         for day in dates:
             errors += classify_day(root, day, config, taxonomy, allowed, client, cache)

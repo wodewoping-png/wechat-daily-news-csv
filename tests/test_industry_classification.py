@@ -262,10 +262,45 @@ class ClassificationTests(unittest.TestCase):
         self.assertNotIn('schedule:', text)
         self.assertIn('secrets.ZAI_API_KEY', text)
         self.assertIn('git add -A classified', text)
-        self.assertIn("always() && steps.classify.outcome != 'skipped'", text)
+        self.assertIn("always() && steps.probe.outcome != 'skipped'", text)
 
 
 class ClientTests(unittest.TestCase):
+    def test_backup_quota_and_content_rejection_do_not_poison_primary(self):
+        calls = []
+        def opener(request, timeout):
+            calls.append(request.full_url)
+            if len(calls) <= 3:
+                code = '1113' if len(calls) == 2 else '1301'
+                status = 429 if code == '1113' else 400
+                raise urllib.error.HTTPError(request.full_url, status, 'failure', {},
+                                             io.BytesIO(json.dumps({'error': {'code': code, 'message': 'sensitive'}}).encode()))
+            return io.BytesIO(json.dumps({'choices': [{'message': {'content': '{"ok":true}'}}]}).encode())
+        with patch.dict(os.environ, {'ZAI_API_KEY': 'never-print-this'}, clear=True):
+            client = ZAIClient(opener=opener, sleep=lambda _: None)
+            with self.assertRaises(ModelError) as caught:
+                client.generate('规则', [{'content': '被拒绝的文章'}])
+            self.assertNotIsInstance(caught.exception, TerminalModelError)
+            self.assertIsNone(client.terminal_error)
+            self.assertEqual(client.generate('规则', [{'content': '下一篇普通文章'}]), '{"ok":true}')
+            self.assertEqual(client.diagnostics[0]['business_code'], '1301')
+            self.assertNotIn('sensitive', str(client.diagnostics))
+            self.assertNotIn('never-print-this', str(client.diagnostics))
+        self.assertEqual(len(calls), 4)
+
+    def test_all_routes_blocked_is_terminal_but_only_after_independent_checks(self):
+        calls = []
+        def opener(request, timeout):
+            calls.append(request.full_url)
+            raise urllib.error.HTTPError(request.full_url, 429, 'quota', {}, io.BytesIO(b'{"error":{"code":"1308"}}'))
+        with patch.dict(os.environ, {'ZAI_API_KEY': 'secret'}, clear=True):
+            client = ZAIClient(opener=opener, sleep=lambda _: None)
+            self.assertFalse(client.probe()['usable'])
+            self.assertEqual(len(calls), 3)
+            with self.assertRaises(TerminalModelError):
+                client.generate('规则', [])
+            self.assertEqual(len(calls), 3)
+
     def test_model_thinking_routes_and_secrets_not_in_error(self):
         requests = []
         def opener(request, timeout):

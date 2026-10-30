@@ -44,6 +44,14 @@ jobs:
           python-version: "3.11"
       - name: Test classification pipeline
         run: python -m unittest discover -s tests -p 'test_industry_classification.py' -v
+      - name: Verify AI API before processing daily news
+        id: probe
+        env:
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          ZAI_BASE_URL: ${{ vars.ZAI_BASE_URL || 'https://api.z.ai/api/coding/paas/v4' }}
+          BIGMODEL_BASE_URL: ${{ vars.BIGMODEL_BASE_URL || 'https://open.bigmodel.cn/api/paas/v4' }}
+          ZAI_FALLBACK_BASE_URL: ${{ vars.ZAI_FALLBACK_BASE_URL || 'https://open.bigmodel.cn/api/anthropic' }}
+        run: python scripts/diagnose_zai_industry.py
       - name: Classify published daily CSVs and merge classified weeks
         id: classify
         env:
@@ -64,7 +72,7 @@ jobs:
           if [ "$MERGE_ONLY" = "true" ]; then args+=(--merge-only); fi
           python scripts/classify_wechat_news.py "${args[@]}"
       - name: Publish classification outputs and resumable cache
-        if: ${{ always() && steps.classify.outcome != 'skipped' }}
+        if: ${{ always() && steps.probe.outcome != 'skipped' }}
         shell: bash
         run: |
           set -euo pipefail
@@ -89,6 +97,16 @@ jobs:
       - name: Show classification status
         if: always()
         run: |
+          if [ -f classified/api_diagnostics.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          p = json.loads(Path('classified/api_diagnostics.json').read_text())
+          print('## AI接口检测：' + ('可用' if p['usable'] else '不可用'))
+          for item in p['errors']:
+              print('- ' + item['route'] + ': HTTP ' + str(item['http_status']) + ', code=' + item['business_code'] + '，' + item['description'])
+          PY
+          fi
           if [ -f classified/latest_run.json ]; then
             python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json

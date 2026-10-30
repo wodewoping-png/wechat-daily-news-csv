@@ -1,6 +1,6 @@
 {
   "start_date": "2026-10-12",
-  "workers": 3,
+  "workers": 1,
   "model": "glm-5.3-flash",
   "batch_size": 6,
   "batch_chars": 48000,
