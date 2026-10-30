@@ -6,7 +6,7 @@
   "excluded_rows": 0,
   "model": "glm-5.3-flash",
   "output_sha256": "119a3c4e85da1fb7cc51b7949933d13b693c7f999c6585203fcff5d0ec09bfdb",
-  "source_fingerprint": "83fa04fdf1cff1c8de20e960c3a3f2a638e639282a8d055b5fa44f4f2137dda9",
+  "source_fingerprint": "17a9fc2a28beb3ee6037289abf0103efe96c2084c4a4ffdd3b7ec06f43f0aed9",
   "source_rows": 393,
   "statuses": {
     "不在框架内": 86,
