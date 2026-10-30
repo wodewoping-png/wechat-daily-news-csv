@@ -160,5 +160,31 @@
       }
     ],
     "reason": "拓扑物理基础研究，声学超材料仅为实现平台"
+  },
+  "add0776e499d6a26e56269a60b89cd823a3527a4d77ba3fa70874d5b23067c2e": {
+    "classified_at": "2026-10-30T03:20:27.866424+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心事件是Anthropic采用Trainium、TPU、英伟达及AMD GPU多芯片策略，冲击英伟达在AI芯片领域的主导地位与定价权"
+      },
+      {
+        "category_id": "C091",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "计算集群"
+        ],
+        "reason": "文中提及Anthropic将多方算力资源整合为统一可灵活调配的算力池"
+      }
+    ],
+    "reason": "核心事件是Anthropic采用Trainium、TPU、英伟达及AMD GPU多芯片策略，冲击英伟达在AI芯片领域的主导地位与定价权"
   }
 }

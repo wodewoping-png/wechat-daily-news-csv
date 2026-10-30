@@ -4,6 +4,32 @@
     "matches": [],
     "reason": "核心事件是控股股东减持股份的企业经营公告，MLCC仅为公司业务背景，不涉及具体技术对象，框架内无对应分类"
   },
+  "4d24e825a2c0dea4faa39e2bce4044ffcde10551b7f3c71b25570eaceac0d37f": {
+    "classified_at": "2026-10-30T03:24:05.785684+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "PCB/CCL产业链因AI算力需求爆发业绩高增，属AI服务器硬件供应链"
+      },
+      {
+        "category_id": "C089",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "ABF载板、高阶覆铜板等属半导体封装及上游材料环节，供需缺口话题明确"
+      }
+    ],
+    "reason": "核心事件是AI算力驱动的PCB/CCL产业链景气与业绩增长，归入AI硬件层"
+  },
   "4d2801b569a1a9b5a06503a678275aba752915cd0d4d722aa6fe8270121c0406": {
     "classified_at": "2026-10-18T05:22:46.696689+00:00",
     "matches": [],

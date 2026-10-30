@@ -116,6 +116,49 @@
     ],
     "reason": "核心事件是明确采用磷酸铁锂电池的大型网侧储能项目招标"
   },
+  "3cca63de2b9008e1327f0d2d8f90a26ced4a0905c65b034afdb4cb2d4a440d08": {
+    "classified_at": "2026-10-30T03:10:49.775719+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "核心是用RFdiffusion、LigandMPNN、AlphaFold3等生成式AI蛋白设计结合定向进化创建人工金属光酶，是典型AI for Science成果"
+      },
+      {
+        "category_id": "C111",
+        "confidence": 0.5,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "医学&生物学"
+        ],
+        "reason": "蛋白质设计、定向进化与酶催化属生物学与蛋白质工程范畴，为成果的重要构成"
+      }
+    ],
+    "reason": "核心是用RFdiffusion、LigandMPNN、AlphaFold3等生成式AI蛋白设计结合定向进化创建人工金属光酶，是典型AI for Science成果"
+  },
+  "3cdc6eb4c2cdf1697787e92d9b97115792c3fb8a4b6d2d613d4130e302c739be": {
+    "classified_at": "2026-10-30T01:49:21.555476+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件为ChatGPT文本大模型提供危险医疗建议引发诉讼，涉及大语言模型安全与责任问题"
+      }
+    ],
+    "reason": "核心事件为ChatGPT文本大模型提供危险医疗建议引发诉讼，涉及大语言模型安全与责任问题"
+  },
   "3cddcb4de49e23b0a66ee2f3e3fe2c0ffc8d295d0900528ef9b485374e9d5027": {
     "classified_at": "2026-10-19T05:20:01.773833+00:00",
     "matches": [
