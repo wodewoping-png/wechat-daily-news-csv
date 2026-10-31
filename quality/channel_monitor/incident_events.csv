@@ -187,3 +187,10 @@
 2026-10-29,recovered,wx:Mzg3MDYyOTI0MQ==|suspected_silence,wx:Mzg3MDYyOTI0MQ==,化工碳中和,suspected_silence,critical,2026-10-15,连续16个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-29,recovered,wx:Mzg4NzUyNzM2Ng==|suspected_silence,wx:Mzg4NzUyNzM2Ng==,中储国能,suspected_silence,warning,2026-10-21,连续10个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-10-29,recovered,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-10-28,当天抓到0篇，同类工作日/周末基线中位数4.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-30,opened,wx:MzIxMTQyMzE0OQ==|suspected_silence,wx:MzIxMTQyMzE0OQ==,先进电池材料,suspected_silence,warning,2026-10-30,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-30,opened,wx:MzkzNzQ1OTM0Mw==|suspected_silence,wx:MzkzNzQ1OTM0Mw==,国家新材料产业资源共享,suspected_silence,warning,2026-10-30,连续21个完整数据日未抓到文章，历史发文间隔中位数7天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-10-30,opened,wx:MzIxMDgwMDY4Mg==|volume_drop,wx:MzIxMDgwMDY4Mg==,深圳电池技术展,volume_drop,warning,2026-10-30,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-30,opened,wx:MzI2NTI1Njk5Mw==|volume_drop,wx:MzI2NTI1Njk5Mw==,深水科技咨询,volume_drop,warning,2026-10-30,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-30,recovered,wx:MzA5NDQ2NzQyMg==|volume_drop,wx:MzA5NDQ2NzQyMg==,新材料在线,volume_drop,warning,2026-10-29,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-30,recovered,wx:MzIxMTQyMzE0OQ==|volume_drop,wx:MzIxMTQyMzE0OQ==,先进电池材料,volume_drop,warning,2026-10-28,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-10-30,recovered,wx:MzkyNTYzNjI1NQ==|volume_drop,wx:MzkyNTYzNjI1NQ==,钙钛矿光伏,volume_drop,warning,2026-10-28,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
