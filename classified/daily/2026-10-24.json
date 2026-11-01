@@ -1,18 +1,17 @@
 {
   "articles": 390,
-  "complete": false,
+  "complete": true,
   "date": "2026-10-24",
   "duplicate_rows": 0,
   "excluded_rows": 0,
   "model": "glm-5.3-flash",
-  "output_sha256": "8925f05f05f8341c66602a2e1a27193a2f29ab35c7985d3a5d73c2cb1676d794",
+  "output_sha256": "4f5f9b99917ef2f021f8cd8eddd0e283ca9d682a6308e747e3bba9c3b9f56239",
   "source_fingerprint": "87be981900063816df70cf5987b2986ea641f0900235a78f3e9907f05c46452d",
   "source_rows": 390,
   "statuses": {
-    "不在框架内": 2,
-    "分类失败": 380,
-    "已分类": 5,
-    "待复核": 3
+    "不在框架内": 106,
+    "已分类": 234,
+    "待复核": 50
   },
   "taxonomy_version": "2026-10-16"
 }

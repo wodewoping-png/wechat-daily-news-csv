@@ -1,4 +1,20 @@
 {
+  "250b6853b558a56f583eb1d0a9de471c6ac68bfb37b4df752ba62304398a2acb": {
+    "classified_at": "2026-11-01T10:57:45.998074+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "寒武纪为AI芯片企业，业绩翻倍核心动因是AI芯片业务市场拓展，属芯片产业"
+      }
+    ],
+    "reason": "寒武纪Q3财报，核心对象为AI芯片业务。"
+  },
   "25180ee541949ee6ab9f36c911528d5c517cfb73b6f120ec6b538cf2be517941": {
     "classified_at": "2026-10-19T05:24:38.176371+00:00",
     "matches": [
