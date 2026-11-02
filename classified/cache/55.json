@@ -273,6 +273,32 @@
     "matches": [],
     "reason": "核心事件是奇瑞汽车因后桥焊接质量问题在马来西亚召回车辆，属汽车制造业质量与召回管理，行业图景框架中无对应分类"
   },
+  "556b2bac57d5d1b61d9bbce01e395a9bbd30ecfe81322466117a1a03daa0a4b7": {
+    "classified_at": "2026-11-02T06:34:49.013278+00:00",
+    "matches": [
+      {
+        "category_id": "C096",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "核心是Fysiverse-UniWAM统一世界动作模型，通过MAP与Mixed-Stream架构贯通导航、移动操作与灵巧操作，属具身智能模型层进展"
+      },
+      {
+        "category_id": "C097",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "硬件和控制"
+        ],
+        "reason": "模型在4种机器人平台完成24项真机测试，涉及底盘停靠精度与机械臂协调控制等机器人软硬件控制任务"
+      }
+    ],
+    "reason": "核心是Fysiverse-UniWAM统一世界动作模型，通过MAP与Mixed-Stream架构贯通导航、移动操作与灵巧操作，属具身智能模型层进展"
+  },
   "557d11bec73e3bf3aeff9a73e340f9142d792486aa74ff71f88bccf392c333a3": {
     "classified_at": "2026-10-30T07:46:01.295692+00:00",
     "matches": [
