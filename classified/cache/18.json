@@ -154,6 +154,36 @@
     ],
     "reason": "提出自修改学习机制的视觉骨干网络VisionHOPE并开源，属AI模型架构与学习规则的软件层创新"
   },
+  "182f9c8e501b315e73d86f2742eab2e62527261574f5f4d95debd90d9c78dc3a": {
+    "classified_at": "2026-11-02T17:30:55.324497+00:00",
+    "matches": [
+      {
+        "category_id": "C073",
+        "confidence": 0.85,
+        "path": [
+          "零碳产业",
+          "物质循环",
+          "资源加工",
+          "无机物",
+          "无机化工",
+          "尿素"
+        ],
+        "reason": "核心为CO2与硝酸盐电催化合成尿素新路线，对象是尿素生产技术"
+      },
+      {
+        "category_id": "C119",
+        "confidence": 0.8,
+        "path": [
+          "通用技术",
+          "材料工程",
+          "特种功能材料",
+          "催化材料"
+        ],
+        "reason": "研究核心为纳米限域Cu-N4单原子催化材料的设计与验证，属催化材料"
+      }
+    ],
+    "reason": "核心为CO2与硝酸盐电催化合成尿素新路线，对象是尿素生产技术"
+  },
   "18333b80a58bd78cf69c6a7dbb56a4ba3b9ffdc02dbaf68e9e9b22c29f12f54d": {
     "classified_at": "2026-10-30T02:51:05.140210+00:00",
     "matches": [],
@@ -189,6 +219,22 @@
     ],
     "reason": "核心为设计氢取代石墨炔sp碳配位的金属有机催化剂（sp-C2–Cu–O2结构），研究催化材料配位结构对电催化性能的调控机制。"
   },
+  "1843d4a448c9cfb82aa5258f99eec26761a1226f7a795adcba49de320b11df38": {
+    "classified_at": "2026-11-02T17:45:39.520959+00:00",
+    "matches": [
+      {
+        "category_id": "C109",
+        "confidence": 0.8,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "基础物理"
+        ],
+        "reason": "核心内容为杜芬振子、非线性振动与混沌动力学的基础物理理论与研究历史"
+      }
+    ],
+    "reason": "介绍杜芬方程与混沌理论的物理学科普文章，属于基础物理范畴"
+  },
   "1846a85fe9c39470d95cb423cd6537d3a86a48e5d756f00d1d0185364c7ac7ca": {
     "classified_at": "2026-11-01T09:33:52.133158+00:00",
     "matches": [
@@ -208,6 +254,11 @@
       }
     ],
     "reason": "人物报道但核心产业对象明确为固态电池研发与产业化"
+  },
+  "184bd678f45ffa3b0d4396f5cf4bab9db43a32248b9f5feb5ec46bc4d0a1f561": {
+    "classified_at": "2026-11-02T16:16:37.573894+00:00",
+    "matches": [],
+    "reason": "纪念长征胜利90周年大会为政治纪念活动，无产业技术对象，不在框架范围内"
   },
   "184e137a91702dd6626d009e5198a2410c206fcb47cbc2c4a2741c81dfeacc30": {
     "classified_at": "2026-11-02T08:18:03.726574+00:00",
@@ -358,6 +409,28 @@
     ],
     "reason": "储能行业综合动态，锂电储能为主体，飞轮储能与电力市场交易为重要组成"
   },
+  "187033ac3ea16a250f3f32736f6e7aeb41bd7d5df33cdcef4dac4b331a6e7605": {
+    "classified_at": "2026-11-02T17:19:15.841193+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心围绕大语言模型词元经济展开，讨论LLM计量、Agent应用与AI产业逻辑，底座文本模型为主要技术对象；芯片、数据中心等仅为顺带提及"
+      }
+    ],
+    "reason": "核心围绕大语言模型词元经济展开，讨论LLM计量、Agent应用与AI产业逻辑，底座文本模型为主要技术对象；芯片、数据中心等仅为顺带提及"
+  },
+  "1870453c2e4bddbace93a325fffa7c61a20e8c388b7230f96656c0869ffba480": {
+    "classified_at": "2026-11-02T19:06:53.238516+00:00",
+    "matches": [],
+    "reason": "核心事件为A股上市公司回购潮与历史行情复盘，属股市财经分析，半导体、AI仅作为回购公司行业背景提及，不构成框架内产业技术对象"
+  },
   "1888c41f3904c1dec930f4e13b3bb0fc0be722ff796cfad9f5522519c3a406ce": {
     "classified_at": "2026-10-30T02:20:16.238734+00:00",
     "matches": [
@@ -375,6 +448,42 @@
       }
     ],
     "reason": "核心事件为印度苏司兰发布Blue Sky风机平台并宣布重返欧洲陆上风电市场，属风电整机市场竞争动态"
+  },
+  "1889257294fe0ff54f47bab6034b916a1ef4ee30844ab2c832b33e7d83d04e1a": {
+    "classified_at": "2026-11-02T16:51:47.903000+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心发布为RTX Spark超级芯片（Blackwell GPU+Grace CPU）、Vera Rubin、BlueField-4、Jetson Thor等AI芯片与整机算力硬件"
+      },
+      {
+        "category_id": "C092",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "DSX POD将AI工厂机架工厂化集成并集装箱交付数据中心，大幅缩短部署周期，属数据中心基础设施"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "发布Isaac GR00T人形机器人模型、Isaac仿真平台及开放的Nemotron、Cosmos等物理AI模型，属具身模型与操作系统层"
+      }
+    ],
+    "reason": "核心发布为RTX Spark超级芯片（Blackwell GPU+Grace CPU）、Vera Rubin、BlueField-4、Jetson Thor等AI芯片与整机算力硬件"
   },
   "188b91505add4e35b3ed102c1890a1e68e6ed16593ec2b326c2cd6c6dab5ae16": {
     "classified_at": "2026-11-01T09:12:22.179906+00:00",
