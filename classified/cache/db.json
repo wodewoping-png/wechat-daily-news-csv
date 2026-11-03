@@ -203,6 +203,11 @@
     ],
     "reason": "核心为设计Cl-Ni-NB/CNT单原子催化剂调控酸性CO₂电还原界面质子传输，催化剂材料是研究对象"
   },
+  "db27c15255f725c5facc49a807ef503a46a8e8a95529e870d71094129accf324": {
+    "classified_at": "2026-11-03T07:34:28.721530+00:00",
+    "matches": [],
+    "reason": "地方人大人事任免的政治新闻，无明确产业、技术或应用对象，不属于任何框架类别"
+  },
   "db2bcc36649e94e46ba98c5cde4405fadb6275b3b389ba583f6f38e62f6cbdf5": {
     "classified_at": "2026-10-31T07:42:35.524693+00:00",
     "matches": [
@@ -1028,5 +1033,47 @@
     "classified_at": "2026-10-24T04:31:49.697142+00:00",
     "matches": [],
     "reason": "核心事件为学者入选斯坦福全球前2%顶尖科学家榜单，属学术荣誉资讯，中心的环境能源背景仅为机构属性，不触发具体产业分类"
+  },
+  "dbf9ff0acb2a7e69d0e7881606ff1275ccf5b9754cb1fcbbbee86f16bb9d8eeb": {
+    "classified_at": "2026-11-03T07:31:14.051458+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件是大语言模型（GPT-6.1、DeepSeek V4.1、Kimi K3、Naive-N0.5-Flash等文本模型）的推理速度竞争与模型架构优化"
+      },
+      {
+        "category_id": "C087",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "大量篇幅讨论推测解码、GPU Kernel融合、PDL等推理系统工程优化技术"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "作为辅助路径讨论NVIDIA Rubin NVL72、GB300及Cerebras晶圆级芯片等推理硬件"
+      }
+    ],
+    "reason": "核心事件是大语言模型（GPT-6.1、DeepSeek V4.1、Kimi K3、Naive-N0.5-Flash等文本模型）的推理速度竞争与模型架构优化"
+  },
+  "dbfb733af4ce512d05e0294d86da1a8700f724058b17ffe873bae8e824492a4e": {
+    "classified_at": "2026-11-03T07:32:33.511540+00:00",
+    "matches": [],
+    "reason": "解放军导弹拦截试验属军事国防新闻，框架内无对应分类，故返回空匹配。"
   }
 }
