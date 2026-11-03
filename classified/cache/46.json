@@ -767,6 +767,42 @@
     "matches": [],
     "reason": "仅为长实集团澄清企业家去世传闻的声明，无产业技术内容"
   },
+  "46db716d43987b2342dcf0f3787d0caa3217268992b059dc46136c5aa0a0a89f": {
+    "classified_at": "2026-11-03T17:13:43.414032+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心为AMD苏姿丰对CPU/GPU等AI芯片市场的判断及EPYC、GPU新品线发布"
+      },
+      {
+        "category_id": "C091",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "计算集群"
+        ],
+        "reason": "Helios机架集成72颗GPU、Helion机架堆叠3.2万Zen 6核心，属机架级计算集群产品"
+      },
+      {
+        "category_id": "C092",
+        "confidence": 0.45,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "提及Helios进入OpenAI、Meta等数据中心部署及数据中心收入数据"
+      }
+    ],
+    "reason": "核心为AMD苏姿丰对CPU/GPU等AI芯片市场的判断及EPYC、GPU新品线发布"
+  },
   "46df06233bfa9a84a724e27d0ae3f62f6dd64adf54f2790f59d904ea88879d5a": {
     "classified_at": "2026-10-31T07:11:20.118552+00:00",
     "matches": [
@@ -948,6 +984,11 @@
     "classified_at": "2026-11-01T11:57:12.193341+00:00",
     "matches": [],
     "reason": "中国新闻奖评选结果公示，属新闻行业奖项公告，不涉及框架内产业对象"
+  },
+  "46ec4c6fe15bd97b1c9f9ddbadd948de89cc14cbee4bd8caae92806f7d1a1d1b": {
+    "classified_at": "2026-11-03T14:52:23.928725+00:00",
+    "matches": [],
+    "reason": "核心是特朗普对俄乌战事及袭击俄柴油炼油厂的政治评论，属国际地缘政治新闻，虽提及柴油市场但无框架内产业技术对象"
   },
   "46ede496f83c02d9d705c50d119c5110b20e9775e0e90456943b332f23366c9e": {
     "classified_at": "2026-11-01T10:09:19.757257+00:00",

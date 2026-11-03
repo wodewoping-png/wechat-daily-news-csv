@@ -696,6 +696,44 @@
     ],
     "reason": "核心对象是折叠屏玻璃材料技术，明确匹配玻璃类别。"
   },
+  "c18f1964fc6d0753a9ccdaeb5b11f03a58d1b04d6855038ca9c25cf63e929f0b": {
+    "classified_at": "2026-11-03T16:44:33.810335+00:00",
+    "matches": [
+      {
+        "category_id": "C086",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "摘要头条为Meta开源原生多模态模型Muse Spark Open，另含可灵4.0视频生成、VAST EdenLive实时渲染世界模型等多项多模态大模型发布"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "DeepSeek V4.1 Flash版本更新并开放搜索API、ChatGPT接入Chrome的Agent化文本模型能力是重要内容"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "英伟达开源ASPIRE机器人框架，用编程Agent为机器人生成控制程序与技能库，属具身智能模型与系统层进展"
+      }
+    ],
+    "reason": "摘要头条为Meta开源原生多模态模型Muse Spark Open，另含可灵4.0视频生成、VAST EdenLive实时渲染世界模型等多项多模态大模型发布"
+  },
   "c195ae26119f5e57e8d24b89eee2acd04866511f932e44714134773861ec6d09": {
     "classified_at": "2026-11-01T07:15:23.282155+00:00",
     "matches": [

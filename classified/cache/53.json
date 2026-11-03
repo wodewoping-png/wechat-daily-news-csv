@@ -844,6 +844,22 @@
     ],
     "reason": "澜起科技为DDR5内存接口及互连芯片龙头，业绩增长来自服务器/内存芯片需求上行"
   },
+  "53c744cc77b9240cc6d1f089861c2e5b25c6e12a30fffe98e2aef12815ef78ba": {
+    "classified_at": "2026-11-03T15:59:04.904187+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.75,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心是提出DynStream流式4D高斯前馈重建框架，属AI软件层的模型方法与工程改进"
+      }
+    ],
+    "reason": "核心是提出DynStream流式4D高斯前馈重建框架，属AI软件层的模型方法与工程改进"
+  },
   "53cefb926c643e3bc9a5b230a375c1d6850182f805bbc055985a6d67a58b4e58": {
     "classified_at": "2026-11-01T10:56:15.511231+00:00",
     "matches": [

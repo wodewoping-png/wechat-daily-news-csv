@@ -699,6 +699,21 @@
     ],
     "reason": "核心报道锂金属固态电池技术迭代与产业化进展，聚焦固态电解质、界面稳定性及400Wh/kg以上能量密度，属固态电池"
   },
+  "9c9c8bfada75d8db6ceeafbcd0ebff9f957cc08d135da64f87e3985fcac77455": {
+    "classified_at": "2026-11-03T15:42:04.232903+00:00",
+    "matches": [],
+    "reason": "IMF评论日本货币政策、加息与财政风险，属宏观经济金融新闻，不涉及框架内任何产业技术对象"
+  },
+  "9ca002c68f7f1c499348f6fe7d85f02b3c0493bd62b9f1242fe49ea5687b9578": {
+    "classified_at": "2026-11-03T15:05:02.387810+00:00",
+    "matches": [],
+    "reason": "中纪委官员违纪违法通报的反腐新闻，不涉及任何产业技术对象"
+  },
+  "9ca5a31683f2583cadc72cc438173e1aad09f1ea567b7c2a8a383d1e2ac58cbb": {
+    "classified_at": "2026-11-03T14:53:19.349757+00:00",
+    "matches": [],
+    "reason": "核心事件是韩国养老基金股票持仓市值缩水的金融投资新闻，三星电子与SK海力士仅作为持仓股票被提及，未涉及半导体产业技术或业务本身，不属于框架内分类"
+  },
   "9ca63378a0c39f5c8631e5f4a3d8a5fa6e53dee77b7dd3a7d3bffa52cdb754ec": {
     "classified_at": "2026-11-02T16:59:09.509785+00:00",
     "matches": [
@@ -947,6 +962,11 @@
     ],
     "reason": "学术论文核心为非贵金属酸性析氧催化材料，应用场景为电解水制氢"
   },
+  "9cdc0df01ded87d4df96e14885a6ec2cf59e657a1ad2c6c2f75e8d8c428340c7": {
+    "classified_at": "2026-11-03T16:24:37.719279+00:00",
+    "matches": [],
+    "reason": "核心事件为股价波动、业绩预告与股份回购公告，属企业金融资讯，未涉及存储芯片等具体产业技术对象，不触发分类"
+  },
   "9ce370e4d4f1d8a73e3cf9d0b6c776e78e5c71c29595db7bd8190e3bcc520924": {
     "classified_at": "2026-11-03T09:29:54.387224+00:00",
     "matches": [
@@ -999,6 +1019,42 @@
       }
     ],
     "reason": "中储国能参会并报告先进压缩空气储能技术研发与产业化进展"
+  },
+  "9cf81c0eeb50d9f18870e37deac9454a2fb7e728c4997bdd6dffd052861a62f4": {
+    "classified_at": "2026-11-03T16:50:37.067804+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "核心为全球AI半导体产业趋势，涉及台积电2nm/3nm先进制程、CoWoS封装产能及DRAM/HBM存储制造"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "深入讨论GPU、Google TPU、Amazon Trainium等定制ASIC芯片及HBM高带宽存储芯片技术路线"
+      },
+      {
+        "category_id": "C093",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "算力能源基础设施"
+        ],
+        "reason": "明确讨论AI数据中心电力基础设施，包括GaN功率器件、800V HVDC供电及机柜功耗升级"
+      }
+    ],
+    "reason": "核心为全球AI半导体产业趋势，涉及台积电2nm/3nm先进制程、CoWoS封装产能及DRAM/HBM存储制造"
   },
   "9cfa63123519f5bb23257c82efd9a4f270ccc3fe3d3e7af780e19f1145ac9f0a": {
     "classified_at": "2026-11-03T08:51:11.527862+00:00",
