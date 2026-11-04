@@ -1,7 +1,7 @@
 {
   "articles": 4118,
-  "classification_complete": false,
-  "complete": false,
+  "classification_complete": true,
+  "complete": true,
   "daily_fingerprints": {
     "2026-10-19": "945342d6020a07c02158a6864b733712c2314adc380d7d8bcd77ed441eec8df4",
     "2026-10-20": "0d00ef2bee2be5a4dd2fa79ce9fcdfc09b19276701c9dfdd3695d06f0dbf6533",
@@ -13,20 +13,16 @@
   },
   "data_complete": true,
   "end": "2026-10-25",
-  "failed_or_stale_dates": [
-    "2026-10-19",
-    "2026-10-20"
-  ],
+  "failed_or_stale_dates": [],
   "file": "2026-W43.csv",
   "missing_dates": [],
   "model": "glm-5.3-flash",
   "pending_classification_dates": [],
   "start": "2026-10-19",
   "statuses": {
-    "不在框架内": 796,
-    "分类失败": 704,
-    "已分类": 2176,
-    "待复核": 442
+    "不在框架内": 970,
+    "已分类": 2632,
+    "待复核": 516
   },
   "taxonomy_version": "2026-10-16",
   "week": "2026-W43"
