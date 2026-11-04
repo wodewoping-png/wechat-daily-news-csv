@@ -152,6 +152,28 @@
     ],
     "reason": "核心成果为卤化物正极非晶化策略提升全固态锂电池倍率与循环性能，属固态电池技术"
   },
+  "d11710e01a27bb5d0becbbf9be99242ec45d7f60f2f808c1584d6f3f6c24ef3f": {
+    "classified_at": "2026-11-04T15:58:47.275932+00:00",
+    "matches": [],
+    "reason": "讣告类企业人事新闻，核心事件为原华熙生物首席科学家去世，未涉及框架内的产业技术对象，故不匹配"
+  },
+  "d117cb498c1f17ed8e4734c9cc4483142b45bbd8e80810a144523a2d4d6a32af": {
+    "classified_at": "2026-11-04T15:52:17.522929+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "文章以大语言模型（Transformer、Scaling Law、GPT系列）和生成式AI产业为主线，讨论AI学术化、集中化与国际化"
+      }
+    ],
+    "reason": "文章以大语言模型（Transformer、Scaling Law、GPT系列）和生成式AI产业为主线，讨论AI学术化、集中化与国际化"
+  },
   "d120097f471ae6195619df320c9c38b5b3611815f8672cf77c04d5171d631038": {
     "classified_at": "2026-10-16T09:57:30.093960+00:00",
     "matches": [

@@ -66,6 +66,32 @@
     ],
     "reason": "核心对象是多孔陶瓷材料的孔结构、模板法/发泡法/溶胶-凝胶制备技术及其性能"
   },
+  "471867aeffd37d55f89f4d19f5f76fab82fce45f7c89a429d074a1c462258199": {
+    "classified_at": "2026-11-04T15:31:21.888994+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "核心是AI for Science：符号回归智能体框架与机制发现基准"
+      },
+      {
+        "category_id": "C087",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "SRHarness为智能体运行时基础设施，属AI软件工程改进"
+      }
+    ],
+    "reason": "核心是AI for Science：符号回归智能体框架与机制发现基准"
+  },
   "471e7033db75dd5455d815ce9b8390c783c7a01d053b4efa011a0e4c28512179": {
     "classified_at": "2026-11-03T08:13:50.924778+00:00",
     "matches": [
