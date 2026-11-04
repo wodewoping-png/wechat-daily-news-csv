@@ -560,6 +560,11 @@
     ],
     "reason": "核心对象为Nemotron 3.5 Bolt多模态大模型，支持图片、视频输入、代码与工具调用，面向笔记本本地Agent部署"
   },
+  "b9a6c8fdbd53ccb6200144917a60f19ab422191767a27cede6ed56b0d568e946": {
+    "classified_at": "2026-11-04T08:36:13.191896+00:00",
+    "matches": [],
+    "reason": "美俄乌三方会谈为国际政治外交新闻，不涉及框架内任何产业或技术对象，无匹配类别"
+  },
   "b9adf58f58deb214689affad0fc85a8edeef2f1b4ec6b54b45da73ae7ccca75c": {
     "classified_at": "2026-10-30T07:16:37.823667+00:00",
     "matches": [],
