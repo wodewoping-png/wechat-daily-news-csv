@@ -235,3 +235,12 @@
 2026-11-03,recovered,wx:MzkyODY4MzU1Mw==|suspected_silence,wx:MzkyODY4MzU1Mw==,能源环境经济文献精读,suspected_silence,warning,2026-10-31,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-03,recovered,wx:MzkyOTczOTEyMg==|suspected_silence,wx:MzkyOTczOTEyMg==,每日氢闻,suspected_silence,warning,2026-11-02,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-03,recovered,wx:MzkzNzQ1OTM0Mw==|suspected_silence,wx:MzkzNzQ1OTM0Mw==,国家新材料产业资源共享,suspected_silence,warning,2026-10-30,连续24个完整数据日未抓到文章，历史发文间隔中位数7天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-04,opened,wx:MjM5NzYzMTMwMg==|volume_drop,wx:MjM5NzYzMTMwMg==,IEEE电气电子工程学会,volume_drop,warning,2026-11-04,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-04,opened,wx:MzUyMzk5OTg3Ng==|volume_drop,wx:MzUyMzk5OTg3Ng==,科研云平台,volume_drop,warning,2026-11-04,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-04,opened,wx:MzU2NTEwMTg0OQ==|volume_drop,wx:MzU2NTEwMTg0OQ==,第一锂电网,volume_drop,warning,2026-11-04,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-04,opened,wx:Mzg2Mjg2NDExNQ==|suspected_silence,wx:Mzg2Mjg2NDExNQ==,钠电材料,suspected_silence,warning,2026-11-04,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-04,recovered,wx:MzA5MDYwOTE2Nw==|volume_drop,wx:MzA5MDYwOTE2Nw==,国际能源研究中心,volume_drop,warning,2026-11-02,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-04,recovered,wx:MzAwMDE3Njk0OA==|suspected_silence,wx:MzAwMDE3Njk0OA==,化学进展,suspected_silence,warning,2026-11-01,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-04,recovered,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-11-03,当天抓到0篇，同类工作日/周末基线中位数6篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-04,recovered,wx:Mzg4MDg2ODUxMw==|suspected_silence,wx:Mzg4MDg2ODUxMw==,电解质前沿,suspected_silence,warning,2026-11-01,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-04,recovered,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-11-03,当天抓到0篇，同类工作日/周末基线中位数5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
