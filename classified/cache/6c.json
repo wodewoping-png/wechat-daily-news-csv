@@ -595,6 +595,11 @@
     ],
     "reason": "核心讨论高通量计算、机器学习与实验闭环加速电催化材料发现，属AI驱动科学研究方法论"
   },
+  "6c910254e92577fb6f571dad14e0e3667f8df6b4cf8daadef050a2ba9385e403": {
+    "classified_at": "2026-11-05T07:44:54.703544+00:00",
+    "matches": [],
+    "reason": "仅为A股成交额突破2万亿的市场数据新闻，无具体产业事件"
+  },
   "6c9477ced0cc72795ae3b8ca44b6accec1dfc502f287d6f56f01c983c5aed766": {
     "classified_at": "2026-11-01T07:25:19.370386+00:00",
     "matches": [],
@@ -648,6 +653,22 @@
     "classified_at": "2026-11-03T09:04:07.770974+00:00",
     "matches": [],
     "reason": "Gartner针对企业AI应用价值实现的管理调研，属IT治理与咨询调查内容，无具体AI技术模型或硬件对象，框架内无对应类目"
+  },
+  "6c9ee0058345d96fba734bf55c21db0451c607b06bae34b8a4e32491fa64f225": {
+    "classified_at": "2026-11-05T07:07:55.895570+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心为AI接入知识库与知识自进化工作流，讨论RAG、LLM Wiki、Obsidian技能与MCP集成等AI软件工程方法"
+      }
+    ],
+    "reason": "核心为AI接入知识库与知识自进化工作流，讨论RAG、LLM Wiki、Obsidian技能与MCP集成等AI软件工程方法"
   },
   "6c9f90a0b19f6fdf614b7278913852d73394c52486b374a2c785234dd4a446d9": {
     "classified_at": "2026-11-03T07:05:44.998859+00:00",

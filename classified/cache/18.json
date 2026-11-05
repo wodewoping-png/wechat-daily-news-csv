@@ -379,6 +379,11 @@
     ],
     "reason": "人物报道但核心产业对象明确为固态电池研发与产业化"
   },
+  "184a846a291013bd10b2d835eabb1c00acaf7efdeaa7fb3f40e9459abeab2eb5": {
+    "classified_at": "2026-11-05T07:57:04.239708+00:00",
+    "matches": [],
+    "reason": "特朗普祝贺民主党中期选举的政治新闻，无任何产业或技术对象"
+  },
   "184bd678f45ffa3b0d4396f5cf4bab9db43a32248b9f5feb5ec46bc4d0a1f561": {
     "classified_at": "2026-11-02T16:16:37.573894+00:00",
     "matches": [],

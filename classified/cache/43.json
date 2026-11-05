@@ -290,6 +290,32 @@
     ],
     "reason": "核心事件为钙钛矿光伏中三线态转移机制研究，以光伏为主分类，界面调控材料为辅类"
   },
+  "4351059c4f9bf3c2c073acd8279a64bd7b5433b4b29fa7e98a9ec60dc2372893": {
+    "classified_at": "2026-11-05T08:55:14.793336+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心事件是面向AI推理的芯片级存储互连技术创新：OmniConnect 112G VSR SerDes与Weaver Chiplet（集成LPDDR5X控制器、PHY、FEC，台积电N5工艺），重构AI芯片内存架构，属于AI硬件层芯片技术。"
+      },
+      {
+        "category_id": "C091",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "计算集群"
+        ],
+        "reason": "文中还提出OmniConnect扩展至XPU间Scale-up/Scale-out高速互连，构建可扩展AI计算系统，但仅为架构方向展望，作为次要相关。"
+      }
+    ],
+    "reason": "核心事件是面向AI推理的芯片级存储互连技术创新：OmniConnect 112G VSR SerDes与Weaver Chiplet（集成LPDDR5X控制器、PHY、FEC，台积电N5工艺），重构AI芯片内存架构，属于AI硬件层芯片技术。"
+  },
   "435ab7c564452f7c385e35b64bc76db8dccc086f37bc91e6ac59880ea46c4c30": {
     "classified_at": "2026-11-01T07:13:09.051005+00:00",
     "matches": [],
