@@ -1,6 +1,6 @@
 {
   "articles": 2693,
-  "classification_complete": false,
+  "classification_complete": true,
   "complete": false,
   "daily_fingerprints": {
     "2026-11-02": "3e9a150ee5d70833e3bd41bab5a5dfe8029020cdf2d464cf36fe269d6fef7397",
@@ -18,15 +18,12 @@
     "2026-11-08"
   ],
   "model": "glm-5.3-flash",
-  "pending_classification_dates": [
-    "2026-11-05"
-  ],
+  "pending_classification_dates": [],
   "start": "2026-11-02",
   "statuses": {
-    "不在框架内": 489,
-    "已分类": 1331,
-    "待分类": 647,
-    "待复核": 226
+    "不在框架内": 635,
+    "已分类": 1760,
+    "待复核": 298
   },
   "taxonomy_version": "2026-10-16",
   "week": "2026-W45"
