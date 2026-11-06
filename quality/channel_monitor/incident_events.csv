@@ -244,3 +244,12 @@
 2026-11-04,recovered,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-11-03,当天抓到0篇，同类工作日/周末基线中位数6篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-11-04,recovered,wx:Mzg4MDg2ODUxMw==|suspected_silence,wx:Mzg4MDg2ODUxMw==,电解质前沿,suspected_silence,warning,2026-11-01,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-04,recovered,wx:MzkzOTU2ODEzMw==|volume_drop,wx:MzkzOTU2ODEzMw==,钙钛矿工厂,volume_drop,warning,2026-11-03,当天抓到0篇，同类工作日/周末基线中位数5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-05,opened,wx:MzAxMTE3NTAwNA==|suspected_silence,wx:MzAxMTE3NTAwNA==,AEii国际应用能源,suspected_silence,warning,2026-11-05,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-05,opened,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-11-05,当天抓到0篇，同类工作日/周末基线中位数6.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-05,opened,wx:Mzg3MDYyOTI0MQ==|suspected_silence,wx:Mzg3MDYyOTI0MQ==,化工碳中和,suspected_silence,warning,2026-11-05,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-05,opened,wx:MzkyOTIwNzE3Mg==|volume_drop,wx:MzkyOTIwNzE3Mg==,碳中和资料库,volume_drop,warning,2026-11-05,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-05,recovered,wx:MjM5NzYzMTMwMg==|volume_drop,wx:MjM5NzYzMTMwMg==,IEEE电气电子工程学会,volume_drop,warning,2026-11-04,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-05,recovered,wx:MzA5NjQyNjMxNA==|suspected_silence,wx:MzA5NjQyNjMxNA==,Gartner公司,suspected_silence,warning,2026-11-01,连续6个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-05,recovered,wx:MzUyMzk5OTg3Ng==|volume_drop,wx:MzUyMzk5OTg3Ng==,科研云平台,volume_drop,warning,2026-11-04,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-05,recovered,wx:Mzg2Mjg2NDExNQ==|suspected_silence,wx:Mzg2Mjg2NDExNQ==,钠电材料,suspected_silence,warning,2026-11-04,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-05,recovered,wx:Mzk0MDQ5MTE5OQ==|suspected_silence,wx:Mzk0MDQ5MTE5OQ==,中国可再生能源学会地热能专委会,suspected_silence,warning,2026-11-01,连续6个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
