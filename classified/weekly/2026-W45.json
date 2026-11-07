@@ -1,29 +1,32 @@
 {
-  "articles": 2693,
-  "classification_complete": true,
+  "articles": 3394,
+  "classification_complete": false,
   "complete": false,
   "daily_fingerprints": {
     "2026-11-02": "3e9a150ee5d70833e3bd41bab5a5dfe8029020cdf2d464cf36fe269d6fef7397",
     "2026-11-03": "83bb60ece3cbb857cd91390c7f84dd484ca73f9e3f774461276e667b9caf38b4",
     "2026-11-04": "89cf103d32aa400562fcc22434eb40835ffddeffc8041027b0eb2824e861cdda",
-    "2026-11-05": "6006f0059cc971a099ba187be47a8fd3e650651c080a89f54669179b3185e137"
+    "2026-11-05": "6006f0059cc971a099ba187be47a8fd3e650651c080a89f54669179b3185e137",
+    "2026-11-06": "4c7e5e4b2ea49a263d39b837d2717047283059988c042ca3c2c71c17d60e504d"
   },
   "data_complete": false,
   "end": "2026-11-08",
   "failed_or_stale_dates": [],
   "file": "2026-W45.partial.csv",
   "missing_dates": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08"
   ],
   "model": "glm-5.3-flash",
-  "pending_classification_dates": [],
+  "pending_classification_dates": [
+    "2026-11-06"
+  ],
   "start": "2026-11-02",
   "statuses": {
-    "不在框架内": 635,
-    "已分类": 1760,
-    "待复核": 298
+    "不在框架内": 641,
+    "已分类": 1774,
+    "待分类": 676,
+    "待复核": 303
   },
   "taxonomy_version": "2026-10-16",
   "week": "2026-W45"
