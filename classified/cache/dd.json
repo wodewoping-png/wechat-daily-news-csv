@@ -1175,6 +1175,32 @@
     ],
     "reason": "报道碳能科技生物质耦合二氧化碳电制SAF工程实践，主对象为绿色航煤生产"
   },
+  "ddd83418af32ab0c8f4ae3a45eb4d5ef5fc6b6352de6e8856f300da7db9aedbb": {
+    "classified_at": "2026-11-07T07:40:05.120059+00:00",
+    "matches": [
+      {
+        "category_id": "C092",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "核心对象为澳大利亚多个大型数据中心项目的环评、并网与融资受阻，如Project Ares、NextDC扩建等"
+      },
+      {
+        "category_id": "C093",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "算力能源基础设施"
+        ],
+        "reason": "文章重点讨论数据中心电力供应、绿电直连、自建燃气加可再生电源及电网并网瓶颈，属算力能源供给问题"
+      }
+    ],
+    "reason": "核心对象为澳大利亚多个大型数据中心项目的环评、并网与融资受阻，如Project Ares、NextDC扩建等"
+  },
   "dddae9a81244f0cb06dd7f2d00b6e14f920be1b7976ac58debb632d52c35a37e": {
     "classified_at": "2026-10-31T08:22:12.408805+00:00",
     "matches": [

@@ -103,6 +103,43 @@
     "matches": [],
     "reason": "沪深股市ETF成交、板块资金流向等证券行情资讯，无框架内的核心产业对象"
   },
+  "ce1daa3223e23616a92fd7b04a422e4ba8e70c23d6d5158701f22a10fd660244": {
+    "classified_at": "2026-11-07T06:45:53.331961+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.75,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "AI初创公司悬赏以AI智能体破解材料科学基础物理难题，属AI for Science范畴"
+      },
+      {
+        "category_id": "C109",
+        "confidence": 0.55,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "基础物理"
+        ],
+        "reason": "五大难题含铜酸盐超导机理、光致材料效应等基础物理解释"
+      },
+      {
+        "category_id": "C112",
+        "confidence": 0.5,
+        "path": [
+          "通用技术",
+          "计算仿真技术",
+          "原子层级",
+          "第一性原理"
+        ],
+        "reason": "难题明确包括DFT算法优化升级及硅/二氧化硅界面等原子模拟计算方法开发"
+      }
+    ],
+    "reason": "AI初创公司悬赏以AI智能体破解材料科学基础物理难题，属AI for Science范畴"
+  },
   "ce260315a7b4295a44d55c12208fece15ab8bac87cadc4d1b9f2ebb2f4673ee8": {
     "classified_at": "2026-11-05T08:40:11.124680+00:00",
     "matches": [],
