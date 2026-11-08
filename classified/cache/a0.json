@@ -814,6 +814,32 @@
     ],
     "reason": "铝市场价格预测及铝企经营分析，核心产业对象为铝业"
   },
+  "a0b6b612e63f7ef6af36a470e0336e557abcd0e99ee744ed21dd8ed0b4a90117": {
+    "classified_at": "2026-11-08T06:21:33.258649+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "专利核心为HBM多层DRAM堆叠的同轴接地屏蔽接触结构及完整半导体制造工艺流程"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "对象为面向AI大算力的高带宽存储器芯片，芯片层面的串扰抑制与堆叠架构"
+      }
+    ],
+    "reason": "专利核心为HBM多层DRAM堆叠的同轴接地屏蔽接触结构及完整半导体制造工艺流程"
+  },
   "a0b90f1dadc3fca340b6665c3a0ec2d17bbc249950c34a2feb2ed44902e9617a": {
     "classified_at": "2026-11-02T18:54:18.358490+00:00",
     "matches": [

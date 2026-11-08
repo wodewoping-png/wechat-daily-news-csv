@@ -130,6 +130,45 @@
     ],
     "reason": "核心事件为DeepSeek Super-agent设计与LobeHub多Agent平台，聚焦Agent编排架构、Harness工程与RSI自我改进等AI系统工程"
   },
+  "30288ca243930afe6bd62d84a4d90c81a7e6c0669ebbcb99c33dba9ae42de4f1": {
+    "classified_at": "2026-11-08T05:59:28.568583+00:00",
+    "matches": [
+      {
+        "category_id": "C101",
+        "confidence": 0.85,
+        "path": [
+          "通用技术",
+          "通信和运输",
+          "信息传输",
+          "微波"
+        ],
+        "reason": "核心为5G/5G-A/6G移动通信网建设与行业应用，主体属微波无线通信技术"
+      },
+      {
+        "category_id": "C102",
+        "confidence": 0.6,
+        "path": [
+          "通用技术",
+          "通信和运输",
+          "信息传输",
+          "光纤"
+        ],
+        "reason": "报道提及万兆光网作为新一代通信网组成部分，涉及光纤信息传输"
+      },
+      {
+        "category_id": "C103",
+        "confidence": 0.5,
+        "path": [
+          "通用技术",
+          "通信和运输",
+          "信息传输",
+          "其它信息传输技术"
+        ],
+        "reason": "报道提及卫星互联网建设，属其它信息传输技术"
+      }
+    ],
+    "reason": "核心为5G/5G-A/6G移动通信网建设与行业应用，主体属微波无线通信技术"
+  },
   "302b833a31378f795ecdedaa7310dba3bfefb0d3c18ea9ff6e61540f548e1d09": {
     "classified_at": "2026-11-03T16:19:18.371897+00:00",
     "matches": [

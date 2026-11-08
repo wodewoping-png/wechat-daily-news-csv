@@ -514,6 +514,23 @@
     ],
     "reason": "铝厂车间降本技改新闻，以铝业为主，修旧利废为辅"
   },
+  "63855937bfc19d340fc956aa58de194eb6314f86ce6aa1bd8b4816e3114a71d9": {
+    "classified_at": "2026-11-08T06:17:27.818163+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件为DeepSeek大语言模型网页/Chat及API服务中断与修复，产业对象是文本底座大模型服务"
+      }
+    ],
+    "reason": "核心事件为DeepSeek大语言模型网页/Chat及API服务中断与修复，产业对象是文本底座大模型服务"
+  },
   "638b54a49bbf752a873c9253b70079e6e4e2ab0839a7a3422d1d7766e3a47937": {
     "classified_at": "2026-11-04T07:57:55.636603+00:00",
     "matches": [
@@ -1252,6 +1269,43 @@
       }
     ],
     "reason": "核心议题为西班牙储能电网服务货币化、灵活性市场机制与容量市场建设，属电力交易与市场框架问题"
+  },
+  "63f7c5c2b156598682953db214ab97e3ecfa129e63768468a621b8a71fce678b": {
+    "classified_at": "2026-11-08T06:07:15.866501+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "核心事件为AI模型三天证明量子计算领域悬置18年的Aaronson-Ambainis猜想并经Lean形式化验证，属AI驱动科学发现"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "主角为Anthropic内部Claude大模型及Agent Harness系统，展现文本模型的高级推理能力"
+      },
+      {
+        "category_id": "C095",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "其它智能科技",
+          "量子信息和量子计算"
+        ],
+        "reason": "证明对象为量子计算优势边界问题，明确讨论量子计算与经典模拟关系"
+      }
+    ],
+    "reason": "核心事件为AI模型三天证明量子计算领域悬置18年的Aaronson-Ambainis猜想并经Lean形式化验证，属AI驱动科学发现"
   },
   "63f87cf290a0edea45cf541103aad6e4724ee73b7c31ac7238fe566c356a4959": {
     "classified_at": "2026-10-30T01:47:10.918358+00:00",

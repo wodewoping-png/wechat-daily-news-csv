@@ -20,16 +20,13 @@
     "2026-11-08"
   ],
   "model": "glm-5.3-flash",
-  "pending_classification_dates": [
-    "2026-11-07"
-  ],
+  "pending_classification_dates": [],
   "start": "2026-11-02",
   "statuses": {
-    "不在框架内": 811,
+    "不在框架内": 890,
     "分类失败": 1,
-    "已分类": 2230,
-    "待分类": 366,
-    "待复核": 382
+    "已分类": 2487,
+    "待复核": 412
   },
   "taxonomy_version": "2026-10-16",
   "week": "2026-W45"

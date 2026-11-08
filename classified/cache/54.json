@@ -62,6 +62,33 @@
     "matches": [],
     "reason": "该文为工信部碳排放双控工作体系的综合性双碳政策，覆盖多行业碳排放管理与碳足迹制度建设，未指向框架内某一具体产业技术对象，故不匹配"
   },
+  "5415a604655daf2d56ac0ea527f764ad71d3101e130ad4cb31e1f8a212c22394": {
+    "classified_at": "2026-11-08T06:43:47.831400+00:00",
+    "matches": [
+      {
+        "category_id": "C086",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "NeurIPS论文分享会活动预告，重点Keynote为多模态交互统一基座模型Gestalt"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "另一Keynote围绕具身智能基础模型的物理经验学习与泛化"
+      }
+    ],
+    "reason": "NeurIPS论文分享会活动预告，重点Keynote为多模态交互统一基座模型Gestalt"
+  },
   "5417ca1c54000f1d8924d9e501a91c6d2b3afe8a2c1e7f42ca08bb79c3be493d": {
     "classified_at": "2026-10-16T10:38:07.469390+00:00",
     "matches": [
@@ -660,6 +687,11 @@
       }
     ],
     "reason": "核心对象为电网设备事故预防技术标准与管理要求，属电网相关技术"
+  },
+  "54994af7d3cad0c212dfdd9f51551e64fcefaf6b9a7bfcb99dadd0fb4aeb27af": {
+    "classified_at": "2026-11-08T06:30:51.549833+00:00",
+    "matches": [],
+    "reason": "内容仅为黄金白银期货价格下跌的金融市场行情报道，不涉及框架内任何产业对象，贵金属价格波动不属于资源加工或任何能源/AI技术类别"
   },
   "54a0d1034a0abd4a475c8b110e7d6a2e8ea695dbaff025323d6ba5ede7f4b19c": {
     "classified_at": "2026-10-16T09:59:46.116150+00:00",
