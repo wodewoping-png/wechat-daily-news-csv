@@ -1,16 +1,15 @@
 {
   "articles": 701,
-  "complete": false,
+  "complete": true,
   "date": "2026-11-06",
   "duplicate_rows": 0,
   "excluded_rows": 0,
   "model": "glm-5.3-flash",
-  "output_sha256": "84055145abbfc9793e1c7f18281af68cd46e973f2b66f4656a12c07dc4dc8095",
+  "output_sha256": "afe12cf19e3ba2e21b26c2ff3c8577d10ae1f5cc71e934bd0d9f74ea225bda2b",
   "source_fingerprint": "4c7e5e4b2ea49a263d39b837d2717047283059988c042ca3c2c71c17d60e504d",
   "source_rows": 701,
   "statuses": {
-    "不在框架内": 167,
-    "分类失败": 1,
+    "不在框架内": 168,
     "已分类": 453,
     "待复核": 80
   },
