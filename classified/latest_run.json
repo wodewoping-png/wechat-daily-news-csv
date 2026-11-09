@@ -1,5 +1,6 @@
 {
   "checked_dates": [
+    "2026-11-08",
     "2026-11-07",
     "2026-11-06",
     "2026-11-05",
@@ -123,7 +124,7 @@
       "week": "2026-W44"
     },
     {
-      "articles": 3790,
+      "articles": 4171,
       "classification_complete": false,
       "complete": false,
       "daily_fingerprints": {
@@ -132,25 +133,24 @@
         "2026-11-04": "89cf103d32aa400562fcc22434eb40835ffddeffc8041027b0eb2824e861cdda",
         "2026-11-05": "6006f0059cc971a099ba187be47a8fd3e650651c080a89f54669179b3185e137",
         "2026-11-06": "4c7e5e4b2ea49a263d39b837d2717047283059988c042ca3c2c71c17d60e504d",
-        "2026-11-07": "2b241e4abc9d610a3532f174a15bf319bc6648a19efc0945e0829f5c24482163"
+        "2026-11-07": "2b241e4abc9d610a3532f174a15bf319bc6648a19efc0945e0829f5c24482163",
+        "2026-11-08": "4ff69731bba9285f8b808bdc67e03905e8e1871f1763bfbf1c6f458a03e0deb1"
       },
-      "data_complete": false,
+      "data_complete": true,
       "end": "2026-11-08",
       "failed_or_stale_dates": [
         "2026-11-06"
       ],
-      "file": "2026-W45.partial.csv",
-      "missing_dates": [
-        "2026-11-08"
-      ],
+      "file": "2026-W45.csv",
+      "missing_dates": [],
       "model": "glm-5.3-flash",
       "pending_classification_dates": [],
       "start": "2026-11-02",
       "statuses": {
-        "不在框架内": 890,
+        "不在框架内": 981,
         "分类失败": 1,
-        "已分类": 2487,
-        "待复核": 412
+        "已分类": 2740,
+        "待复核": 449
       },
       "taxonomy_version": "2026-10-16",
       "week": "2026-W45"

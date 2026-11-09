@@ -340,6 +340,23 @@
     "matches": [],
     "reason": "内容为健身饮食与土豆冷冻储存的营养科普，不涉及框架内的产业或技术对象"
   },
+  "446177be1c29815bf50b849614c142b1aa45c3248de916a6b1a5664a31a7fde0": {
+    "classified_at": "2026-11-09T01:44:55.412257+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "文章为Anthropic创始人Dario人物深度报道，其核心产业对象为Claude文本底座大模型，但内容以个人经历为主，产业实质较弱"
+      }
+    ],
+    "reason": "文章为Anthropic创始人Dario人物深度报道，其核心产业对象为Claude文本底座大模型，但内容以个人经历为主，产业实质较弱"
+  },
   "4461df64602c3ad63e0ecb6fc5b0a7cb34112e27e9e37b1faade42dd3e940899": {
     "classified_at": "2026-10-19T13:51:47.698776+00:00",
     "matches": [],

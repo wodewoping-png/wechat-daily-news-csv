@@ -397,6 +397,43 @@
     ],
     "reason": "食品加工技术创新报道，以加工工艺与工程实现为核心，框架中无食品专门类别，仅能匹配通用工艺和工程，置信度中等"
   },
+  "4d459815092b20ae53ef157ee3d3b3d34e031f38473adfc8147aefb6dea8278d": {
+    "classified_at": "2026-11-09T02:21:33.933654+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心为448G SerDes、PAM4/6/8调制等高速接口芯片与电气互连技术演进"
+      },
+      {
+        "category_id": "C089",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "涉及Co-Packaged Copper、先进封装D2D互连与Chiplet等半导体集成方案"
+      },
+      {
+        "category_id": "C102",
+        "confidence": 0.5,
+        "path": [
+          "通用技术",
+          "通信和运输",
+          "信息传输",
+          "光纤"
+        ],
+        "reason": "CPO共封装光学与可插拔光模块是448G互连中重要的光传输技术路线"
+      }
+    ],
+    "reason": "AI数据中心高速互连技术报告，以芯片接口技术为主、半导体封装与光互连为辅"
+  },
   "4d4befd62a4053ade13005f3cd0f15afec0174ae19fdbcd662f42c9372b07b33": {
     "classified_at": "2026-11-05T08:22:36.456155+00:00",
     "matches": [
@@ -1232,6 +1269,11 @@
       }
     ],
     "reason": "无"
+  },
+  "4dc893463e7f50604fb2fc9d47b6a1ec1f1efed040cbc776d65fadc5485e8056": {
+    "classified_at": "2026-11-09T01:59:03.529536+00:00",
+    "matches": [],
+    "reason": "核心事件为UFC总裁将面见特朗普的人事传闻，属体育与政治新闻，无产业技术对象，不在框架内。"
   },
   "4dce867e8ec7ef174e57402d912976b34e8c81de50b2df5f7a9f1cc5c717fc10": {
     "classified_at": "2026-11-05T08:33:11.209408+00:00",

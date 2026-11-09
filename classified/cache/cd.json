@@ -1344,6 +1344,22 @@
     ],
     "reason": "专利核心为钠离子电池用硬碳负极复合材料（配合磷酸钒钠正极与钠盐电解液），提升钠电首效与循环性能"
   },
+  "cdf41e51e2ae8609e3c2dcfe18d3357cfaa01e1111a984bb05192a43c42f49af": {
+    "classified_at": "2026-11-09T01:49:10.817945+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "核心主题为AI赋能材料研发，从传统试错走向数据驱动，属于AI for Science在材料领域的应用"
+      }
+    ],
+    "reason": "核心主题为AI赋能材料研发，从传统试错走向数据驱动，属于AI for Science在材料领域的应用"
+  },
   "cdf66fae73883a656f83b57ce3744bb5eacfa58269dc2820920e3baf9e5b9f13": {
     "classified_at": "2026-11-02T07:55:49.451689+00:00",
     "matches": [

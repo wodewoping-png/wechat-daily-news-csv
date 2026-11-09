@@ -903,6 +903,22 @@
     ],
     "reason": "钠电池产业会议新闻，钠电为主分类，光储融合场景为辅"
   },
+  "dea8f3c4de7f15b6cbf12401ca22146bc3c10a6223ba741588d3e220414cb95c": {
+    "classified_at": "2026-11-09T01:58:09.104120+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "Perplexity发布Teammates自主智能体产品，属AI软件层的产品化与工程进展，非底座模型发布"
+      }
+    ],
+    "reason": "Perplexity发布Teammates自主智能体产品，属AI软件层的产品化与工程进展，非底座模型发布"
+  },
   "deabb2f4ed6eb23fe70550e20035247ccdcf06fac7624ffb3e658f31324a430e": {
     "classified_at": "2026-10-17T06:08:52.597224+00:00",
     "matches": [],

@@ -19,16 +19,13 @@
   "file": "2026-W45.csv",
   "missing_dates": [],
   "model": "glm-5.3-flash",
-  "pending_classification_dates": [
-    "2026-11-08"
-  ],
+  "pending_classification_dates": [],
   "start": "2026-11-02",
   "statuses": {
-    "不在框架内": 893,
+    "不在框架内": 981,
     "分类失败": 1,
-    "已分类": 2497,
-    "待分类": 367,
-    "待复核": 413
+    "已分类": 2740,
+    "待复核": 449
   },
   "taxonomy_version": "2026-10-16",
   "week": "2026-W45"

@@ -672,6 +672,42 @@
     "matches": [],
     "reason": "西藏地震救援政务新闻，无明确产业对象匹配框架类别"
   },
+  "4a9f6522c051a2d371387d6b54ca1df5e86032b3f516ec7be10eddf74161823a": {
+    "classified_at": "2026-11-09T02:02:17.767032+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "多伦多大学团队提出Self-Building Labs，用AI智能体自主构建数字孪生并协调机器人完成真实化学实验，是AI for Science自驱动实验室方向的代表工作。"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "系统由Scientific、Twin、Safety三个智能体协作，自主识别并扩展实验室能力，具备具身智能模型与具身操作系统特征。"
+      },
+      {
+        "category_id": "C097",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "硬件和控制"
+        ],
+        "reason": "涉及机械臂抓取路径规划、力/力矩与视觉传感器反馈控制等机器人硬件与控制的实质内容。"
+      }
+    ],
+    "reason": "多伦多大学团队提出Self-Building Labs，用AI智能体自主构建数字孪生并协调机器人完成真实化学实验，是AI for Science自驱动实验室方向的代表工作。"
+  },
   "4aad7a2db62fadd3921476e6d46a855f7961cb63671696ff63ad069adfa7e8a5": {
     "classified_at": "2026-10-18T04:59:08.107700+00:00",
     "matches": [
@@ -732,6 +768,43 @@
     "classified_at": "2026-10-16T10:12:59.946109+00:00",
     "matches": [],
     "reason": "仅为李嘉诚逝世传言的企业辟谣，无明确产业技术对象"
+  },
+  "4ad24b75576b3ce3adacad91b1a2b6ffb3c44d2f6e02db15ce518eff3e354475": {
+    "classified_at": "2026-11-09T02:16:17.327550+00:00",
+    "matches": [
+      {
+        "category_id": "C104",
+        "confidence": 0.8,
+        "path": [
+          "通用技术",
+          "通信和运输",
+          "物质运输",
+          "航天"
+        ],
+        "reason": "星舰完全复用、筷子夹飞船、发射成本等内容占较大篇幅，属航天运输"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "TerraFab万亿芯片厂年产1000吉瓦AI芯片的规划是核心主题之一，属芯片制造"
+      },
+      {
+        "category_id": "C092",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "孟菲斯超算中心、吉瓦级数据中心建设与太空数据中心部署为重点内容"
+      }
+    ],
+    "reason": "访谈覆盖星舰复用、芯片工厂与数据中心算力等多个实质主题"
   },
   "4ad6adbb0d9d49e8f6a1649849412555fc3316a858420fa3d4290fd9ad439c3e": {
     "classified_at": "2026-11-02T17:36:10.207582+00:00",

@@ -1267,6 +1267,33 @@
     ],
     "reason": "核心为'十五五'铁路与高速公路建设规划，时速400公里高铁商业化运营属陆路运输基础设施"
   },
+  "10e2df611e81f0e142b3c29e9e4aff979d9e0b532d459afe667f15abb201d039": {
+    "classified_at": "2026-11-09T02:00:52.278421+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心是对Weight-Space Programming权重编辑与超网络知识内化的对照实验，属大模型训练范式与工程改进"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "讨论对象为GPT-6、Qwen等文本大模型的能力编辑与知识内化"
+      }
+    ],
+    "reason": "探讨大模型权重编辑能否实现知识、风格与技能内化，属AI软件层工程改进研究。"
+  },
   "10e94c2c5bcd92f0c29da18edbd6a32707a35fc2be6ce868d83f52dd26f99ca8": {
     "classified_at": "2026-11-04T15:15:14.407128+00:00",
     "matches": [

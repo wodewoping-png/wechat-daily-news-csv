@@ -855,6 +855,27 @@
     "matches": [],
     "reason": "司法反腐新闻，潞安化工集团仅为涉案人员任职背景，未涉及任何具体产业事件或技术对象"
   },
+  "df7a4d2448463f2fc07780594d018506c7736c23681ebeaae27e273084b83753": {
+    "classified_at": "2026-11-09T01:46:14.300708+00:00",
+    "matches": [],
+    "reason": "波兰枪击事件与全国哀悼属社会安全时政新闻，框架内无对应产业分类"
+  },
+  "df816f1f7ec00eeabf217fb36aab6f59e827444477f36017fc5e02fc38833dc0": {
+    "classified_at": "2026-11-09T01:25:21.402266+00:00",
+    "matches": [
+      {
+        "category_id": "C088",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "谷歌旗下Isomorphic Labs基于AlphaFold技术开发AI药物设计引擎IsoDDE并巨额融资，属AI驱动蛋白质结构与分子相互作用预测的科学发现范畴"
+      }
+    ],
+    "reason": "谷歌旗下Isomorphic Labs基于AlphaFold技术开发AI药物设计引擎IsoDDE并巨额融资，属AI驱动蛋白质结构与分子相互作用预测的科学发现范畴"
+  },
   "df869bd08d812cc3fe6dfdf6f00cd4d4f7a8939b61ea4a586d5b46e21120041d": {
     "classified_at": "2026-10-31T07:12:55.134162+00:00",
     "matches": [
