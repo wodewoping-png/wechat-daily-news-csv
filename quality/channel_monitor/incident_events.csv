@@ -264,3 +264,14 @@
 2026-11-07,opened,wx:MzI4MTc4MzY2NA==|volume_drop,wx:MzI4MTc4MzY2NA==,锂电派,volume_drop,warning,2026-11-07,当天抓到0篇，同类工作日/周末基线中位数5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-11-07,recovered,wx:Mzg3NDEzOTE2Mg==|suspected_silence,wx:Mzg3NDEzOTE2Mg==,能源环境经济与政策研究,suspected_silence,warning,2026-11-01,连续14个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-07,recovered,wx:MzkyOTIwNzE3Mg==|volume_drop,wx:MzkyOTIwNzE3Mg==,碳中和资料库,volume_drop,warning,2026-11-05,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-08,severity_changed,wx:MzA3MDYzNjY1Ng==|suspected_silence,wx:MzA3MDYzNjY1Ng==,罐坛情缘,suspected_silence,critical,2026-10-31,连续16个完整数据日未抓到文章，历史发文间隔中位数2.5天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-08,opened,wx:Mzg4OTc1MzY5Mw==|suspected_silence,wx:Mzg4OTc1MzY5Mw==,AI赋能材料,suspected_silence,warning,2026-11-08,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-08,opened,wx:Mzk0NDQ5MjcxMg==|volume_drop,wx:Mzk0NDQ5MjcxMg==,今日钠电,volume_drop,warning,2026-11-08,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-08,opened,wx:MzkyNzc0MDc0MA==|volume_drop,wx:MzkyNzc0MDc0MA==,今日锂电,volume_drop,warning,2026-11-08,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-08,opened,wx:MzU0NTU0MDAyNQ==|suspected_silence,wx:MzU0NTU0MDAyNQ==,天然气工业,suspected_silence,warning,2026-11-08,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-08,opened,wx:Mzg2NDg1ODEwNQ==|suspected_silence,wx:Mzg2NDg1ODEwNQ==,新能源技术与装备,suspected_silence,warning,2026-11-08,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-08,opened,wx:MzIyMzYxNDEzMg==|suspected_silence,wx:MzIyMzYxNDEzMg==,未来智库,suspected_silence,warning,2026-11-08,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-08,opened,wx:MzIyNzYxNjY3Mg==|suspected_silence,wx:MzIyNzYxNjY3Mg==,机工文献,suspected_silence,warning,2026-11-08,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-08,opened,wx:MzkyNTYzNjI1NQ==|volume_drop,wx:MzkyNTYzNjI1NQ==,钙钛矿光伏,volume_drop,warning,2026-11-08,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-08,opened,wx:Mzg2Mjg2NDExNQ==|suspected_silence,wx:Mzg2Mjg2NDExNQ==,钠电材料,suspected_silence,warning,2026-11-08,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-08,recovered,wx:MzI4MTc4MzY2NA==|volume_drop,wx:MzI4MTc4MzY2NA==,锂电派,volume_drop,warning,2026-11-07,当天抓到0篇，同类工作日/周末基线中位数5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
