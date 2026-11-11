@@ -127,6 +127,22 @@
     ],
     "reason": "自供能电致变色智能窗综述，主体内容为多种能量转换与采集技术集成"
   },
+  "ff106035bc5fabb5ad7b2816f9c517ea19e5d760d59f19d2e6bd1f95293f83a1": {
+    "classified_at": "2026-11-11T06:18:58.336455+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心事件是平头哥分拆赴港IPO，其主营真武AI芯片、倚天服务器CPU等芯片产品，属AI硬件芯片产业"
+      }
+    ],
+    "reason": "核心事件是平头哥分拆赴港IPO，其主营真武AI芯片、倚天服务器CPU等芯片产品，属AI硬件芯片产业"
+  },
   "ff1495c3c597a7db3c3e7a80d4bc13de15188c596b952003fbd78ecb6e616f5b": {
     "classified_at": "2026-10-31T06:13:42.103506+00:00",
     "matches": [
@@ -407,6 +423,11 @@
     ],
     "reason": "Nature论文核心对象为锂离子电池电解液溶剂化结构（LiPF6-EC体系），为高性能锂电电解液理性设计提供理论依据"
   },
+  "ff5c13a629ff814231cff60912cf9f0db6824d5bd4daf7335442a7866385d1ef": {
+    "classified_at": "2026-11-11T06:31:56.778421+00:00",
+    "matches": [],
+    "reason": "植物汁液致接触性皮炎的生活健康科普新闻，不涉及框架内的产业技术对象"
+  },
   "ff5e1ce1e79b8d0021b1ccc86cfde516b7ada12d30105b41398a5a3b41be06a3": {
     "classified_at": "2026-11-01T11:43:36.166709+00:00",
     "matches": [
@@ -608,6 +629,43 @@
       }
     ],
     "reason": "锂电池工厂火灾事故报道"
+  },
+  "ff8d6e713b90ec24a026c395b446cfc844c4e743f198fa5b4173e76043bb89e9": {
+    "classified_at": "2026-11-11T08:49:55.488634+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.95,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件为Anthropic发布Claude Fable 5.2与Mythos 5.2文本大模型，主打编码、推理与安全能力"
+      },
+      {
+        "category_id": "C088",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "模型展示解决黑洞物理公开难题、预测病毒衣壳结构等AI驱动科学发现应用"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.45,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "RoboDojo机器人操作评测得分大幅领先，展示视觉控制机械臂的具身能力"
+      }
+    ],
+    "reason": "核心事件为Anthropic发布Claude Fable 5.2与Mythos 5.2文本大模型，主打编码、推理与安全能力"
   },
   "ff92021fc8769930dc5efd6f64a9b500563aa6f608b92e3c24bff5806e469c7b": {
     "classified_at": "2026-10-31T07:51:32.356878+00:00",

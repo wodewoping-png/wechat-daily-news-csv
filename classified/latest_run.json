@@ -1,5 +1,6 @@
 {
   "checked_dates": [
+    "2026-11-10",
     "2026-11-09",
     "2026-11-08",
     "2026-11-07",
@@ -151,18 +152,18 @@
       "week": "2026-W45"
     },
     {
-      "articles": 699,
+      "articles": 1379,
       "classification_complete": true,
       "complete": false,
       "daily_fingerprints": {
-        "2026-11-09": "e3b00871e00dd4aa68221614a92b31288b168ea7a9bfb80d013aa0e18326e484"
+        "2026-11-09": "e3b00871e00dd4aa68221614a92b31288b168ea7a9bfb80d013aa0e18326e484",
+        "2026-11-10": "0b8ba3028ec678a2c2fc7314e3255c5f93cc12642347eee2eaf37b2af32b0556"
       },
       "data_complete": false,
       "end": "2026-11-15",
       "failed_or_stale_dates": [],
       "file": "2026-W46.partial.csv",
       "missing_dates": [
-        "2026-11-10",
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
@@ -173,9 +174,9 @@
       "pending_classification_dates": [],
       "start": "2026-11-09",
       "statuses": {
-        "不在框架内": 134,
-        "已分类": 472,
-        "待复核": 93
+        "不在框架内": 294,
+        "已分类": 919,
+        "待复核": 166
       },
       "taxonomy_version": "2026-10-16",
       "week": "2026-W46"

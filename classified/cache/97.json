@@ -976,6 +976,33 @@
     ],
     "reason": "风电场风储一体化系统方案发布，风电为核心，电池储能与电网支撑技术为辅。"
   },
+  "97aaf41ac95a62cdf0dc5a4673ea37a052b249676a7715f28cb99b67f97e2379": {
+    "classified_at": "2026-11-11T06:52:32.384636+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心事件为发布WorkflowArena基准，评测大模型多智能体工作流编排这一AI工程能力"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.75,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "基准评测对象为Claude、GPT等文本大模型的编排与长程任务执行表现"
+      }
+    ],
+    "reason": "核心事件为发布WorkflowArena基准，评测大模型多智能体工作流编排这一AI工程能力"
+  },
   "97af8fb816e58d358e66ad268eeab761fe8b394e063cb2d997509bd5434f177d": {
     "classified_at": "2026-11-03T16:33:17.473059+00:00",
     "matches": [],

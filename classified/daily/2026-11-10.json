@@ -1,0 +1,17 @@
+{
+  "articles": 680,
+  "complete": true,
+  "date": "2026-11-10",
+  "duplicate_rows": 0,
+  "excluded_rows": 0,
+  "model": "glm-5.3-flash",
+  "output_sha256": "55f9efe5182f2ef424b456d3276ca1286cedaa96580275fc4fc73ea3c3268d7d",
+  "source_fingerprint": "0b8ba3028ec678a2c2fc7314e3255c5f93cc12642347eee2eaf37b2af32b0556",
+  "source_rows": 680,
+  "statuses": {
+    "不在框架内": 160,
+    "已分类": 447,
+    "待复核": 73
+  },
+  "taxonomy_version": "2026-10-16"
+}

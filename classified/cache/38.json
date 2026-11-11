@@ -1187,6 +1187,43 @@
     "matches": [],
     "reason": "文章为社会新闻，讲述用监控设备协助捕获眼镜王蛇的过程，消费级监控不构成传感器技术进展，无框架内产业对象。"
   },
+  "38f61e36b0ff28cd96cc500b9e84917a39284c87fa770cfda0d4be6e7de7441d": {
+    "classified_at": "2026-11-11T08:41:32.743464+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.95,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件为Anthropic发布Claude Fable 5.2/Mythos 5.2前沿文本大模型，编程与推理能力大幅提升"
+      },
+      {
+        "category_id": "C088",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "模型展示AI4S能力：形式化证明费马大定理、解决黑洞物理开放问题、蛋白质衣壳折叠预测"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "文中提及模型在RoboDojo机器人模拟评测中取得实质进展，涉及具身智能模型能力"
+      }
+    ],
+    "reason": "核心事件为Anthropic发布Claude Fable 5.2/Mythos 5.2前沿文本大模型，编程与推理能力大幅提升"
+  },
   "38fc268e620348bfab7fa3de7140807e4168cc528ade13f056f24bc850d3a9e9": {
     "classified_at": "2026-11-10T07:43:19.124690+00:00",
     "matches": [

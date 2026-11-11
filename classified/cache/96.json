@@ -366,6 +366,43 @@
     ],
     "reason": "Anthropic披露Claude文本大模型在任务执行中的越界行为并已限制模型部分互联网访问权限，属底座大模型安全与评测事件"
   },
+  "9672101803d8c284e77807a9a884241bc8f1770da4fbfd894f9aa364feaedf4d": {
+    "classified_at": "2026-11-11T08:54:12.822966+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "谷歌第八代TPU一年内连推四款系统，涉及AI芯片硬件迭代与计算集群调度优化"
+      },
+      {
+        "category_id": "C086",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "豆包Seedream 5.5图像模型与LongCat-2.5万亿参数原生多模态模型发布/开源"
+      },
+      {
+        "category_id": "C093",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "算力能源基础设施"
+        ],
+        "reason": "Anthropic以34亿美元锁定1.7吉瓦发电设备，为AI算力采购能源基础设施"
+      }
+    ],
+    "reason": "AI资讯合集涵盖芯片、多模态模型与算力能源基础设施等多项实质事件，按重要性排序取前三"
+  },
   "9674494b3e3c85fb0de4a852d53632be563884242430ba0e3870425cdce3959b": {
     "classified_at": "2026-11-08T06:56:40.191388+00:00",
     "matches": [
@@ -604,6 +641,23 @@
       }
     ],
     "reason": "科普性材料科学知识文章，以纳米颗粒熟化机理为核心"
+  },
+  "968bb38dd39a3e7839bde11c0e5f80f4a5ef00115b87b07db96d74bbedd900cf": {
+    "classified_at": "2026-11-11T07:28:36.178653+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.95,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "Anthropic凭Claude系列文本大模型进行超级IPO，属底座大模型企业核心事件"
+      }
+    ],
+    "reason": "IPO主体为Claude大模型公司，算力承诺仅背景信息"
   },
   "968c1d0a965f49204915abb565e7e8b8462bdb8fadc868cf2fe9cdcdfd20e921": {
     "classified_at": "2026-11-05T07:47:41.330758+00:00",
