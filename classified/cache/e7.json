@@ -514,6 +514,32 @@
     ],
     "reason": "核心事件是存储芯片龙头长鑫科技的回购与股价表现，其产业对象为DRAM存储芯片，正文讨论DDR5供需及AI算力拉动的存储景气"
   },
+  "e7703a74afc936c8ac5e1533b4ac3dbc73a2181e2b632ec34df87fa144b7df11": {
+    "classified_at": "2026-11-12T08:44:37.539542+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心为AMD发布第六代EPYC服务器CPU（Venice），升级核心密度、内存带宽和I/O"
+      },
+      {
+        "category_id": "C092",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "火山引擎基于该CPU推出新一代云服务器实例，属数据中心算力基础设施"
+      }
+    ],
+    "reason": "核心为AMD发布第六代EPYC服务器CPU（Venice），升级核心密度、内存带宽和I/O"
+  },
   "e779d28758ca0c8f4f3eb04bb0946e66895df4b8cd803daa83a55851fc88e5c4": {
     "classified_at": "2026-11-04T08:47:03.236068+00:00",
     "matches": [

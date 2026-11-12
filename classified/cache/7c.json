@@ -148,6 +148,32 @@
     ],
     "reason": "核心是ASML EUV光刻机及13.5纳米极紫外光刻技术，服务于7nm以下先进芯片制造"
   },
+  "7c1c017f2716db5e15cf695acfa64f1eca6bd04317d89710760916c4451ed4d9": {
+    "classified_at": "2026-11-12T07:30:03.539993+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心事件是英伟达GPU/AI芯片货运被盗，新闻核心对象为高端AI芯片"
+      },
+      {
+        "category_id": "C092",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "文中多次提及数据中心设备成为盗窃目标，是次要相关对象"
+      }
+    ],
+    "reason": "核心事件是英伟达GPU/AI芯片货运被盗，新闻核心对象为高端AI芯片"
+  },
   "7c1e9f73174da17c72ad0fa5ba73f9a50746d9f1dbf8dea617b7e998033b1065": {
     "classified_at": "2026-11-02T17:57:11.070739+00:00",
     "matches": [

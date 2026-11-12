@@ -1497,5 +1497,40 @@
     "classified_at": "2026-11-02T06:13:04.891119+00:00",
     "matches": [],
     "reason": "内容为全面从严治党政策文件说明，属政治党建主题，无产业对象"
+  },
+  "f4f42dfb7b23b447866fbbdfc222814ee6eb3a073746f4ce2340c477dbe20da2": {
+    "classified_at": "2026-11-12T08:01:39.182203+00:00",
+    "matches": [
+      {
+        "category_id": "C003",
+        "confidence": 0.9,
+        "path": [
+          "零碳产业",
+          "能量转化",
+          "能源测",
+          "一次能源转化",
+          "太阳能转化",
+          "光伏"
+        ],
+        "reason": "SpaceX向Singulus订购100GW/年HJT太阳能电池制造设备，核心事件为光伏电池产线建设"
+      },
+      {
+        "category_id": "C104",
+        "confidence": 0.4,
+        "path": [
+          "通用技术",
+          "通信和运输",
+          "物质运输",
+          "航天"
+        ],
+        "reason": "产线面向SpaceX太空光伏应用，航天为次要应用场景"
+      }
+    ],
+    "reason": "SpaceX向Singulus订购100GW/年HJT太阳能电池制造设备，核心事件为光伏电池产线建设"
+  },
+  "f4fa2560e66203e3f902a1b9e3f6a776f1ab5ef2bbc506d4b4fb84ea7632ee19": {
+    "classified_at": "2026-11-12T08:43:34.559120+00:00",
+    "matches": [],
+    "reason": "人事任免新闻，无产业技术对象，不属于框架内任何类别"
   }
 }

@@ -1197,6 +1197,26 @@
     ],
     "reason": "核心成果为铜双价态位点/氨基锆MOF/离子液体多孔液体光催化材料，实现CO2偶联高选择性制乙醇"
   },
+  "47d33a876c295db17e06fb405b5522d15d3d80bfb2adb34e78ae481d371ec27e": {
+    "classified_at": "2026-11-12T08:37:21.542980+00:00",
+    "matches": [
+      {
+        "category_id": "C035",
+        "confidence": 0.75,
+        "path": [
+          "零碳产业",
+          "能量转化",
+          "能量存储",
+          "化学能",
+          "氢基能源",
+          "可再生燃料",
+          "绿氨"
+        ],
+        "reason": "核心为太阳能驱动光催化氮还原合成氨并实现产物分离，属绿氨合成路线研究"
+      }
+    ],
+    "reason": "核心为太阳能驱动光催化氮还原合成氨并实现产物分离，属绿氨合成路线研究"
+  },
   "47d5e6e822bf91de9ea3c41f867f151037551dc5a1bf9ca8c585271a4631a39b": {
     "classified_at": "2026-10-19T13:36:00.879043+00:00",
     "matches": [
@@ -1308,6 +1328,44 @@
     "classified_at": "2026-11-03T08:17:06.503696+00:00",
     "matches": [],
     "reason": "乌克兰防空拦截弹军事援助新闻，属地缘军事事件，无框架内产业对象"
+  },
+  "47f6f98ead46b31ecc17b05dff0ff53cf7b9cfbdd3f1feb7dd0e067eabc56ae2": {
+    "classified_at": "2026-11-12T09:16:06.222861+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心为多款文本大模型发布，如Anthropic Fable 5.2/Mythos 5.2、Kimi K3完成定理形式化与代码基准测试"
+      },
+      {
+        "category_id": "C086",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "Gemini 4检查点Krypton（代码/视觉/3D）、Meta Muse Ember原生多模态、MiniMax H3-Image文生图均为多模态模型"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "英伟达GR00T 2世界动作模型、智元WITA-Omni具身交互大模型、蚂蚁灵波触觉基础模型均为具身智能模型层进展"
+      }
+    ],
+    "reason": "核心为多款文本大模型发布，如Anthropic Fable 5.2/Mythos 5.2、Kimi K3完成定理形式化与代码基准测试"
   },
   "47f91530f59c63c8b7e4b155272ffaa0f38b68f4acf71348cd6a17f99690914b": {
     "classified_at": "2026-10-31T05:41:13.858544+00:00",

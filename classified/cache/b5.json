@@ -909,6 +909,23 @@
     ],
     "reason": "核心为碳酸酯基电解液溶剂化调控与FEC成膜添加剂研究，面向Ah级石墨||NCM83锂离子电池在-50~120°C宽温域应用，属有机体系锂电池技术"
   },
+  "b57a904be92e8c114f58154867323f58b5c449a3adebebb3969453ee4cf8bfab": {
+    "classified_at": "2026-11-12T09:06:45.861091+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "Google DeepMind发布底座大模型Gemini 4 Carbon，主打长周期复杂推理任务，并用其驱动AlphaProof Code形式化验证"
+      }
+    ],
+    "reason": "以新底座文本/推理模型发布为核心事件"
+  },
   "b57bbdd9501a0ce3e4d8abb1b7f68415bd8f20891b09d496ccf4768a36603b88": {
     "classified_at": "2026-11-01T07:25:19.370358+00:00",
     "matches": [
