@@ -302,3 +302,11 @@
 2026-11-10,recovered,wx:Mzg3MDYyOTI0MQ==|suspected_silence,wx:Mzg3MDYyOTI0MQ==,化工碳中和,suspected_silence,warning,2026-11-09,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-10,recovered,wx:Mzg4OTgyMTc1OA==|suspected_silence,wx:Mzg4OTgyMTc1OA==,光本位,suspected_silence,warning,2026-11-09,连续6个完整数据日未抓到文章，历史发文间隔中位数2天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-10,recovered,wx:Mzk4ODgzNTcxMw==|suspected_silence,wx:Mzk4ODgzNTcxMw==,焦耳时代,suspected_silence,warning,2026-11-09,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-11,opened,wx:MzA5MDYwOTE2Nw==|volume_drop,wx:MzA5MDYwOTE2Nw==,国际能源研究中心,volume_drop,warning,2026-11-11,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-11,opened,wx:MzI4MTc4MzY2NA==|volume_drop,wx:MzI4MTc4MzY2NA==,锂电派,volume_drop,warning,2026-11-11,当天抓到0篇，同类工作日/周末基线中位数7篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-11,recovered,wx:MzAwMDE3Njk0OA==|suspected_silence,wx:MzAwMDE3Njk0OA==,化学进展,suspected_silence,warning,2026-11-09,连续4个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-11,recovered,wx:MzI2NDE0Mjc1Ng==|suspected_silence,wx:MzI2NDE0Mjc1Ng==,JEnergyChem,suspected_silence,warning,2026-11-10,连续12个完整数据日未抓到文章，历史发文间隔中位数4天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-11,recovered,wx:MzIxMDgwMDY4Mg==|volume_drop,wx:MzIxMDgwMDY4Mg==,深圳电池技术展,volume_drop,warning,2026-11-10,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-11,recovered,wx:MzU0MTkxODU2Mw==|volume_drop,wx:MzU0MTkxODU2Mw==,东亚能源产业观察,volume_drop,warning,2026-11-10,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-11,recovered,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-11-10,当天抓到0篇，同类工作日/周末基线中位数6篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-11,recovered,wx:MzU2NTEwMTg0OQ==|volume_drop,wx:MzU2NTEwMTg0OQ==,第一锂电网,volume_drop,warning,2026-11-10,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
