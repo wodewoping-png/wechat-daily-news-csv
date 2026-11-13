@@ -744,6 +744,11 @@
     ],
     "reason": "核心为中铝集团铝业相关动态，其中电池铝箔扁锭研发为主要产业事项"
   },
+  "a45f7bdd7a4c2f8abda7e3d62291d6e888871ec1d5748edea622bf0226cbee46": {
+    "classified_at": "2026-11-13T07:35:20.177949+00:00",
+    "matches": [],
+    "reason": "内容为微信产品功能测试的互联网动态，与框架内产业图景无关。"
+  },
   "a4603218a5c27ec6f6aa9b21d58f9a4abeee878effda710bee9bcb3d19b0616d": {
     "classified_at": "2026-11-06T08:56:28.256956+00:00",
     "matches": [
@@ -1846,6 +1851,43 @@
       }
     ],
     "reason": "超长时储能挑战赛重点之一为开发尚未商业化的新型电化学电池技术，目标2035年实现吉瓦时级部署"
+  },
+  "a4f92946cc7cb9545bd59799b896f8f6638a486ee45af64781f6db2569dfc32d": {
+    "classified_at": "2026-11-13T08:34:23.648413+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "内容主体为Gemini 4 Carbon、Qwen4-Max、文心5.5 Flash、Claude办公套件及AI搜索等多个文本大模型与AI应用的发布，属底座文本模型范畴"
+      },
+      {
+        "category_id": "C097",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "硬件和控制"
+        ],
+        "reason": "丘沃智能L4无人作业套件驾驶临工拖拉机在新疆实现无人深翻作业，属具身智能硬件与控制系统"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.45,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "拖拉机搭载的KaiwuOS开物系统为六层架构的具身智能操作系统"
+      }
+    ],
+    "reason": "内容主体为Gemini 4 Carbon、Qwen4-Max、文心5.5 Flash、Claude办公套件及AI搜索等多个文本大模型与AI应用的发布，属底座文本模型范畴"
   },
   "a4fc4e99334c5b84ca50e4e77ccb285fdc209a326d16ee87c6f093b01cc9e59c": {
     "classified_at": "2026-11-09T01:11:48.933301+00:00",
