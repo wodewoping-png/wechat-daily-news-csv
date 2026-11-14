@@ -1431,6 +1431,39 @@
     ],
     "reason": "小鹏获批L4 Robotaxi示范运营、大众获L3路测牌照，核心是高阶自动驾驶模型与系统的商业化落地"
   },
+  "e1b87b5044dd1ecb6eb796e412934cbf7b0bd5f8db5dc719b2c8b2ede33716b7": {
+    "classified_at": "2026-11-14T07:41:32.013555+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心为英特尔16nm FinFET工艺52相集成电压调节器Chiplet的芯片设计突破，服务AI处理器高效供电"
+      }
+    ],
+    "reason": "核心为英特尔16nm FinFET工艺52相集成电压调节器Chiplet的芯片设计突破，服务AI处理器高效供电"
+  },
+  "e1bcd189e5894464e35e3b995d84418696acb63a1949ae4851d29105ebc040cf": {
+    "classified_at": "2026-11-14T07:33:48.181061+00:00",
+    "matches": [
+      {
+        "category_id": "C119",
+        "confidence": 0.85,
+        "path": [
+          "通用技术",
+          "材料工程",
+          "特种功能材料",
+          "催化材料"
+        ],
+        "reason": "核心是铜基催化剂在CO2电还原中的氧化、溶解再沉积相变机理研究，属电催化材料研究范畴"
+      }
+    ],
+    "reason": "电催化CO2还原机理学术论文，核心对象为催化材料"
+  },
   "e1bdc160e317f330f647a44c00916ef49da04ad2ec94393e6c8d9fa603ca9f07": {
     "classified_at": "2026-11-02T08:02:12.273844+00:00",
     "matches": [

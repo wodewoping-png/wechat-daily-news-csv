@@ -11,22 +11,22 @@
   },
   "data_complete": false,
   "end": "2026-11-15",
-  "failed_or_stale_dates": [],
+  "failed_or_stale_dates": [
+    "2026-11-13"
+  ],
   "file": "2026-W46.partial.csv",
   "missing_dates": [
     "2026-11-14",
     "2026-11-15"
   ],
   "model": "glm-5.3-flash",
-  "pending_classification_dates": [
-    "2026-11-13"
-  ],
+  "pending_classification_dates": [],
   "start": "2026-11-09",
   "statuses": {
-    "不在框架内": 617,
-    "已分类": 1841,
-    "待分类": 637,
-    "待复核": 303
+    "不在框架内": 761,
+    "分类失败": 2,
+    "已分类": 2258,
+    "待复核": 377
   },
   "taxonomy_version": "2026-10-16",
   "week": "2026-W46"
