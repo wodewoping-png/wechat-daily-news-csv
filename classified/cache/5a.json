@@ -1441,6 +1441,11 @@
     ],
     "reason": "无匹配时的原因"
   },
+  "5acff8d3c730da3a0ac399b551f1d4a42bc5d74394eb2a3db6b9f3f14216b692": {
+    "classified_at": "2026-11-15T06:22:07.799277+00:00",
+    "matches": [],
+    "reason": "新闻核心为野外误食有毒植物尖尾芋致中毒的科普事件，与框架内产业技术类别无关联"
+  },
   "5ad12ffcf0deb325c8dcc6bb1ae348ce9b3688fe8bca42a0a0359be4409fdf24": {
     "classified_at": "2026-10-30T02:06:00.281023+00:00",
     "matches": [

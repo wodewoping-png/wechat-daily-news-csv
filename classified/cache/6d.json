@@ -1019,6 +1019,33 @@
     ],
     "reason": "核心事件为30亿元12GWh钠离子电芯及系统集成项目签约落地"
   },
+  "6de14963091936ee3da11b140db9bd37d26d368fc4e605b6418f29d294eb9788": {
+    "classified_at": "2026-11-15T06:36:44.301575+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件为对GPT-6、Claude Fable等文本大模型在Agent职场场景的评测对比，对象为底座文本模型"
+      },
+      {
+        "category_id": "C087",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "评测涉及模型工具调用、成本与响应策略等Agent工程能力层面"
+      }
+    ],
+    "reason": "核心事件为对GPT-6、Claude Fable等文本大模型在Agent职场场景的评测对比，对象为底座文本模型"
+  },
   "6df09492495558086f582b96a41d98567fdf68d7d8506761975fbb8b38f522bc": {
     "classified_at": "2026-11-04T06:19:50.824152+00:00",
     "matches": [

@@ -765,6 +765,44 @@
     ],
     "reason": "能源转型大会聚变能源专题会，聚变能源产业化是新闻核心对象。"
   },
+  "a3734f73c154fd02c16aec3c8dbfbecea06ef53f0f696abd9d2284f115658fc1": {
+    "classified_at": "2026-11-15T07:00:23.893711+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "周报汇总中占最大比重的是大模型发布动态（GPT-6.2、Gemini 4、Qwen4-Max、文心5.5等文本模型）"
+      },
+      {
+        "category_id": "C086",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "汇总含多项多模态模型动态（Seedream、Seedance、H3-Image、Gemini Omni等图像视频模型）"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.45,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "算力关键词涉及TPU芯片、芯片厂建设等AI芯片动态"
+      }
+    ],
+    "reason": "AI行业周度动态汇总，覆盖模型、算力芯片、应用、机器人等多方向，按条目比重选取最主要的三类，置信度适中"
+  },
   "a3735925a5f81cd9868d1538e2b93e8613dfd32f88929f499c99fc591ef579a6": {
     "classified_at": "2026-11-11T07:54:40.302374+00:00",
     "matches": [
