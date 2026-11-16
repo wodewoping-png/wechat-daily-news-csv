@@ -1160,6 +1160,11 @@
     ],
     "reason": "核心事件为Gauss Fusion推进仿星器商业聚变电站，涉及产氚包层、粒子排出等聚变关键技术验证，属核聚变类别"
   },
+  "8ba1fdbeaa256af49bfb6cf8517490bb72abe548babfc0fba5e4ffede6f309b2": {
+    "classified_at": "2026-11-16T06:44:32.442665+00:00",
+    "matches": [],
+    "reason": "内容为全国降温雨雪天气预报，虽发布于能源类公众号，但正文无任何产业技术对象"
+  },
   "8ba3c2ee81181caf11666e10bd6df69045beb4ff9c7a49cca4e63dbff3e90629": {
     "classified_at": "2026-11-03T07:23:32.686045+00:00",
     "matches": [

@@ -721,6 +721,32 @@
     ],
     "reason": "核心事件为华为引望与宁德时代共建智能换电生态，合作内容集中在换电电池、换电网络及车站云一体化补能体系"
   },
+  "ce5ae9d821137c8d08e551450fbeaa038b4910ee22ffe15d0ed78a4e1d2c6719": {
+    "classified_at": "2026-11-16T07:12:58.417164+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心为美国限制中国获取英伟达Blackwell等先进AI芯片的出口管制"
+      },
+      {
+        "category_id": "C092",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "管制针对东南亚数据中心远程访问芯片的场景"
+      }
+    ],
+    "reason": "AI芯片出口管制"
+  },
   "ce5b6b04362ed54f3f1c278a1879fa6be21f585c534d36d6043ce94a258ea4be": {
     "classified_at": "2026-10-16T11:06:59.837413+00:00",
     "matches": [

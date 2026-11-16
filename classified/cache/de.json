@@ -1310,6 +1310,22 @@
     ],
     "reason": "核心是世界动作模型PrismWAM与机器人Agent框架RoboDoctor，属具身智能的模型与具身操作系统层进展"
   },
+  "ded8b3ea76449a590e3403b9904cd7f276c4cc099355f88a99d3bb163df5e070": {
+    "classified_at": "2026-11-16T07:12:58.417122+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "核心为芯片到晶圆键合、混合键合等半导体先进封装制造技术"
+      }
+    ],
+    "reason": "半导体先进封装技术报告"
+  },
   "deda13700547470035f89c67aff225db019d8fed7082d137550ddc999057b8d9": {
     "classified_at": "2026-11-02T07:03:49.770379+00:00",
     "matches": [
