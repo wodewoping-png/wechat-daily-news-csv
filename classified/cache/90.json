@@ -777,6 +777,32 @@
     ],
     "reason": "核心为AI数据中心800V直流供配电系统方案，属算力能源基础设施"
   },
+  "906c31ac1487d06504f3e71d78def44273bb7f81d67526d5cfd0fda54a80f091": {
+    "classified_at": "2026-11-17T09:01:40.784245+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心对象是NovaSilicon的CDK系统，将AI Agent与芯片设计经验封装用于模拟版图和floorplan，属于AI软件工程应用"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "应用场景为模拟版图设计与数字芯片布图规划等芯片设计环节，芯片产业为次要相关"
+      }
+    ],
+    "reason": "核心对象是NovaSilicon的CDK系统，将AI Agent与芯片设计经验封装用于模拟版图和floorplan，属于AI软件工程应用"
+  },
   "906eefe07e82b5e23011518de1e661676091a90b07589ddeec3ca6c0169ff5b1": {
     "classified_at": "2026-11-02T18:15:15.518628+00:00",
     "matches": [
