@@ -357,3 +357,10 @@
 2026-11-16,recovered,wx:MzI0NzkxMTYzNA==|suspected_silence,wx:MzI0NzkxMTYzNA==,锂想生活,suspected_silence,warning,2026-11-15,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-16,recovered,wx:MzI5NzQwMjAxNQ==|suspected_silence,wx:MzI5NzQwMjAxNQ==,先进能源科技战略情报研究中心,suspected_silence,warning,2026-11-15,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
 2026-11-16,recovered,wx:Mzg2NTQ5NTUwOQ==|suspected_silence,wx:Mzg2NTQ5NTUwOQ==,智能新观察,suspected_silence,warning,2026-11-15,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-17,opened,wx:MzU0MTkxODU2Mw==|volume_drop,wx:MzU0MTkxODU2Mw==,东亚能源产业观察,volume_drop,warning,2026-11-17,当天抓到0篇，同类工作日/周末基线中位数3.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-17,opened,wx:MzU0Nzg5OTM1MA==|volume_drop,wx:MzU0Nzg5OTM1MA==,中国能源研究会核能专委会,volume_drop,warning,2026-11-17,当天抓到0篇，同类工作日/周末基线中位数6篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-17,opened,wx:MzUzNjg1NTk3Mw==|volume_drop,wx:MzUzNjg1NTk3Mw==,钙钛光能,volume_drop,warning,2026-11-17,当天抓到0篇，同类工作日/周末基线中位数5.5篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-17,recovered,wx:MzU2NTEwMTg0OQ==|volume_drop,wx:MzU2NTEwMTg0OQ==,第一锂电网,volume_drop,warning,2026-11-16,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-17,recovered,wx:MzU3Mzg4MDk4MA==|suspected_silence,wx:MzU3Mzg4MDk4MA==,能源灯塔,suspected_silence,warning,2026-11-14,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-17,recovered,wx:Mzg3ODk3MTcwOA==|suspected_silence,wx:Mzg3ODk3MTcwOA==,中国国际可再生能源署合作办公室,suspected_silence,warning,2026-11-15,连续4个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-17,recovered,wx:MzkxMzYxOTM5MQ==|suspected_silence,wx:MzkxMzYxOTM5MQ==,新能源探索录,suspected_silence,warning,2026-11-16,连续6个完整数据日未抓到文章，历史发文间隔中位数2天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
