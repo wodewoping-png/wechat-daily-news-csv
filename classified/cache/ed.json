@@ -1423,6 +1423,43 @@
     ],
     "reason": "AI数据中心园区建设及绿电配套承诺"
   },
+  "edbeca5230f58d1cb0a13c6729e3277e92bed02c46694f0655a6807bbacab0c5": {
+    "classified_at": "2026-11-18T09:15:49.507659+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "主体为多款文本大模型发布与更新（Anthropic Opus 5.5、Hy4 flash、Qwen4-Max等）"
+      },
+      {
+        "category_id": "C087",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "涉及全天候Agent架构、KV缓存与推理成本优化等AI工程实践"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "华为云发布昇腾原生具身世界模型CloudRobo-WM1.2，属具身智能模型进展"
+      }
+    ],
+    "reason": "AI综合速递，核心为大模型及具身智能等技术进展"
+  },
   "edbf5de8f7052d479e310c790ab705ca47f3be9c5972eb60a0ec496d98fff734": {
     "classified_at": "2026-10-19T05:18:20.506052+00:00",
     "matches": [
