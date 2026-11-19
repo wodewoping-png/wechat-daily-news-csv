@@ -695,6 +695,22 @@
     ],
     "reason": "钠电论坛会议预告，主要产业对象为钠离子电池"
   },
+  "1c8536873858bfbbca3a263ad3cafb1ba83ebe40dccb160be11bb2cd350a94df": {
+    "classified_at": "2026-11-19T07:42:28.034884+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "核心是半导体光刻用空白掩模版（KrF/ArF/PSM等）的材料技术与国产化进展，属于半导体制造材料领域。"
+      }
+    ],
+    "reason": "核心是半导体光刻用空白掩模版（KrF/ArF/PSM等）的材料技术与国产化进展，属于半导体制造材料领域。"
+  },
   "1c877523dcd0ceb45365625b0b9dfbb014b69f521642ff4bc5f93de02b590bf9": {
     "classified_at": "2026-11-06T07:43:49.397366+00:00",
     "matches": [
