@@ -1090,6 +1090,33 @@
     ],
     "reason": "锂电池产品发布新闻"
   },
+  "24aeed52cc2b53dd33bbc0e7386d0be751abb409307b208960aa5e59753ba0f8": {
+    "classified_at": "2026-11-20T07:49:23.190235+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心事件是基于Claude的智能体Horizon自主完成选题、微调、发布38个模型的自动化AI研发流水线，属AI软件层工程改进"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "其产出的模型均为文本类小模型（标点补全、提示注入检测、PII遮盖等），文本模型为次要对象"
+      }
+    ],
+    "reason": "核心事件是基于Claude的智能体Horizon自主完成选题、微调、发布38个模型的自动化AI研发流水线，属AI软件层工程改进"
+  },
   "24b41f6a6b07c451c664e7e54f23b8e73afec8ff17dad8b85bb933e9ccce93a1": {
     "classified_at": "2026-11-01T10:10:03.671069+00:00",
     "matches": [

@@ -1046,6 +1046,33 @@
     ],
     "reason": "Google与Terradot在巴西启动全球最大增强岩石风化碳移除项目，核心为矿化固碳技术"
   },
+  "b3788e6c2859454aecd7e237d6d7ec1c4a6f3cc98efdd1dd364f2b07e3a8387a": {
+    "classified_at": "2026-11-20T07:20:54.255813+00:00",
+    "matches": [
+      {
+        "category_id": "C086",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "ChatGPT上线实时听写功能，核心是语音转文字（语音模态）能力的产品化应用"
+      },
+      {
+        "category_id": "C087",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "内容重点为听写体验迭代与产品工程优化，属AI产品工程改进"
+      }
+    ],
+    "reason": "ChatGPT上线实时听写功能，核心是语音转文字（语音模态）能力的产品化应用"
+  },
   "b37e3d31fe09aede8fa7394c64a331f724da8ae4aa47f4deba0cf606a8e2592f": {
     "classified_at": "2026-11-04T15:22:22.143026+00:00",
     "matches": [

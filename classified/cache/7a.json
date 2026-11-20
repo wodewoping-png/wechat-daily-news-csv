@@ -296,6 +296,23 @@
     ],
     "reason": "核心事件为Inception Labs发布Mercury 3扩散式文本大模型，性能与速度超越主流LLM"
   },
+  "7a2cda8af5dffad74d26f2f4b6444591fe35c756e9f5ff3e1c3b4f3acffdc37b": {
+    "classified_at": "2026-11-20T07:11:50.413099+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件是券商参投DeepSeek第二轮融资，DeepSeek为文本大模型企业，产业对象明确为底座大模型，属企业融资类新闻匹配其产业属性"
+      }
+    ],
+    "reason": "DeepSeek融资报道，核心对象为大模型企业"
+  },
   "7a2e43f11f7baea8e4d3d125eb2e319115c676ed94da27df3e6f96b4a7d0a959": {
     "classified_at": "2026-11-04T07:44:36.340128+00:00",
     "matches": [],
