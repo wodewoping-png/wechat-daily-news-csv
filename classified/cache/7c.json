@@ -1770,6 +1770,32 @@
     ],
     "reason": "文章详细讨论宁德时代、海辰储能锂电长时储能系统及8小时产品竞赛，锂电为主要技术对象"
   },
+  "7cd8cb0336159796be9418d5c5f50dbdb55cd33fde07f3fc714edec713cf597c": {
+    "classified_at": "2026-11-21T08:25:43.370912+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心事件是Singularity-Bench研究显示Claude可自建推理引擎并优化预训练、中期训练、强化学习等AI研发工程环节，属AI工程改进"
+      },
+      {
+        "category_id": "C091",
+        "confidence": 0.4,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "计算集群"
+        ],
+        "reason": "推理引擎服务、GPU集群调度与并发请求处理是重要测试内容，作为次要对象对应计算集群"
+      }
+    ],
+    "reason": "核心事件是Singularity-Bench研究显示Claude可自建推理引擎并优化预训练、中期训练、强化学习等AI研发工程环节，属AI工程改进"
+  },
   "7cdda2adfdd93196201f692f04a83a9ebc28557f9d460f175e61d40c4cbcdda3": {
     "classified_at": "2026-11-17T08:50:21.295192+00:00",
     "matches": [

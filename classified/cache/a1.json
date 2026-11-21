@@ -1597,6 +1597,33 @@
     ],
     "reason": "AI模型解决数学、物理等基础科学难题，主分类为AI4S，数学与基础物理为具体学科"
   },
+  "a1e3e3664a7cb10c8ff332cfaa68bfb631e4be0899969786a82ec5bfb448400e": {
+    "classified_at": "2026-11-21T08:20:28.053254+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.75,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "Anthropic为Claude大模型公司，IPO、营收与产品均以文本大模型业务为核心"
+      },
+      {
+        "category_id": "C091",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "计算集群"
+        ],
+        "reason": "重点披露千亿级算力采购承诺与算力费用，涉及计算集群资源的锁定与成本"
+      }
+    ],
+    "reason": "Anthropic为Claude大模型公司，IPO、营收与产品均以文本大模型业务为核心"
+  },
   "a1ea7659b7b1d6f1fd65498850aa39f8c5e69b3ac11df61ca1c43f3b1a43874d": {
     "classified_at": "2026-11-01T11:46:08.828454+00:00",
     "matches": [
