@@ -1842,6 +1842,32 @@
     ],
     "reason": "核心事件是以CO2和硝酸盐共还原电催化合成尿素，属尿素产品的新型合成路线，对应资源加工中的尿素类别"
   },
+  "31cbe9d46a0682dd9b7724c2a274bdf317a423d1f38891903795ea48a317b609": {
+    "classified_at": "2026-11-22T07:34:10.721918+00:00",
+    "matches": [
+      {
+        "category_id": "C108",
+        "confidence": 0.85,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "数学"
+        ],
+        "reason": "核心事件为宣称证明黎曼猜想这一重大数学问题，数学成果是新闻主体"
+      },
+      {
+        "category_id": "C088",
+        "confidence": 0.75,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "以Claude大模型辅助完成数学证明并用Lean形式化验证，是AI for Science的典型应用"
+      }
+    ],
+    "reason": "Anthropic数学家借助Claude宣称证明黎曼猜想，核心是数学成果及AI辅助科学研究"
+  },
   "31cc3a2587a0cbbf8d7589b76976eb8e430bd652921b2f4f201edd8406f00c95": {
     "classified_at": "2026-11-01T06:09:34.892169+00:00",
     "matches": [],
