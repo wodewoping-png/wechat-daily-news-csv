@@ -396,3 +396,13 @@
 2026-11-21,opened,wx:MzkyNTYzNjI1NQ==|volume_drop,wx:MzkyNTYzNjI1NQ==,钙钛矿光伏,volume_drop,warning,2026-11-21,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-11-21,recovered,wx:MzU2NTEwMTg0OQ==|volume_drop,wx:MzU2NTEwMTg0OQ==,第一锂电网,volume_drop,warning,2026-11-20,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-11-21,recovered,wx:Mzk4ODU2ODU5OA==|volume_drop,wx:Mzk4ODU2ODU5OA==,智锂魔方,volume_drop,warning,2026-11-19,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-22,opened,wx:MjM5NzUxNTc0Mw==|suspected_silence,wx:MjM5NzUxNTc0Mw==,OFweek维科网,suspected_silence,warning,2026-11-22,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-22,opened,wx:MzU3NTQ1Mjc4Mw==|suspected_silence,wx:MzU3NTQ1Mjc4Mw==,中咨研究,suspected_silence,warning,2026-11-22,连续9个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-22,opened,wx:Mzg3ODk3MTcwOA==|suspected_silence,wx:Mzg3ODk3MTcwOA==,中国国际可再生能源署合作办公室,suspected_silence,warning,2026-11-22,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-22,opened,wx:MzU3ODUwMDM4Ng==|suspected_silence,wx:MzU3ODUwMDM4Ng==,现代情报,suspected_silence,warning,2026-11-22,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-22,opened,wx:MzIyMTg1NDg0Mg==|suspected_silence,wx:MzIyMTg1NDg0Mg==,电动学堂,suspected_silence,warning,2026-11-22,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-22,recovered,wx:MzI2MjQ5NDkyOA==|volume_drop,wx:MzI2MjQ5NDkyOA==,知光谷,volume_drop,warning,2026-11-21,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-22,recovered,wx:Mzg4MDUwODE2OQ==|volume_drop,wx:Mzg4MDUwODE2OQ==,EngineeringJournals,volume_drop,warning,2026-11-21,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-22,recovered,wx:Mzg5OTYzNjU0OA==|volume_drop,wx:Mzg5OTYzNjU0OA==,电池未来,volume_drop,warning,2026-11-20,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-22,recovered,wx:MzkyNTYzNjI1NQ==|volume_drop,wx:MzkyNTYzNjI1NQ==,钙钛矿光伏,volume_drop,warning,2026-11-21,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-22,recovered,wx:MzkyOTIwNzE3Mg==|volume_drop,wx:MzkyOTIwNzE3Mg==,碳中和资料库,volume_drop,warning,2026-11-21,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
