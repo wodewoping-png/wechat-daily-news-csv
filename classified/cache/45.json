@@ -206,6 +206,32 @@
     "matches": [],
     "reason": "新闻核心为上市公司财务造假被证监会处罚，属企业经营与监管事件，未涉及框架内任何产业技术对象"
   },
+  "451e02c088ff80d36d0de92dab72abe3ef7484672e3e03261566b5e11e9d7785": {
+    "classified_at": "2026-11-23T18:27:32.571283+00:00",
+    "matches": [
+      {
+        "category_id": "C090",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "核心事件为长鑫存储用DTCO方法设计10nm级DRAM芯片的sub-wordline驱动器件，属芯片设计"
+      },
+      {
+        "category_id": "C089",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "文中涉及STI刻蚀、193nm光刻、TCAD工艺校准等半导体工艺技术细节"
+      }
+    ],
+    "reason": "核心事件为长鑫存储用DTCO方法设计10nm级DRAM芯片的sub-wordline驱动器件，属芯片设计"
+  },
   "451f446542a18c3126e7dee391f60b5c980cfdfee52da56ba2e9990a6af4650e": {
     "classified_at": "2026-11-01T07:44:43.596868+00:00",
     "matches": [

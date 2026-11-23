@@ -1345,6 +1345,11 @@
     ],
     "reason": "DeepSeek开放全家桶API，核心是文本大模型（V4.1-Flash）的联网搜索、文件解析等对话能力产品化"
   },
+  "f59533c7658070ef3532487b7ede00ec2d0df935a9ecd4d1d75f760b86c2a30e": {
+    "classified_at": "2026-11-23T18:30:02.597802+00:00",
+    "matches": [],
+    "reason": "内容为企业文化宣传视频《与心同往》展播，无实质产业技术事件，正文信息不足以支撑分类"
+  },
   "f59acbbf0e4210ff2fb8188cbccf7fc23fc416e9e1cbed0e2ed8c142b8a7555f": {
     "classified_at": "2026-11-21T07:35:53.939385+00:00",
     "matches": [

@@ -1378,6 +1378,32 @@
     ],
     "reason": "新闻主体为光伏组件供货合同及光伏产业链分析，主分类为光伏。"
   },
+  "0ca560a5049afe1f9cabbf64919f5e42d2943ac8a9acc543c5e9cb236c82f594": {
+    "classified_at": "2026-11-23T18:28:52.560375+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "核心是Gain-Cell eDRAM嵌入式存储的半导体器件与工艺技术，涉及28nm FD-SOI、16nm FinFET等工艺节点"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.6,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "该存储技术面向处理器片上缓存等芯片级集成，属芯片设计的次要支撑对象"
+      }
+    ],
+    "reason": "核心是Gain-Cell eDRAM嵌入式存储的半导体器件与工艺技术，涉及28nm FD-SOI、16nm FinFET等工艺节点"
+  },
   "0ca5925aec17d37086706bbcaf9729169f2a8458a2fef4431688c24588314abd": {
     "classified_at": "2026-10-30T06:15:40.682364+00:00",
     "matches": [

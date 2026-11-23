@@ -43,7 +43,7 @@
     "2026-10-13",
     "2026-10-12"
   ],
-  "failed_articles": 106,
+  "failed_articles": 1,
   "model": "glm-5.3-flash",
   "taxonomy_paths": 125,
   "weeks": [
@@ -208,8 +208,7 @@
       "data_complete": true,
       "end": "2026-11-22",
       "failed_or_stale_dates": [
-        "2026-11-18",
-        "2026-11-22"
+        "2026-11-18"
       ],
       "file": "2026-W47.csv",
       "missing_dates": [],
@@ -217,10 +216,10 @@
       "pending_classification_dates": [],
       "start": "2026-11-16",
       "statuses": {
-        "不在框架内": 965,
-        "分类失败": 106,
-        "已分类": 2622,
-        "待复核": 475
+        "不在框架内": 991,
+        "分类失败": 1,
+        "已分类": 2696,
+        "待复核": 480
       },
       "taxonomy_version": "2026-10-16",
       "week": "2026-W47"
