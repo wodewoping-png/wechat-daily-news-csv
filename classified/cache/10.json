@@ -1941,6 +1941,43 @@
     ],
     "reason": "多个电网侧/独立储能电站EPC中标与招标，主体为磷酸铁锂电化学储能系统"
   },
+  "10ea4db038624cd01b5d22b697d72eb641f3de103dc172746a413b4d870c755a": {
+    "classified_at": "2026-11-23T07:52:39.640821+00:00",
+    "matches": [
+      {
+        "category_id": "C108",
+        "confidence": 0.9,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "数学"
+        ],
+        "reason": "核心事件为黎曼猜想经Lean形式化验证被证明，是基础数学重大突破。"
+      },
+      {
+        "category_id": "C085",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "Anthropic的Claude文本大模型承担大量数学推导与关键思路，是突破的直接参与者。"
+      },
+      {
+        "category_id": "C088",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "数学家与AI协作完成科研攻关，体现AI辅助科学研究的范式转变。"
+      }
+    ],
+    "reason": "数学猜想被AI辅助攻克，数学为主、AI模型与AI4S范式为辅。"
+  },
   "10ef972575ea5ded7cd9d5fda37d9ebe9d7491365a947acd0b72ed83d652abce": {
     "classified_at": "2026-11-11T08:49:55.488812+00:00",
     "matches": [

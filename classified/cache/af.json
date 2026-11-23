@@ -2102,6 +2102,11 @@
     "matches": [],
     "reason": "天猫双11电商促销消费新闻，属消费零售领域，框架内无对应分类"
   },
+  "afec5b4446eaf74ad2c0b0df08051dd2fd28a49f9e74cb56be61f9679eceabb6": {
+    "classified_at": "2026-11-23T07:59:19.036736+00:00",
+    "matches": [],
+    "reason": "体育娱乐新闻，核心事件为摩托车赛车手摔倒及本人回应，不涉及框架内任何产业或技术对象"
+  },
   "afec9257744b519ae3cec59a35ff2c1a2f9f211a63cdd2eb2f8b73cc10ac461d": {
     "classified_at": "2026-11-18T09:06:09.647479+00:00",
     "matches": [
