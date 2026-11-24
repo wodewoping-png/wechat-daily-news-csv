@@ -178,6 +178,32 @@
     ],
     "reason": "数学家与AI合作证明黎曼猜想的深度报道，数学为主、模型能力与AI4S为辅。"
   },
+  "202222bc8c628052c080cdd0a54b194f7d0119f211e7cdff72b03d8efedc9707": {
+    "classified_at": "2026-11-24T10:16:49.343842+00:00",
+    "matches": [
+      {
+        "category_id": "C089",
+        "confidence": 0.9,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "半导体"
+        ],
+        "reason": "核心内容为台积电3DFabric先进封装技术路线（CoWoS、SoIC、InFO、HBM集成等），属半导体先进封装与3D集成技术。"
+      },
+      {
+        "category_id": "C090",
+        "confidence": 0.55,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "芯片"
+        ],
+        "reason": "文中围绕Chiplet异构集成、HBM高带宽存储、硅光子引擎COUPE等芯片级互连与集成技术展开，芯片技术为重要支撑对象。"
+      }
+    ],
+    "reason": "核心内容为台积电3DFabric先进封装技术路线（CoWoS、SoIC、InFO、HBM集成等），属半导体先进封装与3D集成技术。"
+  },
   "2028d1b947be50f9c98c421b3fbfaeaf68a06247716205f938b038e59515fce1": {
     "classified_at": "2026-10-30T04:10:12.819227+00:00",
     "matches": [

@@ -529,6 +529,22 @@
     "matches": [],
     "reason": "本周A股涨跌行情盘点，属股市财经类新闻；物理AI、电池等仅为概念股涨跌描述，无具体产业技术核心事件"
   },
+  "01344ba84d34549dfe40ea2d1bf440c4865a7e94802712e8bc84c525b3e84d5e": {
+    "classified_at": "2026-11-24T10:36:58.513191+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心事件为TensorLean对生产级AI算子（DeepSeek、FlashAttention的GPU内核/PTX代码）进行形式化验证，属于提升AI软件层可靠性的工程改进技术"
+      }
+    ],
+    "reason": "核心事件为TensorLean对生产级AI算子（DeepSeek、FlashAttention的GPU内核/PTX代码）进行形式化验证，属于提升AI软件层可靠性的工程改进技术"
+  },
   "01371ba346eba5036b2b14c8bb48bc019e47ec97dac46bf4ff83ec6dbfa9e40d": {
     "classified_at": "2026-10-18T04:33:00.977552+00:00",
     "matches": [],
