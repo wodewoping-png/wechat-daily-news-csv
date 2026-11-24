@@ -406,3 +406,16 @@
 2026-11-22,recovered,wx:Mzg5OTYzNjU0OA==|volume_drop,wx:Mzg5OTYzNjU0OA==,电池未来,volume_drop,warning,2026-11-20,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-11-22,recovered,wx:MzkyNTYzNjI1NQ==|volume_drop,wx:MzkyNTYzNjI1NQ==,钙钛矿光伏,volume_drop,warning,2026-11-21,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
 2026-11-22,recovered,wx:MzkyOTIwNzE3Mg==|volume_drop,wx:MzkyOTIwNzE3Mg==,碳中和资料库,volume_drop,warning,2026-11-21,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-23,opened,wx:MzU0MTkxODU2Mw==|volume_drop,wx:MzU0MTkxODU2Mw==,东亚能源产业观察,volume_drop,warning,2026-11-23,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-23,opened,wx:MzIxMDgwMDY4Mg==|suspected_silence,wx:MzIxMDgwMDY4Mg==,深圳电池技术展,suspected_silence,warning,2026-11-23,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,opened,wx:Mzg5OTYzNjU0OA==|volume_drop,wx:Mzg5OTYzNjU0OA==,电池未来,volume_drop,warning,2026-11-23,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-23,opened,wx:MzU2NTEwMTg0OQ==|volume_drop,wx:MzU2NTEwMTg0OQ==,第一锂电网,volume_drop,warning,2026-11-23,当天抓到0篇，同类工作日/周末基线中位数4篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-23,opened,wx:MzU3Mzg4MDk4MA==|suspected_silence,wx:MzU3Mzg4MDk4MA==,能源灯塔,suspected_silence,warning,2026-11-23,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,opened,wx:MzI4MTA3MzQwOA==|suspected_silence,wx:MzI4MTA3MzQwOA==,金属能源电池,suspected_silence,warning,2026-11-23,连续6个完整数据日未抓到文章，历史发文间隔中位数2天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,opened,wx:Mzg3MDg4NzA0MQ==|volume_drop,wx:Mzg3MDg4NzA0MQ==,钠电派,volume_drop,warning,2026-11-23,当天抓到0篇，同类工作日/周末基线中位数3篇；原因待核查,对照公众号当天实际发文，核查翻页、去重、时间范围及数据源响应
+2026-11-23,recovered,wx:MjM5NzUxNTc0Mw==|suspected_silence,wx:MjM5NzUxNTc0Mw==,OFweek维科网,suspected_silence,warning,2026-11-22,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,recovered,wx:MzI2NTI1Njk5Mw==|suspected_silence,wx:MzI2NTI1Njk5Mw==,深水科技咨询,suspected_silence,warning,2026-11-20,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,recovered,wx:MzIyMTg1NDg0Mg==|suspected_silence,wx:MzIyMTg1NDg0Mg==,电动学堂,suspected_silence,warning,2026-11-22,连续3个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,recovered,wx:MzIyNzYxNjY3Mg==|suspected_silence,wx:MzIyNzYxNjY3Mg==,机工文献,suspected_silence,warning,2026-11-20,连续5个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,recovered,wx:MzU3NTQ1Mjc4Mw==|suspected_silence,wx:MzU3NTQ1Mjc4Mw==,中咨研究,suspected_silence,warning,2026-11-22,连续9个完整数据日未抓到文章，历史发文间隔中位数3天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
+2026-11-23,recovered,wx:Mzg2MjYwMjM0MQ==|suspected_silence,wx:Mzg2MjYwMjM0MQ==,SOFC-SOEC-氢能技术,suspected_silence,warning,2026-11-21,连续4个完整数据日未抓到文章，历史发文间隔中位数1天；原因待核查,先核对公众号实际发文，排除节假日/停更；若实际有文章，检查渠道配置与接口并补抓
