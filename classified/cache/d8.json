@@ -1516,6 +1516,22 @@
     ],
     "reason": "核心为锂金属电池SEI交联聚合物界面设计，提升循环与日历寿命，属锂电二次电池技术范畴"
   },
+  "d8dc77aca4c55bc626fd927b37dce33fdc256e5c1b4a44e606027f20aafd452d": {
+    "classified_at": "2026-11-25T09:16:30.523491+00:00",
+    "matches": [
+      {
+        "category_id": "C096",
+        "confidence": 0.95,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "核心为开源首个万级具身RL仿真环境RoboUniverse-10K并训练具身模型RoboUniverse-35B-A3B，属具身智能模型与环境基建"
+      }
+    ],
+    "reason": "核心为开源首个万级具身RL仿真环境RoboUniverse-10K并训练具身模型RoboUniverse-35B-A3B，属具身智能模型与环境基建"
+  },
   "d8dcafb782247f6d70e70c0a81f1955825139870452945653ddc2aca075e6f92": {
     "classified_at": "2026-10-30T02:13:15.024670+00:00",
     "matches": [
