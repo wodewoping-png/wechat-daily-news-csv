@@ -1077,6 +1077,33 @@
     "matches": [],
     "reason": "与折叠屏手机出货量相关的重复消费电子新闻，框架中无对应分类"
   },
+  "ac774a8a9b4dcc3cd177e8bf612f28fb73f469c918258cf58f8fd3a9a1ad93f4": {
+    "classified_at": "2026-11-25T17:50:15.568532+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.8,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件是Anthropic的Claude大模型独立完成数学形式化证明，体现文本大模型能力突破"
+      },
+      {
+        "category_id": "C108",
+        "confidence": 0.6,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "数学"
+        ],
+        "reason": "证明内容为代数复杂性理论VP≠VNP，属数学基础研究成果"
+      }
+    ],
+    "reason": "核心事件是Anthropic的Claude大模型独立完成数学形式化证明，体现文本大模型能力突破"
+  },
   "ac77eea2d330c665d7cbb70764b94af8624898d08ccd6523bf7d9dc905dd1cd4": {
     "classified_at": "2026-10-16T08:42:47.124444+00:00",
     "matches": [
