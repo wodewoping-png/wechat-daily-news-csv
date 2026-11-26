@@ -571,6 +571,11 @@
     ],
     "reason": "核心事件是DeepSeek网页和APP对话服务及API部分中断，涉及对象为DeepSeek文本大模型服务的运行状态"
   },
+  "2f3abac85c26b545eef50d931a6b2edd9e2003d6e636b03f77ed2426a2f4b923": {
+    "classified_at": "2026-11-26T09:46:20.835757+00:00",
+    "matches": [],
+    "reason": "英国制裁也门胡塞武装属国际政治新闻，航运袭击仅为背景提及，无框架内产业对象"
+  },
   "2f3d5b67e3a42893c76f45c116a6cadc5e32f51e8c34dd53aa29ef4eb35a39d9": {
     "classified_at": "2026-11-01T08:09:34.325206+00:00",
     "matches": [

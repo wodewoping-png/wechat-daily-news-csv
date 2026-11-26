@@ -1930,6 +1930,33 @@
     ],
     "reason": "核心是国家虚拟电厂发展报告解读，涉及虚拟电厂聚合调节、电力市场交易与商业模式"
   },
+  "0ce1c461526ecf9e2b262a9b5bc6e9960d72b7a975aa37213ca15a85a50ef130": {
+    "classified_at": "2026-11-26T10:02:48.775674+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "核心事件为Claude与OpenAI大模型分别以Lean形式化证明VP≠VNP，展示底座文本大模型的数学推理能力"
+      },
+      {
+        "category_id": "C108",
+        "confidence": 0.4,
+        "path": [
+          "通用技术",
+          "基础学科",
+          "数学"
+        ],
+        "reason": "正文大量展开P对NP、VP/VNP代数复杂性理论等数学内容，是被求解的应用对象，作为次要匹配"
+      }
+    ],
+    "reason": "核心事件为Claude与OpenAI大模型分别以Lean形式化证明VP≠VNP，展示底座文本大模型的数学推理能力"
+  },
   "0ce3e8285c9d89e7e806c9feb515a3c16ddb53a8836ec77b335b03422ec8884c": {
     "classified_at": "2026-11-21T07:35:26.653519+00:00",
     "matches": [

@@ -528,6 +528,22 @@
     ],
     "reason": "核心事件为人形机器人量产背景下产业链上游订单盘点，涵盖执行器总成、丝杠、结构件、感知域控等具身智能硬件与控制环节"
   },
+  "1d3eb08443e974a37ae695f3ce4afef8dea7afc1a73ebb69e107ec506b38d971": {
+    "classified_at": "2026-11-26T10:13:41.752065+00:00",
+    "matches": [
+      {
+        "category_id": "C087",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "工程改进"
+        ],
+        "reason": "核心是Agent递归自我改进的harness优化与Self-Improvement Memory机制，属AI软件层工程改进研究，模型权重冻结不涉及底座模型本身"
+      }
+    ],
+    "reason": "核心是Agent递归自我改进的harness优化与Self-Improvement Memory机制，属AI软件层工程改进研究，模型权重冻结不涉及底座模型本身"
+  },
   "1d3effe7be05b62e8a858a5acea3b26ae8159abb62f51c64185f87b4d4d6363a": {
     "classified_at": "2026-11-18T09:04:34.543289+00:00",
     "matches": [

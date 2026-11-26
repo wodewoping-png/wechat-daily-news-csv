@@ -1356,6 +1356,11 @@
     ],
     "reason": "RobotAgentBench评测机器人开放世界自主能力，核心对象是VLA/WAM模型、任务规划与智能体框架，属具身智能模型层"
   },
+  "af9cf39ef0375656ca968aa75adc99ec568058f0413e9ec0b46acb0b4cbf038f": {
+    "classified_at": "2026-11-26T08:43:32.884173+00:00",
+    "matches": [],
+    "reason": "美股休市交易提示，属纯市场日程信息，无任何产业技术对象"
+  },
   "af9e05876012150411e25ba2b31a6d544c152551fdea7b6bcc6ab6d7d5ce3ebc": {
     "classified_at": "2026-11-24T10:04:20.275955+00:00",
     "matches": [
