@@ -753,6 +753,44 @@
     ],
     "reason": "核心事件为小米开放龙甲动力电池产线，展示电芯制造与电池包质量管控体系及车企-电池供应链重构，主体对象是锂电池产业"
   },
+  "f35bb7100cf50f26dff426e6755f7fd541522598c653e10b2bb5671973333b5f": {
+    "classified_at": "2026-11-27T09:17:00.100073+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.85,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "汇总多条文本大模型动态：Claude Opus 5.6灰度、文心ERNIE 5.5开源、Hy4 flash量化开源、HungerG匿名模型等"
+      },
+      {
+        "category_id": "C086",
+        "confidence": 0.75,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "多模态模型"
+        ],
+        "reason": "包含MAGI-2图生视频登顶、微信WeMM-Video全模态开源等多模态模型发布"
+      },
+      {
+        "category_id": "C096",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "具身智能",
+          "模型和具身操作系统"
+        ],
+        "reason": "含蔚来NWM 3.0世界模型与小鹏IRON人形机器人等具身智能模型进展"
+      }
+    ],
+    "reason": "汇总多条文本大模型动态：Claude Opus 5.6灰度、文心ERNIE 5.5开源、Hy4 flash量化开源、HungerG匿名模型等"
+  },
   "f35e872ba899c10ed2ffedf1433012c599d262be058f23d933e5db9db69cc0ec": {
     "classified_at": "2026-11-04T15:08:29.789864+00:00",
     "matches": [
