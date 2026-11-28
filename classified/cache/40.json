@@ -562,6 +562,43 @@
     ],
     "reason": "聚变供电系统验证平台为核心对象，实时仿真为其支撑技术"
   },
+  "403b3010802e0f23e20b0f554c45845f95bdfe4ebe1b933e08a7f99ae4ed08b4": {
+    "classified_at": "2026-11-28T08:35:26.581037+00:00",
+    "matches": [
+      {
+        "category_id": "C085",
+        "confidence": 0.7,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "底座大模型",
+          "文本模型"
+        ],
+        "reason": "头条为混元开源草稿模型，另含多家大模型及Agent进展，以文本模型为主"
+      },
+      {
+        "category_id": "C088",
+        "confidence": 0.65,
+        "path": [
+          "AI与智能科技",
+          "AI软件层",
+          "AI4S"
+        ],
+        "reason": "AI从头设计治疗性多肽、AI证明矩阵乘法指数与黎曼猜想等AI驱动科学发现占重要篇幅"
+      },
+      {
+        "category_id": "C092",
+        "confidence": 0.5,
+        "path": [
+          "AI与智能科技",
+          "AI硬件层",
+          "数据中心"
+        ],
+        "reason": "SpaceX获批部署百万个在轨计算模块的太空数据中心星座"
+      }
+    ],
+    "reason": "头条为混元开源草稿模型，另含多家大模型及Agent进展，以文本模型为主"
+  },
   "403de464cac9c79a8d83680ff8133c6c30b94bfdcc70f9fba9b1ba5b6f24d575": {
     "classified_at": "2026-11-18T07:57:25.479225+00:00",
     "matches": [
